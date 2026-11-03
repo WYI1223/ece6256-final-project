@@ -1,0 +1,53 @@
+{
+ "summary": {
+  "requested": 1,
+  "accepted": 1,
+  "attempts_total": 2,
+  "input_tokens": 3889,
+  "output_tokens": 1947,
+  "reasoning_tokens": 0,
+  "elapsed_s": 14.1
+ },
+ "attempts": [
+  {
+   "tid": "pa_gen_01",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1923,
+   "output_tokens": 900,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.6,
+   "stats": {
+    "n_updates": 27,
+    "n_corrections_t3plus": 0,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 3,
+    "final_nonempty_leaves": 27
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 3-5 (rule 7)"
+   ]
+  },
+  {
+   "tid": "pa_gen_01",
+   "qid": "patient_admin",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 1966,
+   "output_tokens": 1047,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.9,
+   "stats": {
+    "n_updates": 32,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "final_nonempty_leaves": 31
+   },
+   "accepted": true
+  }
+ ]
+}

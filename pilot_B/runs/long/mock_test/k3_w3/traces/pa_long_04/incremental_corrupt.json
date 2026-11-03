@@ -1,0 +1,3958 @@
+[
+ {
+  "turn": 1,
+  "utterance": "Yes, I do have some pain. There are two separate complaints, actually.",
+  "prior_state": {
+   "pain_experience": null,
+   "number_of_pains": null,
+   "pain_details": [],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": null
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": null
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": null
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": null
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "fall_in_last_12_months": {
+    "cand": true,
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "number_of_pains": {
+    "cand": null,
+    "gold": 2,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "fall_in_last_12_months"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll be asking you some health questions today. First, are you having any pain right now?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 1,
+   "n_fields": 41,
+   "n_correct": 39,
+   "n_partial": 0,
+   "all_field_acc": 0.9512,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "null",
+   "candidate_value_of_corrupted": "null",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 31,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "My right knee is the main one, and it's moderate in severity. The other is my lower back, which is mild.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": null
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": null
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "fall_in_last_12_months": {
+    "cand": true,
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "number_of_pains": {
+    "cand": null,
+    "gold": 2,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll be asking you some health questions today. First, are you having any pain right now?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I do have some pain. There are two separate complaints, actually."
+   },
+   {
+    "role": "assistant",
+    "content": "Where is the pain located, and how severe would you say it is?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "fall_in_last_12_months",
+    "wrong": true,
+    "gold": null
+   },
+   {
+    "leaf": "number_of_pains",
+    "wrong": null,
+    "gold": 2
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 2,
+   "n_fields": 41,
+   "n_correct": 39,
+   "n_partial": 0,
+   "all_field_acc": 0.9512,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 3,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "The knee has been bad for about 3 weeks now, and the back pain started around 2 months ago.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "number_of_pains": {
+    "cand": null,
+    "gold": 2,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll be asking you some health questions today. First, are you having any pain right now?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I do have some pain. There are two separate complaints, actually."
+   },
+   {
+    "role": "assistant",
+    "content": "Where is the pain located, and how severe would you say it is?"
+   },
+   {
+    "role": "user",
+    "content": "My right knee is the main one, and it's moderate in severity. The other is my lower back, which is mild."
+   },
+   {
+    "role": "assistant",
+    "content": "How long have these pains been present?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "number_of_pains",
+    "wrong": null,
+    "gold": 2
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 3,
+   "n_fields": 41,
+   "n_correct": 40,
+   "n_partial": 0,
+   "all_field_acc": 0.9756,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 2,
+   "nat_persisted": 1,
+   "nat_recovered": 1,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 5,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "Yes, I've had a dry cough for about 5 days now.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "number_of_pains": {
+    "cand": null,
+    "gold": 2,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll be asking you some health questions today. First, are you having any pain right now?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I do have some pain. There are two separate complaints, actually."
+   },
+   {
+    "role": "assistant",
+    "content": "Where is the pain located, and how severe would you say it is?"
+   },
+   {
+    "role": "user",
+    "content": "My right knee is the main one, and it's moderate in severity. The other is my lower back, which is mild."
+   },
+   {
+    "role": "assistant",
+    "content": "How long have these pains been present?"
+   },
+   {
+    "role": "user",
+    "content": "The knee has been bad for about 3 weeks now, and the back pain started around 2 months ago."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have a cough at all?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "number_of_pains",
+    "wrong": null,
+    "gold": 2
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 4,
+   "n_fields": 41,
+   "n_correct": 40,
+   "n_partial": 0,
+   "all_field_acc": 0.9756,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 0,
+   "silent_recovery": 1,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "No, it stays dry, nothing comes up.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "ambulatory_aid_use": {
+    "cand": "Yes (uses)",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "number_of_pains": {
+    "cand": null,
+    "gold": 2,
+    "verdict": "incorrect"
+   },
+   "sputum_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "ambulatory_aid_use"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Where is the pain located, and how severe would you say it is?"
+   },
+   {
+    "role": "user",
+    "content": "My right knee is the main one, and it's moderate in severity. The other is my lower back, which is mild."
+   },
+   {
+    "role": "assistant",
+    "content": "How long have these pains been present?"
+   },
+   {
+    "role": "user",
+    "content": "The knee has been bad for about 3 weeks now, and the back pain started around 2 months ago."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have a cough at all?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I've had a dry cough for about 5 days now."
+   },
+   {
+    "role": "assistant",
+    "content": "When you cough, is there any phlegm or sputum coming up?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "number_of_pains",
+    "wrong": null,
+    "gold": 2
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 5,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 19,
+   "structured_acc": 0.8636,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 39,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 6,
+  "utterance": "Yes, I fell last month, toward the end of it. I tripped on a rug.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "last month, toward the end of it",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": "Yes",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "last month, toward the end of it",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "ambulatory_aid_use": {
+    "cand": "Yes (uses)",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "lower_denture": {
+    "cand": "Yes",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "number_of_pains": {
+    "cand": null,
+    "gold": 2,
+    "verdict": "incorrect"
+   },
+   "sputum_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "lower_denture"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "How long have these pains been present?"
+   },
+   {
+    "role": "user",
+    "content": "The knee has been bad for about 3 weeks now, and the back pain started around 2 months ago."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have a cough at all?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I've had a dry cough for about 5 days now."
+   },
+   {
+    "role": "assistant",
+    "content": "When you cough, is there any phlegm or sputum coming up?"
+   },
+   {
+    "role": "user",
+    "content": "No, it stays dry, nothing comes up."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you had any falls in the last 12 months?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "ambulatory_aid_use",
+    "wrong": "Yes (uses)",
+    "gold": null
+   },
+   {
+    "leaf": "number_of_pains",
+    "wrong": null,
+    "gold": 2
+   },
+   {
+    "leaf": "sputum_present",
+    "wrong": null,
+    "gold": false
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 6,
+   "n_fields": 41,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.9024,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 18,
+   "structured_acc": 0.8182,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 36,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 3,
+   "nat_persisted": 3,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 7,
+  "utterance": "Yes, I use a walker regularly.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "last month, toward the end of it",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": "Yes",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "last month, toward the end of it",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": "Yes",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "last month, toward the end of it",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "lower_denture": {
+    "cand": "Yes",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "number_of_pains": {
+    "cand": null,
+    "gold": 2,
+    "verdict": "incorrect"
+   },
+   "sputum_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you have a cough at all?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I've had a dry cough for about 5 days now."
+   },
+   {
+    "role": "assistant",
+    "content": "When you cough, is there any phlegm or sputum coming up?"
+   },
+   {
+    "role": "user",
+    "content": "No, it stays dry, nothing comes up."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you had any falls in the last 12 months?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I fell last month, toward the end of it. I tripped on a rug."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you use any kind of walking aid?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "lower_denture",
+    "wrong": "Yes",
+    "gold": null
+   },
+   {
+    "leaf": "number_of_pains",
+    "wrong": null,
+    "gold": 2
+   },
+   {
+    "leaf": "sputum_present",
+    "wrong": null,
+    "gold": false
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 7,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 19,
+   "structured_acc": 0.8636,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 3,
+   "nat_persisted": 3,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 8,
+  "utterance": "Sorry, I meant it was at the start of last month, not the end.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": null,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "last month, toward the end of it",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": "Yes",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "When you cough, is there any phlegm or sputum coming up?"
+   },
+   {
+    "role": "user",
+    "content": "No, it stays dry, nothing comes up."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you had any falls in the last 12 months?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I fell last month, toward the end of it. I tripped on a rug."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you use any kind of walking aid?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I use a walker regularly."
+   },
+   {
+    "role": "assistant",
+    "content": "Actually, before we go on, let me double-check the fall timing. Was it earlier than that?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 8,
+   "n_fields": 41,
+   "n_correct": 41,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 22,
+   "structured_correct": 22,
+   "structured_acc": 1.0,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 3,
+   "nat_persisted": 0,
+   "nat_recovered": 3,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 9,
+  "utterance": "Yes, I have both an upper and a lower denture.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "ambulatory_aid_use": {
+    "cand": "No",
+    "gold": "Yes (uses)",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "ambulatory_aid_use"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Have you had any falls in the last 12 months?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I fell last month, toward the end of it. I tripped on a rug."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you use any kind of walking aid?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I use a walker regularly."
+   },
+   {
+    "role": "assistant",
+    "content": "Actually, before we go on, let me double-check the fall timing. Was it earlier than that?"
+   },
+   {
+    "role": "user",
+    "content": "Sorry, I meant it was at the start of last month, not the end."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you wear dentures?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 9,
+   "n_fields": 41,
+   "n_correct": 40,
+   "n_partial": 0,
+   "all_field_acc": 0.9756,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 38,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 1,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 10,
+  "utterance": "Yes, I've got cataracts, so my vision is blurry. It started about a year ago.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "denture_present": {
+    "cand": false,
+    "gold": true,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "denture_present"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you use any kind of walking aid?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I use a walker regularly."
+   },
+   {
+    "role": "assistant",
+    "content": "Actually, before we go on, let me double-check the fall timing. Was it earlier than that?"
+   },
+   {
+    "role": "user",
+    "content": "Sorry, I meant it was at the start of last month, not the end."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you wear dentures?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I have both an upper and a lower denture."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have any vision problems or changes?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 10,
+   "n_fields": 41,
+   "n_correct": 40,
+   "n_partial": 0,
+   "all_field_acc": 0.9756,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 37,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 1,
+   "nat_opportunities": 1,
+   "nat_persisted": 0,
+   "nat_recovered": 1,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 11,
+  "utterance": "No, my weight has been steady.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "No",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "upper_denture": {
+    "cand": "No",
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "upper_denture"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Actually, before we go on, let me double-check the fall timing. Was it earlier than that?"
+   },
+   {
+    "role": "user",
+    "content": "Sorry, I meant it was at the start of last month, not the end."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you wear dentures?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I have both an upper and a lower denture."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have any vision problems or changes?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I've got cataracts, so my vision is blurry. It started about a year ago."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you noticed any unintentional weight loss?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 11,
+   "n_fields": 41,
+   "n_correct": 40,
+   "n_partial": 0,
+   "all_field_acc": 0.9756,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 39,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 1,
+   "nat_opportunities": 1,
+   "nat_persisted": 0,
+   "nat_recovered": 1,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 12,
+  "utterance": "My appetite is fine, but I do have some trouble swallowing now and then, maybe once or twice a week.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "No",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "No",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "dysphagia_or_choking": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": "No",
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you wear dentures?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I have both an upper and a lower denture."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have any vision problems or changes?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I've got cataracts, so my vision is blurry. It started about a year ago."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you noticed any unintentional weight loss?"
+   },
+   {
+    "role": "user",
+    "content": "No, my weight has been steady."
+   },
+   {
+    "role": "assistant",
+    "content": "Any change in your appetite, or trouble swallowing?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "upper_denture",
+    "wrong": "No",
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 12,
+   "n_fields": 41,
+   "n_correct": 39,
+   "n_partial": 0,
+   "all_field_acc": 0.9512,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 13,
+  "utterance": "No special diet needed. Actually, I should correct something—the cough started about 5 days ago, not what I said before.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "No",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "No",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": "No",
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": "No",
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "dysphagia_or_choking": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": "No",
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you have any vision problems or changes?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I've got cataracts, so my vision is blurry. It started about a year ago."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you noticed any unintentional weight loss?"
+   },
+   {
+    "role": "user",
+    "content": "No, my weight has been steady."
+   },
+   {
+    "role": "assistant",
+    "content": "Any change in your appetite, or trouble swallowing?"
+   },
+   {
+    "role": "user",
+    "content": "My appetite is fine, but I do have some trouble swallowing now and then, maybe once or twice a week."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you need any special diet or texture changes for that swallowing difficulty?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "dysphagia_or_choking",
+    "wrong": null,
+    "gold": "Yes"
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": "No",
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 13,
+   "n_fields": 41,
+   "n_correct": 39,
+   "n_partial": 0,
+   "all_field_acc": 0.9512,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 38,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 14,
+  "utterance": "Yes, I have two. Penicillin gives me a rash, and it's severe. I'm also allergic to pollen.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "No",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": "No",
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "No",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": "No",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "Penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "pollen",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": null
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": "No",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "Penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "pollen",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": null
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "dysphagia_or_choking": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   },
+   "sputum_present": {
+    "cand": true,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": "No",
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "sputum_present"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Have you noticed any unintentional weight loss?"
+   },
+   {
+    "role": "user",
+    "content": "No, my weight has been steady."
+   },
+   {
+    "role": "assistant",
+    "content": "Any change in your appetite, or trouble swallowing?"
+   },
+   {
+    "role": "user",
+    "content": "My appetite is fine, but I do have some trouble swallowing now and then, maybe once or twice a week."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you need any special diet or texture changes for that swallowing difficulty?"
+   },
+   {
+    "role": "user",
+    "content": "No special diet needed. Actually, I should correct something—the cough started about 5 days ago, not what I said before."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have any known allergies?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "dysphagia_or_choking",
+    "wrong": null,
+    "gold": "Yes"
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": "No",
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 14,
+   "n_fields": 49,
+   "n_correct": 46,
+   "n_partial": 0,
+   "all_field_acc": 0.9388,
+   "fully_correct": 0,
+   "structured_n": 24,
+   "structured_correct": 21,
+   "structured_acc": 0.875,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 38,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 1,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 15,
+  "utterance": "I take three medications: a blood thinner, a pill for blood pressure, and one for cholesterol. And I avoid pork for religious reasons.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "No",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": "No",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "Penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "pollen",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": null
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "No",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": "No",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "Penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "pollen",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": null
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": null,
+     "frequency": null,
+     "medication_name": "blood thinner",
+     "route": null
+    },
+    {
+     "dose": null,
+     "frequency": null,
+     "medication_name": "pill for blood pressure",
+     "route": null
+    },
+    {
+     "dose": null,
+     "frequency": null,
+     "medication_name": "one for cholesterol",
+     "route": null
+    }
+   ],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "pork",
+     "preference_type": "Avoids",
+     "reason": "Religious"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 2 months ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "about 5 days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "at the start of last month",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": true,
+   "vision_description": "cataracts",
+   "vision_onset": "about a year ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once or twice a week",
+   "special_diet_required": "No",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "Penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "pollen",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": null
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": null,
+     "frequency": null,
+     "medication_name": "blood thinner",
+     "route": null
+    },
+    {
+     "dose": null,
+     "frequency": null,
+     "medication_name": "pill for blood pressure",
+     "route": null
+    },
+    {
+     "dose": null,
+     "frequency": null,
+     "medication_name": "one for cholesterol",
+     "route": null
+    }
+   ],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "pork",
+     "preference_type": "Avoids",
+     "reason": "Religious"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": false,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "dysphagia_or_choking": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   },
+   "sputum_present": {
+    "cand": true,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": "No",
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "cough_present"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Any change in your appetite, or trouble swallowing?"
+   },
+   {
+    "role": "user",
+    "content": "My appetite is fine, but I do have some trouble swallowing now and then, maybe once or twice a week."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you need any special diet or texture changes for that swallowing difficulty?"
+   },
+   {
+    "role": "user",
+    "content": "No special diet needed. Actually, I should correct something—the cough started about 5 days ago, not what I said before."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have any known allergies?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I have two. Penicillin gives me a rash, and it's severe. I'm also allergic to pollen."
+   },
+   {
+    "role": "assistant",
+    "content": "Finally, what medications are you currently taking, and do you have any dietary restrictions?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "dysphagia_or_choking",
+    "wrong": null,
+    "gold": "Yes"
+   },
+   {
+    "leaf": "sputum_present",
+    "wrong": true,
+    "gold": false
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": "No",
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_04",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 15,
+   "n_fields": 65,
+   "n_correct": 61,
+   "n_partial": 0,
+   "all_field_acc": 0.9385,
+   "fully_correct": 0,
+   "structured_n": 29,
+   "structured_correct": 25,
+   "structured_acc": 0.8621,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 44,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 1,
+   "nat_opportunities": 3,
+   "nat_persisted": 3,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ }
+]

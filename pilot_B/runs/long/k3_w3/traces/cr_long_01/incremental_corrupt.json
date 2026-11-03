@@ -1,0 +1,2887 @@
+[
+ {
+  "turn": 1,
+  "utterance": "It happened on March 14, 2024.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": null,
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hi there, I'll help you complete the Simplified International Crash Report Form. First, what is the date of the accident?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 1,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3910,
+   "output_tokens": 191,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "It was around 6:45 pm.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": null,
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hi there, I'll help you complete the Simplified International Crash Report Form. First, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on March 14, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 2,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3941,
+   "output_tokens": 194,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 3,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "On Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "location_type": {
+    "cand": "Intersection",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "location_type"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hi there, I'll help you complete the Simplified International Crash Report Form. First, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on March 14, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 6:45 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street, city, and any nearby landmark?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 3,
+   "n_fields": 19,
+   "n_correct": 17,
+   "n_partial": 0,
+   "all_field_acc": 0.8947,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3987,
+   "output_tokens": 215,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 5,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "The road was wet because it had been raining, so the weather was rain.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-17",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "location_type": {
+    "cand": "Intersection",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hi there, I'll help you complete the Simplified International Crash Report Form. First, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on March 14, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 6:45 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street, city, and any nearby landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the road surface and weather conditions like at that time?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "location_type",
+    "wrong": "Intersection",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 4,
+   "n_fields": 19,
+   "n_correct": 17,
+   "n_partial": 0,
+   "all_field_acc": 0.8947,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 0,
+   "silent_recovery": 1,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 14,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 4044,
+   "output_tokens": 218,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "It was dusk or dawn — just getting dark.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dusk / Dawn",
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "location_type": {
+    "cand": "Intersection",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 6:45 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street, city, and any nearby landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the road surface and weather conditions like at that time?"
+   },
+   {
+    "role": "user",
+    "content": "The road was wet because it had been raining, so the weather was rain."
+   },
+   {
+    "role": "assistant",
+    "content": "What about the lighting at the time?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "location_type",
+    "wrong": "Intersection",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 5,
+   "n_fields": 19,
+   "n_correct": 17,
+   "n_partial": 0,
+   "all_field_acc": 0.8947,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 4029,
+   "output_tokens": 222,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 6,
+  "utterance": "It was right at an intersection. Actually, the lighting was dark-lit, not dusk — the streetlights were on.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street, city, and any nearby landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the road surface and weather conditions like at that time?"
+   },
+   {
+    "role": "user",
+    "content": "The road was wet because it had been raining, so the weather was rain."
+   },
+   {
+    "role": "assistant",
+    "content": "What about the lighting at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was dusk or dawn — just getting dark."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 6,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4055,
+   "output_tokens": 221,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 7,
+  "utterance": "There was a signal at the intersection, and the posted speed limit is 30 mph.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "vehicles": [],
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": 30,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What were the road surface and weather conditions like at that time?"
+   },
+   {
+    "role": "user",
+    "content": "The road was wet because it had been raining, so the weather was rain."
+   },
+   {
+    "role": "assistant",
+    "content": "What about the lighting at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was dusk or dawn — just getting dark."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was right at an intersection. Actually, the lighting was dark-lit, not dusk — the streetlights were on."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present there, and what was the posted speed limit?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 7,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4053,
+   "output_tokens": 223,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 8,
+  "utterance": "Two cars were involved.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "vehicles": [],
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": 30,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What about the lighting at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was dusk or dawn — just getting dark."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was right at an intersection. Actually, the lighting was dark-lit, not dusk — the streetlights were on."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present there, and what was the posted speed limit?"
+   },
+   {
+    "role": "user",
+    "content": "There was a signal at the intersection, and the posted speed limit is 30 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 8,
+   "n_fields": 31,
+   "n_correct": 30,
+   "n_partial": 0,
+   "all_field_acc": 0.9677,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4040,
+   "output_tokens": 344,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 9,
+  "utterance": "I was driving the car that got hit in the rear — a sedan, a Honda Civic.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": 30,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "car that got hit in the rear",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle (struck in rear)",
+    "gold": "car that got hit in the rear",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was right at an intersection. Actually, the lighting was dark-lit, not dusk — the streetlights were on."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present there, and what was the posted speed limit?"
+   },
+   {
+    "role": "user",
+    "content": "There was a signal at the intersection, and the posted speed limit is 30 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Two cars were involved."
+   },
+   {
+    "role": "assistant",
+    "content": "Let's start with your vehicle. What role did it play, and what is its type, make, and model?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 9,
+   "n_fields": 31,
+   "n_correct": 28,
+   "n_partial": 0,
+   "all_field_acc": 0.9032,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 28,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4186,
+   "output_tokens": 356,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 10,
+  "utterance": "My plate is ABC-1234, and I was stopped at the light waiting for it to change.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": 30,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "car that got hit in the rear",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle (struck in rear)",
+    "gold": "car that got hit in the rear",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present there, and what was the posted speed limit?"
+   },
+   {
+    "role": "user",
+    "content": "There was a signal at the intersection, and the posted speed limit is 30 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Two cars were involved."
+   },
+   {
+    "role": "assistant",
+    "content": "Let's start with your vehicle. What role did it play, and what is its type, make, and model?"
+   },
+   {
+    "role": "user",
+    "content": "I was driving the car that got hit in the rear — a sedan, a Honda Civic."
+   },
+   {
+    "role": "assistant",
+    "content": "What is your licence plate, and what were you doing just before the crash?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 10,
+   "n_fields": 31,
+   "n_correct": 28,
+   "n_partial": 0,
+   "all_field_acc": 0.9032,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 26,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4195,
+   "output_tokens": 363,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 11,
+  "utterance": "I was going about 5 mph, sorry, I mean 0 mph since I was stopped. The rear bumper and trunk are badly damaged.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": 30,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk are badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "car that got hit in the rear",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "rear bumper and trunk badly damaged",
+    "gold": "rear bumper and trunk are badly damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle (struck in rear)",
+    "gold": "car that got hit in the rear",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Two cars were involved."
+   },
+   {
+    "role": "assistant",
+    "content": "Let's start with your vehicle. What role did it play, and what is its type, make, and model?"
+   },
+   {
+    "role": "user",
+    "content": "I was driving the car that got hit in the rear — a sedan, a Honda Civic."
+   },
+   {
+    "role": "assistant",
+    "content": "What is your licence plate, and what were you doing just before the crash?"
+   },
+   {
+    "role": "user",
+    "content": "My plate is ABC-1234, and I was stopped at the light waiting for it to change."
+   },
+   {
+    "role": "assistant",
+    "content": "What was your approximate speed at the time, and how was your car damaged?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 11,
+   "n_fields": 31,
+   "n_correct": 27,
+   "n_partial": 0,
+   "all_field_acc": 0.871,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 26,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4212,
+   "output_tokens": 370,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 12,
+  "utterance": "The other car rear-ended me — it was a pickup truck, a Ford F-150.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "other vehicle (rear-ended claimant)",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": 30,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk are badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "car that got hit in the rear",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "rear-ended me",
+     "vehicle_type_make_model": "pickup truck, a Ford F-150"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "rear bumper and trunk badly damaged",
+    "gold": "rear bumper and trunk are badly damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle (struck in rear)",
+    "gold": "car that got hit in the rear",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle (rear-ended claimant)",
+    "gold": "rear-ended me",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].vehicle_type_make_model": {
+    "cand": "pickup truck Ford F-150",
+    "gold": "pickup truck, a Ford F-150",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Let's start with your vehicle. What role did it play, and what is its type, make, and model?"
+   },
+   {
+    "role": "user",
+    "content": "I was driving the car that got hit in the rear — a sedan, a Honda Civic."
+   },
+   {
+    "role": "assistant",
+    "content": "What is your licence plate, and what were you doing just before the crash?"
+   },
+   {
+    "role": "user",
+    "content": "My plate is ABC-1234, and I was stopped at the light waiting for it to change."
+   },
+   {
+    "role": "assistant",
+    "content": "What was your approximate speed at the time, and how was your car damaged?"
+   },
+   {
+    "role": "user",
+    "content": "I was going about 5 mph, sorry, I mean 0 mph since I was stopped. The rear bumper and trunk are badly damaged."
+   },
+   {
+    "role": "assistant",
+    "content": "Now the other vehicle — what role did it play, and what type, make, and model was it?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 12,
+   "n_fields": 31,
+   "n_correct": 25,
+   "n_partial": 0,
+   "all_field_acc": 0.8065,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 25,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4246,
+   "output_tokens": 383,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 13,
+  "utterance": "Its plate was XYZ-9876, it was going straight, and it was probably doing about 25 mph.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "other vehicle (rear-ended claimant)",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": 25,
+     "damage_description": null,
+     "licence_plate": "XYZ-9876",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "other vehicle (rear-ended claimant)",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": 30,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk are badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "car that got hit in the rear",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": 25,
+     "damage_description": null,
+     "licence_plate": "XYZ-9876",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "rear-ended me",
+     "vehicle_type_make_model": "pickup truck, a Ford F-150"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "rear bumper and trunk badly damaged",
+    "gold": "rear bumper and trunk are badly damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle (struck in rear)",
+    "gold": "car that got hit in the rear",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle (rear-ended claimant)",
+    "gold": "rear-ended me",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].vehicle_type_make_model": {
+    "cand": "pickup truck Ford F-150",
+    "gold": "pickup truck, a Ford F-150",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What is your licence plate, and what were you doing just before the crash?"
+   },
+   {
+    "role": "user",
+    "content": "My plate is ABC-1234, and I was stopped at the light waiting for it to change."
+   },
+   {
+    "role": "assistant",
+    "content": "What was your approximate speed at the time, and how was your car damaged?"
+   },
+   {
+    "role": "user",
+    "content": "I was going about 5 mph, sorry, I mean 0 mph since I was stopped. The rear bumper and trunk are badly damaged."
+   },
+   {
+    "role": "assistant",
+    "content": "Now the other vehicle — what role did it play, and what type, make, and model was it?"
+   },
+   {
+    "role": "user",
+    "content": "The other car rear-ended me — it was a pickup truck, a Ford F-150."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you know its licence plate, what it was doing before the crash, and its approximate speed?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 13,
+   "n_fields": 31,
+   "n_correct": 25,
+   "n_partial": 0,
+   "all_field_acc": 0.8065,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 22,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4259,
+   "output_tokens": 390,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 14,
+  "utterance": "Its front end was crumpled. I'd say the wet weather and the road played a part, and the other driver seemed distracted.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": 25,
+     "damage_description": null,
+     "licence_plate": "XYZ-9876",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "other vehicle (rear-ended claimant)",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": [
+    "Weather/Road",
+    "Distraction"
+   ],
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "front end crumpled",
+     "licence_plate": "XYZ-9876",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "other vehicle (rear-ended claimant)",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    }
+   ],
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": 30,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk are badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "car that got hit in the rear",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "front end was crumpled",
+     "licence_plate": "XYZ-9876",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "rear-ended me",
+     "vehicle_type_make_model": "pickup truck, a Ford F-150"
+    }
+   ],
+   "apparent_contributing_factors": [
+    "Distraction",
+    "Weather/Road"
+   ],
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "rear bumper and trunk badly damaged",
+    "gold": "rear bumper and trunk are badly damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle (struck in rear)",
+    "gold": "car that got hit in the rear",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].damage_description": {
+    "cand": "front end crumpled",
+    "gold": "front end was crumpled",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle (rear-ended claimant)",
+    "gold": "rear-ended me",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].vehicle_type_make_model": {
+    "cand": "pickup truck Ford F-150",
+    "gold": "pickup truck, a Ford F-150",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What was your approximate speed at the time, and how was your car damaged?"
+   },
+   {
+    "role": "user",
+    "content": "I was going about 5 mph, sorry, I mean 0 mph since I was stopped. The rear bumper and trunk are badly damaged."
+   },
+   {
+    "role": "assistant",
+    "content": "Now the other vehicle — what role did it play, and what type, make, and model was it?"
+   },
+   {
+    "role": "user",
+    "content": "The other car rear-ended me — it was a pickup truck, a Ford F-150."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you know its licence plate, what it was doing before the crash, and its approximate speed?"
+   },
+   {
+    "role": "user",
+    "content": "Its plate was XYZ-9876, it was going straight, and it was probably doing about 25 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "How was the other vehicle damaged, and what factors do you think contributed to the accident?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 14,
+   "n_fields": 31,
+   "n_correct": 24,
+   "n_partial": 0,
+   "all_field_acc": 0.7742,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 23,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4274,
+   "output_tokens": 401,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 15,
+  "utterance": "No one was hurt. But the truck knocked over a traffic-light pole, and a woman named Jane Doe who saw it all gave me her number, 555-0199.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": [
+    "Weather/Road",
+    "Distraction"
+   ],
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": null,
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "front end crumpled",
+     "licence_plate": "XYZ-9876",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "other vehicle (rear-ended claimant)",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    }
+   ],
+   "weather": "Rain",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": false,
+   "apparent_contributing_factors": [
+    "Weather/Road",
+    "Distraction"
+   ],
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Lit",
+   "location_of_accident": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": true,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 30,
+   "property_damage_description": "A traffic-light pole was knocked over by the truck.",
+   "road_surface_condition": "Wet",
+   "time_of_accident": "18:45",
+   "traffic_control": "Signal",
+   "weather": "Rain",
+   "witnesses_names_contacts": "Jane Doe, 555-0199",
+   "witnesses_present": true,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (struck in rear)",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "front end crumpled",
+     "licence_plate": "XYZ-9876",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "other vehicle (rear-ended claimant)",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+   "road_surface_condition": "Wet",
+   "weather": "Rain",
+   "lighting": "Dark–Lit",
+   "location_type": "Intersection",
+   "posted_speed_limit": 30,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper and trunk are badly damaged",
+     "licence_plate": "ABC-1234",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "car that got hit in the rear",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "front end was crumpled",
+     "licence_plate": "XYZ-9876",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "rear-ended me",
+     "vehicle_type_make_model": "pickup truck, a Ford F-150"
+    }
+   ],
+   "apparent_contributing_factors": [
+    "Distraction",
+    "Weather/Road"
+   ],
+   "any_injuries": false,
+   "injury_table": null,
+   "non_vehicle_property_damage": true,
+   "property_damage_description": "knocked over a traffic-light pole",
+   "witnesses_present": true,
+   "witnesses_names_contacts": "Jane Doe who saw it all gave me her number, 555-0199",
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street in Springfield, at the intersection with 5th Avenue near the old post office",
+    "gold": "Elm Street in Springfield, right at the intersection with 5th Avenue near the old post office",
+    "verdict": "incorrect"
+   },
+   "property_damage_description": {
+    "cand": "A traffic-light pole was knocked over by the truck.",
+    "gold": "knocked over a traffic-light pole",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "rear bumper and trunk badly damaged",
+    "gold": "rear bumper and trunk are badly damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle (struck in rear)",
+    "gold": "car that got hit in the rear",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].damage_description": {
+    "cand": "front end crumpled",
+    "gold": "front end was crumpled",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle (rear-ended claimant)",
+    "gold": "rear-ended me",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].vehicle_type_make_model": {
+    "cand": "pickup truck Ford F-150",
+    "gold": "pickup truck, a Ford F-150",
+    "verdict": "incorrect"
+   },
+   "witnesses_names_contacts": {
+    "cand": "Jane Doe, 555-0199",
+    "gold": "Jane Doe who saw it all gave me her number, 555-0199",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Now the other vehicle — what role did it play, and what type, make, and model was it?"
+   },
+   {
+    "role": "user",
+    "content": "The other car rear-ended me — it was a pickup truck, a Ford F-150."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you know its licence plate, what it was doing before the crash, and its approximate speed?"
+   },
+   {
+    "role": "user",
+    "content": "Its plate was XYZ-9876, it was going straight, and it was probably doing about 25 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "How was the other vehicle damaged, and what factors do you think contributed to the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Its front end was crumpled. I'd say the wet weather and the road played a part, and the other driver seemed distracted."
+   },
+   {
+    "role": "assistant",
+    "content": "Finally, were there any injuries, any non-vehicle property damage, and any witnesses?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_01",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 15,
+   "n_fields": 31,
+   "n_correct": 22,
+   "n_partial": 0,
+   "all_field_acc": 0.7097,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 19,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4299,
+   "output_tokens": 424,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ }
+]

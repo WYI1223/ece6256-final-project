@@ -1,0 +1,700 @@
+{
+  "alignment_log": [],
+  "candidate_resulting_state": {
+    "additional_comments": "Claimant declined ambulance at the scene.",
+    "any_injuries": true,
+    "apparent_contributing_factors": [
+      "Failed-to-Yield",
+      "Weather/Road"
+    ],
+    "date_of_accident": "2026-04-17",
+    "description_of_accident": "Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.",
+    "injury_table": [
+      {
+        "injury_description": "Minor neck strain",
+        "role": "Driver",
+        "severity": "Minor",
+        "vehicle_number": "1"
+      }
+    ],
+    "lighting": "Daylight",
+    "location_of_accident": "5th and Pine",
+    "location_type": "Intersection",
+    "non_vehicle_property_damage": true,
+    "number_of_vehicles_involved": "2",
+    "posted_speed_limit": 35,
+    "property_damage_description": "Bus shelter glass cracked near the crash location.",
+    "road_surface_condition": "Wet",
+    "time_of_accident": "08:15",
+    "traffic_control": "Signal",
+    "vehicles": [
+      {
+        "approx_speed_mph": 0,
+        "damage_description": "Rear bumper damage",
+        "licence_plate": "7ABC123",
+        "pre_crash_manoeuvre": "Stopped",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2018 Toyota Corolla"
+      },
+      {
+        "approx_speed_mph": 25,
+        "damage_description": "Front bumper damage",
+        "licence_plate": "8TRK229",
+        "pre_crash_manoeuvre": "Straight",
+        "role": "other vehicle",
+        "vehicle_type_make_model": "Blue Ford Transit delivery van"
+      }
+    ],
+    "weather": "Rain",
+    "witnesses_names_contacts": "Maria Lopez, 555-0104",
+    "witnesses_present": true
+  },
+  "candidate_state_diff": [
+    {
+      "change_kind": "set",
+      "prior_value": null,
+      "resulting_value": "Claimant declined ambulance at the scene.",
+      "slot": "additional_comments"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": false,
+      "resulting_value": true,
+      "slot": "any_injuries"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": [
+        "Failed-to-Yield"
+      ],
+      "resulting_value": [
+        "Failed-to-Yield",
+        "Weather/Road"
+      ],
+      "slot": "apparent_contributing_factors"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "2026-04-17",
+      "resulting_value": "2026-04-17",
+      "slot": "date_of_accident"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "Two vehicles were reported near the north entrance.",
+      "resulting_value": "Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.",
+      "slot": "description_of_accident"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": null,
+      "resulting_value": [
+        {
+          "injury_description": "Minor neck strain",
+          "role": "Driver",
+          "severity": "Minor",
+          "vehicle_number": "1"
+        }
+      ],
+      "slot": "injury_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Daylight",
+      "resulting_value": "Daylight",
+      "slot": "lighting"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "5th and Pine",
+      "resulting_value": "5th and Pine",
+      "slot": "location_of_accident"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Intersection",
+      "resulting_value": "Intersection",
+      "slot": "location_type"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": false,
+      "resulting_value": true,
+      "slot": "non_vehicle_property_damage"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "1",
+      "resulting_value": "2",
+      "slot": "number_of_vehicles_involved"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 35,
+      "resulting_value": 35,
+      "slot": "posted_speed_limit"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": null,
+      "resulting_value": "Bus shelter glass cracked near the crash location.",
+      "slot": "property_damage_description"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "Dry",
+      "resulting_value": "Wet",
+      "slot": "road_surface_condition"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "08:10",
+      "resulting_value": "08:15",
+      "slot": "time_of_accident"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Signal",
+      "resulting_value": "Signal",
+      "slot": "traffic_control"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": [
+        {
+          "approx_speed_mph": 5,
+          "damage_description": "Minor rear bumper scrape",
+          "licence_plate": "7ABC123",
+          "pre_crash_manoeuvre": "Stopped",
+          "role": "claimant vehicle",
+          "vehicle_type_make_model": "2018 Toyota Corolla"
+        }
+      ],
+      "resulting_value": [
+        {
+          "approx_speed_mph": 0,
+          "damage_description": "Rear bumper damage",
+          "licence_plate": "7ABC123",
+          "pre_crash_manoeuvre": "Stopped",
+          "role": "claimant vehicle",
+          "vehicle_type_make_model": "2018 Toyota Corolla"
+        },
+        {
+          "approx_speed_mph": 25,
+          "damage_description": "Front bumper damage",
+          "licence_plate": "8TRK229",
+          "pre_crash_manoeuvre": "Straight",
+          "role": "other vehicle",
+          "vehicle_type_make_model": "Blue Ford Transit delivery van"
+        }
+      ],
+      "slot": "vehicles"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "Clear",
+      "resulting_value": "Rain",
+      "slot": "weather"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": null,
+      "resulting_value": "Maria Lopez, 555-0104",
+      "slot": "witnesses_names_contacts"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": false,
+      "resulting_value": true,
+      "slot": "witnesses_present"
+    }
+  ],
+  "derived_variables": {},
+  "field_results": {
+    "additional_comments": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for additional_comments.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "any_injuries": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for any_injuries.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "apparent_contributing_factors": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "All required items present, no unacceptable additions.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "date_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for date_of_accident.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "description_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for description_of_accident.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "injury_table[0].injury_description": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for injury_table[0].injury_description.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "injury_table[0].role": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for injury_table[0].role.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "injury_table[0].severity": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for injury_table[0].severity: expected 'Minor', got 'Minor'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "injury_table[0].vehicle_number": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for injury_table[0].vehicle_number.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "lighting": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for lighting: expected 'Daylight', got 'Daylight'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "location_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for location_of_accident.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "location_type": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for location_type: expected 'Intersection', got 'Intersection'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_vehicle_property_damage": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_vehicle_property_damage.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_vehicles_involved": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for number_of_vehicles_involved: expected '2', got '2'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "posted_speed_limit": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for posted_speed_limit.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "property_damage_description": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for property_damage_description.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "road_surface_condition": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for road_surface_condition: expected 'Wet', got 'Wet'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "time_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for time_of_accident.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "traffic_control": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for traffic_control: expected 'Signal', got 'Signal'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].approx_speed_mph": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].approx_speed_mph.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vehicles[0].damage_description": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].damage_description.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vehicles[0].licence_plate": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].licence_plate.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].pre_crash_manoeuvre": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for vehicles[0].pre_crash_manoeuvre: expected 'Stopped', got 'Stopped'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].role": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].role.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].vehicle_type_make_model": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].vehicle_type_make_model.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[1].approx_speed_mph": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[1].approx_speed_mph.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vehicles[1].damage_description": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[1].damage_description.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vehicles[1].licence_plate": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[1].licence_plate.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vehicles[1].pre_crash_manoeuvre": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for vehicles[1].pre_crash_manoeuvre: expected 'Straight', got 'Straight'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vehicles[1].role": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[1].role.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vehicles[1].vehicle_type_make_model": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[1].vehicle_type_make_model.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "weather": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for weather: expected 'Rain', got 'Rain'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "witnesses_names_contacts": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for witnesses_names_contacts.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "witnesses_present": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for witnesses_present.",
+      "source": "extracted",
+      "support_source": "extracted"
+    }
+  },
+  "fields_filled": 34,
+  "prompt_trace": [],
+  "provenance": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "Direct",
+      "model": {
+        "max_tokens": 16000,
+        "model": "deepseek-flash",
+        "provider": "openai",
+        "requested_model": "deepseek-flash",
+        "resolved_model_name": "deepseek-flash",
+        "resolved_model_version": "deepseek-flash",
+        "temperature": null,
+        "timeout": 300
+      },
+      "schema_interface": {
+        "public_projection": "shared_schema_field_guide_with_schema_completed_prior_state"
+      },
+      "tool_policy": {
+        "mode": "state_json"
+      }
+    },
+    "runner": null
+  },
+  "summary": {
+    "correct": 34,
+    "evaluated": 34,
+    "incorrect": 0,
+    "partially_correct": 0,
+    "total": 34,
+    "unmatched": 0
+  },
+  "turn": 0,
+  "unmatched_fields": [],
+  "user_message": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `description_of_accident` to `\"Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.\"`\n- set `time_of_accident` to `\"08:15\"`\n- set `road_surface_condition` to `\"Wet\"`\n- set `weather` to `\"Rain\"`\n- set `number_of_vehicles_involved` to `\"2\"`\n- set `vehicles[0].approx_speed_mph` to `0`\n- set `vehicles[0].damage_description` to `\"Rear bumper damage\"`\n- set `vehicles[1].role` to `\"other vehicle\"`\n- set `vehicles[1].vehicle_type_make_model` to `\"Blue Ford Transit delivery van\"`\n- set `vehicles[1].licence_plate` to `\"8TRK229\"`\n- set `vehicles[1].pre_crash_manoeuvre` to `\"Straight\"`\n- set `vehicles[1].approx_speed_mph` to `25`\n- set `vehicles[1].damage_description` to `\"Front bumper damage\"`\n- set `apparent_contributing_factors` to `[\"Failed-to-Yield\", \"Weather/Road\"]`\n- set `any_injuries` to `true`\n- set `injury_table` to `[{\"role\": \"Driver\", \"vehicle_number\": \"1\", \"severity\": \"Minor\", \"injury_description\": \"Minor neck strain\"}]`\n- set `non_vehicle_property_damage` to `true`\n- set `property_damage_description` to `\"Bus shelter glass cracked near the crash location.\"`\n- set `witnesses_present` to `true`\n- set `witnesses_names_contacts` to `\"Maria Lopez, 555-0104\"`\n- set `additional_comments` to `\"Claimant declined ambulance at the scene.\"`"
+}

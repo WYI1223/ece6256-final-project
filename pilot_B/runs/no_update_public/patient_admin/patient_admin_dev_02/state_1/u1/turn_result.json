@@ -1,0 +1,173 @@
+{
+  "agent_response": {
+    "operations": [],
+    "raw_response": "NoUpdate baseline: copied schema-completed prior state."
+  },
+  "answer_updates": {},
+  "answers_after": {
+    "allergies": [
+      {
+        "allergen": "penicillin",
+        "allergy_notes": "Childhood report.",
+        "allergy_severity": "Mild",
+        "reaction": "rash"
+      },
+      {
+        "allergen": "peanuts",
+        "allergy_notes": "Carries epinephrine.",
+        "allergy_severity": "Severe",
+        "reaction": "swelling"
+      }
+    ],
+    "ambulatory_aid_notes": null,
+    "ambulatory_aid_use": null,
+    "appetite_change": null,
+    "cough_duration": null,
+    "cough_notes": null,
+    "cough_present": null,
+    "current_medications": [
+      {
+        "dose": "10 mg",
+        "frequency": "nightly",
+        "medication_name": "cetirizine",
+        "route": "Oral"
+      }
+    ],
+    "denture_present": true,
+    "dietary_preferences_and_restrictions": [
+      {
+        "diet_notes": "Patient requested removal.",
+        "food_item": "shellfish",
+        "preference_type": "Avoids",
+        "reason": "Personal"
+      }
+    ],
+    "dysphagia_frequency": null,
+    "dysphagia_or_choking": null,
+    "fall_in_last_12_months": true,
+    "fall_injuries_note": "Bruised knee.",
+    "free_text_notes": "Draft still has resolved problems.",
+    "hemoptysis_any": null,
+    "lower_denture": "Yes",
+    "most_recent_fall_date_or_time": "last winter",
+    "number_of_allergies": 2,
+    "number_of_dietary_restrictions": 1,
+    "number_of_medications": 1,
+    "number_of_pains": 2,
+    "pain_details": [
+      {
+        "pain_duration": "three weeks",
+        "pain_notes": "Worse standing.",
+        "pain_part": "left knee",
+        "pain_severity": "High"
+      },
+      {
+        "pain_duration": "one week",
+        "pain_notes": "Intermittent.",
+        "pain_part": "neck",
+        "pain_severity": "Mild"
+      }
+    ],
+    "pain_experience": true,
+    "special_diet_notes": null,
+    "special_diet_required": null,
+    "sputum_amount": null,
+    "sputum_color": null,
+    "sputum_notes": null,
+    "sputum_present": null,
+    "unintentional_weight_loss": null,
+    "upper_denture": "Yes",
+    "vision_description": "Blurred distance vision.",
+    "vision_onset": "six months",
+    "vision_problem": true,
+    "weight_loss_amount": null,
+    "weight_loss_timeframe": null
+  },
+  "answers_before": {
+    "allergies": [
+      {
+        "allergen": "penicillin",
+        "allergy_notes": "Childhood report.",
+        "allergy_severity": "Mild",
+        "reaction": "rash"
+      },
+      {
+        "allergen": "peanuts",
+        "allergy_notes": "Carries epinephrine.",
+        "allergy_severity": "Severe",
+        "reaction": "swelling"
+      }
+    ],
+    "current_medications": [
+      {
+        "dose": "10 mg",
+        "frequency": "nightly",
+        "medication_name": "cetirizine",
+        "route": "Oral"
+      }
+    ],
+    "denture_present": true,
+    "dietary_preferences_and_restrictions": [
+      {
+        "diet_notes": "Patient requested removal.",
+        "food_item": "shellfish",
+        "preference_type": "Avoids",
+        "reason": "Personal"
+      }
+    ],
+    "fall_in_last_12_months": true,
+    "fall_injuries_note": "Bruised knee.",
+    "free_text_notes": "Draft still has resolved problems.",
+    "lower_denture": "Yes",
+    "most_recent_fall_date_or_time": "last winter",
+    "number_of_allergies": 2,
+    "number_of_dietary_restrictions": 1,
+    "number_of_medications": 1,
+    "number_of_pains": 2,
+    "pain_details": [
+      {
+        "pain_duration": "three weeks",
+        "pain_notes": "Worse standing.",
+        "pain_part": "left knee",
+        "pain_severity": "High"
+      },
+      {
+        "pain_duration": "one week",
+        "pain_notes": "Intermittent.",
+        "pain_part": "neck",
+        "pain_severity": "Mild"
+      }
+    ],
+    "pain_experience": true,
+    "upper_denture": "Yes",
+    "vision_description": "Blurred distance vision.",
+    "vision_onset": "six months",
+    "vision_problem": true
+  },
+  "current_utterance": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `pain_experience` to `false`\n- set `number_of_pains` to `0`\n- delete repeat instance `pain_details[1]`\n- delete repeat instance `pain_details[0]`\n- set `fall_in_last_12_months` to `false`\n- set `most_recent_fall_date_or_time` to `null`\n- set `fall_injuries_note` to `null`\n- set `denture_present` to `false`\n- set `upper_denture` to `null`\n- set `lower_denture` to `null`\n- set `vision_problem` to `false`\n- set `vision_description` to `null`\n- set `vision_onset` to `null`\n- set `number_of_allergies` to `1`\n- delete repeat instance `allergies[0]`\n- set `allergies[0].reaction` to `\"anaphylaxis\"`\n- set `number_of_dietary_restrictions` to `0`\n- delete repeat instance `dietary_preferences_and_restrictions[0]`\n- set `free_text_notes` to `\"Reviewed today: no current pain, falls, dentures, or vision problems.\"`",
+  "is_complete": true,
+  "provenance": {
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    }
+  },
+  "questionnaire": "patient_admin",
+  "scenario": "patient_admin_dev_02",
+  "scenario_id": "patient_admin_dev_02",
+  "state": "state_1",
+  "turn_index": 0,
+  "utterance_id": "u1",
+  "visible_history": [
+    {
+      "content": "I have pain, falls, dentures, vision issues, two allergies, and a shellfish restriction on file.",
+      "role": "assistant"
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+[
+ {
+  "turn": 1,
+  "utterance": "Thanks. It happened on the 14th of March 2025, around 8:40 in the morning.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2025-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "08:40",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2025-03-14",
+   "time_of_accident": "08:40",
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_03",
+   "questionnaire_id": "crash_report",
+   "condition": "oracle",
+   "mode": "corrupt",
+   "turn": 1,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "traffic_control",
+   "injected_value": "\"Stop Sign\"",
+   "gold_value_of_corrupted": "null",
+   "candidate_value_of_corrupted": "null",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3924,
+   "output_tokens": 152,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "On Elm Street in Springfield, just past the second set of lights near the post office. It was a straight stretch, dry road, sunny and clear, and I was in my blue Honda Civic.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2025-03-14",
+   "time_of_accident": "08:40",
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2025-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Elm Street, Springfield, just past the second set of lights near the post office",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "08:40",
+   "traffic_control": "Signal",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "Honda Civic"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2025-03-14",
+   "time_of_accident": "08:40",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Elm Street, Springfield, just past the second set of lights near the post office",
+    "gold": "On Elm Street in Springfield, just past the second set of lights near the post office",
+    "verdict": "incorrect"
+   },
+   "traffic_control": {
+    "cand": "Signal",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "Honda Civic",
+    "gold": "blue Honda Civic",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "traffic_control"
+  ],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_03",
+   "questionnaire_id": "crash_report",
+   "condition": "oracle",
+   "mode": "corrupt",
+   "turn": 2,
+   "n_fields": 25,
+   "n_correct": 21,
+   "n_partial": 0,
+   "all_field_acc": 0.84,
+   "fully_correct": 0,
+   "structured_n": 15,
+   "structured_correct": 14,
+   "structured_acc": 0.9333,
+   "corrupted_field": "traffic_control",
+   "injected_value": "\"Stop Sign\"",
+   "gold_value_of_corrupted": "null",
+   "candidate_value_of_corrupted": "\"Signal\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 14,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3998,
+   "output_tokens": 285,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "The other car was a silver Ford Focus — it drifted into my lane while going straight, we were both doing about 30. My plate is AB12 CDE and theirs was XY34 ZZZ.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2025-03-14",
+   "time_of_accident": "08:40",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": null,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2025-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "08:40",
+   "traffic_control": "Signal",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 30,
+     "damage_description": null,
+     "licence_plate": "AB12 CDE",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 30,
+     "damage_description": null,
+     "licence_plate": "XY34 ZZZ",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "other vehicle",
+     "vehicle_type_make_model": "silver Ford Focus"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2025-03-14",
+   "time_of_accident": "08:40",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 30,
+     "damage_description": null,
+     "licence_plate": "AB12 CDE",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 30,
+     "damage_description": null,
+     "licence_plate": "XY34 ZZZ",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "silver Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "traffic_control": {
+    "cand": "Signal",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "vehicles[0].role"
+  ],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_03",
+   "questionnaire_id": "crash_report",
+   "condition": "oracle",
+   "mode": "corrupt",
+   "turn": 3,
+   "n_fields": 31,
+   "n_correct": 28,
+   "n_partial": 0,
+   "all_field_acc": 0.9032,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 16,
+   "structured_acc": 0.9412,
+   "corrupted_field": "traffic_control",
+   "injected_value": "\"Stop Sign\"",
+   "gold_value_of_corrupted": "null",
+   "candidate_value_of_corrupted": "\"Signal\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "collateral_opportunities": 20,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4157,
+   "output_tokens": 365,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.2
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "Actually, my speed was closer to 25, not 30. The damage was a long scrape along my driver's side, and the Ford had its front wing dented. No one was hurt, thankfully.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2025-03-14",
+   "time_of_accident": "08:40",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": null,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 30,
+     "damage_description": null,
+     "licence_plate": "AB12 CDE",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 30,
+     "damage_description": null,
+     "licence_plate": "XY34 ZZZ",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "silver Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": false,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2025-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "08:40",
+   "traffic_control": "Signal",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "Long scrape along the driver's side.",
+     "licence_plate": "AB12 CDE",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "blue Honda Civic",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 30,
+     "damage_description": "Front wing dented.",
+     "licence_plate": "XY34 ZZZ",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "silver Ford Focus",
+     "vehicle_type_make_model": "silver Ford Focus"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2025-03-14",
+   "time_of_accident": "08:40",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "long scrape along my driver's side",
+     "licence_plate": "AB12 CDE",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 30,
+     "damage_description": "front wing dented",
+     "licence_plate": "XY34 ZZZ",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "silver Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": false,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "traffic_control": {
+    "cand": "Signal",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "Long scrape along the driver's side.",
+    "gold": "long scrape along my driver's side",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "blue Honda Civic",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[1].damage_description": {
+    "cand": "Front wing dented.",
+    "gold": "front wing dented",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "silver Ford Focus",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "vehicles[0].role",
+   "vehicles[1].role"
+  ],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_03",
+   "questionnaire_id": "crash_report",
+   "condition": "oracle",
+   "mode": "corrupt",
+   "turn": 4,
+   "n_fields": 31,
+   "n_correct": 26,
+   "n_partial": 0,
+   "all_field_acc": 0.8387,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 16,
+   "structured_acc": 0.9412,
+   "corrupted_field": "traffic_control",
+   "injected_value": "\"Stop Sign\"",
+   "gold_value_of_corrupted": "null",
+   "candidate_value_of_corrupted": "\"Signal\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "collateral_opportunities": 26,
+   "collateral_edits": 2,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4304,
+   "output_tokens": 378,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.12
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "Yes, a woman named Sarah Cole saw it — she gave me her number. Nothing else was damaged, just the two cars.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2025-03-14",
+   "time_of_accident": "08:40",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": null,
+   "traffic_control": "Signal",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "long scrape along my driver's side",
+     "licence_plate": "AB12 CDE",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 30,
+     "damage_description": "front wing dented",
+     "licence_plate": "XY34 ZZZ",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "silver Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": false,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": false,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2025-03-14",
+   "description_of_accident": "I was in my blue Honda Civic on a straight stretch of Elm Street. The other car, a silver Ford Focus, drifted into my lane while going straight; we were both doing about 30 (my speed was closer to 25). The Ford's front wing was dented and my driver's side had a long scrape.",
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": false,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "08:40",
+   "traffic_control": "Signal",
+   "weather": "Clear",
+   "witnesses_names_contacts": "Sarah Cole — phone number provided by the user.",
+   "witnesses_present": true,
+   "vehicles": [
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "long scrape along my driver's side",
+     "licence_plate": "AB12 CDE",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "my vehicle (claimant)",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 30,
+     "damage_description": "front wing dented",
+     "licence_plate": "XY34 ZZZ",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "other vehicle",
+     "vehicle_type_make_model": "silver Ford Focus"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2025-03-14",
+   "time_of_accident": "08:40",
+   "location_of_accident": "On Elm Street in Springfield, just past the second set of lights near the post office",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 25,
+     "damage_description": "long scrape along my driver's side",
+     "licence_plate": "AB12 CDE",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 30,
+     "damage_description": "front wing dented",
+     "licence_plate": "XY34 ZZZ",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "silver Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": false,
+   "injury_table": null,
+   "non_vehicle_property_damage": false,
+   "property_damage_description": null,
+   "witnesses_present": true,
+   "witnesses_names_contacts": "Sarah Cole",
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "description_of_accident": {
+    "cand": "I was in my blue Honda Civic on a straight stretch of Elm Street. The other car, a silver Ford Focus, drifted into my lane while going straight; we were both doing about 30 (my speed was closer to 25). The Ford's front wing was dented and my driver's side had a long scrape.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "traffic_control": {
+    "cand": "Signal",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "my vehicle (claimant)",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "witnesses_names_contacts": {
+    "cand": "Sarah Cole — phone number provided by the user.",
+    "gold": "Sarah Cole",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "description_of_accident",
+   "vehicles[0].role",
+   "vehicles[1].role"
+  ],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_03",
+   "questionnaire_id": "crash_report",
+   "condition": "oracle",
+   "mode": "corrupt",
+   "turn": 5,
+   "n_fields": 31,
+   "n_correct": 26,
+   "n_partial": 0,
+   "all_field_acc": 0.8387,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 16,
+   "structured_acc": 0.9412,
+   "corrupted_field": "traffic_control",
+   "injected_value": "\"Stop Sign\"",
+   "gold_value_of_corrupted": "null",
+   "candidate_value_of_corrupted": "\"Signal\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "collateral_opportunities": 27,
+   "collateral_edits": 3,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4374,
+   "output_tokens": 452,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.4
+  }
+ }
+]

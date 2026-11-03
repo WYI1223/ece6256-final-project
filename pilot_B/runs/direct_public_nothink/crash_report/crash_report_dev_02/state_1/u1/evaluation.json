@@ -1,0 +1,566 @@
+{
+  "alignment_log": [],
+  "candidate_resulting_state": {
+    "additional_comments": "Delivery van was parked nearby and not involved.",
+    "any_injuries": false,
+    "apparent_contributing_factors": [
+      "Distraction"
+    ],
+    "date_of_accident": "2026-03-09",
+    "description_of_accident": "Single-vehicle scrape involving the Honda Civic.",
+    "injury_table": null,
+    "lighting": "Daylight",
+    "location_of_accident": "Oak Street car park",
+    "location_type": "Straight",
+    "non_vehicle_property_damage": false,
+    "number_of_vehicles_involved": "1",
+    "posted_speed_limit": 15,
+    "property_damage_description": null,
+    "road_surface_condition": "Dry",
+    "time_of_accident": "18:40",
+    "traffic_control": "None",
+    "vehicles": [
+      {
+        "approx_speed_mph": 10,
+        "damage_description": "Scraped passenger door",
+        "licence_plate": "5SED111",
+        "pre_crash_manoeuvre": "Straight",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2020 Honda Civic"
+      }
+    ],
+    "weather": "Fog",
+    "witnesses_names_contacts": null,
+    "witnesses_present": false
+  },
+  "candidate_state_diff": [
+    {
+      "change_kind": "changed",
+      "prior_value": "Initial draft included the delivery van as involved.",
+      "resulting_value": "Delivery van was parked nearby and not involved.",
+      "slot": "additional_comments"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "any_injuries"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [
+        "Distraction"
+      ],
+      "resulting_value": [
+        "Distraction"
+      ],
+      "slot": "apparent_contributing_factors"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "2026-03-09",
+      "resulting_value": "2026-03-09",
+      "slot": "date_of_accident"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "Sedan and delivery van collision.",
+      "resulting_value": "Single-vehicle scrape involving the Honda Civic.",
+      "slot": "description_of_accident"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": [
+        {
+          "injury_description": "Bruised wrist",
+          "role": "Driver",
+          "severity": "Minor",
+          "vehicle_number": "1"
+        }
+      ],
+      "resulting_value": null,
+      "slot": "injury_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Daylight",
+      "resulting_value": "Daylight",
+      "slot": "lighting"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Oak Street car park",
+      "resulting_value": "Oak Street car park",
+      "slot": "location_of_accident"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Straight",
+      "resulting_value": "Straight",
+      "slot": "location_type"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "non_vehicle_property_damage"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "2",
+      "resulting_value": "1",
+      "slot": "number_of_vehicles_involved"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 15,
+      "resulting_value": 15,
+      "slot": "posted_speed_limit"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "Bent parking sign by the exit.",
+      "resulting_value": null,
+      "slot": "property_damage_description"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Dry",
+      "resulting_value": "Dry",
+      "slot": "road_surface_condition"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "18:40",
+      "resulting_value": "18:40",
+      "slot": "time_of_accident"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "None",
+      "resulting_value": "None",
+      "slot": "traffic_control"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": [
+        {
+          "approx_speed_mph": 10,
+          "damage_description": "Scraped passenger door",
+          "licence_plate": "5SED111",
+          "pre_crash_manoeuvre": "Straight",
+          "role": "claimant vehicle",
+          "vehicle_type_make_model": "2020 Honda Civic"
+        },
+        {
+          "approx_speed_mph": 0,
+          "damage_description": "No crash damage",
+          "licence_plate": "4VAN888",
+          "pre_crash_manoeuvre": "Stopped",
+          "role": "other vehicle",
+          "vehicle_type_make_model": "White delivery van"
+        }
+      ],
+      "resulting_value": [
+        {
+          "approx_speed_mph": 10,
+          "damage_description": "Scraped passenger door",
+          "licence_plate": "5SED111",
+          "pre_crash_manoeuvre": "Straight",
+          "role": "claimant vehicle",
+          "vehicle_type_make_model": "2020 Honda Civic"
+        }
+      ],
+      "slot": "vehicles"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "Clear",
+      "resulting_value": "Fog",
+      "slot": "weather"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "Delivery driver, no phone number provided",
+      "resulting_value": null,
+      "slot": "witnesses_names_contacts"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "witnesses_present"
+    }
+  ],
+  "derived_variables": {},
+  "field_results": {
+    "additional_comments": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for additional_comments.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "any_injuries": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for any_injuries.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "apparent_contributing_factors": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "All required items present, no unacceptable additions.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "date_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for date_of_accident.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "description_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for description_of_accident.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "injury_table": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both injury_table values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "lighting": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for lighting: expected 'Daylight', got 'Daylight'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "location_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for location_of_accident.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "location_type": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for location_type: expected 'Straight', got 'Straight'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_vehicle_property_damage": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_vehicle_property_damage.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_vehicles_involved": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for number_of_vehicles_involved: expected '1', got '1'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "posted_speed_limit": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for posted_speed_limit.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "property_damage_description": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both property_damage_description values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "road_surface_condition": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for road_surface_condition: expected 'Dry', got 'Dry'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "time_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for time_of_accident.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "traffic_control": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for traffic_control: expected 'None', got 'None'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].approx_speed_mph": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].approx_speed_mph.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].damage_description": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].damage_description.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].licence_plate": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].licence_plate.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].pre_crash_manoeuvre": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for vehicles[0].pre_crash_manoeuvre: expected 'Straight', got 'Straight'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].role": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].role.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].vehicle_type_make_model": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].vehicle_type_make_model.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "weather": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for weather: expected 'Fog', got 'Fog'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "witnesses_names_contacts": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both witnesses_names_contacts values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "witnesses_present": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for witnesses_present.",
+      "source": "extracted",
+      "support_source": "extracted"
+    }
+  },
+  "fields_filled": 25,
+  "prompt_trace": [],
+  "provenance": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "Direct",
+      "model": {
+        "max_tokens": 8192,
+        "model": "deepseek-flash",
+        "provider": "openai",
+        "requested_model": "deepseek-flash",
+        "resolved_model_name": "deepseek-flash",
+        "resolved_model_version": "deepseek-flash",
+        "temperature": null,
+        "timeout": 300
+      },
+      "schema_interface": {
+        "public_projection": "shared_schema_field_guide_with_schema_completed_prior_state"
+      },
+      "tool_policy": {
+        "mode": "state_json"
+      }
+    },
+    "runner": null
+  },
+  "summary": {
+    "correct": 25,
+    "evaluated": 25,
+    "incorrect": 0,
+    "partially_correct": 0,
+    "total": 25,
+    "unmatched": 0
+  },
+  "turn": 0,
+  "unmatched_fields": [],
+  "user_message": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `number_of_vehicles_involved` to `\"1\"`\n- delete repeat instance `vehicles[1]`\n- set `any_injuries` to `false`\n- set `injury_table` to `null`\n- set `non_vehicle_property_damage` to `false`\n- set `property_damage_description` to `null`\n- set `witnesses_present` to `false`\n- set `witnesses_names_contacts` to `null`\n- set `weather` to `\"Fog\"`\n- set `vehicles[0].damage_description` to `\"Scraped passenger door\"`\n- set `description_of_accident` to `\"Single-vehicle scrape involving the Honda Civic.\"`\n- set `additional_comments` to `\"Delivery van was parked nearby and not involved.\"`"
+}

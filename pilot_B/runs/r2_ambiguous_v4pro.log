@@ -1,0 +1,125 @@
+[clean] pa_gen_01 incremental: acc by turn = [0.973, 0.9459, 0.9459, 0.9556, 0.9592]
+[clean] pa_gen_01 oracle: acc by turn = [0.973, 1.0, 1.0, 1.0, 1.0]
+[clean] pa_gen_02 incremental: acc by turn = [0.9459, 0.9024, 0.9024, 0.9024, 0.9111]
+[clean] pa_gen_02 oracle: acc by turn = [0.9459, 0.9268, 1.0, 1.0, 1.0]
+[clean] pa_gen_03 incremental: acc by turn = [0.9756, 0.9756, 0.9778, 0.9778, 0.9778]
+[clean] pa_gen_03 oracle: acc by turn = [0.9756, 1.0, 1.0, 1.0, 1.0]
+[clean] pa_gen_04 incremental: acc by turn = [0.973, 0.9512, 0.9778, 0.9796, 0.9592]
+[clean] pa_gen_04 oracle: acc by turn = [0.973, 0.9756, 1.0, 1.0, 0.9796]
+[clean] pa_gen_05 incremental: acc by turn = [0.973, 0.9189, 0.8889, 0.8776, 0.8776]
+[clean] pa_gen_05 oracle: acc by turn = [0.973, 0.9189, 0.9333, 0.9592, 1.0]
+[clean] cr_gen_01 incremental: acc by turn = [1.0, 0.8421, 0.8421, 0.9355, 0.9032]
+[clean] cr_gen_01 oracle: acc by turn = [1.0, 0.8421, 1.0, 0.9677, 0.9677]
+[clean] cr_gen_02 incremental: acc by turn = [0.8947, 0.8947, 0.72, 0.72, 0.72]
+[clean] cr_gen_02 oracle: acc by turn = [0.8947, 1.0, 0.76, 0.84, 0.96]
+[clean] cr_gen_03 incremental: acc by turn = [1.0, 0.88, 0.871, 0.8387, 0.8065]
+[clean] cr_gen_03 oracle: acc by turn = [1.0, 0.88, 0.9355, 0.9677, 0.9032]
+[clean] cr_gen_04 incremental: acc by turn = [1.0, 0.8919, 0.8378, 0.8378, 0.7561]
+[clean] cr_gen_04 oracle: acc by turn = [1.0, 0.8919, 0.9459, 0.9459, 0.9024]
+[clean] pa_handmade_01 incremental: acc by turn = [1.0, 0.9756, 0.9778, 0.9778, 0.9778]
+[clean] pa_handmade_01 oracle: acc by turn = [1.0, 0.9756, 1.0, 1.0, 1.0]
+[corrupt] pa_gen_01 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_01 oracle field=pain_details[0].pain_severity: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_02 incremental field=allergies[0].allergy_severity: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_02 oracle field=allergies[0].allergy_severity: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_03 incremental field=upper_denture: persisted by turn = ['', '', 1, 1, 0]
+[corrupt] pa_gen_03 oracle field=upper_denture: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_04 incremental field=ambulatory_aid_use: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_04 oracle field=ambulatory_aid_use: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_05 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_05 oracle field=pain_details[0].pain_severity: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] cr_gen_01 incremental field=time_of_accident: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] cr_gen_01 oracle field=time_of_accident: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] cr_gen_02 incremental field=lighting: persisted by turn = ['', '', 1, 0, 0]
+[corrupt] cr_gen_02 oracle field=lighting: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] cr_gen_03 incremental field=road_surface_condition: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] cr_gen_03 oracle field=road_surface_condition: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] cr_gen_04 incremental field=lighting: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] cr_gen_04 oracle field=lighting: persisted by turn = ['', '', 1, 0, 0]
+[corrupt] pa_handmade_01 incremental field=sputum_amount: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_handmade_01 oracle field=sputum_amount: persisted by turn = ['', '', 1, 1, 1]
+{
+ "solver": "conformbench.systems.direct:solve",
+ "model": "deepseek-v4-pro:thinking=disabled",
+ "max_tokens": 8192,
+ "history_window": null,
+ "n_trajectories": 10,
+ "conditions": [
+  "incremental",
+  "oracle"
+ ],
+ "modes": [
+  "clean",
+  "corrupt"
+ ],
+ "corruptions": {
+  "pa_gen_01": {
+   "after_turn": 2,
+   "path": "pain_details[0].pain_severity",
+   "wrong_value": "Mild",
+   "system_correct_before": true
+  },
+  "pa_gen_02": {
+   "after_turn": 2,
+   "path": "allergies[0].allergy_severity",
+   "wrong_value": "Severe",
+   "system_correct_before": false
+  },
+  "pa_gen_03": {
+   "after_turn": 2,
+   "path": "upper_denture",
+   "wrong_value": "No",
+   "system_correct_before": true
+  },
+  "pa_gen_04": {
+   "after_turn": 2,
+   "path": "ambulatory_aid_use",
+   "wrong_value": "Has but does not use",
+   "system_correct_before": true
+  },
+  "pa_gen_05": {
+   "after_turn": 2,
+   "path": "pain_details[0].pain_severity",
+   "wrong_value": "Moderate",
+   "system_correct_before": true
+  },
+  "cr_gen_01": {
+   "after_turn": 2,
+   "path": "time_of_accident",
+   "wrong_value": "18:30",
+   "system_correct_before": false
+  },
+  "cr_gen_02": {
+   "after_turn": 2,
+   "path": "lighting",
+   "wrong_value": "Dark\u2013Lit",
+   "system_correct_before": true
+  },
+  "cr_gen_03": {
+   "after_turn": 2,
+   "path": "road_surface_condition",
+   "wrong_value": "Wet",
+   "system_correct_before": true
+  },
+  "cr_gen_04": {
+   "after_turn": 2,
+   "path": "lighting",
+   "wrong_value": "Dark\u2013Lit",
+   "system_correct_before": true
+  },
+  "pa_handmade_01": {
+   "after_turn": 2,
+   "path": "sputum_amount",
+   "wrong_value": "Moderate",
+   "system_correct_before": false
+  }
+ },
+ "elapsed_s": 166.5,
+ "billed_input_tokens": 728166,
+ "billed_output_tokens": 61145,
+ "billed_model_calls": 143,
+ "billed_reasoning_tokens": 0,
+ "deepseek_thinking": "disabled",
+ "solver_errors": 0
+}
+wrote ..\runs\r2_ambiguous_v4pro\closed_loop_results.csv

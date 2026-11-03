@@ -1,0 +1,956 @@
+[
+ {
+  "turn": 1,
+  "utterance": "It happened on the fourteenth of March, 2024.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": null,
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_04",
+   "questionnaire_id": "crash_report",
+   "condition": "rebuild",
+   "mode": "clean",
+   "turn": 1,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 8698,
+   "output_tokens": 79,
+   "reasoning_tokens": 0,
+   "model_calls": 2,
+   "attempts": 2,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "Around 7:15 in the evening, at dusk. It was at the stop sign on Elm Street in Springfield, near the corner with Oak Avenue. The weather was clear and the road was dry. Three vehicles were involved. I was the driver of the first car, a black Toyota Corolla, plate ABC-123, stopped at the sign when I was rear-ended.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": "I was the driver of the first car, a black Toyota Corolla, stopped at the stop sign on Elm Street in Springfield near the corner with Oak Avenue, when I was rear-ended. Three vehicles were involved.",
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Elm Street, Springfield, near the corner with Oak Avenue",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "19:15",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "ABC-123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (first car, stopped at sign)",
+     "vehicle_type_make_model": "black Toyota Corolla"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "19:15",
+   "location_of_accident": "stop sign on Elm Street in Springfield, near the corner with Oak Avenue",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "ABC-123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "driver of the first car",
+     "vehicle_type_make_model": "black Toyota Corolla"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "description_of_accident": {
+    "cand": "I was the driver of the first car, a black Toyota Corolla, stopped at the stop sign on Elm Street in Springfield near the corner with Oak Avenue, when I was rear-ended. Three vehicles were involved.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "location_of_accident": {
+    "cand": "Elm Street, Springfield, near the corner with Oak Avenue",
+    "gold": "stop sign on Elm Street in Springfield, near the corner with Oak Avenue",
+    "verdict": "incorrect"
+   },
+   "location_type": {
+    "cand": "Intersection",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "traffic_control": {
+    "cand": "Stop Sign",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle (first car, stopped at sign)",
+    "gold": "driver of the first car",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "description_of_accident",
+   "location_type",
+   "traffic_control"
+  ],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_04",
+   "questionnaire_id": "crash_report",
+   "condition": "rebuild",
+   "mode": "clean",
+   "turn": 2,
+   "n_fields": 37,
+   "n_correct": 32,
+   "n_partial": 0,
+   "all_field_acc": 0.8649,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 17,
+   "structured_acc": 0.8947,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 13,
+   "collateral_edits": 3,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 9207,
+   "output_tokens": 414,
+   "reasoning_tokens": 0,
+   "model_calls": 2,
+   "attempts": 2,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "The second vehicle was a silver Ford Focus, plate XYZ-789, that hit me from behind while I was stopped. Actually, I need to correct something—the time was closer to 7:05 PM, not 7:15.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": "I was the driver of the first car, a black Toyota Corolla (plate ABC-123), stopped at the stop sign on Elm Street near the corner with Oak Avenue in Springfield. The second vehicle, a silver Ford Focus (plate XYZ-789), hit me from behind while I was stopped.",
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Elm Street, Springfield, near the corner with Oak Avenue (at the stop sign)",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "19:05",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "ABC-123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant vehicle (first car, stopped)",
+     "vehicle_type_make_model": "sedan Toyota Corolla (black)"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "XYZ-789",
+     "pre_crash_manoeuvre": "Other",
+     "role": "second vehicle, struck the claimant vehicle from behind",
+     "vehicle_type_make_model": "sedan Ford Focus (silver)"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "19:05",
+   "location_of_accident": "stop sign on Elm Street in Springfield, near the corner with Oak Avenue",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "ABC-123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "driver of the first car",
+     "vehicle_type_make_model": "black Toyota Corolla"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "XYZ-789",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "second vehicle in the chain",
+     "vehicle_type_make_model": "silver Ford Focus"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "description_of_accident": {
+    "cand": "I was the driver of the first car, a black Toyota Corolla (plate ABC-123), stopped at the stop sign on Elm Street near the corner with Oak Avenue in Springfield. The second vehicle, a silver Ford Focus (plate XYZ-789), hit me from behind while I was stopped.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "location_of_accident": {
+    "cand": "Elm Street, Springfield, near the corner with Oak Avenue (at the stop sign)",
+    "gold": "stop sign on Elm Street in Springfield, near the corner with Oak Avenue",
+    "verdict": "incorrect"
+   },
+   "location_type": {
+    "cand": "Intersection",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "traffic_control": {
+    "cand": "Stop Sign",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle (first car, stopped)",
+    "gold": "driver of the first car",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Toyota Corolla (black)",
+    "gold": "black Toyota Corolla",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].pre_crash_manoeuvre": {
+    "cand": "Other",
+    "gold": "Straight",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "second vehicle, struck the claimant vehicle from behind",
+    "gold": "second vehicle in the chain",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].vehicle_type_make_model": {
+    "cand": "sedan Ford Focus (silver)",
+    "gold": "silver Ford Focus",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "vehicles[0].vehicle_type_make_model"
+  ],
+  "natural_persisted_examples": [
+   {
+    "leaf": "location_type",
+    "wrong": "Intersection",
+    "gold": null
+   },
+   {
+    "leaf": "traffic_control",
+    "wrong": "Stop Sign",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_gen_04",
+   "questionnaire_id": "crash_report",
+   "condition": "rebuild",
+   "mode": "clean",
+   "turn": 3,
+   "n_fields": 37,
+   "n_correct": 28,
+   "n_partial": 0,
+   "all_field_acc": 0.7568,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 16,
+   "structured_acc": 0.8421,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 27,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 1,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 9311,
+   "output_tokens": 394,
+   "reasoning_tokens": 0,
+   "model_calls": 2,
+   "attempts": 2,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "The third one was a blue Honda Civic, plate QWE-456, that rear-ended the Ford. The speed limit there is 25 mph, and there's a stop sign controlling that intersection. My car has a crumpled rear bumper, and the Ford had front-end damage.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": "At around 7:05 PM at dusk, the claimant's black Toyota Corolla was stopped at the stop sign on Elm Street near Oak Avenue when a silver Ford Focus rear-ended it from behind. The Ford was then rear-ended by a blue Honda Civic.",
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Stop sign on Elm Street in Springfield, near the corner with Oak Avenue",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "19:05",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": "crumpled rear bumper",
+     "licence_plate": "ABC-123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "claimant's vehicle (first car)",
+     "vehicle_type_make_model": "black Toyota Corolla"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": "front-end damage",
+     "licence_plate": "XYZ-789",
+     "pre_crash_manoeuvre": null,
+     "role": "second vehicle (Ford that hit claimant)",
+     "vehicle_type_make_model": "silver Ford Focus"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "QWE-456",
+     "pre_crash_manoeuvre": "Other",
+     "role": "third vehicle (Honda that rear-ended the Ford)",
+     "vehicle_type_make_model": "blue Honda Civic"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "19:05",
+   "location_of_accident": "stop sign on Elm Street in Springfield, near the corner with Oak Avenue",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": "crumpled rear bumper",
+     "licence_plate": "ABC-123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "driver of the first car",
+     "vehicle_type_make_model": "black Toyota Corolla"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": "front-end damage",
+     "licence_plate": "XYZ-789",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "second vehicle in the chain",
+     "vehicle_type_make_model": "silver Ford Focus"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "QWE-456",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "third vehicle in the chain",
+     "vehicle_type_make_model": "blue Honda Civic"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "description_of_accident": {
+    "cand": "At around 7:05 PM at dusk, the claimant's black Toyota Corolla was stopped at the stop sign on Elm Street near Oak Avenue when a silver Ford Focus rear-ended it from behind. The Ford was then rear-ended by a blue Honda Civic.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant's vehicle (first car)",
+    "gold": "driver of the first car",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].pre_crash_manoeuvre": {
+    "cand": null,
+    "gold": "Straight",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "second vehicle (Ford that hit claimant)",
+    "gold": "second vehicle in the chain",
+    "verdict": "incorrect"
+   },
+   "vehicles[2].pre_crash_manoeuvre": {
+    "cand": "Other",
+    "gold": "Straight",
+    "verdict": "incorrect"
+   },
+   "vehicles[2].role": {
+    "cand": "third vehicle (Honda that rear-ended the Ford)",
+    "gold": "third vehicle in the chain",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_04",
+   "questionnaire_id": "crash_report",
+   "condition": "rebuild",
+   "mode": "clean",
+   "turn": 4,
+   "n_fields": 37,
+   "n_correct": 31,
+   "n_partial": 0,
+   "all_field_acc": 0.8378,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 17,
+   "structured_acc": 0.8947,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 21,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 9581,
+   "output_tokens": 507,
+   "reasoning_tokens": 0,
+   "model_calls": 2,
+   "attempts": 2,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "Yes, the driver of the Ford complained of neck pain, so there was a minor injury. There were no witnesses present. The third driver seemed distracted and failed to yield to the traffic ahead.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": true,
+   "apparent_contributing_factors": [
+    "Distraction",
+    "Failed-to-Yield"
+   ],
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": "I was driving a black Toyota Corolla and was stopped at the stop sign on Elm Street near Oak Avenue in Springfield when a silver Ford Focus hit me from behind. A blue Honda Civic then rear-ended the Ford.",
+   "injury_table": [
+    {
+     "injury_description": "Neck pain",
+     "role": "Driver",
+     "severity": "Minor",
+     "vehicle_number": "2"
+    }
+   ],
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Stop sign on Elm Street in Springfield, near the corner with Oak Avenue",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "19:05",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": false,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "Crumpled rear bumper",
+     "licence_plate": "ABC-123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "First car (claimant vehicle)",
+     "vehicle_type_make_model": "Sedan Toyota Corolla (black)"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": "Front-end damage",
+     "licence_plate": "XYZ-789",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "Second vehicle (Ford that hit claimant from behind)",
+     "vehicle_type_make_model": "Sedan Ford Focus (silver)"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "QWE-456",
+     "pre_crash_manoeuvre": null,
+     "role": "Third vehicle (Honda that rear-ended the Ford)",
+     "vehicle_type_make_model": "Sedan Honda Civic (blue)"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "19:05",
+   "location_of_accident": "stop sign on Elm Street in Springfield, near the corner with Oak Avenue",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": "crumpled rear bumper",
+     "licence_plate": "ABC-123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "driver of the first car",
+     "vehicle_type_make_model": "black Toyota Corolla"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": "front-end damage",
+     "licence_plate": "XYZ-789",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "second vehicle in the chain",
+     "vehicle_type_make_model": "silver Ford Focus"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "QWE-456",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "third vehicle in the chain",
+     "vehicle_type_make_model": "blue Honda Civic"
+    }
+   ],
+   "apparent_contributing_factors": [
+    "Failed-to-Yield",
+    "Distraction"
+   ],
+   "any_injuries": true,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": false,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "description_of_accident": {
+    "cand": "I was driving a black Toyota Corolla and was stopped at the stop sign on Elm Street near Oak Avenue in Springfield when a silver Ford Focus hit me from behind. A blue Honda Civic then rear-ended the Ford.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].approx_speed_mph": {
+    "cand": 0,
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "First car (claimant vehicle)",
+    "gold": "driver of the first car",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "Sedan Toyota Corolla (black)",
+    "gold": "black Toyota Corolla",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "Second vehicle (Ford that hit claimant from behind)",
+    "gold": "second vehicle in the chain",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].vehicle_type_make_model": {
+    "cand": "Sedan Ford Focus (silver)",
+    "gold": "silver Ford Focus",
+    "verdict": "incorrect"
+   },
+   "vehicles[2].pre_crash_manoeuvre": {
+    "cand": null,
+    "gold": "Straight",
+    "verdict": "incorrect"
+   },
+   "vehicles[2].role": {
+    "cand": "Third vehicle (Honda that rear-ended the Ford)",
+    "gold": "third vehicle in the chain",
+    "verdict": "incorrect"
+   },
+   "vehicles[2].vehicle_type_make_model": {
+    "cand": "Sedan Honda Civic (blue)",
+    "gold": "blue Honda Civic",
+    "verdict": "incorrect"
+   },
+   "injury_table[0].injury_description": {
+    "cand": "Neck pain",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "injury_table[0].role": {
+    "cand": "Driver",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "injury_table[0].severity": {
+    "cand": "Minor",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "injury_table[0].vehicle_number": {
+    "cand": "2",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "vehicles[0].approx_speed_mph",
+   "vehicles[0].vehicle_type_make_model",
+   "vehicles[1].vehicle_type_make_model",
+   "vehicles[2].vehicle_type_make_model"
+  ],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_04",
+   "questionnaire_id": "crash_report",
+   "condition": "rebuild",
+   "mode": "clean",
+   "turn": 5,
+   "n_fields": 41,
+   "n_correct": 28,
+   "n_partial": 0,
+   "all_field_acc": 0.6829,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 17,
+   "structured_acc": 0.8947,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 28,
+   "collateral_edits": 4,
+   "collateral_edits_nonempty": 3,
+   "nat_opportunities": 2,
+   "nat_persisted": 0,
+   "nat_recovered": 1,
+   "input_tokens": 9767,
+   "output_tokens": 556,
+   "reasoning_tokens": 0,
+   "model_calls": 2,
+   "attempts": 2,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 6.55
+  }
+ }
+]

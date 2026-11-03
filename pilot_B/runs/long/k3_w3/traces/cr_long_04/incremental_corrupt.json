@@ -1,0 +1,2937 @@
+[
+ {
+  "turn": 1,
+  "utterance": "The accident happened on March 14, 2024.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": null,
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll help you complete the Simplified International Crash Report Form. What is the date of the accident?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 1,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3908,
+   "output_tokens": 191,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "It happened around 6:45 pm.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": null,
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll help you complete the Simplified International Crash Report Form. What is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "The accident happened on March 14, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "What time did the accident occur?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 2,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3937,
+   "output_tokens": 194,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 3,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "At the intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "location_type": {
+    "cand": "Intersection",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "location_type"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll help you complete the Simplified International Crash Report Form. What is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "The accident happened on March 14, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It happened around 6:45 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur? Please include street or route, city or town, and any landmark."
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 3,
+   "n_fields": 19,
+   "n_correct": 17,
+   "n_partial": 0,
+   "all_field_acc": 0.8947,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3988,
+   "output_tokens": 215,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 5,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "The road was dry.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-17",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "location_type": {
+    "cand": "Intersection",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll help you complete the Simplified International Crash Report Form. What is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "The accident happened on March 14, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It happened around 6:45 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur? Please include street or route, city or town, and any landmark."
+   },
+   {
+    "role": "user",
+    "content": "At the intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the road surface condition at the time of the accident?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "location_type",
+    "wrong": "Intersection",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 4,
+   "n_fields": 19,
+   "n_correct": 17,
+   "n_partial": 0,
+   "all_field_acc": 0.8947,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 0,
+   "silent_recovery": 1,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 15,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 4034,
+   "output_tokens": 216,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "The weather was clear.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "location_type": {
+    "cand": "Intersection",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It happened around 6:45 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur? Please include street or route, city or town, and any landmark."
+   },
+   {
+    "role": "user",
+    "content": "At the intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the road surface condition at the time of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "The road was dry."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "location_type",
+    "wrong": "Intersection",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 5,
+   "n_fields": 19,
+   "n_correct": 17,
+   "n_partial": 0,
+   "all_field_acc": 0.8947,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 4015,
+   "output_tokens": 217,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 6,
+  "utterance": "It was dusk, just getting dark.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "location_type": {
+    "cand": "Intersection",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur? Please include street or route, city or town, and any landmark."
+   },
+   {
+    "role": "user",
+    "content": "At the intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the road surface condition at the time of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "The road was dry."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "The weather was clear."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "location_type",
+    "wrong": "Intersection",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 6,
+   "n_fields": 19,
+   "n_correct": 17,
+   "n_partial": 0,
+   "all_field_acc": 0.8947,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 4014,
+   "output_tokens": 200,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 7,
+  "utterance": "It was at an intersection, and there was a stop sign controlling the traffic.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": null,
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "vehicles": [],
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": null,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What was the road surface condition at the time of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "The road was dry."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "The weather was clear."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions?"
+   },
+   {
+    "role": "user",
+    "content": "It was dusk, just getting dark."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 7,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4009,
+   "output_tokens": 223,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 8,
+  "utterance": "The posted speed limit is 25 mph.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "vehicles": [],
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "The weather was clear."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions?"
+   },
+   {
+    "role": "user",
+    "content": "It was dusk, just getting dark."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was at an intersection, and there was a stop sign controlling the traffic."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit at the accident location, in miles per hour?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 8,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4018,
+   "output_tokens": 203,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 9,
+  "utterance": "Three vehicles were involved.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions?"
+   },
+   {
+    "role": "user",
+    "content": "It was dusk, just getting dark."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was at an intersection, and there was a stop sign controlling the traffic."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit at the accident location, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted speed limit is 25 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 9,
+   "n_fields": 37,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.973,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 19,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4019,
+   "output_tokens": 404,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 10,
+  "utterance": "My vehicle was the first one, a sedan, a Honda Civic. I was stopped at the stop line.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "first one",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "My vehicle",
+    "gold": "first one",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was at an intersection, and there was a stop sign controlling the traffic."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit at the accident location, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted speed limit is 25 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Three vehicles were involved."
+   },
+   {
+    "role": "assistant",
+    "content": "For the first vehicle, what role did it play in the accident, and what is its type, make, and model?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 10,
+   "n_fields": 37,
+   "n_correct": 34,
+   "n_partial": 0,
+   "all_field_acc": 0.9189,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 19,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 33,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4232,
+   "output_tokens": 413,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 11,
+  "utterance": "The plate is ABC123, and I was completely stopped, so 0 mph.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": null,
+     "licence_plate": "ABC123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": null,
+     "licence_plate": "ABC123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "first one",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "My vehicle",
+    "gold": "first one",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit at the accident location, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted speed limit is 25 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Three vehicles were involved."
+   },
+   {
+    "role": "assistant",
+    "content": "For the first vehicle, what role did it play in the accident, and what is its type, make, and model?"
+   },
+   {
+    "role": "user",
+    "content": "My vehicle was the first one, a sedan, a Honda Civic. I was stopped at the stop line."
+   },
+   {
+    "role": "assistant",
+    "content": "What is the licence plate of your vehicle, and what was its approximate speed at the time?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 11,
+   "n_fields": 37,
+   "n_correct": 34,
+   "n_partial": 0,
+   "all_field_acc": 0.9189,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 19,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 32,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4245,
+   "output_tokens": 416,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 12,
+  "utterance": "My rear bumper was dented and the trunk was slightly damaged. Also, actually, I misspoke earlier—my plate is XYZ789, not ABC123.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": null,
+     "licence_plate": "ABC123",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "Rear bumper dented and trunk slightly damaged.",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper was dented and the trunk was slightly damaged",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "first one",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "Rear bumper dented and trunk slightly damaged.",
+    "gold": "rear bumper was dented and the trunk was slightly damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "My vehicle",
+    "gold": "first one",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Three vehicles were involved."
+   },
+   {
+    "role": "assistant",
+    "content": "For the first vehicle, what role did it play in the accident, and what is its type, make, and model?"
+   },
+   {
+    "role": "user",
+    "content": "My vehicle was the first one, a sedan, a Honda Civic. I was stopped at the stop line."
+   },
+   {
+    "role": "assistant",
+    "content": "What is the licence plate of your vehicle, and what was its approximate speed at the time?"
+   },
+   {
+    "role": "user",
+    "content": "The plate is ABC123, and I was completely stopped, so 0 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "Please describe the damage to your vehicle."
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 12,
+   "n_fields": 37,
+   "n_correct": 33,
+   "n_partial": 0,
+   "all_field_acc": 0.8919,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 19,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 32,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4263,
+   "output_tokens": 424,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 13,
+  "utterance": "The second vehicle rear-ended me; it was a pickup truck, a Ford F-150.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "Rear bumper dented and trunk slightly damaged.",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "Rear bumper dented and trunk slightly damaged.",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "Second vehicle",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper was dented and the trunk was slightly damaged",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "first one",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "second vehicle",
+     "vehicle_type_make_model": "pickup truck, a Ford F-150"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "Rear bumper dented and trunk slightly damaged.",
+    "gold": "rear bumper was dented and the trunk was slightly damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "My vehicle",
+    "gold": "first one",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].vehicle_type_make_model": {
+    "cand": "pickup truck Ford F-150",
+    "gold": "pickup truck, a Ford F-150",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "For the first vehicle, what role did it play in the accident, and what is its type, make, and model?"
+   },
+   {
+    "role": "user",
+    "content": "My vehicle was the first one, a sedan, a Honda Civic. I was stopped at the stop line."
+   },
+   {
+    "role": "assistant",
+    "content": "What is the licence plate of your vehicle, and what was its approximate speed at the time?"
+   },
+   {
+    "role": "user",
+    "content": "The plate is ABC123, and I was completely stopped, so 0 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "Please describe the damage to your vehicle."
+   },
+   {
+    "role": "user",
+    "content": "My rear bumper was dented and the trunk was slightly damaged. Also, actually, I misspoke earlier—my plate is XYZ789, not ABC123."
+   },
+   {
+    "role": "assistant",
+    "content": "Now for the second vehicle: what role did it play, and what is its type, make, and model?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 13,
+   "n_fields": 37,
+   "n_correct": 32,
+   "n_partial": 0,
+   "all_field_acc": 0.8649,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 19,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 31,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4299,
+   "output_tokens": 433,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 14,
+  "utterance": "It was going straight and was probably going about 15 mph when it hit me.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "Rear bumper dented and trunk slightly damaged.",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "Second vehicle",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "Rear bumper dented and trunk slightly damaged.",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": 15,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": "Straight",
+     "role": "Second vehicle",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper was dented and the trunk was slightly damaged",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "first one",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": 15,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": "Straight",
+     "role": "second vehicle",
+     "vehicle_type_make_model": "pickup truck, a Ford F-150"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "Rear bumper dented and trunk slightly damaged.",
+    "gold": "rear bumper was dented and the trunk was slightly damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "My vehicle",
+    "gold": "first one",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].vehicle_type_make_model": {
+    "cand": "pickup truck Ford F-150",
+    "gold": "pickup truck, a Ford F-150",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "What is the licence plate of your vehicle, and what was its approximate speed at the time?"
+   },
+   {
+    "role": "user",
+    "content": "The plate is ABC123, and I was completely stopped, so 0 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "Please describe the damage to your vehicle."
+   },
+   {
+    "role": "user",
+    "content": "My rear bumper was dented and the trunk was slightly damaged. Also, actually, I misspoke earlier—my plate is XYZ789, not ABC123."
+   },
+   {
+    "role": "assistant",
+    "content": "Now for the second vehicle: what role did it play, and what is its type, make, and model?"
+   },
+   {
+    "role": "user",
+    "content": "The second vehicle rear-ended me; it was a pickup truck, a Ford F-150."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the second vehicle's pre-crash manoeuvre and approximate speed?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 14,
+   "n_fields": 37,
+   "n_correct": 32,
+   "n_partial": 0,
+   "all_field_acc": 0.8649,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 19,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 30,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4293,
+   "output_tokens": 436,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 15,
+  "utterance": "Its plate is DEF456; the front grille and hood were damaged.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "Rear bumper dented and trunk slightly damaged.",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": 15,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": "Straight",
+     "role": "Second vehicle",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-03-14",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dusk / Dawn",
+   "location_of_accident": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+   "location_type": "Intersection",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "3",
+   "posted_speed_limit": 25,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "18:45",
+   "traffic_control": "Stop Sign",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "Rear bumper dented and trunk slightly damaged.",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "My vehicle",
+     "vehicle_type_make_model": "sedan Honda Civic"
+    },
+    {
+     "approx_speed_mph": 15,
+     "damage_description": "Front grille and hood damaged.",
+     "licence_plate": "DEF456",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "Second vehicle",
+     "vehicle_type_make_model": "pickup truck Ford F-150"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-03-14",
+   "time_of_accident": "18:45",
+   "location_of_accident": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Dusk / Dawn",
+   "location_type": "Intersection",
+   "posted_speed_limit": 25,
+   "traffic_control": "Stop Sign",
+   "number_of_vehicles_involved": "3",
+   "vehicles": [
+    {
+     "approx_speed_mph": 0,
+     "damage_description": "rear bumper was dented and the trunk was slightly damaged",
+     "licence_plate": "XYZ789",
+     "pre_crash_manoeuvre": "Stopped",
+     "role": "first one",
+     "vehicle_type_make_model": "sedan, a Honda Civic"
+    },
+    {
+     "approx_speed_mph": 15,
+     "damage_description": "front grille and hood were damaged",
+     "licence_plate": "DEF456",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "second vehicle",
+     "vehicle_type_make_model": "pickup truck, a Ford F-150"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Intersection of Maple Avenue and 3rd Street, Springfield, right by the old water tower",
+    "gold": "intersection of Maple Avenue and 3rd Street in Springfield, right by the old water tower",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "Rear bumper dented and trunk slightly damaged.",
+    "gold": "rear bumper was dented and the trunk was slightly damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "My vehicle",
+    "gold": "first one",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].vehicle_type_make_model": {
+    "cand": "sedan Honda Civic",
+    "gold": "sedan, a Honda Civic",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].damage_description": {
+    "cand": "Front grille and hood damaged.",
+    "gold": "front grille and hood were damaged",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].vehicle_type_make_model": {
+    "cand": "pickup truck Ford F-150",
+    "gold": "pickup truck, a Ford F-150",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Please describe the damage to your vehicle."
+   },
+   {
+    "role": "user",
+    "content": "My rear bumper was dented and the trunk was slightly damaged. Also, actually, I misspoke earlier—my plate is XYZ789, not ABC123."
+   },
+   {
+    "role": "assistant",
+    "content": "Now for the second vehicle: what role did it play, and what is its type, make, and model?"
+   },
+   {
+    "role": "user",
+    "content": "The second vehicle rear-ended me; it was a pickup truck, a Ford F-150."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the second vehicle's pre-crash manoeuvre and approximate speed?"
+   },
+   {
+    "role": "user",
+    "content": "It was going straight and was probably going about 15 mph when it hit me."
+   },
+   {
+    "role": "assistant",
+    "content": "What is the licence plate of the second vehicle, and what damage did it sustain?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_04",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 15,
+   "n_fields": 37,
+   "n_correct": 31,
+   "n_partial": 0,
+   "all_field_acc": 0.8378,
+   "fully_correct": 0,
+   "structured_n": 19,
+   "structured_correct": 19,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-03-17\"",
+   "gold_value_of_corrupted": "\"2024-03-14\"",
+   "candidate_value_of_corrupted": "\"2024-03-14\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"2024-03-14\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 30,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4292,
+   "output_tokens": 444,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ }
+]

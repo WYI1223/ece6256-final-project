@@ -1,0 +1,659 @@
+{
+  "alignment_log": [],
+  "candidate_resulting_state": {
+    "additional_comments": null,
+    "any_injuries": false,
+    "apparent_contributing_factors": [
+      "Failed-to-Yield"
+    ],
+    "date_of_accident": "2026-04-17",
+    "description_of_accident": "Two vehicles were reported near the north entrance.",
+    "injury_table": null,
+    "lighting": "Daylight",
+    "location_of_accident": "5th and Pine",
+    "location_type": "Intersection",
+    "non_vehicle_property_damage": false,
+    "number_of_vehicles_involved": "1",
+    "posted_speed_limit": 35,
+    "property_damage_description": null,
+    "road_surface_condition": "Dry",
+    "time_of_accident": "08:10",
+    "traffic_control": "Signal",
+    "vehicles": [
+      {
+        "approx_speed_mph": 5,
+        "damage_description": "Minor rear bumper scrape",
+        "licence_plate": "7ABC123",
+        "pre_crash_manoeuvre": "Stopped",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2018 Toyota Corolla"
+      }
+    ],
+    "weather": "Clear",
+    "witnesses_names_contacts": null,
+    "witnesses_present": false
+  },
+  "candidate_state_diff": [
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "additional_comments"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "any_injuries"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [
+        "Failed-to-Yield"
+      ],
+      "resulting_value": [
+        "Failed-to-Yield"
+      ],
+      "slot": "apparent_contributing_factors"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "2026-04-17",
+      "resulting_value": "2026-04-17",
+      "slot": "date_of_accident"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Two vehicles were reported near the north entrance.",
+      "resulting_value": "Two vehicles were reported near the north entrance.",
+      "slot": "description_of_accident"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "injury_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Daylight",
+      "resulting_value": "Daylight",
+      "slot": "lighting"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "5th and Pine",
+      "resulting_value": "5th and Pine",
+      "slot": "location_of_accident"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Intersection",
+      "resulting_value": "Intersection",
+      "slot": "location_type"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "non_vehicle_property_damage"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "1",
+      "resulting_value": "1",
+      "slot": "number_of_vehicles_involved"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 35,
+      "resulting_value": 35,
+      "slot": "posted_speed_limit"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "property_damage_description"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Dry",
+      "resulting_value": "Dry",
+      "slot": "road_surface_condition"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "08:10",
+      "resulting_value": "08:10",
+      "slot": "time_of_accident"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Signal",
+      "resulting_value": "Signal",
+      "slot": "traffic_control"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [
+        {
+          "approx_speed_mph": 5,
+          "damage_description": "Minor rear bumper scrape",
+          "licence_plate": "7ABC123",
+          "pre_crash_manoeuvre": "Stopped",
+          "role": "claimant vehicle",
+          "vehicle_type_make_model": "2018 Toyota Corolla"
+        }
+      ],
+      "resulting_value": [
+        {
+          "approx_speed_mph": 5,
+          "damage_description": "Minor rear bumper scrape",
+          "licence_plate": "7ABC123",
+          "pre_crash_manoeuvre": "Stopped",
+          "role": "claimant vehicle",
+          "vehicle_type_make_model": "2018 Toyota Corolla"
+        }
+      ],
+      "slot": "vehicles"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Clear",
+      "resulting_value": "Clear",
+      "slot": "weather"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "witnesses_names_contacts"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "witnesses_present"
+    }
+  ],
+  "derived_variables": {},
+  "field_results": {
+    "additional_comments": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left additional_comments empty. Expected: 'Claimant declined ambulance at the scene.'.",
+      "source": null,
+      "support_source": null
+    },
+    "any_injuries": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "apparent_contributing_factors": {
+      "correctness": "partially_correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "partially_correct",
+      "original_correctness": "partially_correct",
+      "original_partial_reason": "omission",
+      "original_source": "extracted",
+      "partial_reason": "omission",
+      "postprocess_reason": null,
+      "reasoning": "Missing required items: {'choice:weather road'}.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "date_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for date_of_accident.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "description_of_accident": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for description_of_accident: expected 'Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.', got 'Two vehicles were reported near the north entrance.'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "injury_table[0].injury_description": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left injury_table[0].injury_description empty. Expected: 'Minor neck strain'.",
+      "source": null,
+      "support_source": null
+    },
+    "injury_table[0].role": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left injury_table[0].role empty. Expected: 'Driver'.",
+      "source": null,
+      "support_source": null
+    },
+    "injury_table[0].severity": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left injury_table[0].severity empty. Expected: 'Minor'.",
+      "source": null,
+      "support_source": null
+    },
+    "injury_table[0].vehicle_number": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left injury_table[0].vehicle_number empty. Expected: '1'.",
+      "source": null,
+      "support_source": null
+    },
+    "lighting": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for lighting: expected 'Daylight', got 'Daylight'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "location_of_accident": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for location_of_accident.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "location_type": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for location_type: expected 'Intersection', got 'Intersection'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_vehicle_property_damage": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_vehicles_involved": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for number_of_vehicles_involved: expected '2', got '1'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "posted_speed_limit": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for posted_speed_limit.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "property_damage_description": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left property_damage_description empty. Expected: 'Bus shelter glass cracked near the crash location.'.",
+      "source": null,
+      "support_source": null
+    },
+    "road_surface_condition": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for road_surface_condition: expected 'Wet', got 'Dry'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "time_of_accident": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '08:15', got '08:10'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "traffic_control": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for traffic_control: expected 'Signal', got 'Signal'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].approx_speed_mph": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '0', got '5'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vehicles[0].damage_description": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for vehicles[0].damage_description: expected 'Rear bumper damage', got 'Minor rear bumper scrape'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "vehicles[0].licence_plate": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].licence_plate.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].pre_crash_manoeuvre": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for vehicles[0].pre_crash_manoeuvre: expected 'Stopped', got 'Stopped'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].role": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].role.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[0].vehicle_type_make_model": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vehicles[0].vehicle_type_make_model.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "vehicles[1].approx_speed_mph": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left vehicles[1].approx_speed_mph empty. Expected: '25'.",
+      "source": null,
+      "support_source": null
+    },
+    "vehicles[1].damage_description": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left vehicles[1].damage_description empty. Expected: 'Front bumper damage'.",
+      "source": null,
+      "support_source": null
+    },
+    "vehicles[1].licence_plate": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left vehicles[1].licence_plate empty. Expected: '8TRK229'.",
+      "source": null,
+      "support_source": null
+    },
+    "vehicles[1].pre_crash_manoeuvre": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left vehicles[1].pre_crash_manoeuvre empty. Expected: 'Straight'.",
+      "source": null,
+      "support_source": null
+    },
+    "vehicles[1].role": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left vehicles[1].role empty. Expected: 'other vehicle'.",
+      "source": null,
+      "support_source": null
+    },
+    "vehicles[1].vehicle_type_make_model": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left vehicles[1].vehicle_type_make_model empty. Expected: 'Blue Ford Transit delivery van'.",
+      "source": null,
+      "support_source": null
+    },
+    "weather": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for weather: expected 'Rain', got 'Clear'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "witnesses_names_contacts": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left witnesses_names_contacts empty. Expected: 'Maria Lopez, 555-0104'.",
+      "source": null,
+      "support_source": null
+    },
+    "witnesses_present": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    }
+  },
+  "fields_filled": 25,
+  "prompt_trace": [],
+  "provenance": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    },
+    "runner": null
+  },
+  "summary": {
+    "correct": 10,
+    "evaluated": 34,
+    "incorrect": 23,
+    "partially_correct": 1,
+    "total": 34,
+    "unmatched": 0
+  },
+  "turn": 0,
+  "unmatched_fields": [],
+  "user_message": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `description_of_accident` to `\"Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.\"`\n- set `time_of_accident` to `\"08:15\"`\n- set `road_surface_condition` to `\"Wet\"`\n- set `weather` to `\"Rain\"`\n- set `number_of_vehicles_involved` to `\"2\"`\n- set `vehicles[0].approx_speed_mph` to `0`\n- set `vehicles[0].damage_description` to `\"Rear bumper damage\"`\n- set `vehicles[1].role` to `\"other vehicle\"`\n- set `vehicles[1].vehicle_type_make_model` to `\"Blue Ford Transit delivery van\"`\n- set `vehicles[1].licence_plate` to `\"8TRK229\"`\n- set `vehicles[1].pre_crash_manoeuvre` to `\"Straight\"`\n- set `vehicles[1].approx_speed_mph` to `25`\n- set `vehicles[1].damage_description` to `\"Front bumper damage\"`\n- set `apparent_contributing_factors` to `[\"Failed-to-Yield\", \"Weather/Road\"]`\n- set `any_injuries` to `true`\n- set `injury_table` to `[{\"role\": \"Driver\", \"vehicle_number\": \"1\", \"severity\": \"Minor\", \"injury_description\": \"Minor neck strain\"}]`\n- set `non_vehicle_property_damage` to `true`\n- set `property_damage_description` to `\"Bus shelter glass cracked near the crash location.\"`\n- set `witnesses_present` to `true`\n- set `witnesses_names_contacts` to `\"Maria Lopez, 555-0104\"`\n- set `additional_comments` to `\"Claimant declined ambulance at the scene.\"`"
+}

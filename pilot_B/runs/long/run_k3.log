@@ -1,0 +1,144 @@
+[clean full] pa_long_01 incremental: struct acc by turn = [1.0, 1.0, 1.0, 0.9545, 0.9545, 0.9545, 0.9545, 0.9545, 0.9545, 0.9545, 0.9583, 0.963, 0.9655, 1.0, 1.0]
+[clean full] pa_long_02 incremental: struct acc by turn = [0.9545, 0.9545, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9565, 1.0, 0.9615]
+[clean full] pa_long_03 incremental: struct acc by turn = [0.9091, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9545, 0.875, 0.84, 0.88, 0.8889]
+[clean full] pa_long_04 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9545, 1.0, 0.9583, 0.9655]
+[clean full] cr_long_01 incremental: struct acc by turn = [1.0, 1.0, 0.9231, 0.9231, 0.9231, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean full] cr_long_02 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9333]
+[clean full] cr_long_03 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean full] cr_long_04 incremental: struct acc by turn = [1.0, 1.0, 0.9231, 0.9231, 0.9231, 0.9231, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w3] pa_long_01 incremental: struct acc by turn = [1.0, 1.0, 1.0, 0.9545, 0.9545, 0.9545, 0.9545, 0.9545, 0.9545, 0.9545, 0.9583, 0.963, 0.9655, 1.0, 1.0]
+[clean w3] pa_long_02 incremental: struct acc by turn = [0.9545, 0.9545, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9565, 1.0, 0.9615]
+[clean w3] pa_long_03 incremental: struct acc by turn = [0.9091, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.875, 0.84, 0.88, 0.8889]
+[clean w3] pa_long_04 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9545, 1.0, 0.9583, 0.9655]
+[clean w3] cr_long_01 incremental: struct acc by turn = [1.0, 1.0, 0.9231, 0.9231, 0.9231, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w3] cr_long_02 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w3] cr_long_03 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w3] cr_long_04 incremental: struct acc by turn = [1.0, 1.0, 0.9231, 0.9231, 0.9231, 0.9231, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w3+summary] pa_long_01 incremental: struct acc by turn = [1.0, 1.0, 1.0, 0.9545, 0.9545, 0.9545, 0.9545, 0.9545, 0.9545, 0.9091, 0.9583, 0.963, 0.9655, 1.0, 1.0]
+[clean w3+summary] pa_long_02 incremental: struct acc by turn = [0.9545, 0.9545, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9565, 1.0, 0.9615]
+[clean w3+summary] pa_long_03 incremental: struct acc by turn = [0.9091, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9545, 0.875, 0.84, 0.88, 0.8889]
+[clean w3+summary] pa_long_04 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9545, 1.0, 0.9583, 0.9655]
+[clean w3+summary] cr_long_01 incremental: struct acc by turn = [1.0, 1.0, 0.9231, 0.9231, 0.9231, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w3+summary] cr_long_02 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9333]
+[clean w3+summary] cr_long_03 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w3+summary] cr_long_04 incremental: struct acc by turn = [1.0, 1.0, 0.9231, 0.9231, 0.9231, 0.9231, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w0] pa_long_01 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w0] pa_long_02 incremental: struct acc by turn = [0.9545, 0.9545, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9565, 1.0, 0.9615]
+[clean w0] pa_long_03 incremental: struct acc by turn = [0.9091, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.875, 0.84, 0.88, 0.8889]
+[clean w0] pa_long_04 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9583, 0.8621]
+[clean w0] cr_long_01 incremental: struct acc by turn = [1.0, 1.0, 0.9231, 0.9231, 0.9231, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w0] cr_long_02 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w0] cr_long_03 incremental: struct acc by turn = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+[clean w0] cr_long_04 incremental: struct acc by turn = [1.0, 1.0, 0.7692, 0.8462, 0.7692, 0.6923, 0.6154, 0.4615, 0.5789, 0.5789, 0.5789, 0.5789, 0.5789, 0.5789, 0.5789]
+[corrupt full] pa_long_01 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt full] pa_long_02 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt full] pa_long_03 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt full] pa_long_04 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt full] cr_long_01 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt full] cr_long_02 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt full] cr_long_03 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt full] cr_long_04 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3] pa_long_01 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3] pa_long_02 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3] pa_long_03 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3] pa_long_04 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3] cr_long_01 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3] cr_long_02 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3] cr_long_03 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3] cr_long_04 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3+summary] pa_long_01 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3+summary] pa_long_02 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3+summary] pa_long_03 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3+summary] pa_long_04 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3+summary] cr_long_01 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3+summary] cr_long_02 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3+summary] cr_long_03 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w3+summary] cr_long_04 incremental field=date_of_accident: persisted by turn = ['', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[corrupt w0] pa_long_01 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[corrupt w0] pa_long_02 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[corrupt w0] pa_long_03 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[corrupt w0] pa_long_04 incremental field=pain_details[0].pain_severity: persisted by turn = ['', '', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[corrupt w0] cr_long_01 incremental field=date_of_accident: persisted by turn = ['', '', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[corrupt w0] cr_long_02 incremental field=date_of_accident: persisted by turn = ['', '', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[corrupt w0] cr_long_03 incremental field=date_of_accident: persisted by turn = ['', '', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+{
+ "solver": "conformbench.systems.direct:solve",
+ "model": "deepseek-flash:thinking=disabled",
+ "max_tokens": 8192,
+ "regimes": [
+  "full",
+  "w3",
+  "w3+summary",
+  "w0"
+ ],
+ "tag": "k3",
+ "inject_after_override": null,
+ "n_trajectories": 8,
+ "conditions": [
+  "incremental"
+ ],
+ "modes": [
+  "clean",
+  "corrupt"
+ ],
+ "elapsed_s": 265.3,
+ "deepseek_thinking": "disabled",
+ "totals": {
+  "billed_solver_calls": 566,
+  "billed_input_tokens": 2840321,
+  "billed_output_tokens": 230808,
+  "billed_reasoning_tokens": 0,
+  "summary_calls": 88,
+  "summary_input_tokens": 34807,
+  "summary_output_tokens": 7704,
+  "solver_errors": 0,
+  "fallbacks": 0
+ },
+ "by_regime": {
+  "full": {
+   "billed_solver_calls": 150,
+   "billed_input_tokens": 770803,
+   "billed_output_tokens": 59965,
+   "billed_reasoning_tokens": 0,
+   "summary_calls": 0,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0,
+   "solver_errors": 0,
+   "fallbacks": 0
+  },
+  "w3": {
+   "billed_solver_calls": 110,
+   "billed_input_tokens": 556084,
+   "billed_output_tokens": 47427,
+   "billed_reasoning_tokens": 0,
+   "summary_calls": 0,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0,
+   "solver_errors": 0,
+   "fallbacks": 0
+  },
+  "w3+summary": {
+   "billed_solver_calls": 110,
+   "billed_input_tokens": 567352,
+   "billed_output_tokens": 47889,
+   "billed_reasoning_tokens": 0,
+   "summary_calls": 88,
+   "summary_input_tokens": 34807,
+   "summary_output_tokens": 7704,
+   "solver_errors": 0,
+   "fallbacks": 0
+  },
+  "w0": {
+   "billed_solver_calls": 196,
+   "billed_input_tokens": 946082,
+   "billed_output_tokens": 75527,
+   "billed_reasoning_tokens": 0,
+   "summary_calls": 0,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0,
+   "solver_errors": 0,
+   "fallbacks": 0
+  }
+ }
+}
+wrote ..\runs\long\long_results_k3.csv

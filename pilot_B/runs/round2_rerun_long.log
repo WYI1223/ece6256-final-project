@@ -1,0 +1,9 @@
+== stage long: 15-turn dialogues, history regimes (Direct, deepseek-flash) ==
+long k3 exit 0
+long k6 exit 0
+../runs/long/long_summary_k3.md
+../runs/long/long_summary_k6.md
+../runs/long/summary_fidelity_k3.json
+../runs/long/summary_fidelity_k6.json
+== analysis ==
+wrote ../runs/r2_analysis.md

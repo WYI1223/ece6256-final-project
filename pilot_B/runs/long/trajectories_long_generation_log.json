@@ -1,0 +1,714 @@
+{
+ "summary": {
+  "requested": 8,
+  "accepted": 8,
+  "accepted_ids": [
+   "pa_long_01",
+   "pa_long_02",
+   "pa_long_03",
+   "pa_long_04",
+   "cr_long_01",
+   "cr_long_02",
+   "cr_long_03",
+   "cr_long_04"
+  ],
+  "failed_ids": [],
+  "attempts_total": 23,
+  "attempts_by_tid": {
+   "pa_long_01": 2,
+   "pa_long_02": 2,
+   "pa_long_03": 2,
+   "pa_long_04": 6,
+   "cr_long_01": 1,
+   "cr_long_02": 6,
+   "cr_long_03": 2,
+   "cr_long_04": 2
+  },
+  "input_tokens": 43769,
+  "output_tokens": 35867,
+  "reasoning_tokens": 0,
+  "elapsed_s": 51.7
+ },
+ "attempts": [
+  {
+   "tid": "cr_long_02",
+   "qid": "crash_report",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1574,
+   "output_tokens": 1329,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 6.6,
+   "stats": {
+    "n_updates": 20,
+    "corrections_t4plus": [],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 4,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 20
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 6-15 (rule 7)"
+   ]
+  },
+  {
+   "tid": "pa_long_04",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 2133,
+   "output_tokens": 1503,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 7.0,
+   "stats": {
+    "n_updates": 36,
+    "corrections_t4plus": [],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 0,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 36
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 6-15 (rule 7)",
+    "only 0 silent corruption candidate(s); need >= 2 (rules 6 and 8): keep at least 4 choice/number/date/time facts from turns 1-3 completely unmentioned later"
+   ]
+  },
+  {
+   "tid": "cr_long_04",
+   "qid": "crash_report",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1566,
+   "output_tokens": 1493,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 7.1,
+   "stats": {
+    "n_updates": 22,
+    "corrections_t4plus": [],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 22
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 6-15 (rule 7)"
+   ]
+  },
+  {
+   "tid": "cr_long_03",
+   "qid": "crash_report",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1570,
+   "output_tokens": 1434,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 7.2,
+   "stats": {
+    "n_updates": 26,
+    "corrections_t4plus": [
+     {
+      "turn": 12,
+      "path": "vehicles[0].approx_speed_mph",
+      "before": 50,
+      "after": 48,
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 0,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 25
+   },
+   "rejected": [
+    "expected 15 turns, got 16"
+   ]
+  },
+  {
+   "tid": "pa_long_02",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 2137,
+   "output_tokens": 1501,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 7.2,
+   "stats": {
+    "n_updates": 33,
+    "corrections_t4plus": [
+     {
+      "turn": 7,
+      "path": "pain_details[1].pain_severity",
+      "before": "Mild",
+      "after": "Moderate",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [
+     "t2:pain_details[0].pain_part='lower back'"
+    ],
+    "n_corruption_candidates": 0,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 32
+   },
+   "rejected": [
+    "only 0 silent corruption candidate(s); need >= 2 (rules 6 and 8): keep at least 4 choice/number/date/time facts from turns 1-3 completely unmentioned later"
+   ]
+  },
+  {
+   "tid": "cr_long_01",
+   "qid": "crash_report",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1570,
+   "output_tokens": 1575,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 7.5,
+   "stats": {
+    "n_updates": 29,
+    "corrections_t4plus": [
+     {
+      "turn": 6,
+      "path": "lighting",
+      "before": "Dusk / Dawn",
+      "after": "Dark–Lit",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 28
+   },
+   "accepted": true
+  },
+  {
+   "tid": "pa_long_03",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 2129,
+   "output_tokens": 1989,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 8.3,
+   "stats": {
+    "n_updates": 46,
+    "corrections_t4plus": [
+     {
+      "turn": 11,
+      "path": "dysphagia_frequency",
+      "before": "once a week",
+      "after": "twice a week",
+      "marker": true
+     },
+     {
+      "turn": 14,
+      "path": "pain_details[1].pain_severity",
+      "before": "High",
+      "after": "Moderate",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 0,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 43
+   },
+   "rejected": [
+    "only 0 silent corruption candidate(s); need >= 2 (rules 6 and 8): keep at least 4 choice/number/date/time facts from turns 1-3 completely unmentioned later"
+   ]
+  },
+  {
+   "tid": "pa_long_01",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 2144,
+   "output_tokens": 2040,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 9.1,
+   "stats": {
+    "n_updates": 47,
+    "corrections_t4plus": [],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 1,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 47
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 6-15 (rule 7)",
+    "only 1 silent corruption candidate(s); need >= 2 (rules 6 and 8): keep at least 4 choice/number/date/time facts from turns 1-3 completely unmentioned later"
+   ]
+  },
+  {
+   "tid": "cr_long_02",
+   "qid": "crash_report",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 1617,
+   "output_tokens": 1151,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 5.4,
+   "stats": {
+    "n_updates": 15,
+    "corrections_t4plus": [
+     {
+      "turn": 6,
+      "path": "time_of_accident",
+      "before": "22:30",
+      "after": "23:15",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [
+     "t3:location_of_accident='Route 9, just outside Millbrook, half a mile past the old water tower'"
+    ],
+    "n_corruption_candidates": 1,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 14
+   },
+   "rejected": [
+    "only 1 silent corruption candidate(s); need >= 2 (rules 6 and 8): keep at least 4 choice/number/date/time facts from turns 1-3 completely unmentioned later"
+   ]
+  },
+  {
+   "tid": "cr_long_03",
+   "qid": "crash_report",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 1603,
+   "output_tokens": 1318,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 6.0,
+   "stats": {
+    "n_updates": 25,
+    "corrections_t4plus": [
+     {
+      "turn": 10,
+      "path": "vehicles[0].approx_speed_mph",
+      "before": 45,
+      "after": 40,
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 24
+   },
+   "accepted": true
+  },
+  {
+   "tid": "cr_long_04",
+   "qid": "crash_report",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 1609,
+   "output_tokens": 1483,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 6.3,
+   "stats": {
+    "n_updates": 23,
+    "corrections_t4plus": [
+     {
+      "turn": 12,
+      "path": "vehicles[0].licence_plate",
+      "before": "ABC123",
+      "after": "XYZ789",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 22
+   },
+   "accepted": true
+  },
+  {
+   "tid": "pa_long_02",
+   "qid": "patient_admin",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 2204,
+   "output_tokens": 1504,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 6.9,
+   "stats": {
+    "n_updates": 32,
+    "corrections_t4plus": [
+     {
+      "turn": 7,
+      "path": "pain_details[0].pain_duration",
+      "before": "about 3 days ago",
+      "after": "about 5 days ago",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [
+     "t14:allergies[0].reaction='rush and swelling'"
+    ],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 31
+   },
+   "accepted": true
+  },
+  {
+   "tid": "pa_long_03",
+   "qid": "patient_admin",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 2196,
+   "output_tokens": 1629,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 7.1,
+   "stats": {
+    "n_updates": 40,
+    "corrections_t4plus": [
+     {
+      "turn": 10,
+      "path": "weight_loss_amount",
+      "before": "about 5 kilograms",
+      "after": "about 4 kilograms",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [
+     "t3:pain_details[0].pain_part='right shoulder'"
+    ],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 39
+   },
+   "accepted": true
+  },
+  {
+   "tid": "pa_long_04",
+   "qid": "patient_admin",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 2219,
+   "output_tokens": 1915,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 9.1,
+   "stats": {
+    "n_updates": 47,
+    "corrections_t4plus": [
+     {
+      "turn": 6,
+      "path": "cough_duration",
+      "before": "about two months",
+      "after": "about four months",
+      "marker": true
+     },
+     {
+      "turn": 11,
+      "path": "number_of_pains",
+      "before": 1,
+      "after": 2,
+      "marker": false
+     }
+    ],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 1,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 41
+   },
+   "rejected": [
+    "only 1 silent corruption candidate(s); need >= 2 (rules 6 and 8): keep at least 4 choice/number/date/time facts from turns 1-3 completely unmentioned later"
+   ]
+  },
+  {
+   "tid": "pa_long_01",
+   "qid": "patient_admin",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 2230,
+   "output_tokens": 2108,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 8.1,
+   "stats": {
+    "n_updates": 54,
+    "corrections_t4plus": [
+     {
+      "turn": 14,
+      "path": "sputum_color",
+      "before": [
+       "Yellow"
+      ],
+      "after": [
+       "White"
+      ],
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 51
+   },
+   "accepted": true
+  },
+  {
+   "tid": "cr_long_02",
+   "qid": "crash_report",
+   "attempt": 3,
+   "model": "deepseek-flash",
+   "input_tokens": 1641,
+   "output_tokens": 1160,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 5.8,
+   "stats": {
+    "n_updates": 19,
+    "corrections_t4plus": [],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 19
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 6-15 (rule 7)"
+   ]
+  },
+  {
+   "tid": "cr_long_02",
+   "qid": "crash_report",
+   "attempt": 4,
+   "model": "deepseek-flash",
+   "input_tokens": 1617,
+   "output_tokens": 1141,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 4.7,
+   "stats": {
+    "n_updates": 15,
+    "corrections_t4plus": [],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 15
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 6-15 (rule 7)"
+   ]
+  },
+  {
+   "tid": "pa_long_04",
+   "qid": "patient_admin",
+   "attempt": 3,
+   "model": "deepseek-flash",
+   "input_tokens": 2200,
+   "output_tokens": 1802,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 7.6,
+   "stats": {
+    "n_updates": 46,
+    "corrections_t4plus": [
+     {
+      "turn": 10,
+      "path": "current_medications[1].dose",
+      "before": "25 mg",
+      "after": "50 mg",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 1,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 45
+   },
+   "rejected": [
+    "only 1 silent corruption candidate(s); need >= 2 (rules 6 and 8): keep at least 4 choice/number/date/time facts from turns 1-3 completely unmentioned later"
+   ]
+  },
+  {
+   "tid": "cr_long_02",
+   "qid": "crash_report",
+   "attempt": 5,
+   "model": "deepseek-flash",
+   "input_tokens": 1617,
+   "output_tokens": 1312,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 5.6,
+   "stats": {
+    "n_updates": 16,
+    "corrections_t4plus": [],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 16
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 6-15 (rule 7)"
+   ]
+  },
+  {
+   "tid": "pa_long_04",
+   "qid": "patient_admin",
+   "attempt": 4,
+   "model": "deepseek-flash",
+   "input_tokens": 2200,
+   "output_tokens": 1828,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 8.4,
+   "stats": {
+    "n_updates": 42,
+    "corrections_t4plus": [],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 40
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 6-15 (rule 7)"
+   ]
+  },
+  {
+   "tid": "cr_long_02",
+   "qid": "crash_report",
+   "attempt": 6,
+   "model": "deepseek-flash",
+   "input_tokens": 1617,
+   "output_tokens": 1324,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 6.4,
+   "stats": {
+    "n_updates": 21,
+    "corrections_t4plus": [
+     {
+      "turn": 7,
+      "path": "location_of_accident",
+      "before": "Route 9 just outside Millbrook, right by the old water tower",
+      "after": "Route 19 just outside Millbrook, right by the old water tower",
+      "marker": true
+     },
+     {
+      "turn": 14,
+      "path": "posted_speed_limit",
+      "before": 40,
+      "after": 45,
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [
+     "t7:location_of_accident='Route 19 just outside Millbrook, right by the old water tower'",
+     "t11:vehicles[0].role='my one vehicle'"
+    ],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 19
+   },
+   "accepted": true
+  },
+  {
+   "tid": "pa_long_04",
+   "qid": "patient_admin",
+   "attempt": 5,
+   "model": "deepseek-flash",
+   "input_tokens": 2176,
+   "output_tokens": 1632,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 7.4,
+   "stats": {
+    "n_updates": 38,
+    "corrections_t4plus": [
+     {
+      "turn": 7,
+      "path": "cough_duration",
+      "before": "about a week",
+      "after": "about two weeks",
+      "marker": true
+     },
+     {
+      "turn": 14,
+      "path": "pain_details[0].pain_severity",
+      "before": "Moderate",
+      "after": "High",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [
+     "t15:pain_details[0].pain_part='lower back'"
+    ],
+    "n_corruption_candidates": 0,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 35
+   },
+   "rejected": [
+    "only 0 silent corruption candidate(s); need >= 2 (rules 6 and 8): keep at least 4 choice/number/date/time facts from turns 1-3 completely unmentioned later"
+   ]
+  },
+  {
+   "tid": "pa_long_04",
+   "qid": "patient_admin",
+   "attempt": 6,
+   "model": "deepseek-flash",
+   "input_tokens": 2200,
+   "output_tokens": 1696,
+   "reasoning_tokens": 0,
+   "finish_reason": "stop",
+   "thinking": "disabled",
+   "latency_s": 8.0,
+   "stats": {
+    "n_updates": 40,
+    "corrections_t4plus": [
+     {
+      "turn": 8,
+      "path": "most_recent_fall_date_or_time",
+      "before": "last month, toward the end of it",
+      "after": "at the start of last month",
+      "marker": true
+     }
+    ],
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "candidates_dropped_digits_not_in_utterance": [],
+    "final_nonempty_leaves": 38
+   },
+   "accepted": true
+  }
+ ]
+}

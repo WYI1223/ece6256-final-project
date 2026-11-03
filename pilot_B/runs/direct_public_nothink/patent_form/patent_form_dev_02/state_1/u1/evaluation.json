@@ -1,0 +1,894 @@
+{
+  "alignment_log": [],
+  "candidate_resulting_state": {
+    "agreement_count": 0,
+    "agreements": [],
+    "background_and_prior_art": null,
+    "comparative_benefits_advantages": null,
+    "complete_invention_description_date": null,
+    "complete_invention_description_recorded_where_and_disclosed_to_whom": null,
+    "detailed_description": null,
+    "disclosed_to_non_uci_personnel": false,
+    "earliest_non_uci_disclosure_date": null,
+    "earliest_public_availability_date": null,
+    "field_of_invention": null,
+    "first_successful_operation_date": null,
+    "first_successful_operation_recorded_where_and_disclosed_to_whom": null,
+    "formal_public_disclosure_channel": null,
+    "formal_public_disclosure_status": null,
+    "funding_source_count": 0,
+    "funding_sources": [],
+    "future_steps_table": null,
+    "has_journal_conference_thesis_or_library_disclosure": false,
+    "has_rights_affecting_agreements": false,
+    "initial_conception_date": null,
+    "initial_conception_recorded_where_and_disclosed_to_whom": null,
+    "invention_title": "Low-power analyzer",
+    "inventor_signatures_table": null,
+    "journal_conference_or_meeting_name": null,
+    "keywords": null,
+    "literature_search_performed": null,
+    "literature_search_performed_by": null,
+    "manuscript_attached": null,
+    "non_uci_disclosure_context": null,
+    "non_uci_disclosure_recipients": null,
+    "non_uci_inventor_count": 1,
+    "non_uci_inventors": [
+      {
+        "employer": "North Labs",
+        "non_uci_category": "Staff",
+        "non_uci_mobile_phone": null,
+        "non_uci_name": "Evan Brooks",
+        "non_uci_other_email": null,
+        "non_uci_work_phone": "415-555-0130",
+        "title": "Research engineer",
+        "work_address": "100 Market Street",
+        "work_email": "evan.brooks@northlabs.example"
+      }
+    ],
+    "original_with_signatures_ready_for_campus_mail": null,
+    "patent_search_performed": false,
+    "patent_search_performed_by": null,
+    "pertinent_references_attached": null,
+    "potential_licensee_count": null,
+    "potential_licensees_or_sponsors": null,
+    "proprietary_material_count": 0,
+    "proprietary_materials": [],
+    "publication_or_disclosure_copies_attached": null,
+    "signature_scan_emailed": null,
+    "software_component_description": null,
+    "software_copyright_disclosure_attached": null,
+    "software_is_integral": null,
+    "stage_of_development": null,
+    "stage_of_development_evidence": null,
+    "submission_reasons": null,
+    "summary_of_invention": null,
+    "uci_inventor_count": null,
+    "uci_inventors": null,
+    "used_external_proprietary_materials": false,
+    "was_funded_or_sponsored": false,
+    "witnesses": null,
+    "word_copy_emailed": null
+  },
+  "candidate_state_diff": [
+    {
+      "change_kind": "changed",
+      "prior_value": 1,
+      "resulting_value": 0,
+      "slot": "agreement_count"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": [
+        {
+          "agreement_type": "Material Transfer Agreement",
+          "copy_attached": true,
+          "copy_available": true,
+          "other_party_name": "North Labs"
+        }
+      ],
+      "resulting_value": [],
+      "slot": "agreements"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "background_and_prior_art"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "comparative_benefits_advantages"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "complete_invention_description_date"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "complete_invention_description_recorded_where_and_disclosed_to_whom"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "detailed_description"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "disclosed_to_non_uci_personnel"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "2026-01-18",
+      "resulting_value": null,
+      "slot": "earliest_non_uci_disclosure_date"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "2026-02-01",
+      "resulting_value": null,
+      "slot": "earliest_public_availability_date"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "field_of_invention"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "first_successful_operation_date"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "first_successful_operation_recorded_where_and_disclosed_to_whom"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": [
+        "Meeting"
+      ],
+      "resulting_value": null,
+      "slot": "formal_public_disclosure_channel"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": [
+        "Already published/presented"
+      ],
+      "resulting_value": null,
+      "slot": "formal_public_disclosure_status"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": 1,
+      "resulting_value": 0,
+      "slot": "funding_source_count"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": [
+        {
+          "contract_or_grant_number": "AGR-77",
+          "funding_scope": "Prototype work",
+          "principal_investigator_or_supervisor": "Dr. Meera Singh",
+          "sponsor_name": "North Labs"
+        }
+      ],
+      "resulting_value": [],
+      "slot": "funding_sources"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "future_steps_table"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "has_journal_conference_thesis_or_library_disclosure"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "has_rights_affecting_agreements"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "initial_conception_date"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "initial_conception_recorded_where_and_disclosed_to_whom"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Low-power analyzer",
+      "resulting_value": "Low-power analyzer",
+      "slot": "invention_title"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "inventor_signatures_table"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "Internal research meeting",
+      "resulting_value": null,
+      "slot": "journal_conference_or_meeting_name"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "keywords"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "literature_search_performed"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "literature_search_performed_by"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "manuscript_attached"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "Prototype review.",
+      "resulting_value": null,
+      "slot": "non_uci_disclosure_context"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "North Labs engineering team",
+      "resulting_value": null,
+      "slot": "non_uci_disclosure_recipients"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": 2,
+      "resulting_value": 1,
+      "slot": "non_uci_inventor_count"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": [
+        {
+          "employer": "North Labs",
+          "non_uci_category": "Staff",
+          "non_uci_mobile_phone": null,
+          "non_uci_name": "Evan Brooks",
+          "non_uci_other_email": null,
+          "non_uci_work_phone": "415-555-0130",
+          "title": "Research engineer",
+          "work_address": "100 Market Street",
+          "work_email": "evan@northlabs.example"
+        },
+        {
+          "employer": "North Labs",
+          "non_uci_category": "Staff",
+          "non_uci_mobile_phone": null,
+          "non_uci_name": "Dana Park",
+          "non_uci_other_email": null,
+          "non_uci_work_phone": "415-555-0198",
+          "title": "Consultant",
+          "work_address": "100 Market Street",
+          "work_email": "dana@northlabs.example"
+        }
+      ],
+      "resulting_value": [
+        {
+          "employer": "North Labs",
+          "non_uci_category": "Staff",
+          "non_uci_mobile_phone": null,
+          "non_uci_name": "Evan Brooks",
+          "non_uci_other_email": null,
+          "non_uci_work_phone": "415-555-0130",
+          "title": "Research engineer",
+          "work_address": "100 Market Street",
+          "work_email": "evan.brooks@northlabs.example"
+        }
+      ],
+      "slot": "non_uci_inventors"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "original_with_signatures_ready_for_campus_mail"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "patent_search_performed"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "Dana Park",
+      "resulting_value": null,
+      "slot": "patent_search_performed_by"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "pertinent_references_attached"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "potential_licensee_count"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "potential_licensees_or_sponsors"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": 1,
+      "resulting_value": 0,
+      "slot": "proprietary_material_count"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": [
+        {
+          "agreement_copy_attached": true,
+          "description": "North Labs prototype board",
+          "material_type": "Other",
+          "provider_name": "North Labs"
+        }
+      ],
+      "resulting_value": [],
+      "slot": "proprietary_materials"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": true,
+      "resulting_value": null,
+      "slot": "publication_or_disclosure_copies_attached"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "signature_scan_emailed"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "software_component_description"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "software_copyright_disclosure_attached"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "software_is_integral"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "stage_of_development"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "stage_of_development_evidence"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "submission_reasons"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "summary_of_invention"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "uci_inventor_count"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "uci_inventors"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "used_external_proprietary_materials"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "was_funded_or_sponsored"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "witnesses"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "word_copy_emailed"
+    }
+  ],
+  "derived_variables": {},
+  "field_results": {
+    "agreement_count": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for agreement_count.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "disclosed_to_non_uci_personnel": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for disclosed_to_non_uci_personnel.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "earliest_non_uci_disclosure_date": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both earliest_non_uci_disclosure_date values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "earliest_public_availability_date": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both earliest_public_availability_date values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "formal_public_disclosure_channel": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both formal_public_disclosure_channel values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "formal_public_disclosure_status": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both formal_public_disclosure_status values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "funding_source_count": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for funding_source_count.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "has_journal_conference_thesis_or_library_disclosure": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for has_journal_conference_thesis_or_library_disclosure.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "has_rights_affecting_agreements": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for has_rights_affecting_agreements.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "invention_title": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for invention_title.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "journal_conference_or_meeting_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both journal_conference_or_meeting_name values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "non_uci_disclosure_context": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both non_uci_disclosure_context values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "non_uci_disclosure_recipients": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both non_uci_disclosure_recipients values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "non_uci_inventor_count": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_uci_inventor_count.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "non_uci_inventors[0].employer": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_uci_inventors[0].employer.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_inventors[0].non_uci_category": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for non_uci_inventors[0].non_uci_category: expected 'Staff', got 'Staff'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_inventors[0].non_uci_mobile_phone": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both non_uci_inventors[0].non_uci_mobile_phone values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_inventors[0].non_uci_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_uci_inventors[0].non_uci_name.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_inventors[0].non_uci_other_email": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both non_uci_inventors[0].non_uci_other_email values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_inventors[0].non_uci_work_phone": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_uci_inventors[0].non_uci_work_phone.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_inventors[0].title": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_uci_inventors[0].title.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_inventors[0].work_address": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_uci_inventors[0].work_address.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_inventors[0].work_email": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_uci_inventors[0].work_email.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "patent_search_performed": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for patent_search_performed.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "patent_search_performed_by": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both patent_search_performed_by values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "proprietary_material_count": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for proprietary_material_count.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "publication_or_disclosure_copies_attached": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both publication_or_disclosure_copies_attached values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "used_external_proprietary_materials": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for used_external_proprietary_materials.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "was_funded_or_sponsored": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for was_funded_or_sponsored.",
+      "source": "extracted",
+      "support_source": "extracted"
+    }
+  },
+  "fields_filled": 61,
+  "prompt_trace": [],
+  "provenance": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "Direct",
+      "model": {
+        "max_tokens": 8192,
+        "model": "deepseek-flash",
+        "provider": "openai",
+        "requested_model": "deepseek-flash",
+        "resolved_model_name": "deepseek-flash",
+        "resolved_model_version": "deepseek-flash",
+        "temperature": null,
+        "timeout": 300
+      },
+      "schema_interface": {
+        "public_projection": "shared_schema_field_guide_with_schema_completed_prior_state"
+      },
+      "tool_policy": {
+        "mode": "state_json"
+      }
+    },
+    "runner": null
+  },
+  "summary": {
+    "correct": 29,
+    "evaluated": 29,
+    "incorrect": 0,
+    "partially_correct": 0,
+    "total": 29,
+    "unmatched": 0
+  },
+  "turn": 0,
+  "unmatched_fields": [],
+  "user_message": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `non_uci_inventor_count` to `1`\n- delete repeat instance `non_uci_inventors[1]`\n- set `non_uci_inventors[0].work_email` to `\"evan.brooks@northlabs.example\"`\n- set `was_funded_or_sponsored` to `false`\n- set `funding_source_count` to `0`\n- delete repeat instance `funding_sources[0]`\n- set `has_rights_affecting_agreements` to `false`\n- set `agreement_count` to `0`\n- delete repeat instance `agreements[0]`\n- set `used_external_proprietary_materials` to `false`\n- set `proprietary_material_count` to `0`\n- delete repeat instance `proprietary_materials[0]`\n- set `has_journal_conference_thesis_or_library_disclosure` to `false`\n- set `formal_public_disclosure_status` to `null`\n- set `formal_public_disclosure_channel` to `null`\n- set `earliest_public_availability_date` to `null`\n- set `journal_conference_or_meeting_name` to `null`\n- set `publication_or_disclosure_copies_attached` to `null`\n- set `disclosed_to_non_uci_personnel` to `false`\n- set `non_uci_disclosure_recipients` to `null`\n- set `earliest_non_uci_disclosure_date` to `null`\n- set `non_uci_disclosure_context` to `null`\n- set `patent_search_performed` to `false`\n- set `patent_search_performed_by` to `null`"
+}

@@ -1,0 +1,183 @@
+{
+  "tag": "win0.5_ctx0.0",
+  "threshold": 0.106,
+  "threshold_rule": "window-level EER (bkg_speech overlap vs user_interruption overlap), tuned on even ids",
+  "all": {
+    "talking_other": {
+      "n": 100,
+      "muted_overlap_frac_mean": 0.267,
+      "muted_overlap_frac_median": 0.22,
+      "clips_overlap_mostly_muted(>=50%)": 0.17,
+      "muted_preoverlap_user_speech_frac_mean": 0.0168
+    },
+    "bkg_speech": {
+      "n": 100,
+      "muted_overlap_frac_mean": 0.834,
+      "muted_overlap_frac_median": 0.952,
+      "clips_overlap_mostly_muted(>=50%)": 0.92,
+      "muted_preoverlap_user_speech_frac_mean": 0.0115
+    },
+    "user_backchannel": {
+      "n": 98,
+      "muted_overlap_frac_mean": 0.471,
+      "muted_overlap_frac_median": 0.421,
+      "clips_overlap_mostly_muted(>=50%)": 0.398,
+      "muted_preoverlap_user_speech_frac_mean": 0.0065
+    },
+    "user_interruption": {
+      "n": 200,
+      "muted_overlap_frac_mean": 0.126,
+      "muted_overlap_frac_median": 0.094,
+      "clips_overlap_mostly_muted(>=50%)": 0.025,
+      "muted_preoverlap_user_speech_frac_mean": 0.0268
+    }
+  },
+  "heldout_odd_ids": {
+    "talking_other": {
+      "n": 50,
+      "muted_overlap_frac_mean": 0.257,
+      "muted_overlap_frac_median": 0.219,
+      "clips_overlap_mostly_muted(>=50%)": 0.16,
+      "muted_preoverlap_user_speech_frac_mean": 0.0117
+    },
+    "bkg_speech": {
+      "n": 50,
+      "muted_overlap_frac_mean": 0.85,
+      "muted_overlap_frac_median": 0.994,
+      "clips_overlap_mostly_muted(>=50%)": 0.92,
+      "muted_preoverlap_user_speech_frac_mean": 0.0164
+    },
+    "user_backchannel": {
+      "n": 49,
+      "muted_overlap_frac_mean": 0.529,
+      "muted_overlap_frac_median": 0.444,
+      "clips_overlap_mostly_muted(>=50%)": 0.429,
+      "muted_preoverlap_user_speech_frac_mean": 0.0035
+    },
+    "user_interruption": {
+      "n": 100,
+      "muted_overlap_frac_mean": 0.111,
+      "muted_overlap_frac_median": 0.085,
+      "clips_overlap_mostly_muted(>=50%)": 0.02,
+      "muted_preoverlap_user_speech_frac_mean": 0.0255
+    }
+  },
+  "window_sim_by_scenario_region": {
+    "bkg_speech/overlap": {
+      "n": 311,
+      "median": 0.038,
+      "p10": -0.055,
+      "p90": 0.118
+    },
+    "bkg_speech/pre": {
+      "n": 370,
+      "median": 0.578,
+      "p10": 0.314,
+      "p90": 0.709
+    },
+    "talking_other/overlap": {
+      "n": 409,
+      "median": 0.17,
+      "p10": 0.039,
+      "p90": 0.297
+    },
+    "talking_other/pre": {
+      "n": 398,
+      "median": 0.556,
+      "p10": 0.27,
+      "p90": 0.687
+    },
+    "user_backchannel/overlap": {
+      "n": 156,
+      "median": 0.102,
+      "p10": -0.023,
+      "p90": 0.281
+    },
+    "user_backchannel/pre": {
+      "n": 441,
+      "median": 0.554,
+      "p10": 0.328,
+      "p90": 0.668
+    },
+    "user_interruption/overlap": {
+      "n": 1198,
+      "median": 0.221,
+      "p10": 0.077,
+      "p90": 0.354
+    },
+    "user_interruption/pre": {
+      "n": 981,
+      "median": 0.462,
+      "p10": 0.174,
+      "p90": 0.616
+    }
+  },
+  "sweep": [
+    {
+      "thr": 0.1,
+      "talking_other_muted_ovl": 0.261,
+      "bkg_speech_muted_ovl": 0.813,
+      "user_backchannel_muted_ovl": 0.448,
+      "user_interruption_muted_ovl": 0.113,
+      "talking_other_muted_pre": 0.015,
+      "bkg_speech_muted_pre": 0.0107,
+      "user_backchannel_muted_pre": 0.0055,
+      "user_interruption_muted_pre": 0.0262
+    },
+    {
+      "thr": 0.2,
+      "talking_other_muted_ovl": 0.59,
+      "bkg_speech_muted_ovl": 0.973,
+      "user_backchannel_muted_ovl": 0.762,
+      "user_interruption_muted_ovl": 0.388,
+      "talking_other_muted_pre": 0.0314,
+      "bkg_speech_muted_pre": 0.0197,
+      "user_backchannel_muted_pre": 0.0147,
+      "user_interruption_muted_pre": 0.0636
+    },
+    {
+      "thr": 0.3,
+      "talking_other_muted_ovl": 0.896,
+      "bkg_speech_muted_ovl": 0.985,
+      "user_backchannel_muted_ovl": 0.923,
+      "user_interruption_muted_ovl": 0.741,
+      "talking_other_muted_pre": 0.063,
+      "bkg_speech_muted_pre": 0.0402,
+      "user_backchannel_muted_pre": 0.0477,
+      "user_interruption_muted_pre": 0.1345
+    },
+    {
+      "thr": 0.4,
+      "talking_other_muted_ovl": 0.978,
+      "bkg_speech_muted_ovl": 0.985,
+      "user_backchannel_muted_ovl": 0.961,
+      "user_interruption_muted_ovl": 0.95,
+      "talking_other_muted_pre": 0.1436,
+      "bkg_speech_muted_pre": 0.094,
+      "user_backchannel_muted_pre": 0.1252,
+      "user_interruption_muted_pre": 0.251
+    },
+    {
+      "thr": 0.5,
+      "talking_other_muted_ovl": 0.991,
+      "bkg_speech_muted_ovl": 0.985,
+      "user_backchannel_muted_ovl": 0.967,
+      "user_interruption_muted_ovl": 0.988,
+      "talking_other_muted_pre": 0.297,
+      "bkg_speech_muted_pre": 0.2228,
+      "user_backchannel_muted_pre": 0.2873,
+      "user_interruption_muted_pre": 0.5108
+    },
+    {
+      "thr": 0.6,
+      "talking_other_muted_ovl": 0.991,
+      "bkg_speech_muted_ovl": 0.985,
+      "user_backchannel_muted_ovl": 0.967,
+      "user_interruption_muted_ovl": 0.99,
+      "talking_other_muted_pre": 0.6058,
+      "bkg_speech_muted_pre": 0.5029,
+      "user_backchannel_muted_pre": 0.6191,
+      "user_interruption_muted_pre": 0.8243
+    }
+  ]
+}

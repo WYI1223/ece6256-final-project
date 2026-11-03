@@ -1,0 +1,37 @@
+# --- secrets: never commit keys ---
+.env
+.env.*
+!.env.example
+!env.example
+
+# --- downloaded data / model weights (see README.md for where to get them) ---
+pilot_R/data/
+pilot_R/runs/models/
+pilot_B/data_zenodo/
+
+# --- bulky generated audio (502 G0 muted wavs; regenerate with g0_gate.py --write_wavs 1) ---
+pilot_R/runs/g0/**/wavs/
+pilot_R/runs/tts_demo/ref_voiceX.wav
+
+# --- local clone of the ACL template; acl.sty + acl_natbib.bst are vendored in proposal/ ---
+proposal/acl-style-files/
+
+# --- LaTeX build artifacts ---
+proposal/*.aux
+proposal/*.bbl
+proposal/*.blg
+proposal/*.log
+proposal/*.out
+proposal/*.fls
+proposal/*.fdb_latexmk
+proposal/*.synctex.gz
+
+# --- python / editors / OS ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

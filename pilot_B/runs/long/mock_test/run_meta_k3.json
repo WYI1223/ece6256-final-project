@@ -1,0 +1,292 @@
+{
+ "solver": "mock_solvers:solve",
+ "model": "na",
+ "max_tokens": 8192,
+ "regimes": [
+  "full",
+  "w3",
+  "w0"
+ ],
+ "tag": "k3",
+ "inject_after_override": null,
+ "n_trajectories": 8,
+ "conditions": [
+  "incremental"
+ ],
+ "modes": [
+  "clean",
+  "corrupt"
+ ],
+ "corruptions": {
+  "full": {
+   "pa_long_01": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "High",
+    "gold_value": "Moderate",
+    "set_turn": 1,
+    "pre_injection_value": "Moderate",
+    "system_correct_before": true
+   },
+   "pa_long_02": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "Mild",
+    "gold_value": "High",
+    "set_turn": 1,
+    "pre_injection_value": "High",
+    "system_correct_before": true
+   },
+   "pa_long_03": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "High",
+    "gold_value": "Moderate",
+    "set_turn": 2,
+    "pre_injection_value": "Moderate",
+    "system_correct_before": true
+   },
+   "pa_long_04": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "High",
+    "gold_value": "Moderate",
+    "set_turn": 2,
+    "pre_injection_value": "Moderate",
+    "system_correct_before": true
+   },
+   "cr_long_01": {
+    "after_turn": 3,
+    "path": "date_of_accident",
+    "wrong_value": "2024-03-17",
+    "gold_value": "2024-03-14",
+    "set_turn": 1,
+    "pre_injection_value": "2024-03-14",
+    "system_correct_before": true
+   },
+   "cr_long_02": {
+    "after_turn": 3,
+    "path": "date_of_accident",
+    "wrong_value": "2024-02-06",
+    "gold_value": "2024-02-03",
+    "set_turn": 1,
+    "pre_injection_value": "2024-02-03",
+    "system_correct_before": true
+   },
+   "cr_long_03": {
+    "after_turn": 3,
+    "path": "time_of_accident",
+    "wrong_value": "18:20",
+    "gold_value": "16:20",
+    "set_turn": 2,
+    "pre_injection_value": "16:20",
+    "system_correct_before": true
+   },
+   "cr_long_04": {
+    "after_turn": 3,
+    "path": "date_of_accident",
+    "wrong_value": "2024-03-17",
+    "gold_value": "2024-03-14",
+    "set_turn": 1,
+    "pre_injection_value": "2024-03-14",
+    "system_correct_before": true
+   }
+  },
+  "w3": {
+   "pa_long_01": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "High",
+    "gold_value": "Moderate",
+    "set_turn": 1,
+    "pre_injection_value": "Moderate",
+    "system_correct_before": true
+   },
+   "pa_long_02": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "Mild",
+    "gold_value": "High",
+    "set_turn": 1,
+    "pre_injection_value": "High",
+    "system_correct_before": true
+   },
+   "pa_long_03": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "High",
+    "gold_value": "Moderate",
+    "set_turn": 2,
+    "pre_injection_value": "Moderate",
+    "system_correct_before": true
+   },
+   "pa_long_04": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "High",
+    "gold_value": "Moderate",
+    "set_turn": 2,
+    "pre_injection_value": "Moderate",
+    "system_correct_before": true
+   },
+   "cr_long_01": {
+    "after_turn": 3,
+    "path": "date_of_accident",
+    "wrong_value": "2024-03-17",
+    "gold_value": "2024-03-14",
+    "set_turn": 1,
+    "pre_injection_value": "2024-03-14",
+    "system_correct_before": true
+   },
+   "cr_long_02": {
+    "after_turn": 3,
+    "path": "date_of_accident",
+    "wrong_value": "2024-02-06",
+    "gold_value": "2024-02-03",
+    "set_turn": 1,
+    "pre_injection_value": "2024-02-03",
+    "system_correct_before": true
+   },
+   "cr_long_03": {
+    "after_turn": 3,
+    "path": "time_of_accident",
+    "wrong_value": "18:20",
+    "gold_value": "16:20",
+    "set_turn": 2,
+    "pre_injection_value": "16:20",
+    "system_correct_before": true
+   },
+   "cr_long_04": {
+    "after_turn": 3,
+    "path": "date_of_accident",
+    "wrong_value": "2024-03-17",
+    "gold_value": "2024-03-14",
+    "set_turn": 1,
+    "pre_injection_value": "2024-03-14",
+    "system_correct_before": true
+   }
+  },
+  "w0": {
+   "pa_long_01": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "High",
+    "gold_value": "Moderate",
+    "set_turn": 1,
+    "pre_injection_value": "Moderate",
+    "system_correct_before": true
+   },
+   "pa_long_02": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "Mild",
+    "gold_value": "High",
+    "set_turn": 1,
+    "pre_injection_value": "High",
+    "system_correct_before": true
+   },
+   "pa_long_03": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "High",
+    "gold_value": "Moderate",
+    "set_turn": 2,
+    "pre_injection_value": "Moderate",
+    "system_correct_before": true
+   },
+   "pa_long_04": {
+    "after_turn": 3,
+    "path": "pain_details[0].pain_severity",
+    "wrong_value": "High",
+    "gold_value": "Moderate",
+    "set_turn": 2,
+    "pre_injection_value": "Moderate",
+    "system_correct_before": true
+   },
+   "cr_long_01": {
+    "after_turn": 3,
+    "path": "date_of_accident",
+    "wrong_value": "2024-03-17",
+    "gold_value": "2024-03-14",
+    "set_turn": 1,
+    "pre_injection_value": "2024-03-14",
+    "system_correct_before": true
+   },
+   "cr_long_02": {
+    "after_turn": 3,
+    "path": "date_of_accident",
+    "wrong_value": "2024-02-06",
+    "gold_value": "2024-02-03",
+    "set_turn": 1,
+    "pre_injection_value": "2024-02-03",
+    "system_correct_before": true
+   },
+   "cr_long_03": {
+    "after_turn": 3,
+    "path": "time_of_accident",
+    "wrong_value": "18:20",
+    "gold_value": "16:20",
+    "set_turn": 2,
+    "pre_injection_value": "16:20",
+    "system_correct_before": true
+   },
+   "cr_long_04": {
+    "after_turn": 3,
+    "path": "date_of_accident",
+    "wrong_value": "2024-03-17",
+    "gold_value": "2024-03-14",
+    "set_turn": 1,
+    "pre_injection_value": "2024-03-14",
+    "system_correct_before": true
+   }
+  }
+ },
+ "elapsed_s": 7.3,
+ "deepseek_thinking": "disabled",
+ "totals": {
+  "billed_solver_calls": 0,
+  "billed_input_tokens": 0,
+  "billed_output_tokens": 0,
+  "billed_reasoning_tokens": 0,
+  "summary_calls": 0,
+  "summary_input_tokens": 0,
+  "summary_output_tokens": 0,
+  "solver_errors": 0,
+  "fallbacks": 0
+ },
+ "by_regime": {
+  "full": {
+   "billed_solver_calls": 0,
+   "billed_input_tokens": 0,
+   "billed_output_tokens": 0,
+   "billed_reasoning_tokens": 0,
+   "summary_calls": 0,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0,
+   "solver_errors": 0,
+   "fallbacks": 0
+  },
+  "w3": {
+   "billed_solver_calls": 0,
+   "billed_input_tokens": 0,
+   "billed_output_tokens": 0,
+   "billed_reasoning_tokens": 0,
+   "summary_calls": 0,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0,
+   "solver_errors": 0,
+   "fallbacks": 0
+  },
+  "w0": {
+   "billed_solver_calls": 0,
+   "billed_input_tokens": 0,
+   "billed_output_tokens": 0,
+   "billed_reasoning_tokens": 0,
+   "summary_calls": 0,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0,
+   "solver_errors": 0,
+   "fallbacks": 0
+  }
+ }
+}

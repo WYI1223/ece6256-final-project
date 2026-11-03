@@ -1,0 +1,36 @@
+{
+  "eer": {
+    "threshold": 0.181,
+    "interruption_accepted": 0.995,
+    "bkg_speech_accepted": 0.01,
+    "talking_other_accepted_as_user": 0.89,
+    "backchannel_accepted": 0.52,
+    "impostor_crossclip_accepted": 0.424
+  },
+  "youden": {
+    "threshold": 0.182,
+    "interruption_accepted": 0.995,
+    "bkg_speech_accepted": 0.0,
+    "talking_other_accepted_as_user": 0.89,
+    "backchannel_accepted": 0.51,
+    "impostor_crossclip_accepted": 0.424
+  },
+  "tpr95_interruption": {
+    "threshold": 0.328,
+    "interruption_accepted": 0.95,
+    "bkg_speech_accepted": 0.0,
+    "talking_other_accepted_as_user": 0.65,
+    "backchannel_accepted": 0.082,
+    "impostor_crossclip_accepted": 0.185
+  },
+  "auc_interruption_vs_bkg": 0.9998,
+  "auc_talking_other_vs_bkg": 0.9845,
+  "auc_interruption_vs_talking_other": 0.7649,
+  "heldout_eer_even->odd": {
+    "threshold": 0.182,
+    "interruption_accepted": 0.99,
+    "bkg_speech_accepted": 0.0,
+    "talking_other_accepted_as_user": 0.92,
+    "backchannel_accepted": 0.49
+  }
+}

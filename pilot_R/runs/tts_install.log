@@ -1,0 +1,402 @@
+3 channel Terms of Service accepted
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+Solving environment: - \ done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 26.1.1
+    latest version: 26.9.4
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: F:\AI\conda_envs\fdb_tts
+
+  added / updated specs:
+    - python=3.11
+
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              pkgs/main/win-64::bzip2-1.0.8-h2bbff1b_6 
+  ca-certificates    pkgs/main/noarch::ca-certificates-2026.10.20-h382c6e5_1 
+  libexpat           pkgs/main/win-64::libexpat-2.9.0-hd7fb8db_0 
+  libffi             pkgs/main/win-64::libffi-3.4.8-h42d73b9_3 
+  libzlib            pkgs/main/win-64::libzlib-1.3.2-h1c6eee0_0 
+  openssl            pkgs/main/win-64::openssl-3.5.9-hbb43b14_0 
+  packaging          pkgs/main/win-64::packaging-26.3-py311haa95532_0 
+  pip                pkgs/main/noarch::pip-26.2.2-pyhc872135_0 
+  python             pkgs/main/win-64::python-3.11.18-hb00fc5c_0 
+  setuptools         pkgs/main/win-64::setuptools-84.2.1-py311haa95532_0 
+  sqlite             pkgs/main/win-64::sqlite-3.53.4-hee5a0db_0 
+  tk                 pkgs/main/win-64::tk-8.6.15-hf199647_0 
+  tzdata             pkgs/main/noarch::tzdata-2026c-he532380_0 
+  ucrt               pkgs/main/win-64::ucrt-10.0.22621.0-haa95532_0 
+  vc                 pkgs/main/win-64::vc-14.3-h2df5915_12 
+  vc14_runtime       pkgs/main/win-64::vc14_runtime-14.44.35208-h4927774_12 
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.44.35208-ha6b5a95_12 
+  wheel              pkgs/main/win-64::wheel-0.48.0-py311haa95532_0 
+  xz                 pkgs/main/win-64::xz-5.8.4-hb851c79_0 
+  zlib               pkgs/main/win-64::zlib-1.3.2-h1c6eee0_0 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: / - \ | / - \ done
+Verifying transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate F:\AI\conda_envs\fdb_tts
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Looking in indexes: https://download.pytorch.org/whl/cu124
+Collecting torch==2.6.0
+  Downloading torch-2.6.0%2Bcu124-cp311-cp311-win_amd64.whl.metadata (28 kB)
+Collecting torchaudio==2.6.0
+  Downloading torchaudio-2.6.0%2Bcu124-cp311-cp311-win_amd64.whl.metadata (6.8 kB)
+Collecting filelock (from torch==2.6.0)
+  Downloading filelock-4.2.4-py3-none-any.whl.metadata (2.0 kB)
+Collecting typing-extensions>=4.10.0 (from torch==2.6.0)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting networkx (from torch==2.6.0)
+  Downloading networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+Collecting jinja2 (from torch==2.6.0)
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec (from torch==2.6.0)
+  Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting sympy==1.13.1 (from torch==2.6.0)
+  Downloading sympy-1.13.1-py3-none-any.whl.metadata (12 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy==1.13.1->torch==2.6.0)
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch==2.6.0)
+  Downloading markupsafe-3.0.3-cp311-cp311-win_amd64.whl.metadata (2.8 kB)
+Downloading torch-2.6.0%2Bcu124-cp311-cp311-win_amd64.whl (2532.4 MB)
+   ---------------------------------------- 2.5/2.5 GB 42.2 MB/s  0:01:03
+Downloading torchaudio-2.6.0%2Bcu124-cp311-cp311-win_amd64.whl (4.2 MB)
+   ---------------------------------------- 4.2/4.2 MB 50.0 MB/s  0:00:00
+Downloading sympy-1.13.1-py3-none-any.whl (6.2 MB)
+   ---------------------------------------- 6.2/6.2 MB 4.5 MB/s  0:00:01
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ---------------------------------------- 536.2/536.2 kB 8.8 MB/s  0:00:00
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading filelock-4.2.4-py3-none-any.whl (162 kB)
+Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading markupsafe-3.0.3-cp311-cp311-win_amd64.whl (15 kB)
+Downloading networkx-3.6.1-py3-none-any.whl (2.1 MB)
+   ---------------------------------------- 2.1/2.1 MB 9.6 MB/s  0:00:00
+Installing collected packages: mpmath, typing-extensions, sympy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch, torchaudio
+  WARNING: The script isympy.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts torchfrtrace.exe and torchrun.exe are installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+Successfully installed MarkupSafe-3.0.3 filelock-4.2.4 fsspec-2026.9.0 jinja2-3.1.6 mpmath-1.3.0 networkx-3.6.1 sympy-1.13.1 torch-2.6.0+cu124 torchaudio-2.6.0+cu124 typing-extensions-4.16.0
+torch done 403s
+Looking in indexes: https://mirrors.ustc.edu.cn/pypi/web/simple
+Collecting chatterbox-tts
+  Downloading chatterbox_tts-0.1.7-py3-none-any.whl (108 kB)
+Collecting numpy<2.0.0,>=1.24.0 (from chatterbox-tts)
+  Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl (15.8 MB)
+     ---------------------------------------- 15.8/15.8 MB 3.3 MB/s  0:00:04
+Collecting librosa==0.11.0 (from chatterbox-tts)
+  Downloading librosa-0.11.0-py3-none-any.whl (260 kB)
+Collecting s3tokenizer (from chatterbox-tts)
+  Downloading s3tokenizer-0.3.0-py3-none-any.whl (226 kB)
+Requirement already satisfied: torch==2.6.0 in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from chatterbox-tts) (2.6.0+cu124)
+Requirement already satisfied: torchaudio==2.6.0 in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from chatterbox-tts) (2.6.0+cu124)
+Collecting transformers==5.2.0 (from chatterbox-tts)
+  Downloading transformers-5.2.0-py3-none-any.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 20.3 MB/s  0:00:00
+Collecting diffusers==0.29.0 (from chatterbox-tts)
+  Downloading diffusers-0.29.0-py3-none-any.whl (2.2 MB)
+     ---------------------------------------- 2.2/2.2 MB 41.5 MB/s  0:00:00
+Collecting resemble-perth>=1.0.0 (from chatterbox-tts)
+  Downloading resemble_perth-1.0.1-py3-none-any.whl (34.4 MB)
+     ---------------------------------------- 34.4/34.4 MB 13.4 MB/s  0:00:02
+Collecting conformer==0.3.2 (from chatterbox-tts)
+  Downloading conformer-0.3.2-py3-none-any.whl (4.3 kB)
+Collecting safetensors==0.5.3 (from chatterbox-tts)
+  Downloading safetensors-0.5.3-cp38-abi3-win_amd64.whl (308 kB)
+Collecting spacy-pkuseg (from chatterbox-tts)
+  Downloading spacy_pkuseg-1.0.2-cp311-cp311-win_amd64.whl (2.5 MB)
+     ---------------------------------------- 2.5/2.5 MB 46.9 MB/s  0:00:00
+Collecting pykakasi==2.3.0 (from chatterbox-tts)
+  Downloading pykakasi-2.3.0-py3-none-any.whl (2.4 MB)
+     ---------------------------------------- 2.4/2.4 MB 46.4 MB/s  0:00:00
+Collecting gradio==6.8.0 (from chatterbox-tts)
+  Downloading gradio-6.8.0-py3-none-any.whl (24.2 MB)
+     ---------------------------------------- 24.2/24.2 MB 10.8 MB/s  0:00:02
+Collecting pyloudnorm (from chatterbox-tts)
+  Downloading pyloudnorm-0.2.0-py3-none-any.whl (10 kB)
+Collecting omegaconf (from chatterbox-tts)
+  Downloading omegaconf-2.4.0-py3-none-any.whl (254 kB)
+Collecting einops>=0.6.1 (from conformer==0.3.2->chatterbox-tts)
+  Downloading einops-0.8.2-py3-none-any.whl (65 kB)
+Collecting importlib-metadata (from diffusers==0.29.0->chatterbox-tts)
+  Downloading importlib_metadata-10.1.0-py3-none-any.whl (32 kB)
+Requirement already satisfied: filelock in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from diffusers==0.29.0->chatterbox-tts) (4.2.4)
+Collecting huggingface-hub>=0.23.2 (from diffusers==0.29.0->chatterbox-tts)
+  Downloading huggingface_hub-2.4.0-py3-none-any.whl (857 kB)
+     ---------------------------------------- 857.0/857.0 kB 12.9 MB/s  0:00:00
+Collecting regex!=2019.12.17 (from diffusers==0.29.0->chatterbox-tts)
+  Downloading regex-2026.9.29-cp311-cp311-win_amd64.whl (280 kB)
+Collecting requests (from diffusers==0.29.0->chatterbox-tts)
+  Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Collecting Pillow (from diffusers==0.29.0->chatterbox-tts)
+  Downloading pillow-13.0.0-cp311-cp311-win_amd64.whl (7.3 MB)
+     ---------------------------------------- 7.3/7.3 MB 13.2 MB/s  0:00:00
+Collecting aiofiles<25.0,>=22.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading aiofiles-24.1.0-py3-none-any.whl (15 kB)
+Collecting anyio<5.0,>=3.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
+Collecting brotli>=1.1.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading brotli-1.2.1-cp311-cp311-win_amd64.whl (371 kB)
+Collecting fastapi<1.0,>=0.115.2 (from gradio==6.8.0->chatterbox-tts)
+  Downloading fastapi-0.162.0-py3-none-any.whl (148 kB)
+Collecting ffmpy (from gradio==6.8.0->chatterbox-tts)
+  Downloading ffmpy-1.0.0-py3-none-any.whl (5.6 kB)
+Collecting gradio-client==2.2.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading gradio_client-2.2.0-py3-none-any.whl (58 kB)
+Collecting groovy~=0.1 (from gradio==6.8.0->chatterbox-tts)
+  Downloading groovy-0.1.2-py3-none-any.whl (14 kB)
+Collecting httpx<1.0,>=0.24.1 (from gradio==6.8.0->chatterbox-tts)
+  Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Collecting huggingface-hub>=0.23.2 (from diffusers==0.29.0->chatterbox-tts)
+  Downloading huggingface_hub-1.33.0-py3-none-any.whl (846 kB)
+     ---------------------------------------- 846.4/846.4 kB 12.4 MB/s  0:00:00
+Requirement already satisfied: jinja2<4.0 in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from gradio==6.8.0->chatterbox-tts) (3.1.6)
+Requirement already satisfied: markupsafe<4.0,>=2.0 in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from gradio==6.8.0->chatterbox-tts) (3.0.3)
+Collecting orjson~=3.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading orjson-3.13.0-cp311-cp311-win_amd64.whl (121 kB)
+Requirement already satisfied: packaging in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from gradio==6.8.0->chatterbox-tts) (26.3)
+Collecting pandas<4.0,>=1.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading pandas-3.1.0-cp311-cp311-win_amd64.whl (11.0 MB)
+     ---------------------------------------- 11.0/11.0 MB 16.3 MB/s  0:00:00
+Collecting Pillow (from diffusers==0.29.0->chatterbox-tts)
+  Downloading pillow-12.3.0-cp311-cp311-win_amd64.whl (7.2 MB)
+     ---------------------------------------- 7.2/7.2 MB 17.2 MB/s  0:00:00
+Collecting pydantic<=3.0,>=2.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading pydantic-2.14.2-py3-none-any.whl (490 kB)
+Collecting pydub (from gradio==6.8.0->chatterbox-tts)
+  Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Collecting python-multipart>=0.0.18 (from gradio==6.8.0->chatterbox-tts)
+  Downloading python_multipart-0.0.33-py3-none-any.whl (32 kB)
+Collecting pytz>=2017.2 (from gradio==6.8.0->chatterbox-tts)
+  Downloading pytz-2026.6-py2.py3-none-any.whl (506 kB)
+Collecting pyyaml<7.0,>=5.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading pyyaml-6.0.3-cp311-cp311-win_amd64.whl (158 kB)
+Collecting safehttpx<0.2.0,>=0.1.7 (from gradio==6.8.0->chatterbox-tts)
+  Downloading safehttpx-0.1.7-py3-none-any.whl (9.0 kB)
+Collecting semantic-version~=2.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting starlette<1.0,>=0.40.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading starlette-0.52.1-py3-none-any.whl (74 kB)
+Collecting tomlkit<0.14.0,>=0.12.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading tomlkit-0.13.3-py3-none-any.whl (38 kB)
+Collecting typer<1.0,>=0.12 (from gradio==6.8.0->chatterbox-tts)
+  Downloading typer-0.27.3-py3-none-any.whl (123 kB)
+Requirement already satisfied: typing-extensions~=4.0 in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from gradio==6.8.0->chatterbox-tts) (4.16.0)
+Collecting uvicorn>=0.14.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+Requirement already satisfied: fsspec in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from gradio-client==2.2.0->gradio==6.8.0->chatterbox-tts) (2026.9.0)
+Collecting audioread>=2.1.9 (from librosa==0.11.0->chatterbox-tts)
+  Downloading audioread-3.1.0-py3-none-any.whl (23 kB)
+Collecting numba>=0.51.0 (from librosa==0.11.0->chatterbox-tts)
+  Downloading numba-0.68.1-cp311-cp311-win_amd64.whl (2.8 MB)
+     ---------------------------------------- 2.8/2.8 MB 18.2 MB/s  0:00:00
+Collecting scipy>=1.6.0 (from librosa==0.11.0->chatterbox-tts)
+  Downloading scipy-1.17.1-cp311-cp311-win_amd64.whl (36.6 MB)
+     ---------------------------------------- 36.6/36.6 MB 20.8 MB/s  0:00:01
+Collecting scikit-learn>=1.1.0 (from librosa==0.11.0->chatterbox-tts)
+  Downloading scikit_learn-1.9.1-cp311-cp311-win_amd64.whl (8.3 MB)
+     ---------------------------------------- 8.3/8.3 MB 23.5 MB/s  0:00:00
+Collecting joblib>=1.0 (from librosa==0.11.0->chatterbox-tts)
+  Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+Collecting decorator>=4.3.0 (from librosa==0.11.0->chatterbox-tts)
+  Downloading decorator-5.3.1-py3-none-any.whl (10 kB)
+Collecting soundfile>=0.12.1 (from librosa==0.11.0->chatterbox-tts)
+  Downloading soundfile-0.14.0-py2.py3-none-win_amd64.whl (1.0 MB)
+     ---------------------------------------- 1.0/1.0 MB 47.5 MB/s  0:00:00
+Collecting pooch>=1.1 (from librosa==0.11.0->chatterbox-tts)
+  Downloading pooch-1.9.0-py3-none-any.whl (67 kB)
+Collecting soxr>=0.3.2 (from librosa==0.11.0->chatterbox-tts)
+  Downloading soxr-1.1.0-cp311-cp311-win_amd64.whl (176 kB)
+Collecting lazy_loader>=0.1 (from librosa==0.11.0->chatterbox-tts)
+  Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Collecting msgpack>=1.0 (from librosa==0.11.0->chatterbox-tts)
+  Downloading msgpack-1.2.4-cp311-cp311-win_amd64.whl (76 kB)
+Collecting jaconv (from pykakasi==2.3.0->chatterbox-tts)
+  Downloading jaconv-0.5.0-py3-none-any.whl (16 kB)
+Collecting deprecated (from pykakasi==2.3.0->chatterbox-tts)
+  Downloading deprecated-1.3.1-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: networkx in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from torch==2.6.0->chatterbox-tts) (3.6.1)
+Requirement already satisfied: sympy==1.13.1 in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from torch==2.6.0->chatterbox-tts) (1.13.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in F:\AI\conda_envs\fdb_tts\Lib\site-packages (from sympy==1.13.1->torch==2.6.0->chatterbox-tts) (1.3.0)
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers==5.2.0->chatterbox-tts)
+  Downloading tokenizers-0.22.2-cp39-abi3-win_amd64.whl (2.7 MB)
+     ---------------------------------------- 2.7/2.7 MB 26.4 MB/s  0:00:00
+Collecting typer-slim (from transformers==5.2.0->chatterbox-tts)
+  Downloading typer_slim-0.24.0-py3-none-any.whl (3.4 kB)
+Collecting tqdm>=4.27 (from transformers==5.2.0->chatterbox-tts)
+  Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+Collecting idna>=2.8 (from anyio<5.0,>=3.0->gradio==6.8.0->chatterbox-tts)
+  Downloading idna-3.20-py3-none-any.whl (69 kB)
+Collecting typing-inspection>=0.4.2 (from fastapi<1.0,>=0.115.2->gradio==6.8.0->chatterbox-tts)
+  Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi<1.0,>=0.115.2->gradio==6.8.0->chatterbox-tts)
+  Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Collecting opentelemetry-api>=1.44.0 (from fastapi<1.0,>=0.115.2->gradio==6.8.0->chatterbox-tts)
+  Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
+Collecting certifi (from httpx<1.0,>=0.24.1->gradio==6.8.0->chatterbox-tts)
+  Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Collecting httpcore==1.* (from httpx<1.0,>=0.24.1->gradio==6.8.0->chatterbox-tts)
+  Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1.0,>=0.24.1->gradio==6.8.0->chatterbox-tts)
+  Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface-hub>=0.23.2->diffusers==0.29.0->chatterbox-tts)
+  Downloading click-8.5.0-py3-none-any.whl (125 kB)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface-hub>=0.23.2->diffusers==0.29.0->chatterbox-tts)
+  Downloading hf_xet-1.8.0-cp38-abi3-win_amd64.whl (3.9 MB)
+     ---------------------------------------- 3.9/3.9 MB 23.4 MB/s  0:00:00
+INFO: pip is looking at multiple versions of pandas to determine which version is compatible with other requirements. This could take a while.
+Collecting pandas<4.0,>=1.0 (from gradio==6.8.0->chatterbox-tts)
+  Downloading pandas-3.0.6-cp311-cp311-win_amd64.whl (9.9 MB)
+     ---------------------------------------- 9.9/9.9 MB 26.7 MB/s  0:00:00
+Collecting python-dateutil>=2.8.2 (from pandas<4.0,>=1.0->gradio==6.8.0->chatterbox-tts)
+  Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+Collecting tzdata (from pandas<4.0,>=1.0->gradio==6.8.0->chatterbox-tts)
+  Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<=3.0,>=2.0->gradio==6.8.0->chatterbox-tts)
+  Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.50.2 (from pydantic<=3.0,>=2.0->gradio==6.8.0->chatterbox-tts)
+  Downloading pydantic_core-2.50.2-cp311-cp311-win_amd64.whl (2.2 MB)
+     ---------------------------------------- 2.2/2.2 MB 31.4 MB/s  0:00:00
+Collecting shellingham>=1.3.0 (from typer<1.0,>=0.12->gradio==6.8.0->chatterbox-tts)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting rich>=13.8.0 (from typer<1.0,>=0.12->gradio==6.8.0->chatterbox-tts)
+  Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Collecting colorama (from typer<1.0,>=0.12->gradio==6.8.0->chatterbox-tts)
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting cloudpickle>=3.0 (from joblib>=1.0->librosa==0.11.0->chatterbox-tts)
+  Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Collecting llvmlite<0.51,>=0.50.0dev0 (from numba>=0.51.0->librosa==0.11.0->chatterbox-tts)
+  Downloading llvmlite-0.50.0-cp311-cp311-win_amd64.whl (41.9 MB)
+     ---------------------------------------- 41.9/41.9 MB 29.6 MB/s  0:00:01
+Collecting platformdirs>=2.5.0 (from pooch>=1.1->librosa==0.11.0->chatterbox-tts)
+  Downloading platformdirs-4.14.3-py3-none-any.whl (35 kB)
+Collecting charset_normalizer<4,>=2 (from requests->diffusers==0.29.0->chatterbox-tts)
+  Downloading charset_normalizer-3.5.2-cp311-cp311-win_amd64.whl (214 kB)
+Collecting urllib3<3,>=1.26 (from requests->diffusers==0.29.0->chatterbox-tts)
+  Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer<1.0,>=0.12->gradio==6.8.0->chatterbox-tts)
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer<1.0,>=0.12->gradio==6.8.0->chatterbox-tts)
+  Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+     ---------------------------------------- 1.3/1.3 MB 31.9 MB/s  0:00:00
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer<1.0,>=0.12->gradio==6.8.0->chatterbox-tts)
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn>=1.1.0->librosa==0.11.0->chatterbox-tts)
+  Downloading narwhals-2.28.0-py3-none-any.whl (490 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=1.1.0->librosa==0.11.0->chatterbox-tts)
+  Downloading threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Collecting cffi>=1.0 (from soundfile>=0.12.1->librosa==0.11.0->chatterbox-tts)
+  Downloading cffi-2.1.1-cp311-cp311-win_amd64.whl (185 kB)
+Collecting pycparser (from cffi>=1.0->soundfile>=0.12.1->librosa==0.11.0->chatterbox-tts)
+  Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+Collecting wrapt<3,>=1.10 (from deprecated->pykakasi==2.3.0->chatterbox-tts)
+  Downloading wrapt-2.5.2-cp311-cp311-win_amd64.whl (106 kB)
+Collecting zipp>=3.20 (from importlib-metadata->diffusers==0.29.0->chatterbox-tts)
+  Downloading zipp-4.1.2-py3-none-any.whl (10 kB)
+Collecting pre-commit (from s3tokenizer->chatterbox-tts)
+  Downloading pre_commit-4.7.0-py2.py3-none-any.whl (226 kB)
+Collecting onnx (from s3tokenizer->chatterbox-tts)
+  Downloading onnx-1.23.2-cp311-cp311-win_amd64.whl (7.9 MB)
+     ---------------------------------------- 7.9/7.9 MB 16.3 MB/s  0:00:00
+Collecting protobuf>=6.31.1 (from onnx->s3tokenizer->chatterbox-tts)
+  Downloading protobuf-7.36.2-cp310-abi3-win_amd64.whl (456 kB)
+Collecting ml_dtypes>=0.5.4 (from onnx->s3tokenizer->chatterbox-tts)
+  Downloading ml_dtypes-0.6.0-cp311-cp311-win_amd64.whl (433 kB)
+INFO: pip is looking at multiple versions of ml-dtypes to determine which version is compatible with other requirements. This could take a while.
+  Downloading ml_dtypes-0.5.4-cp311-cp311-win_amd64.whl (210 kB)
+Collecting cfgv>=2.0.0 (from pre-commit->s3tokenizer->chatterbox-tts)
+  Downloading cfgv-3.5.0-py2.py3-none-any.whl (7.4 kB)
+Collecting identify>=1.0.0 (from pre-commit->s3tokenizer->chatterbox-tts)
+  Downloading identify-2.6.20-py2.py3-none-any.whl (99 kB)
+Collecting nodeenv>=0.11.1 (from pre-commit->s3tokenizer->chatterbox-tts)
+  Downloading nodeenv-1.12.0-py3-none-any.whl (39 kB)
+Collecting virtualenv>=20.10.0 (from pre-commit->s3tokenizer->chatterbox-tts)
+  Downloading virtualenv-21.15.2-py3-none-any.whl (5.6 MB)
+     ---------------------------------------- 5.6/5.6 MB 14.7 MB/s  0:00:00
+Collecting distlib<1,>=0.4.3 (from virtualenv>=20.10.0->pre-commit->s3tokenizer->chatterbox-tts)
+  Downloading distlib-0.4.4-py2.py3-none-any.whl (472 kB)
+Collecting python-discovery>=1.6.1 (from virtualenv>=20.10.0->pre-commit->s3tokenizer->chatterbox-tts)
+  Downloading python_discovery-1.9.1-py3-none-any.whl (40 kB)
+Collecting srsly<3.0.0,>=2.3.0 (from spacy-pkuseg->chatterbox-tts)
+  Downloading srsly-2.5.5-cp311-cp311-win_amd64.whl (675 kB)
+     ---------------------------------------- 675.9/675.9 kB 13.3 MB/s  0:00:00
+Collecting catalogue<2.1.0,>=2.0.3 (from srsly<3.0.0,>=2.3.0->spacy-pkuseg->chatterbox-tts)
+  Downloading catalogue-2.0.10-py3-none-any.whl (17 kB)
+Installing collected packages: pytz, pydub, jaconv, distlib, brotli, zipp, wrapt, urllib3, tzdata, typing-inspection, tomlkit, threadpoolctl, shellingham, semantic-version, safetensors, resemble-perth, regex, pyyaml, python-multipart, python-discovery, pygments, pydantic-core, pycparser, protobuf, platformdirs, Pillow, orjson, opentelemetry-api, numpy, nodeenv, narwhals, msgpack, mdurl, llvmlite, lazy_loader, idna, identify, hf-xet, h11, groovy, ffmpy, einops, decorator, colorama, cloudpickle, click, charset_normalizer, cfgv, certifi, catalogue, audioread, annotated-types, annotated-doc, aiofiles, virtualenv, uvicorn, tqdm, srsly, soxr, scipy, requests, python-dateutil, pydantic, omegaconf, numba, ml_dtypes, markdown-it-py, joblib, importlib-metadata, httpcore, deprecated, cffi, anyio, starlette, spacy-pkuseg, soundfile, scikit-learn, rich, pyloudnorm, pykakasi, pre-commit, pooch, pandas, onnx, httpx, conformer, typer, safehttpx, s3tokenizer, librosa, huggingface-hub, fastapi, typer-slim, tokenizers, gradio-client, diffusers, transformers, gradio, chatterbox-tts
+  WARNING: The script perth.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pygmentize.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script f2py.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script nodeenv.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script idna.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script identify-cli.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script normalizer.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script virtualenv.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script uvicorn.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script tqdm.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script markdown-it.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script cffi-gen-src.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script kakasi.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pre-commit.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts backend-test-tools.exe, check-model.exe and check-node.exe are installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script httpx.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script typer.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script s3tokenizer.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts hf.exe, huggingface-cli.exe and tiny-agents.exe are installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script fastapi.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script diffusers-cli.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script transformers.exe is installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts gradio.exe and upload_theme.exe are installed in 'F:\AI\conda_envs\fdb_tts\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+Successfully installed Pillow-12.3.0 aiofiles-24.1.0 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.16.0 audioread-3.1.0 brotli-1.2.1 catalogue-2.0.10 certifi-2026.10.23 cffi-2.1.1 cfgv-3.5.0 charset_normalizer-3.5.2 chatterbox-tts-0.1.7 click-8.5.0 cloudpickle-3.1.2 colorama-0.4.6 conformer-0.3.2 decorator-5.3.1 deprecated-1.3.1 diffusers-0.29.0 distlib-0.4.4 einops-0.8.2 fastapi-0.162.0 ffmpy-1.0.0 gradio-6.8.0 gradio-client-2.2.0 groovy-0.1.2 h11-0.16.0 hf-xet-1.8.0 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-1.33.0 identify-2.6.20 idna-3.20 importlib-metadata-10.1.0 jaconv-0.5.0 joblib-1.6.0 lazy_loader-0.6 librosa-0.11.0 llvmlite-0.50.0 markdown-it-py-4.2.0 mdurl-0.1.2 ml_dtypes-0.5.4 msgpack-1.2.4 narwhals-2.28.0 nodeenv-1.12.0 numba-0.68.1 numpy-1.26.4 omegaconf-2.4.0 onnx-1.23.2 opentelemetry-api-1.45.2 orjson-3.13.0 pandas-3.0.6 platformdirs-4.14.3 pooch-1.9.0 pre-commit-4.7.0 protobuf-7.36.2 pycparser-3.12 pydantic-2.14.2 pydantic-core-2.50.2 pydub-0.25.1 pygments-2.21.0 pykakasi-2.3.0 pyloudnorm-0.2.0 python-dateutil-4.0.0 python-discovery-1.9.1 python-multipart-0.0.33 pytz-2026.6 pyyaml-6.0.3 regex-2026.9.29 requests-2.34.2 resemble-perth-1.0.1 rich-15.0.0 s3tokenizer-0.3.0 safehttpx-0.1.7 safetensors-0.5.3 scikit-learn-1.9.1 scipy-1.17.1 semantic-version-2.10.0 shellingham-1.5.4 soundfile-0.14.0 soxr-1.1.0 spacy-pkuseg-1.0.2 srsly-2.5.5 starlette-0.52.1 threadpoolctl-3.7.0 tokenizers-0.22.2 tomlkit-0.13.3 tqdm-4.70.1 transformers-5.2.0 typer-0.27.3 typer-slim-0.24.0 typing-inspection-0.4.4 tzdata-2026.6 urllib3-2.8.0 uvicorn-0.54.0 virtualenv-21.15.2 wrapt-2.5.2 zipp-4.1.2
+EXIT 0 total 830s

@@ -1,0 +1,3977 @@
+[
+ {
+  "turn": 1,
+  "utterance": "Yes, I have pain in my right shoulder and also headaches.",
+  "prior_state": {
+   "pain_experience": null,
+   "number_of_pains": null,
+   "pain_details": [],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "allergies": [],
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "current_medications": [],
+   "denture_present": null,
+   "dietary_preferences_and_restrictions": [],
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Unknown"
+    }
+   ],
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": null
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": null
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_part": {
+    "cand": "right shoulder",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll be asking you some health screening questions today. To start, are you currently experiencing any pain?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 1,
+   "n_fields": 41,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.9024,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "null",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 31,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5441,
+   "output_tokens": 434,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "The shoulder pain is moderate, and I'd say the headaches are mild.",
+  "prior_state": {
+   "allergies": [],
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "current_medications": [],
+   "denture_present": null,
+   "dietary_preferences_and_restrictions": [],
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Unknown"
+    }
+   ],
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": null,
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_part": {
+    "cand": "right shoulder",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Sorry to hear that. Can you tell me how severe the shoulder pain is?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 2,
+   "n_fields": 41,
+   "n_correct": 39,
+   "n_partial": 0,
+   "all_field_acc": 0.9512,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 22,
+   "structured_acc": 1.0,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5516,
+   "output_tokens": 436,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "The shoulder has been hurting for about 3 weeks, and the headaches started around 10 days ago.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "allergies": [],
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "current_medications": [],
+   "denture_present": null,
+   "dietary_preferences_and_restrictions": [],
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ],
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "And how long have these been going on?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 3,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 22,
+   "structured_acc": 1.0,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"Moderate\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5517,
+   "output_tokens": 337,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "No, I don't have a cough.",
+  "prior_state": {
+   "allergies": [],
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "current_medications": [],
+   "denture_present": null,
+   "dietary_preferences_and_restrictions": [],
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ],
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null
+  },
+  "candidate_state": {
+   "allergies": null,
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "current_medications": null,
+   "denture_present": null,
+   "dietary_preferences_and_restrictions": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ],
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you have any cough currently?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 4,
+   "n_fields": 41,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.9024,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 36,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5506,
+   "output_tokens": 386,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.19,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "No falls, thankfully.",
+  "prior_state": {
+   "allergies": null,
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "current_medications": null,
+   "denture_present": null,
+   "dietary_preferences_and_restrictions": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ],
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "cough_present"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Have you fallen at any point in the last 12 months?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 5,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 36,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 1,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5511,
+   "output_tokens": 442,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.38,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 6,
+  "utterance": "No, I walk on my own without any aid.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you use any walking aid like a cane or walker?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 6,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 5517,
+   "output_tokens": 443,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.04,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 7,
+  "utterance": "Yes, I have dentures — an upper one and a lower one.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you wear dentures?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 7,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 33,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 5515,
+   "output_tokens": 445,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.19,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 8,
+  "utterance": "My vision is fine, no issues there.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": false,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Any problems or changes with your vision?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 8,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 5513,
+   "output_tokens": 445,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.25,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 9,
+  "utterance": "Yes, I've lost about 5 kilograms over the past 2 months without trying.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "5 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": false,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": "Yes",
+   "weight_loss_amount": "about 5 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   },
+   "weight_loss_amount": {
+    "cand": "5 kilograms",
+    "gold": "about 5 kilograms",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Have you noticed any unintentional weight loss?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 9,
+   "n_fields": 41,
+   "n_correct": 35,
+   "n_partial": 0,
+   "all_field_acc": 0.8537,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 33,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 5523,
+   "output_tokens": 454,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.49,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 10,
+  "utterance": "Actually, I should correct that — the weight loss was about 4 kilograms, not 5. My appetite is a bit reduced, yes.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "5 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": false,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": "Yes",
+   "weight_loss_amount": "about 4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "appetite_change": "Yes",
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   },
+   "weight_loss_amount": {
+    "cand": "4 kilograms",
+    "gold": "about 4 kilograms",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Has your appetite changed at all?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 10,
+   "n_fields": 41,
+   "n_correct": 35,
+   "n_partial": 0,
+   "all_field_acc": 0.8537,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 34,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 5541,
+   "output_tokens": 455,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.45,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 11,
+  "utterance": "Yes, occasionally I choke when eating dry food.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": "occasionally",
+   "dysphagia_or_choking": "Yes",
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": "Unknown",
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": false,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": "Yes",
+   "weight_loss_amount": "about 4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "appetite_change": "Yes",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "occasionally",
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   },
+   "special_diet_required": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "weight_loss_amount": {
+    "cand": "4 kilograms",
+    "gold": "about 4 kilograms",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "special_diet_required"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you have any difficulty swallowing or episodes of choking?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 11,
+   "n_fields": 41,
+   "n_correct": 34,
+   "n_partial": 0,
+   "all_field_acc": 0.8293,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 19,
+   "structured_acc": 0.8636,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 33,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 5527,
+   "output_tokens": 459,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.5,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 12,
+  "utterance": "I try to avoid very dry foods, and I can't eat them comfortably, so yes I stick to softer foods.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": "occasionally",
+   "dysphagia_or_choking": "Yes",
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": "Unknown",
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": "occasionally",
+   "dysphagia_or_choking": "Yes",
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+   "special_diet_required": "Yes",
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": false,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": "Yes",
+   "weight_loss_amount": "about 4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "appetite_change": "Yes",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "occasionally",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "dry foods",
+     "preference_type": "Cannot eat",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].food_item": {
+    "cand": null,
+    "gold": "dry foods",
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].preference_type": {
+    "cand": null,
+    "gold": "Cannot eat",
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].reason": {
+    "cand": null,
+    "gold": "Medical",
+    "verdict": "incorrect"
+   },
+   "number_of_dietary_restrictions": {
+    "cand": null,
+    "gold": 1,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   },
+   "special_diet_notes": {
+    "cand": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "weight_loss_amount": {
+    "cand": "4 kilograms",
+    "gold": "about 4 kilograms",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "special_diet_notes"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Does that mean you need any special diet or texture changes?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 12,
+   "n_fields": 45,
+   "n_correct": 34,
+   "n_partial": 0,
+   "all_field_acc": 0.7556,
+   "fully_correct": 0,
+   "structured_n": 24,
+   "structured_correct": 19,
+   "structured_acc": 0.7917,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 33,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 5546,
+   "output_tokens": 420,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.41,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 13,
+  "utterance": "Yes, just one — I'm allergic to shellfish, and the reaction is swelling and hives.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": "occasionally",
+   "dysphagia_or_choking": "Yes",
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+   "special_diet_required": "Yes",
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": null,
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "allergies": [
+    {
+     "allergen": "shellfish",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "swelling and hives"
+    }
+   ],
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "current_medications": null,
+   "denture_present": true,
+   "dietary_preferences_and_restrictions": null,
+   "dysphagia_frequency": "occasionally",
+   "dysphagia_or_choking": "Yes",
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ],
+   "pain_experience": true,
+   "special_diet_notes": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+   "special_diet_required": "Yes",
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months"
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": false,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": "Yes",
+   "weight_loss_amount": "about 4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "appetite_change": "Yes",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "occasionally",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 1,
+   "allergies": [
+    {
+     "allergen": "shellfish",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": "swelling and hives"
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "dry foods",
+     "preference_type": "Cannot eat",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "allergies[0].allergy_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].food_item": {
+    "cand": null,
+    "gold": "dry foods",
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].preference_type": {
+    "cand": null,
+    "gold": "Cannot eat",
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].reason": {
+    "cand": null,
+    "gold": "Medical",
+    "verdict": "incorrect"
+   },
+   "number_of_dietary_restrictions": {
+    "cand": null,
+    "gold": 1,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   },
+   "special_diet_notes": {
+    "cand": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "weight_loss_amount": {
+    "cand": "4 kilograms",
+    "gold": "about 4 kilograms",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you have any known allergies?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   },
+   {
+    "leaf": "dietary_preferences_and_restrictions[0].preference_type",
+    "wrong": null,
+    "gold": "Cannot eat"
+   },
+   {
+    "leaf": "dietary_preferences_and_restrictions[0].reason",
+    "wrong": null,
+    "gold": "Medical"
+   },
+   {
+    "leaf": "number_of_dietary_restrictions",
+    "wrong": null,
+    "gold": 1
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 13,
+   "n_fields": 49,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.7551,
+   "fully_correct": 0,
+   "structured_n": 25,
+   "structured_correct": 19,
+   "structured_acc": 0.76,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 33,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 4,
+   "nat_persisted": 4,
+   "nat_recovered": 0,
+   "input_tokens": 5553,
+   "output_tokens": 523,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.6,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 14,
+  "utterance": "It's severe — I carry an epinephrine pen just in case.",
+  "prior_state": {
+   "allergies": [
+    {
+     "allergen": "shellfish",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "swelling and hives"
+    }
+   ],
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "current_medications": null,
+   "denture_present": true,
+   "dietary_preferences_and_restrictions": null,
+   "dysphagia_frequency": "occasionally",
+   "dysphagia_or_choking": "Yes",
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ],
+   "pain_experience": true,
+   "special_diet_notes": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+   "special_diet_required": "Yes",
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months"
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": "occasionally",
+   "dysphagia_or_choking": "Yes",
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+   "special_diet_required": "Yes",
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": [
+    {
+     "allergen": "shellfish",
+     "allergy_notes": "Carries an epinephrine pen just in case.",
+     "allergy_severity": "Severe",
+     "reaction": "swelling and hives"
+    }
+   ],
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": false,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": "Yes",
+   "weight_loss_amount": "about 4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "appetite_change": "Yes",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "occasionally",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 1,
+   "allergies": [
+    {
+     "allergen": "shellfish",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "swelling and hives"
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "dry foods",
+     "preference_type": "Cannot eat",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "allergies[0].allergy_notes": {
+    "cand": "Carries an epinephrine pen just in case.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].food_item": {
+    "cand": null,
+    "gold": "dry foods",
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].preference_type": {
+    "cand": null,
+    "gold": "Cannot eat",
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].reason": {
+    "cand": null,
+    "gold": "Medical",
+    "verdict": "incorrect"
+   },
+   "number_of_dietary_restrictions": {
+    "cand": null,
+    "gold": 1,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   },
+   "special_diet_notes": {
+    "cand": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "weight_loss_amount": {
+    "cand": "4 kilograms",
+    "gold": "about 4 kilograms",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "allergies[0].allergy_notes"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "How severe would you call that shellfish allergy?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   },
+   {
+    "leaf": "dietary_preferences_and_restrictions[0].preference_type",
+    "wrong": null,
+    "gold": "Cannot eat"
+   },
+   {
+    "leaf": "dietary_preferences_and_restrictions[0].reason",
+    "wrong": null,
+    "gold": "Medical"
+   },
+   {
+    "leaf": "number_of_dietary_restrictions",
+    "wrong": null,
+    "gold": 1
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 14,
+   "n_fields": 49,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.7551,
+   "fully_correct": 0,
+   "structured_n": 25,
+   "structured_correct": 20,
+   "structured_acc": 0.8,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 37,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 4,
+   "nat_persisted": 4,
+   "nat_recovered": 0,
+   "input_tokens": 5597,
+   "output_tokens": 533,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.43,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 15,
+  "utterance": "I take two: metformin 500 mg orally twice a day, and atorvastatin 20 mg orally once daily.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": "occasionally",
+   "dysphagia_or_choking": "Yes",
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+   "special_diet_required": "Yes",
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": [
+    {
+     "allergen": "shellfish",
+     "allergy_notes": "Carries an epinephrine pen just in case.",
+     "allergy_severity": "Severe",
+     "reaction": "swelling and hives"
+    }
+   ],
+   "current_medications": null,
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "Yes",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": true,
+   "dysphagia_frequency": "occasionally",
+   "dysphagia_or_choking": "Yes",
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": "Yes",
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": 2,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+   "special_diet_required": "Yes",
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "Yes",
+   "upper_denture": "Yes",
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": "4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "allergies": [
+    {
+     "allergen": "shellfish",
+     "allergy_notes": "Carries an epinephrine pen just in case.",
+     "allergy_severity": "Severe",
+     "reaction": "swelling and hives"
+    }
+   ],
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "once daily",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "dietary_preferences_and_restrictions": null,
+   "pain_details": [
+    {
+     "pain_duration": "3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "10 days",
+     "pain_notes": null,
+     "pain_part": "head",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 weeks",
+     "pain_notes": null,
+     "pain_part": "right shoulder",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "around 10 days ago",
+     "pain_notes": null,
+     "pain_part": "headaches",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "Yes",
+   "vision_problem": false,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": "Yes",
+   "weight_loss_amount": "about 4 kilograms",
+   "weight_loss_timeframe": "over the past 2 months",
+   "appetite_change": "Yes",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "occasionally",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 1,
+   "allergies": [
+    {
+     "allergen": "shellfish",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "swelling and hives"
+    }
+   ],
+   "number_of_medications": 2,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "once daily",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "dry foods",
+     "preference_type": "Cannot eat",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "allergies[0].allergy_notes": {
+    "cand": "Carries an epinephrine pen just in case.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": false,
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].food_item": {
+    "cand": null,
+    "gold": "dry foods",
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].preference_type": {
+    "cand": null,
+    "gold": "Cannot eat",
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].reason": {
+    "cand": null,
+    "gold": "Medical",
+    "verdict": "incorrect"
+   },
+   "number_of_dietary_restrictions": {
+    "cand": null,
+    "gold": 1,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "3 weeks",
+    "gold": "about 3 weeks",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "High",
+    "gold": "Moderate",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_duration": {
+    "cand": "10 days",
+    "gold": "around 10 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_part": {
+    "cand": "head",
+    "gold": "headaches",
+    "verdict": "incorrect"
+   },
+   "special_diet_notes": {
+    "cand": "Avoids very dry foods; sticks to softer foods; cannot eat dry foods comfortably.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "weight_loss_amount": {
+    "cand": "4 kilograms",
+    "gold": "about 4 kilograms",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Finally, what medications are you currently taking?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": false
+   },
+   {
+    "leaf": "dietary_preferences_and_restrictions[0].preference_type",
+    "wrong": null,
+    "gold": "Cannot eat"
+   },
+   {
+    "leaf": "dietary_preferences_and_restrictions[0].reason",
+    "wrong": null,
+    "gold": "Medical"
+   },
+   {
+    "leaf": "number_of_dietary_restrictions",
+    "wrong": null,
+    "gold": 1
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_03",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 15,
+   "n_fields": 57,
+   "n_correct": 45,
+   "n_partial": 0,
+   "all_field_acc": 0.7895,
+   "fully_correct": 0,
+   "structured_n": 27,
+   "structured_correct": 22,
+   "structured_acc": 0.8148,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"High\"",
+   "gold_value_of_corrupted": "\"Moderate\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 1,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"Moderate\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 36,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 4,
+   "nat_persisted": 4,
+   "nat_recovered": 0,
+   "input_tokens": 5619,
+   "output_tokens": 614,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.74,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ }
+]

@@ -1,0 +1,53 @@
+{
+  "distributions": {
+    "A_same_voice_clean_cross_utt": {
+      "median": 0.423,
+      "p10": 0.256,
+      "p90": 0.558,
+      "n": 19900
+    },
+    "B_bkg_voice": {
+      "median": 0.056,
+      "p10": -0.021,
+      "p90": 0.13,
+      "n": 100
+    },
+    "C_talking_other_processed": {
+      "median": 0.389,
+      "p10": 0.174,
+      "p90": 0.504,
+      "n": 100
+    },
+    "D_talking_other_raw": {
+      "median": 0.435,
+      "p10": 0.252,
+      "p90": 0.555,
+      "n": 100
+    }
+  },
+  "AUC_A_vs_B(identity separates bkg)": 0.9941,
+  "AUC_A_vs_C(identity separates processed side-talk from clean user speech)": 0.6118,
+  "AUC_D_vs_C(effect of far-field processing alone)": 0.616,
+  "AUC_C_vs_B(side-talk vs bkg)": 0.9845,
+  "eer_A_vs_B": {
+    "threshold": 0.17,
+    "A_accepted": 0.968,
+    "B_bkg_accepted": 0.03,
+    "C_talking_other_accepted_as_user": 0.9,
+    "D_raw_side_talk_accepted": 0.96
+  },
+  "accept95_of_A": {
+    "threshold": 0.204,
+    "A_accepted": 0.95,
+    "B_bkg_accepted": 0.0,
+    "C_talking_other_accepted_as_user": 0.88,
+    "D_raw_side_talk_accepted": 0.91
+  },
+  "accept90_of_A": {
+    "threshold": 0.256,
+    "A_accepted": 0.9,
+    "B_bkg_accepted": 0.0,
+    "C_talking_other_accepted_as_user": 0.82,
+    "D_raw_side_talk_accepted": 0.89
+  }
+}

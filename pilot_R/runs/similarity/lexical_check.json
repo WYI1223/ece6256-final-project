@@ -1,0 +1,26 @@
+{
+  "frac_flagged_as_vocative_side_talk": {
+    "talking_other": 0.99,
+    "bkg_speech": 0.03,
+    "user_backchannel": 0.0,
+    "user_interruption": 0.03
+  },
+  "rule_errors_examples": {
+    "talking_other": [
+      "Hey Jamie, you fed the dog already, yeah?"
+    ],
+    "bkg_speech": [
+      "Mom, have you fed the cat yet?",
+      "Mom, have you fed the cat yet?",
+      "Ugh, this email won't send!"
+    ],
+    "user_backchannel": [],
+    "user_interruption": [
+      "I got it, but can you tell me about cloud storage now?",
+      "Yeah, but can we shift gears a bit? How do I start a garden?",
+      "You know what, can we switch gears? How do I plan a road trip?",
+      "Hang on, how do I make lasagna?",
+      "Oops, forgot to ask earlier, how's the traffic right now?"
+    ]
+  }
+}

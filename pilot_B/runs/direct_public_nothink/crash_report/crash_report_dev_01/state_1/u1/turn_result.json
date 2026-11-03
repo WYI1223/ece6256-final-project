@@ -1,0 +1,372 @@
+{
+  "agent_response": {
+    "attempts": 1,
+    "model_calls": [
+      {
+        "additional_kwargs": {
+          "refusal": null
+        },
+        "call_index": 1,
+        "extra": {},
+        "loop_iteration": null,
+        "model_config": {
+          "max_tokens": 8192,
+          "model": "deepseek-flash",
+          "provider": "openai",
+          "requested_model": "deepseek-flash",
+          "resolved_model_name": "deepseek-flash",
+          "resolved_model_version": "deepseek-flash",
+          "temperature": null,
+          "timeout": 300
+        },
+        "phase": "direct_generation",
+        "response_metadata": {
+          "finish_reason": "stop",
+          "id": "3db10aec-a214-4f0f-931f-b9ef95843988",
+          "logprobs": null,
+          "model_name": "deepseek-flash",
+          "model_provider": "openai",
+          "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+          "token_usage": {
+            "completion_tokens": 451,
+            "completion_tokens_details": null,
+            "prompt_cache_hit_tokens": 0,
+            "prompt_cache_miss_tokens": 4448,
+            "prompt_tokens": 4448,
+            "prompt_tokens_details": {
+              "audio_tokens": null,
+              "cache_write_tokens": null,
+              "cached_tokens": 0,
+              "image_tokens": null,
+              "text_tokens": null
+            },
+            "total_tokens": 4899
+          }
+        },
+        "usage": {
+          "completion_tokens": 451,
+          "prompt_tokens": 4448,
+          "raw": {
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "input_tokens": 4448,
+            "output_token_details": {},
+            "output_tokens": 451,
+            "total_tokens": 4899
+          },
+          "total_tokens": 4899
+        },
+        "usage_metadata": {
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "input_tokens": 4448,
+          "output_token_details": {},
+          "output_tokens": 451,
+          "total_tokens": 4899
+        }
+      }
+    ],
+    "operations": [
+      {
+        "op": "set",
+        "path": "additional_comments",
+        "value": "Claimant declined ambulance at the scene."
+      },
+      {
+        "op": "set",
+        "path": "any_injuries",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "apparent_contributing_factors",
+        "value": [
+          "Failed-to-Yield",
+          "Weather/Road"
+        ]
+      },
+      {
+        "op": "set",
+        "path": "description_of_accident",
+        "value": "Rear-end crash involving claimant Toyota Corolla and blue Ford Transit."
+      },
+      {
+        "op": "set",
+        "path": "injury_table",
+        "value": [
+          {
+            "injury_description": "Minor neck strain",
+            "role": "Driver",
+            "severity": "Minor",
+            "vehicle_number": "1"
+          }
+        ]
+      },
+      {
+        "op": "set",
+        "path": "non_vehicle_property_damage",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "number_of_vehicles_involved",
+        "value": "2"
+      },
+      {
+        "op": "set",
+        "path": "property_damage_description",
+        "value": "Bus shelter glass cracked near the crash location."
+      },
+      {
+        "op": "set",
+        "path": "road_surface_condition",
+        "value": "Wet"
+      },
+      {
+        "op": "set",
+        "path": "time_of_accident",
+        "value": "08:15"
+      },
+      {
+        "op": "set",
+        "path": "weather",
+        "value": "Rain"
+      },
+      {
+        "op": "set",
+        "path": "witnesses_names_contacts",
+        "value": "Maria Lopez, 555-0104"
+      },
+      {
+        "op": "set",
+        "path": "witnesses_present",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "vehicles[0].approx_speed_mph",
+        "value": 0
+      },
+      {
+        "op": "set",
+        "path": "vehicles[0].damage_description",
+        "value": "Rear bumper damage"
+      },
+      {
+        "op": "set",
+        "path": "vehicles[1].approx_speed_mph",
+        "value": 25
+      },
+      {
+        "op": "set",
+        "path": "vehicles[1].damage_description",
+        "value": "Front bumper damage"
+      },
+      {
+        "op": "set",
+        "path": "vehicles[1].licence_plate",
+        "value": "8TRK229"
+      },
+      {
+        "op": "set",
+        "path": "vehicles[1].pre_crash_manoeuvre",
+        "value": "Straight"
+      },
+      {
+        "op": "set",
+        "path": "vehicles[1].role",
+        "value": "other vehicle"
+      },
+      {
+        "op": "set",
+        "path": "vehicles[1].vehicle_type_make_model",
+        "value": "Blue Ford Transit delivery van"
+      }
+    ],
+    "raw_response": "{\n  \"additional_comments\": \"Claimant declined ambulance at the scene.\",\n  \"any_injuries\": true,\n  \"apparent_contributing_factors\": [\n    \"Failed-to-Yield\",\n    \"Weather/Road\"\n  ],\n  \"date_of_accident\": \"2026-04-17\",\n  \"description_of_accident\": \"Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.\",\n  \"injury_table\": [\n    {\n      \"injury_description\": \"Minor neck strain\",\n      \"role\": \"Driver\",\n      \"severity\": \"Minor\",\n      \"vehicle_number\": \"1\"\n    }\n  ],\n  \"lighting\": \"Daylight\",\n  \"location_of_accident\": \"5th and Pine\",\n  \"location_type\": \"Intersection\",\n  \"non_vehicle_property_damage\": true,\n  \"number_of_vehicles_involved\": \"2\",\n  \"posted_speed_limit\": 35,\n  \"property_damage_description\": \"Bus shelter glass cracked near the crash location.\",\n  \"road_surface_condition\": \"Wet\",\n  \"time_of_accident\": \"08:15\",\n  \"traffic_control\": \"Signal\",\n  \"vehicles\": [\n    {\n      \"approx_speed_mph\": 0,\n      \"damage_description\": \"Rear bumper damage\",\n      \"licence_plate\": \"7ABC123\",\n      \"pre_crash_manoeuvre\": \"Stopped\",\n      \"role\": \"claimant vehicle\",\n      \"vehicle_type_make_model\": \"2018 Toyota Corolla\"\n    },\n    {\n      \"approx_speed_mph\": 25,\n      \"damage_description\": \"Front bumper damage\",\n      \"licence_plate\": \"8TRK229\",\n      \"pre_crash_manoeuvre\": \"Straight\",\n      \"role\": \"other vehicle\",\n      \"vehicle_type_make_model\": \"Blue Ford Transit delivery van\"\n    }\n  ],\n  \"weather\": \"Rain\",\n  \"witnesses_names_contacts\": \"Maria Lopez, 555-0104\",\n  \"witnesses_present\": true\n}",
+    "trace": [
+      {
+        "call_index": 1,
+        "input_messages": [
+          {
+            "class": "SystemMessage",
+            "content": "You are Direct, a single-call no-tool baseline for structured form updating.\n\nThe public task context contains evidence and incumbent state. The schema field\nguide, visible conversation history, and current user utterance are the evidence\nused to license commitments. The prior record is the incumbent state to audit\nagainst that evidence.\n\nYour task is to audit the supplied prior record and return the post-turn record\ncontaining all and only commitments licensed by the schema, visible history, and\ncurrent utterance.\n\nShared decision policy:\n- Audit the prior state. Preserve a prior value only when it remains licensed\n  by the visible history, current utterance, and schema. If a prior value is\n  unsupported, withdrawn, contradicted, or schema-inconsistent, clear or repair\n  it as licensed by the public packet.\n- Treat visible history as evidence, not just background. If the prior record\n  is missing, unsupported by, or contradicts a value determined by the schema,\n  visible history, and current utterance, repair or clear it as licensed.\n- Commit only values supported by public evidence. Do not infer plausible but\n  unstated values, do not complete partial addresses or names from world\n  knowledge, and do not fabricate identifiers.\n- Use null when the evidence clears, retracts, denies, withdraws, or fails to\n  license a prior scalar value.\n- Put each fact in the most specific schema field whose question and field\n  instruction ask for that fact. Do not copy broad narrative details into child\n  fields unless the child field itself asks for them.\n- Never write \"<open>\" as a public value. Do not replace a licensed prior value\n  with an uncertain guess. If no value is licensed for a scalar field, use null.\n- Repeat groups are arrays of entity rows. Keep row identity stable: update an\n  existing row when evidence identifies the same entity; create or delete rows\n  only when evidence or a schema repeat count licenses it.\n- For repeat groups whose schema says mode=from_slot, update the count field\n  when evidence licenses a count. If a count is known but row attributes are not,\n  leave child fields null rather than inventing labels.\n- Table fields are arrays of row objects. Retain existing rows only when they\n  remain licensed by the evidence; clear, repair, add, or remove rows when the\n  evidence and schema license that row-level change.\n\nOutput interface for Direct:\n- Return exactly one complete JSON object representing the resulting record.\n- Include every top-level regular field id and every repeat-group id shown in\n  the prior record state. Do not include section/group/gate/branch ids.\n- Repeat groups are null when absent/unknown, or arrays of row objects when\n  rows are present. Every repeat row must include every child field id.\n- Table fields are null when absent/unknown, or arrays of row objects when rows\n  are present. Every table row must include every column id.\n- Use null for unknown or empty scalar fields. Do not use placeholder strings.\n- Output only the JSON object, with no commentary or explanation.\n",
+            "role": "system"
+          },
+          {
+            "class": "HumanMessage",
+            "content": "=== SCHEMA FIELD GUIDE ===\nUse bare field ids for top-level regular fields.\nUse repeat_group_id[index].field_id for repeat children.\nSection/group/gate/branch ids are navigation labels only, not output keys.\nField instructions describe semantic scope; keep values within that scope.\n\n- description_of_accident; type=multiline_text; question=Please provide a brief description of the accident.; instruction=Describe the setting, sequence of events, and vehicles involved.; semantic_units=ACTOR_SET:Actors / vehicles involved=Identifies the involved road users/vehicles at the level used in the narrative (e.g., 'my car', 'the truck', 'a cyclist').; TEMPORAL_SEQUENCE:Temporal sequence=An ordered account of key events (e.g., 'I was stopped, then the other car rear-ended me').; CAUSAL_LINK:Causal attribution=Explicit or implicit causal relationship (e.g., 'because they ran the red light', 'due to ice').; COLLISION_EVENT:Collision / loss-of-control event=The moment of impact or loss of control that con...\n- date_of_accident; type=date; question=What is the date of the accident?; instruction=YYYY-MM-DD; convert relative dates (e.g., 'yesterday') to this format.\n- time_of_accident; type=time; question=What time did the accident occur?; instruction=HH:MM (24-hour), clarify any AM/PM ambiguity.\n- location_of_accident; type=text; question=Where did the accident occur? (street/route, city/town, and any landmark or distance from junction); instruction=Complete address with street name/number, city/town, and precise location details (e.g., distance from intersection, landmark, or mile marker) sufficient for responders to locate the exact spot.; semantic_units=STREET_DESCRIPTOR:Street/route=Street name or route identifier; includes number if given.; LOCALITY:City/town=Municipality/locality where the crash occurred.; RELATIVE_POSITIONING:Precise positioning=Landmark or distance-from-junction detail (e.g., '50m past the intersection', 'near the gas station', 'mile marker 23').\n- road_surface_condition; type=single_choice; options=[\"Dry\", \"Wet\", \"Snow / Ice\", \"Debris\", \"Other\"]; question=What was the road surface condition at the time of the accident?; instruction=Select the option that best describes the actual road surface condition. If 'Other', specify clearly (e.g., 'oil spill', 'gravel', 'construction debris').\n- weather; type=single_choice; options=[\"Clear\", \"Rain\", \"Fog\", \"Snow\", \"Other\"]; question=What was the weather at the time of the accident?; instruction=Select the option that best describes the weather at the moment of the accident. If 'Other', you need to specify what you mean.\n- lighting; type=single_choice; options=[\"Daylight\", \"Dusk / Dawn\", \"Dark\u2013Lit\", \"Dark\u2013Unlit\"]; question=What was the lighting condition at the time of the accident?; instruction=Choose one: Daylight, Dusk / Dawn, Dark\u2013Lit, or Dark\u2013Unlit.\n- SECTION (not an output key) road_type_and_controls: Road type and traffic controls\n  - location_type; type=single_choice; options=[\"Straight\", \"Curve\", \"Intersection\"]; question=Was the accident location on a straight road, a curve, or an intersection?; instruction=Match the actual road geometry at the accident location.\n  - posted_speed_limit; type=number; question=What was the posted speed limit at the accident location (in mp/h)?; instruction=Numeric posted speed limit in mph as signed at or near the location.\n  - traffic_control; type=single_choice; options=[\"Stop Sign\", \"Signal\", \"None\"]; question=What type of traffic control was present at the accident location?; instruction=Type of traffic control device present and operational at the time.\n- number_of_vehicles_involved; type=single_choice; options=[\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"Other\"]; question=How many vehicles were involved in the accident?; instruction=Exact count of involved vehicles. If more than 6, specify the exact number using 'Other'.\n- REPEAT vehicles: Vehicle details; mode=from_slot, from_slot=number_of_vehicles_involved; child paths are vehicles[index].field; semantic_units=INSTANCE_MAPPING:Instance mapping (repeat-group binding)=Correctly associates extracted vehicle-specific IUs to the correct vehicle instance (index) using role labels, descriptions, and context.\n  - vehicles[i].role; type=text; question=What role did the vehicle play in the accident?; instruction=Use a concise, public-evidence referent that uniquely identifies this vehicle instance within the report. Relationship labels such as 'claimant vehicle' or 'other vehicle' are valid only when they are unambiguous for that row; if more than one vehicle could...; semantic_units=INSTANCE_ROLE_LABEL:Instance role label=Natural-language instance label/referent for the vehicle. It may be a relationship label or a descriptive alias from public evidence, but it must uniquely identify the row and a...\n  - vehicles[i].vehicle_type_make_model; type=text; question=What is the type, make, and model of the vehicle?; instruction=Vehicle class + manufacturer + specific model (e.g., 'SUV Toyota RAV4').; semantic_units=VEHICLE_CLASS:Vehicle class/type=Vehicle class such as sedan, SUV, truck, motorcycle, etc.; VEHICLE_DESCRIPTOR:Vehicle descriptor=Color, size, body/style, commercial/use descriptor, or other stated identifying descriptor that is not itself the class, manufacturer, or model.; MANUFACTURER:Manufacturer/make=Manufacturer/brand (e.g., Toyota, Honda).; MODEL:Model=Specific model (e.g., RAV4, 3 Series).\n  - vehicles[i].licence_plate; type=text; question=What is the licence plate of the vehicle?; instruction=Complete plate (letters/numbers/special chars); include state/province if different from crash location.; semantic_units=PLATE_STRING:Plate string=License plate characters as provided.; PLATE_JURISDICTION:Plate jurisdiction (optional)=State/province/country if mentioned or relevant.\n  - vehicles[i].pre_crash_manoeuvre; type=single_choice; options=[\"Straight\", \"Stopped\", \"Turning-Left\", \"Turning-Right\", \"Overtaking\", \"Other\"]; question=What was the vehicle's pre-crash manoeuvre?; instruction=Specific action immediately before collision. If none of the listed options fits, choose Other and store the specific free-text value licensed by the evidence. Do not infer a manoeuvre category from general approach direction or collision mechanism alone un...\n  - vehicles[i].approx_speed_mph; type=number; question=What was the approximate speed of the vehicle at the time of the accident (in mp/h)?; instruction=Best estimate of speed at impact in mp/h.\n  - vehicles[i].damage_description; type=text; question=Please describe the damage to the vehicle.; instruction=Body areas affected and severity (e.g., 'front bumper dented, right door scratched; coolant leak').; semantic_units=DAMAGE_LOCATION:Damage location=Vehicle body areas affected (front bumper, right door, etc.).; DAMAGE_SEVERITY:Damage severity=Severity indicators such as dented/scratched/crushed, functional impairment.; SECONDARY_EFFECTS:Secondary effects=Leak, smoke, immobilized, airbags deployed, etc., if stated.\n- apparent_contributing_factors; type=multiple_choice; options=[\"Speeding\", \"Failed-to-Yield\", \"Distraction\", \"Weather/Road\", \"Vehicle Defect\", \"Other\"]; question=What were the apparent contributing factors to the accident? (Select all that apply); instruction=Select only factors directly licensed by stated evidence or an explicit schema mapping. Do not infer latent causes from the collision mechanism, failure to avoid the crash, or ordinary crash dynamics alone. A speed estimate licenses Speeding only if it exce...\n- any_injuries; type=bool; question=Were there any injuries as a result of the accident?; instruction=True if any person sustained physical injury; false only if certain no one was hurt.\n- GATE/CONDITION (not an output key) injury_details_gate: Injury details (shown only if injuries occurred); active when any_injuries in [True]\n  - injury_table; type=table; question=Please provide details of any injuries.; instruction=Each row includes role, associated vehicle (or N/A), severity, and specific injury description.; columns=[{\"id\": \"role\", \"type\": \"text\", \"question\": \"Role (Driver, Passenger, Pedestrian, Cyclist, Other)\", \"instruction\": \"Specify road user type; include passenger seat if known.\", \"semantic_units\": \"PERSON_ROLE:Person role=Road user type and role (driver/passenger/pedestrian/cyclist/other); include seat if provided.\"}, {\"id\": \"vehicle_number\", \"type\": \"text\", \"question\": \"Associated vehicle #\", \"instruction\": \"Vehicle number consistent with Vehicles section or 'N/A' for pedestrians/cyclists not tied to a vehicle.\", \"semantic_units\": \"VEHICLE_ASSOCIATION:Vehicle association=Vehicle index number (matching repeat group) or 'N/A' for non-vehicle road users.\"}, {\"id\": \"severity\", \"type\": \"single_choice\", \"question\": \"Severity\", \"instruction\": \"Minor: no hospitalization. Serious: requires medical attention/hospitalization.\"}, {\"id\": \"injury_description\", \"type\": \"text\", \"question\": \"Injury description\", \"instruction\": \"Body part + nature (e.g., 'forehead laceration', 'suspected fractured wrist').\", \"semantic_units\": \"INJURY_DESCRIPTION:Injury description=Body part and injury type, sufficiently specific (laceration, fracture, bruising, etc.).\"}]; semantic_units=INJURY_ROW_COMPLETENESS:Row completeness=Each injury row must contain all required columns (role, vehicle association, severity, description).\n- non_vehicle_property_damage; type=bool; question=Was there any non-vehicle property damage as a result of the accident?; instruction=True if property other than the vehicles was damaged (e.g., building, sign, barrier, landscaping).\n- GATE/CONDITION (not an output key) property_damage_gate: Non-vehicle property damage details; active when non_vehicle_property_damage in [True]\n  - property_damage_description; type=text; question=Describe the non-vehicle property damage.; instruction=What was damaged, extent, and location relative to the scene.; semantic_units=DAMAGED_OBJECT:Damaged object=What non-vehicle property was damaged (sign, guardrail, building, etc.).; DAMAGE_EXTENT:Damage extent=Severity/extent of damage (bent, broken, destroyed, etc.).; SCENE_RELATION:Scene relation=Where the damage occurred relative to the crash location (e.g., 'on the corner', 'in front of the shop').\n- witnesses_present; type=bool; question=Were any witnesses present at the scene of the accident?; instruction=True if independent witnesses observed the accident.\n- GATE/CONDITION (not an output key) witnesses_gate: Witness details; active when witnesses_present in [True]\n  - witnesses_names_contacts; type=text; question=Provide the names and contact details of any witnesses.; instruction=Full names with contact (phone/email/address) for each witness; include brief note of observation if available.; semantic_units=WITNESS_IDENTITY_SET:Witness identity set=Names/identifiers for each distinct witness mentioned.; CONTACT_METHOD:Contact method=At least one contact detail per witness (phone, email, address).; WITNESS_OBSERVATION_NOTE:Witness observation note=Brief note of what the witness observed or where they observed it from, when available.\n- additional_comments; type=multiline_text; question=Do you have any additional comments regarding the accident? (optional); instruction=Any other relevant details such as unusual circumstances, emergency response, towing, photos, or observations.; semantic_units=ADDITIONAL_CONTEXT:Additional context=Other relevant context not captured elsewhere (emergency response, towing, photos, unusual circumstances).\n\n=== STATE SHAPE CONTRACT ===\nThe resulting record state is a flat JSON object.\nTop-level keys, exactly:\n[\"additional_comments\", \"any_injuries\", \"apparent_contributing_factors\", \"date_of_accident\", \"description_of_accident\", \"injury_table\", \"lighting\", \"location_of_accident\", \"location_type\", \"non_vehicle_property_damage\", \"number_of_vehicles_involved\", \"posted_speed_limit\", \"property_damage_description\", \"road_surface_condition\", \"time_of_accident\", \"traffic_control\", \"vehicles\", \"weather\", \"witnesses_names_contacts\", \"witnesses_present\"]\nRepeat-group row object keys, exactly:\n- vehicles: [\"approx_speed_mph\", \"damage_description\", \"licence_plate\", \"pre_crash_manoeuvre\", \"role\", \"vehicle_type_make_model\"]\nTable row column keys, exactly:\n- injury_table: [\"injury_description\", \"role\", \"severity\", \"vehicle_number\"]\n\n=== PRIOR RECORD STATE ===\n{\n  \"additional_comments\": null,\n  \"any_injuries\": false,\n  \"apparent_contributing_factors\": [\n    \"Failed-to-Yield\"\n  ],\n  \"date_of_accident\": \"2026-04-17\",\n  \"description_of_accident\": \"Two vehicles were reported near the north entrance.\",\n  \"injury_table\": null,\n  \"lighting\": \"Daylight\",\n  \"location_of_accident\": \"5th and Pine\",\n  \"location_type\": \"Intersection\",\n  \"non_vehicle_property_damage\": false,\n  \"number_of_vehicles_involved\": \"1\",\n  \"posted_speed_limit\": 35,\n  \"property_damage_description\": null,\n  \"road_surface_condition\": \"Dry\",\n  \"time_of_accident\": \"08:10\",\n  \"traffic_control\": \"Signal\",\n  \"weather\": \"Clear\",\n  \"witnesses_names_contacts\": null,\n  \"witnesses_present\": false,\n  \"vehicles\": [\n    {\n      \"approx_speed_mph\": 5,\n      \"damage_description\": \"Minor rear bumper scrape\",\n      \"licence_plate\": \"7ABC123\",\n      \"pre_crash_manoeuvre\": \"Stopped\",\n      \"role\": \"claimant vehicle\",\n      \"vehicle_type_make_model\": \"2018 Toyota Corolla\"\n    }\n  ]\n}\n\n=== CONVERSATION HISTORY ===\n[user]: I first said there was only one car and no one was hurt.\n\n=== CURRENT USER UTTERANCE ===\nApply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `description_of_accident` to `\"Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.\"`\n- set `time_of_accident` to `\"08:15\"`\n- set `road_surface_condition` to `\"Wet\"`\n- set `weather` to `\"Rain\"`\n- set `number_of_vehicles_involved` to `\"2\"`\n- set `vehicles[0].approx_speed_mph` to `0`\n- set `vehicles[0].damage_description` to `\"Rear bumper damage\"`\n- set `vehicles[1].role` to `\"other vehicle\"`\n- set `vehicles[1].vehicle_type_make_model` to `\"Blue Ford Transit delivery van\"`\n- set `vehicles[1].licence_plate` to `\"8TRK229\"`\n- set `vehicles[1].pre_crash_manoeuvre` to `\"Straight\"`\n- set `vehicles[1].approx_speed_mph` to `25`\n- set `vehicles[1].damage_description` to `\"Front bumper damage\"`\n- set `apparent_contributing_factors` to `[\"Failed-to-Yield\", \"Weather/Road\"]`\n- set `any_injuries` to `true`\n- set `injury_table` to `[{\"role\": \"Driver\", \"vehicle_number\": \"1\", \"severity\": \"Minor\", \"injury_description\": \"Minor neck strain\"}]`\n- set `non_vehicle_property_damage` to `true`\n- set `property_damage_description` to `\"Bus shelter glass cracked near the crash location.\"`\n- set `witnesses_present` to `true`\n- set `witnesses_names_contacts` to `\"Maria Lopez, 555-0104\"`\n- set `additional_comments` to `\"Claimant declined ambulance at the scene.\"`\n\n=== TASK ===\nAudit the prior state against the schema, visible history, and current utterance. Return the full resulting record JSON using all and only evidence-licensed post-turn values.",
+            "role": "human"
+          }
+        ],
+        "response": {
+          "class": "AIMessage",
+          "content": "{\n  \"additional_comments\": \"Claimant declined ambulance at the scene.\",\n  \"any_injuries\": true,\n  \"apparent_contributing_factors\": [\n    \"Failed-to-Yield\",\n    \"Weather/Road\"\n  ],\n  \"date_of_accident\": \"2026-04-17\",\n  \"description_of_accident\": \"Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.\",\n  \"injury_table\": [\n    {\n      \"injury_description\": \"Minor neck strain\",\n      \"role\": \"Driver\",\n      \"severity\": \"Minor\",\n      \"vehicle_number\": \"1\"\n    }\n  ],\n  \"lighting\": \"Daylight\",\n  \"location_of_accident\": \"5th and Pine\",\n  \"location_type\": \"Intersection\",\n  \"non_vehicle_property_damage\": true,\n  \"number_of_vehicles_involved\": \"2\",\n  \"posted_speed_limit\": 35,\n  \"property_damage_description\": \"Bus shelter glass cracked near the crash location.\",\n  \"road_surface_condition\": \"Wet\",\n  \"time_of_accident\": \"08:15\",\n  \"traffic_control\": \"Signal\",\n  \"vehicles\": [\n    {\n      \"approx_speed_mph\": 0,\n      \"damage_description\": \"Rear bumper damage\",\n      \"licence_plate\": \"7ABC123\",\n      \"pre_crash_manoeuvre\": \"Stopped\",\n      \"role\": \"claimant vehicle\",\n      \"vehicle_type_make_model\": \"2018 Toyota Corolla\"\n    },\n    {\n      \"approx_speed_mph\": 25,\n      \"damage_description\": \"Front bumper damage\",\n      \"licence_plate\": \"8TRK229\",\n      \"pre_crash_manoeuvre\": \"Straight\",\n      \"role\": \"other vehicle\",\n      \"vehicle_type_make_model\": \"Blue Ford Transit delivery van\"\n    }\n  ],\n  \"weather\": \"Rain\",\n  \"witnesses_names_contacts\": \"Maria Lopez, 555-0104\",\n  \"witnesses_present\": true\n}",
+          "role": "ai"
+        }
+      }
+    ]
+  },
+  "answer_updates": {
+    "additional_comments": "Claimant declined ambulance at the scene.",
+    "any_injuries": true,
+    "apparent_contributing_factors": [
+      "Failed-to-Yield",
+      "Weather/Road"
+    ],
+    "description_of_accident": "Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.",
+    "injury_table": [
+      {
+        "injury_description": "Minor neck strain",
+        "role": "Driver",
+        "severity": "Minor",
+        "vehicle_number": "1"
+      }
+    ],
+    "non_vehicle_property_damage": true,
+    "number_of_vehicles_involved": "2",
+    "property_damage_description": "Bus shelter glass cracked near the crash location.",
+    "road_surface_condition": "Wet",
+    "time_of_accident": "08:15",
+    "vehicles": [
+      {
+        "approx_speed_mph": 0,
+        "damage_description": "Rear bumper damage",
+        "licence_plate": "7ABC123",
+        "pre_crash_manoeuvre": "Stopped",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2018 Toyota Corolla"
+      },
+      {
+        "approx_speed_mph": 25,
+        "damage_description": "Front bumper damage",
+        "licence_plate": "8TRK229",
+        "pre_crash_manoeuvre": "Straight",
+        "role": "other vehicle",
+        "vehicle_type_make_model": "Blue Ford Transit delivery van"
+      }
+    ],
+    "weather": "Rain",
+    "witnesses_names_contacts": "Maria Lopez, 555-0104",
+    "witnesses_present": true
+  },
+  "answers_after": {
+    "additional_comments": "Claimant declined ambulance at the scene.",
+    "any_injuries": true,
+    "apparent_contributing_factors": [
+      "Failed-to-Yield",
+      "Weather/Road"
+    ],
+    "date_of_accident": "2026-04-17",
+    "description_of_accident": "Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.",
+    "injury_table": [
+      {
+        "injury_description": "Minor neck strain",
+        "role": "Driver",
+        "severity": "Minor",
+        "vehicle_number": "1"
+      }
+    ],
+    "lighting": "Daylight",
+    "location_of_accident": "5th and Pine",
+    "location_type": "Intersection",
+    "non_vehicle_property_damage": true,
+    "number_of_vehicles_involved": "2",
+    "posted_speed_limit": 35,
+    "property_damage_description": "Bus shelter glass cracked near the crash location.",
+    "road_surface_condition": "Wet",
+    "time_of_accident": "08:15",
+    "traffic_control": "Signal",
+    "vehicles": [
+      {
+        "approx_speed_mph": 0,
+        "damage_description": "Rear bumper damage",
+        "licence_plate": "7ABC123",
+        "pre_crash_manoeuvre": "Stopped",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2018 Toyota Corolla"
+      },
+      {
+        "approx_speed_mph": 25,
+        "damage_description": "Front bumper damage",
+        "licence_plate": "8TRK229",
+        "pre_crash_manoeuvre": "Straight",
+        "role": "other vehicle",
+        "vehicle_type_make_model": "Blue Ford Transit delivery van"
+      }
+    ],
+    "weather": "Rain",
+    "witnesses_names_contacts": "Maria Lopez, 555-0104",
+    "witnesses_present": true
+  },
+  "answers_before": {
+    "additional_comments": null,
+    "any_injuries": false,
+    "apparent_contributing_factors": [
+      "Failed-to-Yield"
+    ],
+    "date_of_accident": "2026-04-17",
+    "description_of_accident": "Two vehicles were reported near the north entrance.",
+    "injury_table": null,
+    "lighting": "Daylight",
+    "location_of_accident": "5th and Pine",
+    "location_type": "Intersection",
+    "non_vehicle_property_damage": false,
+    "number_of_vehicles_involved": "1",
+    "posted_speed_limit": 35,
+    "property_damage_description": null,
+    "road_surface_condition": "Dry",
+    "time_of_accident": "08:10",
+    "traffic_control": "Signal",
+    "vehicles": [
+      {
+        "approx_speed_mph": 5,
+        "damage_description": "Minor rear bumper scrape",
+        "licence_plate": "7ABC123",
+        "pre_crash_manoeuvre": "Stopped",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2018 Toyota Corolla"
+      }
+    ],
+    "weather": "Clear",
+    "witnesses_names_contacts": null,
+    "witnesses_present": false
+  },
+  "current_utterance": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `description_of_accident` to `\"Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.\"`\n- set `time_of_accident` to `\"08:15\"`\n- set `road_surface_condition` to `\"Wet\"`\n- set `weather` to `\"Rain\"`\n- set `number_of_vehicles_involved` to `\"2\"`\n- set `vehicles[0].approx_speed_mph` to `0`\n- set `vehicles[0].damage_description` to `\"Rear bumper damage\"`\n- set `vehicles[1].role` to `\"other vehicle\"`\n- set `vehicles[1].vehicle_type_make_model` to `\"Blue Ford Transit delivery van\"`\n- set `vehicles[1].licence_plate` to `\"8TRK229\"`\n- set `vehicles[1].pre_crash_manoeuvre` to `\"Straight\"`\n- set `vehicles[1].approx_speed_mph` to `25`\n- set `vehicles[1].damage_description` to `\"Front bumper damage\"`\n- set `apparent_contributing_factors` to `[\"Failed-to-Yield\", \"Weather/Road\"]`\n- set `any_injuries` to `true`\n- set `injury_table` to `[{\"role\": \"Driver\", \"vehicle_number\": \"1\", \"severity\": \"Minor\", \"injury_description\": \"Minor neck strain\"}]`\n- set `non_vehicle_property_damage` to `true`\n- set `property_damage_description` to `\"Bus shelter glass cracked near the crash location.\"`\n- set `witnesses_present` to `true`\n- set `witnesses_names_contacts` to `\"Maria Lopez, 555-0104\"`\n- set `additional_comments` to `\"Claimant declined ambulance at the scene.\"`",
+  "is_complete": true,
+  "provenance": {
+    "generation": {
+      "agent": "Direct",
+      "model": {
+        "max_tokens": 8192,
+        "model": "deepseek-flash",
+        "provider": "openai",
+        "requested_model": "deepseek-flash",
+        "resolved_model_name": "deepseek-flash",
+        "resolved_model_version": "deepseek-flash",
+        "temperature": null,
+        "timeout": 300
+      },
+      "schema_interface": {
+        "public_projection": "shared_schema_field_guide_with_schema_completed_prior_state"
+      },
+      "tool_policy": {
+        "mode": "state_json"
+      }
+    }
+  },
+  "questionnaire": "crash_report",
+  "scenario": "crash_report_dev_01",
+  "scenario_id": "crash_report_dev_01",
+  "state": "state_1",
+  "turn_index": 0,
+  "utterance_id": "u1",
+  "visible_history": [
+    {
+      "content": "I first said there was only one car and no one was hurt.",
+      "role": "user"
+    }
+  ]
+}

@@ -1,0 +1,1141 @@
+[
+ {
+  "turn": 1,
+  "utterance": "Yes, I do — my hip has been bothering me. It's a mild ache.",
+  "prior_state": {
+   "pain_experience": null,
+   "number_of_pains": null,
+   "pain_details": [],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 1,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "has been bothering me (unspecified duration)",
+     "pain_notes": "Described as a mild ache",
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 1,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "has been bothering me (unspecified duration)",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "Described as a mild ache",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_gen_05",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 1,
+   "n_fields": 37,
+   "n_correct": 35,
+   "n_partial": 0,
+   "all_field_acc": 0.9459,
+   "fully_correct": 0,
+   "structured_n": 21,
+   "structured_correct": 21,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 31,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 18305,
+   "output_tokens": 181,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "The hip pain started about three days ago. And yes, I've had a dry cough for maybe ten days now, no phlegm.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 1,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "has been bothering me (unspecified duration)",
+     "pain_notes": "Described as a mild ache",
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "cough_present": true,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 1,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": false,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about three days",
+     "pain_notes": "Described as a mild ache",
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 1,
+   "pain_details": [
+    {
+     "pain_duration": "about three days",
+     "pain_notes": null,
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_notes": {
+    "cand": "Described as a mild ache",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_gen_05",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 2,
+   "n_fields": 37,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.973,
+   "fully_correct": 0,
+   "structured_n": 21,
+   "structured_correct": 21,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 32,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 18626,
+   "output_tokens": 185,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "I'm allergic to penicillin and sulfa drugs — both give me a rash. Oh, and actually the hip pain started about three weeks ago, not three days like I might have said.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "cough_present": true,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 1,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": false,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about three days",
+     "pain_notes": "Described as a mild ache",
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "cough_present": true,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 2,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 1,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": false,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "sulfa drugs",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    }
+   ],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about three weeks",
+     "pain_notes": "Described as a mild ache",
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 1,
+   "pain_details": [
+    {
+     "pain_duration": "about three weeks",
+     "pain_notes": null,
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": "rash"
+    },
+    {
+     "allergen": "sulfa drugs",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": "rash"
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "allergies[0].allergy_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "allergies[1].allergy_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "Described as a mild ache",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_gen_05",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 3,
+   "n_fields": 45,
+   "n_correct": 42,
+   "n_partial": 0,
+   "all_field_acc": 0.9333,
+   "fully_correct": 0,
+   "structured_n": 23,
+   "structured_correct": 21,
+   "structured_acc": 0.913,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 34,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 18953,
+   "output_tokens": 254,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "Yes, I can't have dairy — lactose intolerance, it upsets my stomach.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "cough_present": true,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 2,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 1,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": false,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "sulfa drugs",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    }
+   ],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about three weeks",
+     "pain_notes": "Described as a mild ache",
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "cough_present": true,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 2,
+   "number_of_dietary_restrictions": 1,
+   "number_of_medications": null,
+   "number_of_pains": 1,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": false,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "sulfa drugs",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    }
+   ],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": "Lactose intolerance; upsets my stomach",
+     "food_item": "dairy",
+     "preference_type": "Cannot eat",
+     "reason": "Medical"
+    }
+   ],
+   "pain_details": [
+    {
+     "pain_duration": "about three weeks",
+     "pain_notes": "Described as a mild ache",
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 1,
+   "pain_details": [
+    {
+     "pain_duration": "about three weeks",
+     "pain_notes": null,
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": "rash"
+    },
+    {
+     "allergen": "sulfa drugs",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": "rash"
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "dairy",
+     "preference_type": "Cannot eat",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "allergies[0].allergy_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "allergies[1].allergy_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].diet_notes": {
+    "cand": "Lactose intolerance; upsets my stomach",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "Described as a mild ache",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "natural_persisted_examples": [
+   {
+    "leaf": "allergies[0].allergy_severity",
+    "wrong": "Unknown",
+    "gold": null
+   },
+   {
+    "leaf": "allergies[1].allergy_severity",
+    "wrong": "Unknown",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_gen_05",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 4,
+   "n_fields": 49,
+   "n_correct": 45,
+   "n_partial": 0,
+   "all_field_acc": 0.9184,
+   "fully_correct": 0,
+   "structured_n": 25,
+   "structured_correct": 23,
+   "structured_acc": 0.92,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 41,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 19410,
+   "output_tokens": 323,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "No falls this past year, and my vision's been fine too.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "cough_present": true,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 2,
+   "number_of_dietary_restrictions": 1,
+   "number_of_medications": null,
+   "number_of_pains": 1,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": false,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "sulfa drugs",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    }
+   ],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": "Lactose intolerance; upsets my stomach",
+     "food_item": "dairy",
+     "preference_type": "Cannot eat",
+     "reason": "Medical"
+    }
+   ],
+   "pain_details": [
+    {
+     "pain_duration": "about three weeks",
+     "pain_notes": "Described as a mild ache",
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "cough_present": true,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": false,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": 2,
+   "number_of_dietary_restrictions": 1,
+   "number_of_medications": null,
+   "number_of_pains": 1,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": false,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": false,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    },
+    {
+     "allergen": "sulfa drugs",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": "rash"
+    }
+   ],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": "Lactose intolerance; upsets my stomach",
+     "food_item": "dairy",
+     "preference_type": "Cannot eat",
+     "reason": "Medical"
+    }
+   ],
+   "pain_details": [
+    {
+     "pain_duration": "about three weeks",
+     "pain_notes": "Described as a mild ache",
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 1,
+   "pain_details": [
+    {
+     "pain_duration": "about three weeks",
+     "pain_notes": null,
+     "pain_part": "hip",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "maybe ten days",
+   "cough_notes": null,
+   "sputum_present": false,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": false,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": "rash"
+    },
+    {
+     "allergen": "sulfa drugs",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": "rash"
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "dairy",
+     "preference_type": "Cannot eat",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "allergies[0].allergy_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "allergies[1].allergy_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].diet_notes": {
+    "cand": "Lactose intolerance; upsets my stomach",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "Described as a mild ache",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "natural_persisted_examples": [
+   {
+    "leaf": "allergies[0].allergy_severity",
+    "wrong": "Unknown",
+    "gold": null
+   },
+   {
+    "leaf": "allergies[1].allergy_severity",
+    "wrong": "Unknown",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_gen_05",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 5,
+   "n_fields": 49,
+   "n_correct": 45,
+   "n_partial": 0,
+   "all_field_acc": 0.9184,
+   "fully_correct": 0,
+   "structured_n": 25,
+   "structured_correct": 23,
+   "structured_acc": 0.92,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 43,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 19575,
+   "output_tokens": 363,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ }
+]

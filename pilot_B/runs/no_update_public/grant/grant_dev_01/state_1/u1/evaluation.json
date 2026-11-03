@@ -1,0 +1,1472 @@
+{
+  "alignment_log": [],
+  "candidate_resulting_state": {
+    "additional_annexes_table": null,
+    "budget_currency": "EUR",
+    "budget_income_and_financing_summary": null,
+    "budget_justification_summary": null,
+    "budget_lines_table": null,
+    "budget_model": "Actual costs",
+    "budget_total_estimated_costs": null,
+    "budget_total_requested_eu_contribution": null,
+    "call_identifier": "HORIZON-TEST-2026",
+    "call_name": "Digital public services call",
+    "clinical_trial_annex_uploaded": null,
+    "clinical_trial_design": null,
+    "clinical_trial_objective": null,
+    "clinical_trial_or_study_included": null,
+    "clinical_trial_title": null,
+    "consortium_capacity_description": null,
+    "critical_risks": null,
+    "data_management_plan_required": false,
+    "declaration_civil_applications_focus": null,
+    "declaration_eligibility_no_exclusion_capacity": null,
+    "declaration_ethics_integrity_compliance": null,
+    "declaration_excluded_activities_absent": null,
+    "declaration_explicit_consent_all_applicants": false,
+    "declaration_information_correct_complete": false,
+    "declaration_lump_sum_budget_compliance": null,
+    "declaration_non_eu_activities_allowed_in_eu": null,
+    "declaration_notes": null,
+    "declaration_portal_electronic_exchange_acknowledged": null,
+    "declaration_terms_privacy_accepted": null,
+    "deliverables": [],
+    "dissemination_exploitation_communication_plan": null,
+    "dmp_delivery_month": null,
+    "dmp_fair_outputs_summary": null,
+    "ethics_animals": null,
+    "ethics_artificial_intelligence": null,
+    "ethics_environment_health_safety": null,
+    "ethics_human_cells_or_tissues": null,
+    "ethics_human_embryonic_stem_cells": null,
+    "ethics_human_participants": null,
+    "ethics_issue_table": null,
+    "ethics_issues_present": false,
+    "ethics_non_eu_countries": null,
+    "ethics_other_issues": null,
+    "ethics_personal_data": null,
+    "ethics_self_assessment_completed": false,
+    "ethics_self_assessment_summary": null,
+    "ethics_self_assessment_uploaded": null,
+    "fixed_keywords": null,
+    "free_keywords": null,
+    "gantt_timing_summary": null,
+    "gender_dimension_integration": null,
+    "gender_dimension_not_relevant_justification": null,
+    "gender_dimension_relevant": null,
+    "impact_measures_table": null,
+    "impact_outcomes_table": null,
+    "impact_summary_optional": null,
+    "last_saved_datetime": null,
+    "lump_sum_grant_applies": null,
+    "major_equipment_items": [],
+    "methodology": null,
+    "milestones": null,
+    "number_of_critical_risks": null,
+    "number_of_deliverables": 0,
+    "number_of_major_equipment_items": 0,
+    "number_of_milestones": null,
+    "number_of_participating_organisations": null,
+    "number_of_subcontracting_items": null,
+    "number_of_work_packages": 0,
+    "objectives_and_ambition": null,
+    "open_science_practices": null,
+    "overall_work_plan_structure": null,
+    "part_b_participants_table": null,
+    "part_b_pdf_uploaded": null,
+    "part_b_proposal_title": null,
+    "participant_role_summary_table": null,
+    "participating_organisations": null,
+    "pathways_to_impact": null,
+    "pert_interrelation_summary": null,
+    "previous_proposal_reference_or_contract_number": null,
+    "previous_submission_difference_summary": null,
+    "previous_submission_programme_call": null,
+    "project_duration_months": 24,
+    "proposal_abstract": null,
+    "proposal_acronym": "CIVIC-AI",
+    "proposal_final_comments": null,
+    "proposal_number": null,
+    "proposal_title": "Civic AI assistant",
+    "proposal_version": null,
+    "security_cbrn_weapons_risk": null,
+    "security_classified_background_information": null,
+    "security_classified_foreground_information": null,
+    "security_crime_or_terrorism_channel": null,
+    "security_eu_classified_information": null,
+    "security_issue_specification": null,
+    "security_issues_present": null,
+    "security_national_restrictions": null,
+    "security_non_eu_access_to_classified_information": null,
+    "security_non_eu_agreement_with_eu": null,
+    "security_potential_misuse": null,
+    "security_self_assessment_uploaded": null,
+    "similar_proposal_submitted_past_two_years": false,
+    "staff_effort_table": null,
+    "stage1_difference_types": null,
+    "stage1_differences_and_reasons": null,
+    "subcontracting_items": null,
+    "submission_stage": null,
+    "substantial_differences_from_stage1": null,
+    "topic_identifier": null,
+    "topic_title": null,
+    "two_stage_call": null,
+    "type_of_action": null,
+    "type_of_model_grant_agreement": null,
+    "work_packages": []
+  },
+  "candidate_state_diff": [
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "additional_annexes_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "EUR",
+      "resulting_value": "EUR",
+      "slot": "budget_currency"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "budget_income_and_financing_summary"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "budget_justification_summary"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "budget_lines_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Actual costs",
+      "resulting_value": "Actual costs",
+      "slot": "budget_model"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "budget_total_estimated_costs"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "budget_total_requested_eu_contribution"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "HORIZON-TEST-2026",
+      "resulting_value": "HORIZON-TEST-2026",
+      "slot": "call_identifier"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Digital public services call",
+      "resulting_value": "Digital public services call",
+      "slot": "call_name"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "clinical_trial_annex_uploaded"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "clinical_trial_design"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "clinical_trial_objective"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "clinical_trial_or_study_included"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "clinical_trial_title"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "consortium_capacity_description"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "critical_risks"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "data_management_plan_required"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "declaration_civil_applications_focus"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "declaration_eligibility_no_exclusion_capacity"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "declaration_ethics_integrity_compliance"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "declaration_excluded_activities_absent"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "declaration_explicit_consent_all_applicants"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "declaration_information_correct_complete"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "declaration_lump_sum_budget_compliance"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "declaration_non_eu_activities_allowed_in_eu"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "declaration_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "declaration_portal_electronic_exchange_acknowledged"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "declaration_terms_privacy_accepted"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [],
+      "resulting_value": [],
+      "slot": "deliverables"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "dissemination_exploitation_communication_plan"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "dmp_delivery_month"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "dmp_fair_outputs_summary"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_animals"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_artificial_intelligence"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_environment_health_safety"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_human_cells_or_tissues"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_human_embryonic_stem_cells"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_human_participants"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_issue_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "ethics_issues_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_non_eu_countries"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_other_issues"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_personal_data"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "ethics_self_assessment_completed"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_self_assessment_summary"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ethics_self_assessment_uploaded"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "fixed_keywords"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "free_keywords"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "gantt_timing_summary"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "gender_dimension_integration"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "gender_dimension_not_relevant_justification"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "gender_dimension_relevant"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "impact_measures_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "impact_outcomes_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "impact_summary_optional"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "last_saved_datetime"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "lump_sum_grant_applies"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [],
+      "resulting_value": [],
+      "slot": "major_equipment_items"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "methodology"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "milestones"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "number_of_critical_risks"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 0,
+      "resulting_value": 0,
+      "slot": "number_of_deliverables"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 0,
+      "resulting_value": 0,
+      "slot": "number_of_major_equipment_items"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "number_of_milestones"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "number_of_participating_organisations"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "number_of_subcontracting_items"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 0,
+      "resulting_value": 0,
+      "slot": "number_of_work_packages"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "objectives_and_ambition"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "open_science_practices"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "overall_work_plan_structure"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "part_b_participants_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "part_b_pdf_uploaded"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "part_b_proposal_title"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "participant_role_summary_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "participating_organisations"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "pathways_to_impact"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "pert_interrelation_summary"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "previous_proposal_reference_or_contract_number"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "previous_submission_difference_summary"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "previous_submission_programme_call"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 24,
+      "resulting_value": 24,
+      "slot": "project_duration_months"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "proposal_abstract"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "CIVIC-AI",
+      "resulting_value": "CIVIC-AI",
+      "slot": "proposal_acronym"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "proposal_final_comments"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "proposal_number"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Civic AI assistant",
+      "resulting_value": "Civic AI assistant",
+      "slot": "proposal_title"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "proposal_version"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_cbrn_weapons_risk"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_classified_background_information"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_classified_foreground_information"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_crime_or_terrorism_channel"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_eu_classified_information"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_issue_specification"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_issues_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_national_restrictions"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_non_eu_access_to_classified_information"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_non_eu_agreement_with_eu"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_potential_misuse"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "security_self_assessment_uploaded"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "similar_proposal_submitted_past_two_years"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "staff_effort_table"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "stage1_difference_types"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "stage1_differences_and_reasons"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "subcontracting_items"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "submission_stage"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "substantial_differences_from_stage1"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "topic_identifier"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "topic_title"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "two_stage_call"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "type_of_action"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "type_of_model_grant_agreement"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [],
+      "resulting_value": [],
+      "slot": "work_packages"
+    }
+  ],
+  "derived_variables": {},
+  "field_results": {
+    "budget_currency": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for budget_currency: expected 'EUR', got 'EUR'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "budget_model": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for budget_model: expected 'Lump sum', got 'Actual costs'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "budget_total_estimated_costs": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left budget_total_estimated_costs empty. Expected: '1200000'.",
+      "source": null,
+      "support_source": null
+    },
+    "budget_total_requested_eu_contribution": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left budget_total_requested_eu_contribution empty. Expected: '900000'.",
+      "source": null,
+      "support_source": null
+    },
+    "call_identifier": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for call_identifier.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "call_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for call_name.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "data_management_plan_required": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "declaration_explicit_consent_all_applicants": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "declaration_information_correct_complete": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "deliverables[0].deliverable_delivery_month": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left deliverables[0].deliverable_delivery_month empty. Expected: '6'.",
+      "source": null,
+      "support_source": null
+    },
+    "deliverables[0].deliverable_dissemination_level": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left deliverables[0].deliverable_dissemination_level empty. Expected: 'PU - Public'.",
+      "source": null,
+      "support_source": null
+    },
+    "deliverables[0].deliverable_lead_participant_short_name": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left deliverables[0].deliverable_lead_participant_short_name empty. Expected: 'CIV'.",
+      "source": null,
+      "support_source": null
+    },
+    "deliverables[0].deliverable_name": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left deliverables[0].deliverable_name empty. Expected: 'Pilot protocol'.",
+      "source": null,
+      "support_source": null
+    },
+    "deliverables[0].deliverable_number": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left deliverables[0].deliverable_number empty. Expected: 'D1.1'.",
+      "source": null,
+      "support_source": null
+    },
+    "deliverables[0].deliverable_short_description": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left deliverables[0].deliverable_short_description empty. Expected: 'Protocol for municipal pilot interviews and data handling.'.",
+      "source": null,
+      "support_source": null
+    },
+    "deliverables[0].deliverable_type": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left deliverables[0].deliverable_type empty. Expected: 'R - Document/report'.",
+      "source": null,
+      "support_source": null
+    },
+    "deliverables[0].deliverable_work_package_number": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left deliverables[0].deliverable_work_package_number empty. Expected: 'WP1'.",
+      "source": null,
+      "support_source": null
+    },
+    "dmp_delivery_month": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left dmp_delivery_month empty. Expected: '6'.",
+      "source": null,
+      "support_source": null
+    },
+    "dmp_fair_outputs_summary": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left dmp_fair_outputs_summary empty. Expected: 'Resident interview data will be documented, access-controlled, and reusable in anonymized aggregate form.'.",
+      "source": null,
+      "support_source": null
+    },
+    "ethics_issue_table[0].description": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left ethics_issue_table[0].description empty. Expected: 'Personal data in resident interviews'.",
+      "source": null,
+      "support_source": null
+    },
+    "ethics_issue_table[0].ethics_category": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left ethics_issue_table[0].ethics_category empty. Expected: 'Personal data'.",
+      "source": null,
+      "support_source": null
+    },
+    "ethics_issue_table[0].mitigation_or_self_assessment": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left ethics_issue_table[0].mitigation_or_self_assessment empty. Expected: 'Consent, minimization, and controlled access'.",
+      "source": null,
+      "support_source": null
+    },
+    "ethics_issues_present": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "ethics_personal_data": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got None",
+      "source": null,
+      "support_source": null
+    },
+    "ethics_self_assessment_completed": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "ethics_self_assessment_summary": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left ethics_self_assessment_summary empty. Expected: 'Self-assessment completed for resident interview data.'.",
+      "source": null,
+      "support_source": null
+    },
+    "major_equipment_items[0].equipment_cost_eur": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left major_equipment_items[0].equipment_cost_eur empty. Expected: '18000'.",
+      "source": null,
+      "support_source": null
+    },
+    "major_equipment_items[0].equipment_justification": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left major_equipment_items[0].equipment_justification empty. Expected: 'Secure tablets are needed for field interviews.'.",
+      "source": null,
+      "support_source": null
+    },
+    "major_equipment_items[0].equipment_participant_number_short_name": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left major_equipment_items[0].equipment_participant_number_short_name empty. Expected: 'CIV'.",
+      "source": null,
+      "support_source": null
+    },
+    "number_of_deliverables": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '1', got '0'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_major_equipment_items": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '1', got '0'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_work_packages": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '1', got '0'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "previous_proposal_reference_or_contract_number": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left previous_proposal_reference_or_contract_number empty. Expected: 'SEP-2025-44'.",
+      "source": null,
+      "support_source": null
+    },
+    "previous_submission_difference_summary": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left previous_submission_difference_summary empty. Expected: 'This version adds live municipal pilots.'.",
+      "source": null,
+      "support_source": null
+    },
+    "previous_submission_programme_call": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left previous_submission_programme_call empty. Expected: '2025 DIGITAL call'.",
+      "source": null,
+      "support_source": null
+    },
+    "project_duration_months": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '30', got '24'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "proposal_acronym": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for proposal_acronym.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "proposal_title": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for proposal_title: expected 'Civic AI Services Pilot', got 'Civic AI assistant'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "similar_proposal_submitted_past_two_years": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "work_packages[0].wp_deliverables_summary": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_deliverables_summary empty. Expected: 'D1.1 Pilot protocol'.",
+      "source": null,
+      "support_source": null
+    },
+    "work_packages[0].wp_description_of_work": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_description_of_work empty. Expected: 'Set up municipal pilots and interview protocol.'.",
+      "source": null,
+      "support_source": null
+    },
+    "work_packages[0].wp_end_month": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_end_month empty. Expected: '12'.",
+      "source": null,
+      "support_source": null
+    },
+    "work_packages[0].wp_lead_participant_number": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_lead_participant_number empty. Expected: '1'.",
+      "source": null,
+      "support_source": null
+    },
+    "work_packages[0].wp_lead_participant_short_name": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_lead_participant_short_name empty. Expected: 'CIV'.",
+      "source": null,
+      "support_source": null
+    },
+    "work_packages[0].wp_number": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_number empty. Expected: 'WP1'.",
+      "source": null,
+      "support_source": null
+    },
+    "work_packages[0].wp_objectives": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_objectives empty. Expected: 'Prepare municipal pilot operations.'.",
+      "source": null,
+      "support_source": null
+    },
+    "work_packages[0].wp_person_months": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_person_months empty. Expected: '18'.",
+      "source": null,
+      "support_source": null
+    },
+    "work_packages[0].wp_start_month": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_start_month empty. Expected: '1'.",
+      "source": null,
+      "support_source": null
+    },
+    "work_packages[0].wp_title": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left work_packages[0].wp_title empty. Expected: 'Pilot setup'.",
+      "source": null,
+      "support_source": null
+    }
+  },
+  "fields_filled": 110,
+  "prompt_trace": [],
+  "provenance": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    },
+    "runner": null
+  },
+  "summary": {
+    "correct": 4,
+    "evaluated": 49,
+    "incorrect": 45,
+    "partially_correct": 0,
+    "total": 49,
+    "unmatched": 0
+  },
+  "turn": 0,
+  "unmatched_fields": [],
+  "user_message": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `proposal_title` to `\"Civic AI Services Pilot\"`\n- set `project_duration_months` to `30`\n- set `similar_proposal_submitted_past_two_years` to `true`\n- set `previous_proposal_reference_or_contract_number` to `\"SEP-2025-44\"`\n- set `previous_submission_programme_call` to `\"2025 DIGITAL call\"`\n- set `previous_submission_difference_summary` to `\"This version adds live municipal pilots.\"`\n- set `declaration_explicit_consent_all_applicants` to `true`\n- set `declaration_information_correct_complete` to `true`\n- set `budget_model` to `\"Lump sum\"`\n- set `budget_total_estimated_costs` to `1200000`\n- set `budget_total_requested_eu_contribution` to `900000`\n- set `ethics_issues_present` to `true`\n- set `ethics_personal_data` to `true`\n- set `ethics_issue_table` to `[{\"ethics_category\": \"Personal data\", \"description\": \"Personal data in resident interviews\", \"mitigation_or_self_assessment\": \"Consent, minimization, and controlled access\"}]`\n- set `ethics_self_assessment_completed` to `true`\n- set `ethics_self_assessment_summary` to `\"Self-assessment completed for resident interview data.\"`\n- set `data_management_plan_required` to `true`\n- set `dmp_delivery_month` to `6`\n- set `dmp_fair_outputs_summary` to `\"Resident interview data will be documented, access-controlled, and reusable in anonymized aggregate form.\"`\n- set `number_of_work_packages` to `1`\n- set `work_packages[0].wp_number` to `\"WP1\"`\n- set `work_packages[0].wp_title` to `\"Pilot setup\"`\n- set `work_packages[0].wp_lead_participant_number` to `1`\n- set `work_packages[0].wp_lead_participant_short_name` to `\"CIV\"`\n- set `work_packages[0].wp_person_months` to `18`\n- set `work_packages[0].wp_start_month` to `1`\n- set `work_packages[0].wp_end_month` to `12`\n- set `work_packages[0].wp_objectives` to `\"Prepare municipal pilot operations.\"`\n- set `work_packages[0].wp_description_of_work` to `\"Set up municipal pilots and interview protocol.\"`\n- set `work_packages[0].wp_deliverables_summary` to `\"D1.1 Pilot protocol\"`\n- set `number_of_deliverables` to `1`\n- set `deliverables[0].deliverable_number` to `\"D1.1\"`\n- set `deliverables[0].deliverable_name` to `\"Pilot protocol\"`\n- set `deliverables[0].deliverable_short_description` to `\"Protocol for municipal pilot interviews and data handling.\"`\n- set `deliverables[0].deliverable_work_package_number` to `\"WP1\"`\n- set `deliverables[0].deliverable_lead_participant_short_name` to `\"CIV\"`\n- set `deliverables[0].deliverable_type` to `\"R - Document/report\"`\n- set `deliverables[0].deliverable_dissemination_level` to `\"PU - Public\"`\n- set `deliverables[0].deliverable_delivery_month` to `6`\n- set `number_of_major_equipment_items` to `1`\n- set `major_equipment_items[0].equipment_participant_number_short_name` to `\"CIV\"`\n- set `major_equipment_items[0].equipment_cost_eur` to `18000`\n- set `major_equipment_items[0].equipment_justification` to `\"Secure tablets are needed for field interviews.\"`"
+}

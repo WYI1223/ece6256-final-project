@@ -1,0 +1,947 @@
+{
+  "alignment_log": [],
+  "candidate_resulting_state": {
+    "allergies": [
+      {
+        "allergen": "penicillin",
+        "allergy_notes": "Childhood report.",
+        "allergy_severity": "Mild",
+        "reaction": "rash"
+      },
+      {
+        "allergen": "peanuts",
+        "allergy_notes": "Carries epinephrine.",
+        "allergy_severity": "Severe",
+        "reaction": "swelling"
+      }
+    ],
+    "ambulatory_aid_notes": null,
+    "ambulatory_aid_use": null,
+    "appetite_change": null,
+    "cough_duration": null,
+    "cough_notes": null,
+    "cough_present": null,
+    "current_medications": [
+      {
+        "dose": "10 mg",
+        "frequency": "nightly",
+        "medication_name": "cetirizine",
+        "route": "Oral"
+      }
+    ],
+    "denture_present": true,
+    "dietary_preferences_and_restrictions": [
+      {
+        "diet_notes": "Patient requested removal.",
+        "food_item": "shellfish",
+        "preference_type": "Avoids",
+        "reason": "Personal"
+      }
+    ],
+    "dysphagia_frequency": null,
+    "dysphagia_or_choking": null,
+    "fall_in_last_12_months": true,
+    "fall_injuries_note": "Bruised knee.",
+    "free_text_notes": "Draft still has resolved problems.",
+    "hemoptysis_any": null,
+    "lower_denture": "Yes",
+    "most_recent_fall_date_or_time": "last winter",
+    "number_of_allergies": 2,
+    "number_of_dietary_restrictions": 1,
+    "number_of_medications": 1,
+    "number_of_pains": 2,
+    "pain_details": [
+      {
+        "pain_duration": "three weeks",
+        "pain_notes": "Worse standing.",
+        "pain_part": "left knee",
+        "pain_severity": "High"
+      },
+      {
+        "pain_duration": "one week",
+        "pain_notes": "Intermittent.",
+        "pain_part": "neck",
+        "pain_severity": "Mild"
+      }
+    ],
+    "pain_experience": true,
+    "special_diet_notes": null,
+    "special_diet_required": null,
+    "sputum_amount": null,
+    "sputum_color": null,
+    "sputum_notes": null,
+    "sputum_present": null,
+    "unintentional_weight_loss": null,
+    "upper_denture": "Yes",
+    "vision_description": "Blurred distance vision.",
+    "vision_onset": "six months",
+    "vision_problem": true,
+    "weight_loss_amount": null,
+    "weight_loss_timeframe": null
+  },
+  "candidate_state_diff": [
+    {
+      "change_kind": "preserved",
+      "prior_value": [
+        {
+          "allergen": "penicillin",
+          "allergy_notes": "Childhood report.",
+          "allergy_severity": "Mild",
+          "reaction": "rash"
+        },
+        {
+          "allergen": "peanuts",
+          "allergy_notes": "Carries epinephrine.",
+          "allergy_severity": "Severe",
+          "reaction": "swelling"
+        }
+      ],
+      "resulting_value": [
+        {
+          "allergen": "penicillin",
+          "allergy_notes": "Childhood report.",
+          "allergy_severity": "Mild",
+          "reaction": "rash"
+        },
+        {
+          "allergen": "peanuts",
+          "allergy_notes": "Carries epinephrine.",
+          "allergy_severity": "Severe",
+          "reaction": "swelling"
+        }
+      ],
+      "slot": "allergies"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ambulatory_aid_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ambulatory_aid_use"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "appetite_change"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "cough_duration"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "cough_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "cough_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [
+        {
+          "dose": "10 mg",
+          "frequency": "nightly",
+          "medication_name": "cetirizine",
+          "route": "Oral"
+        }
+      ],
+      "resulting_value": [
+        {
+          "dose": "10 mg",
+          "frequency": "nightly",
+          "medication_name": "cetirizine",
+          "route": "Oral"
+        }
+      ],
+      "slot": "current_medications"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": true,
+      "resulting_value": true,
+      "slot": "denture_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [
+        {
+          "diet_notes": "Patient requested removal.",
+          "food_item": "shellfish",
+          "preference_type": "Avoids",
+          "reason": "Personal"
+        }
+      ],
+      "resulting_value": [
+        {
+          "diet_notes": "Patient requested removal.",
+          "food_item": "shellfish",
+          "preference_type": "Avoids",
+          "reason": "Personal"
+        }
+      ],
+      "slot": "dietary_preferences_and_restrictions"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "dysphagia_frequency"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "dysphagia_or_choking"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": true,
+      "resulting_value": true,
+      "slot": "fall_in_last_12_months"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Bruised knee.",
+      "resulting_value": "Bruised knee.",
+      "slot": "fall_injuries_note"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Draft still has resolved problems.",
+      "resulting_value": "Draft still has resolved problems.",
+      "slot": "free_text_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "hemoptysis_any"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Yes",
+      "resulting_value": "Yes",
+      "slot": "lower_denture"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "last winter",
+      "resulting_value": "last winter",
+      "slot": "most_recent_fall_date_or_time"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 2,
+      "resulting_value": 2,
+      "slot": "number_of_allergies"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 1,
+      "resulting_value": 1,
+      "slot": "number_of_dietary_restrictions"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 1,
+      "resulting_value": 1,
+      "slot": "number_of_medications"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 2,
+      "resulting_value": 2,
+      "slot": "number_of_pains"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [
+        {
+          "pain_duration": "three weeks",
+          "pain_notes": "Worse standing.",
+          "pain_part": "left knee",
+          "pain_severity": "High"
+        },
+        {
+          "pain_duration": "one week",
+          "pain_notes": "Intermittent.",
+          "pain_part": "neck",
+          "pain_severity": "Mild"
+        }
+      ],
+      "resulting_value": [
+        {
+          "pain_duration": "three weeks",
+          "pain_notes": "Worse standing.",
+          "pain_part": "left knee",
+          "pain_severity": "High"
+        },
+        {
+          "pain_duration": "one week",
+          "pain_notes": "Intermittent.",
+          "pain_part": "neck",
+          "pain_severity": "Mild"
+        }
+      ],
+      "slot": "pain_details"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": true,
+      "resulting_value": true,
+      "slot": "pain_experience"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "special_diet_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "special_diet_required"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_amount"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_color"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "unintentional_weight_loss"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Yes",
+      "resulting_value": "Yes",
+      "slot": "upper_denture"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "Blurred distance vision.",
+      "resulting_value": "Blurred distance vision.",
+      "slot": "vision_description"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": "six months",
+      "resulting_value": "six months",
+      "slot": "vision_onset"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": true,
+      "resulting_value": true,
+      "slot": "vision_problem"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "weight_loss_amount"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "weight_loss_timeframe"
+    }
+  ],
+  "derived_variables": {},
+  "field_results": {
+    "allergies[0].allergen": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for allergies[0].allergen: expected 'peanuts', got 'penicillin'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "allergies[0].allergy_notes": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for allergies[0].allergy_notes: expected 'Carries epinephrine.', got 'Childhood report.'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "allergies[0].allergy_severity": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected 'Severe', got 'Mild'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "allergies[0].reaction": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for allergies[0].reaction: expected 'anaphylaxis', got 'rash'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "allergies[1].allergen": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated allergies[1].allergen, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "allergies[1].allergy_notes": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated allergies[1].allergy_notes, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "allergies[1].allergy_severity": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated allergies[1].allergy_severity, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "allergies[1].reaction": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated allergies[1].reaction, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "current_medications[0].dose": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for current_medications[0].dose.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "current_medications[0].frequency": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for current_medications[0].frequency.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "current_medications[0].medication_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for current_medications[0].medication_name.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "current_medications[0].route": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for current_medications[0].route: expected 'Oral', got 'Oral'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "denture_present": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected False, got True",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "dietary_preferences_and_restrictions[0].diet_notes": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated dietary_preferences_and_restrictions[0].diet_notes, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "dietary_preferences_and_restrictions[0].food_item": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated dietary_preferences_and_restrictions[0].food_item, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "dietary_preferences_and_restrictions[0].preference_type": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated dietary_preferences_and_restrictions[0].preference_type, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "dietary_preferences_and_restrictions[0].reason": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated dietary_preferences_and_restrictions[0].reason, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "fall_in_last_12_months": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected False, got True",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "fall_injuries_note": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent set fall_injuries_note to 'Bruised knee.' when gold expects null/empty. Acceptable alternatives cannot override an empty gold value.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "free_text_notes": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for free_text_notes: expected 'Reviewed today: no current pain, falls, dentures, or vision problems.', got 'Draft still has resolved problems.'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "lower_denture": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent set lower_denture to 'Yes' when gold expects null/empty. Acceptable alternatives cannot override an empty gold value.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "most_recent_fall_date_or_time": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent set most_recent_fall_date_or_time to 'last winter' when gold expects null/empty. Acceptable alternatives cannot override an empty gold value.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_allergies": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '1', got '2'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_dietary_restrictions": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '0', got '1'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_medications": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for number_of_medications.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "number_of_pains": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '0', got '2'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "pain_details[0].pain_duration": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated pain_details[0].pain_duration, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "pain_details[0].pain_notes": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated pain_details[0].pain_notes, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "pain_details[0].pain_part": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated pain_details[0].pain_part, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "pain_details[0].pain_severity": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated pain_details[0].pain_severity, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "pain_details[1].pain_duration": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated pain_details[1].pain_duration, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "pain_details[1].pain_notes": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated pain_details[1].pain_notes, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "pain_details[1].pain_part": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated pain_details[1].pain_part, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "pain_details[1].pain_severity": {
+      "correctness": "incorrect",
+      "decision_source": "unexpected_field",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "fabricated",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Candidate populated pain_details[1].pain_severity, but the gold state has no such field.",
+      "source": "fabricated",
+      "support_source": "fabricated"
+    },
+    "pain_experience": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected False, got True",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "upper_denture": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent set upper_denture to 'Yes' when gold expects null/empty. Acceptable alternatives cannot override an empty gold value.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vision_description": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent set vision_description to 'Blurred distance vision.' when gold expects null/empty. Acceptable alternatives cannot override an empty gold value.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vision_onset": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent set vision_onset to 'six months' when gold expects null/empty. Acceptable alternatives cannot override an empty gold value.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "vision_problem": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected False, got True",
+      "source": "extracted",
+      "support_source": "extracted"
+    }
+  },
+  "fields_filled": 57,
+  "prompt_trace": [],
+  "provenance": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    },
+    "runner": null
+  },
+  "summary": {
+    "correct": 5,
+    "evaluated": 39,
+    "incorrect": 34,
+    "partially_correct": 0,
+    "total": 39,
+    "unmatched": 16
+  },
+  "turn": 0,
+  "unmatched_fields": [
+    "allergies[1].allergen",
+    "allergies[1].allergy_notes",
+    "allergies[1].allergy_severity",
+    "allergies[1].reaction",
+    "dietary_preferences_and_restrictions[0].diet_notes",
+    "dietary_preferences_and_restrictions[0].food_item",
+    "dietary_preferences_and_restrictions[0].preference_type",
+    "dietary_preferences_and_restrictions[0].reason",
+    "pain_details[0].pain_duration",
+    "pain_details[0].pain_notes",
+    "pain_details[0].pain_part",
+    "pain_details[0].pain_severity",
+    "pain_details[1].pain_duration",
+    "pain_details[1].pain_notes",
+    "pain_details[1].pain_part",
+    "pain_details[1].pain_severity"
+  ],
+  "user_message": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `pain_experience` to `false`\n- set `number_of_pains` to `0`\n- delete repeat instance `pain_details[1]`\n- delete repeat instance `pain_details[0]`\n- set `fall_in_last_12_months` to `false`\n- set `most_recent_fall_date_or_time` to `null`\n- set `fall_injuries_note` to `null`\n- set `denture_present` to `false`\n- set `upper_denture` to `null`\n- set `lower_denture` to `null`\n- set `vision_problem` to `false`\n- set `vision_description` to `null`\n- set `vision_onset` to `null`\n- set `number_of_allergies` to `1`\n- delete repeat instance `allergies[0]`\n- set `allergies[0].reaction` to `\"anaphylaxis\"`\n- set `number_of_dietary_restrictions` to `0`\n- delete repeat instance `dietary_preferences_and_restrictions[0]`\n- set `free_text_notes` to `\"Reviewed today: no current pain, falls, dentures, or vision problems.\"`"
+}

@@ -1,0 +1,14 @@
+== stage r1: round-1 (contradicted) injection, other systems ==
+r2_flatagent                 exit 0 | solver errors 0
+r2_dtv                       exit 0 | solver errors 0
+== stage new: fabricated + ambiguous injection sets x 3 systems ==
+r2_fabricated_direct         exit 0 | solver errors 0
+r2_fabricated_flatagent      exit 0 | solver errors 0
+r2_fabricated_dtv            exit 0 | solver errors 0
+r2_ambiguous_direct          exit 0 | solver errors 0
+r2_ambiguous_flatagent       exit 0 | solver errors 0
+r2_ambiguous_dtv             exit 0 | solver errors 0
+== stage v4: second model (deepseek-v4-pro) on the ambiguous set, Direct ==
+r2_ambiguous_v4pro           exit 0 | solver errors 0
+== analysis ==
+wrote ../runs/r2_analysis.md

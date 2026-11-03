@@ -1,0 +1,28 @@
+{
+ "solver": "mock_solvers:solve",
+ "model": "na",
+ "max_tokens": 8192,
+ "n_trajectories": 1,
+ "conditions": [
+  "incremental",
+  "rebuild",
+  "oracle"
+ ],
+ "modes": [
+  "clean",
+  "corrupt"
+ ],
+ "corruptions": {
+  "pa_handmade_01": {
+   "after_turn": 2,
+   "path": "current_medications[0].route",
+   "wrong_value": "Inhaled",
+   "system_correct_before": true
+  }
+ },
+ "elapsed_s": 0.3,
+ "billed_input_tokens": 0,
+ "billed_output_tokens": 0,
+ "billed_model_calls": 0,
+ "solver_errors": 0
+}

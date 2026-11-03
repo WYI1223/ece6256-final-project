@@ -1,0 +1,6 @@
+[submodule "pilot_R/fdb"]
+	path = pilot_R/fdb
+	url = https://github.com/DanielLin94144/Full-Duplex-Bench.git
+[submodule "pilot_B/conformbench"]
+	path = pilot_B/conformbench
+	url = https://github.com/tveigel/conformbench.git

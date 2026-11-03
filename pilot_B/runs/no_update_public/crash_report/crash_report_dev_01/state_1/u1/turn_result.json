@@ -1,0 +1,99 @@
+{
+  "agent_response": {
+    "operations": [],
+    "raw_response": "NoUpdate baseline: copied schema-completed prior state."
+  },
+  "answer_updates": {},
+  "answers_after": {
+    "additional_comments": null,
+    "any_injuries": false,
+    "apparent_contributing_factors": [
+      "Failed-to-Yield"
+    ],
+    "date_of_accident": "2026-04-17",
+    "description_of_accident": "Two vehicles were reported near the north entrance.",
+    "injury_table": null,
+    "lighting": "Daylight",
+    "location_of_accident": "5th and Pine",
+    "location_type": "Intersection",
+    "non_vehicle_property_damage": false,
+    "number_of_vehicles_involved": "1",
+    "posted_speed_limit": 35,
+    "property_damage_description": null,
+    "road_surface_condition": "Dry",
+    "time_of_accident": "08:10",
+    "traffic_control": "Signal",
+    "vehicles": [
+      {
+        "approx_speed_mph": 5,
+        "damage_description": "Minor rear bumper scrape",
+        "licence_plate": "7ABC123",
+        "pre_crash_manoeuvre": "Stopped",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2018 Toyota Corolla"
+      }
+    ],
+    "weather": "Clear",
+    "witnesses_names_contacts": null,
+    "witnesses_present": false
+  },
+  "answers_before": {
+    "additional_comments": null,
+    "any_injuries": false,
+    "apparent_contributing_factors": [
+      "Failed-to-Yield"
+    ],
+    "date_of_accident": "2026-04-17",
+    "description_of_accident": "Two vehicles were reported near the north entrance.",
+    "injury_table": null,
+    "lighting": "Daylight",
+    "location_of_accident": "5th and Pine",
+    "location_type": "Intersection",
+    "non_vehicle_property_damage": false,
+    "number_of_vehicles_involved": "1",
+    "posted_speed_limit": 35,
+    "property_damage_description": null,
+    "road_surface_condition": "Dry",
+    "time_of_accident": "08:10",
+    "traffic_control": "Signal",
+    "vehicles": [
+      {
+        "approx_speed_mph": 5,
+        "damage_description": "Minor rear bumper scrape",
+        "licence_plate": "7ABC123",
+        "pre_crash_manoeuvre": "Stopped",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2018 Toyota Corolla"
+      }
+    ],
+    "weather": "Clear",
+    "witnesses_names_contacts": null,
+    "witnesses_present": false
+  },
+  "current_utterance": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `description_of_accident` to `\"Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.\"`\n- set `time_of_accident` to `\"08:15\"`\n- set `road_surface_condition` to `\"Wet\"`\n- set `weather` to `\"Rain\"`\n- set `number_of_vehicles_involved` to `\"2\"`\n- set `vehicles[0].approx_speed_mph` to `0`\n- set `vehicles[0].damage_description` to `\"Rear bumper damage\"`\n- set `vehicles[1].role` to `\"other vehicle\"`\n- set `vehicles[1].vehicle_type_make_model` to `\"Blue Ford Transit delivery van\"`\n- set `vehicles[1].licence_plate` to `\"8TRK229\"`\n- set `vehicles[1].pre_crash_manoeuvre` to `\"Straight\"`\n- set `vehicles[1].approx_speed_mph` to `25`\n- set `vehicles[1].damage_description` to `\"Front bumper damage\"`\n- set `apparent_contributing_factors` to `[\"Failed-to-Yield\", \"Weather/Road\"]`\n- set `any_injuries` to `true`\n- set `injury_table` to `[{\"role\": \"Driver\", \"vehicle_number\": \"1\", \"severity\": \"Minor\", \"injury_description\": \"Minor neck strain\"}]`\n- set `non_vehicle_property_damage` to `true`\n- set `property_damage_description` to `\"Bus shelter glass cracked near the crash location.\"`\n- set `witnesses_present` to `true`\n- set `witnesses_names_contacts` to `\"Maria Lopez, 555-0104\"`\n- set `additional_comments` to `\"Claimant declined ambulance at the scene.\"`",
+  "is_complete": true,
+  "provenance": {
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    }
+  },
+  "questionnaire": "crash_report",
+  "scenario": "crash_report_dev_01",
+  "scenario_id": "crash_report_dev_01",
+  "state": "state_1",
+  "turn_index": 0,
+  "utterance_id": "u1",
+  "visible_history": [
+    {
+      "content": "I first said there was only one car and no one was hurt.",
+      "role": "user"
+    }
+  ]
+}

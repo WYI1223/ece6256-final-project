@@ -1,0 +1,106 @@
+{
+  "agent_response": {
+    "operations": [],
+    "raw_response": "NoUpdate baseline: copied schema-completed prior state."
+  },
+  "answer_updates": {},
+  "answers_after": {
+    "allergies": [],
+    "ambulatory_aid_notes": null,
+    "ambulatory_aid_use": null,
+    "appetite_change": null,
+    "cough_duration": null,
+    "cough_notes": null,
+    "cough_present": false,
+    "current_medications": [
+      {
+        "dose": "81 mg",
+        "frequency": "daily",
+        "medication_name": "aspirin",
+        "route": "Oral"
+      }
+    ],
+    "denture_present": null,
+    "dietary_preferences_and_restrictions": [],
+    "dysphagia_frequency": null,
+    "dysphagia_or_choking": null,
+    "fall_in_last_12_months": null,
+    "fall_injuries_note": null,
+    "free_text_notes": null,
+    "hemoptysis_any": null,
+    "lower_denture": null,
+    "most_recent_fall_date_or_time": null,
+    "number_of_allergies": 0,
+    "number_of_dietary_restrictions": 0,
+    "number_of_medications": 1,
+    "number_of_pains": 0,
+    "pain_details": [],
+    "pain_experience": false,
+    "special_diet_notes": null,
+    "special_diet_required": null,
+    "sputum_amount": null,
+    "sputum_color": null,
+    "sputum_notes": null,
+    "sputum_present": false,
+    "unintentional_weight_loss": null,
+    "upper_denture": null,
+    "vision_description": null,
+    "vision_onset": null,
+    "vision_problem": null,
+    "weight_loss_amount": null,
+    "weight_loss_timeframe": null
+  },
+  "answers_before": {
+    "allergies": [],
+    "cough_duration": null,
+    "cough_notes": null,
+    "cough_present": false,
+    "current_medications": [
+      {
+        "dose": "81 mg",
+        "frequency": "daily",
+        "medication_name": "aspirin",
+        "route": "Oral"
+      }
+    ],
+    "dietary_preferences_and_restrictions": [],
+    "free_text_notes": null,
+    "hemoptysis_any": null,
+    "number_of_allergies": 0,
+    "number_of_dietary_restrictions": 0,
+    "number_of_medications": 1,
+    "number_of_pains": 0,
+    "pain_details": [],
+    "pain_experience": false,
+    "sputum_amount": null,
+    "sputum_color": null,
+    "sputum_notes": null,
+    "sputum_present": false
+  },
+  "current_utterance": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `pain_experience` to `true`\n- set `number_of_pains` to `1`\n- set `pain_details[0].pain_part` to `\"lower back\"`\n- set `pain_details[0].pain_severity` to `\"Moderate\"`\n- set `pain_details[0].pain_duration` to `\"2 days\"`\n- set `pain_details[0].pain_notes` to `\"Sharp pain after lifting boxes\"`\n- set `cough_present` to `true`\n- set `cough_duration` to `\"3 days\"`\n- set `sputum_present` to `true`\n- set `sputum_color` to `[\"Green\"]`\n- set `sputum_amount` to `\"Small\"`\n- set `hemoptysis_any` to `\"No\"`\n- set `number_of_allergies` to `2`\n- set `allergies[0].allergen` to `\"penicillin\"`\n- set `allergies[0].reaction` to `\"facial swelling\"`\n- set `allergies[0].allergy_severity` to `\"Severe\"`\n- set `allergies[1].allergen` to `\"peanuts\"`\n- set `allergies[1].reaction` to `\"rash\"`\n- set `allergies[1].allergy_severity` to `\"Moderate\"`\n- set `current_medications[0].frequency` to `\"every other day\"`\n- set `number_of_medications` to `2`\n- set `current_medications[1].medication_name` to `\"albuterol\"`\n- set `current_medications[1].dose` to `\"2 puffs\"`\n- set `current_medications[1].route` to `\"Inhaled\"`\n- set `current_medications[1].frequency` to `\"as needed\"`\n- set `number_of_dietary_restrictions` to `1`\n- set `dietary_preferences_and_restrictions[0].food_item` to `\"shellfish\"`\n- set `dietary_preferences_and_restrictions[0].preference_type` to `\"Avoids\"`\n- set `dietary_preferences_and_restrictions[0].reason` to `\"Medical\"`",
+  "is_complete": true,
+  "provenance": {
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    }
+  },
+  "questionnaire": "patient_admin",
+  "scenario": "patient_admin_dev_01",
+  "scenario_id": "patient_admin_dev_01",
+  "state": "state_1",
+  "turn_index": 0,
+  "utterance_id": "u1",
+  "visible_history": [
+    {
+      "content": "Medication list currently only has daily aspirin.",
+      "role": "user"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+ "public": {
+  "n_items": 8,
+  "per_questionnaire": {
+   "crash_report": 2,
+   "grant": 2,
+   "patent_form": 2,
+   "patient_admin": 2
+  },
+  "state_chainable_pairs(gold_A==prior_B)": [],
+  "history_chainable_pairs(utt_A in hist_B)": [],
+  "n_prior_states_shared_by_>1_item": 0,
+  "best_gold_to_prior_overlap_per_item": [
+   [
+    "patient_admin_dev_02",
+    0.455,
+    "patient_admin_dev_01"
+   ],
+   [
+    "crash_report_dev_02",
+    0.333,
+    "crash_report_dev_01"
+   ],
+   [
+    "crash_report_dev_01",
+    0.294,
+    "crash_report_dev_02"
+   ],
+   [
+    "patent_form_dev_02",
+    0.273,
+    "patent_form_dev_01"
+   ],
+   [
+    "grant_dev_02",
+    0.25,
+    "grant_dev_01"
+   ],
+   [
+    "patient_admin_dev_01",
+    0.205,
+    "patient_admin_dev_02"
+   ],
+   [
+    "grant_dev_01",
+    0.2,
+    "grant_dev_02"
+   ],
+   [
+    "patent_form_dev_01",
+    0.152,
+    "patent_form_dev_02"
+   ]
+  ]
+ },
+ "benchmark": {
+  "n_items": 180,
+  "per_questionnaire": {
+   "crash_report": 45,
+   "grant": 45,
+   "patent_form": 45,
+   "patient_admin": 45
+  },
+  "state_chainable_pairs(gold_A==prior_B)": [],
+  "history_chainable_pairs(utt_A in hist_B)": [],
+  "n_prior_states_shared_by_>1_item": 4,
+  "best_gold_to_prior_overlap_per_item": [
+   [
+    "FM-GR-01",
+    1.0,
+    "FM-GR-02"
+   ],
+   [
+    "FM-GR-03",
+    1.0,
+    "FM-GR-02"
+   ],
+   [
+    "FM-GR-06",
+    1.0,
+    "FM-GR-02"
+   ],
+   [
+    "FM-GR-11",
+    1.0,
+    "FM-GR-02"
+   ],
+   [
+    "FM-GR-14",
+    1.0,
+    "FM-GR-02"
+   ],
+   [
+    "FM-GR-18",
+    1.0,
+    "FM-GR-05"
+   ],
+   [
+    "FM-GR-22",
+    1.0,
+    "FM-GR-06"
+   ],
+   [
+    "FM-GR-25",
+    1.0,
+    "FM-GR-07"
+   ],
+   [
+    "FM-PA-01",
+    1.0,
+    "FM-PA-04"
+   ],
+   [
+    "FM-PA-13",
+    1.0,
+    "FM-PA-22"
+   ],
+   [
+    "RM-PA-R10",
+    1.0,
+    "FM-PA-04"
+   ],
+   [
+    "FM-GR-10",
+    0.875,
+    "FM-GR-07"
+   ],
+   [
+    "FM-GR-12",
+    0.875,
+    "FM-GR-07"
+   ],
+   [
+    "FM-GR-20",
+    0.875,
+    "FM-GR-07"
+   ],
+   [
+    "RM-GR-R10",
+    0.875,
+    "FM-GR-07"
+   ]
+  ]
+ }
+}

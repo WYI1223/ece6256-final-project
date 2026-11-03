@@ -1,0 +1,3936 @@
+{
+  "aggregate": {
+    "all_fields": {
+      "accuracy": 0.2626,
+      "correct": 99,
+      "gt_expected_total": 307,
+      "incorrect": 277,
+      "lenient": {
+        "f1": 0.2924,
+        "precision": 0.2653,
+        "recall": 0.3257
+      },
+      "lenient_accuracy": 0.2653,
+      "macro": {
+        "lenient": {
+          "f1": 0.2911,
+          "precision": 0.2648,
+          "recall": 0.3314
+        },
+        "strict": {
+          "f1": 0.2874,
+          "precision": 0.2611,
+          "recall": 0.3277
+        },
+        "weighted": {
+          "f1": 0.2893,
+          "precision": 0.263,
+          "recall": 0.3296
+        }
+      },
+      "partial": 1,
+      "strict": {
+        "f1": 0.2895,
+        "precision": 0.2626,
+        "recall": 0.3225
+      },
+      "total_evaluated_leaf_fields": 377,
+      "weighted": {
+        "f1": 0.2909,
+        "precision": 0.2639,
+        "recall": 0.3241
+      }
+    },
+    "auxiliary_unscored_notes": {
+      "abstention_success_count": 0,
+      "auxiliary_note_abstention_acceptance_rate": 0.0,
+      "auxiliary_note_grounded_capture_rate": 0.0,
+      "auxiliary_note_hallucination_rate": 0.0,
+      "candidate_non_empty_total": 0,
+      "gold_empty_total": 0,
+      "gold_grounded_total": 0,
+      "grounded_capture_count": 0,
+      "hallucination_count": 0,
+      "total_auxiliary_unscored_note_fields": 0
+    },
+    "changed_fields": {
+      "changed_correct": 1,
+      "changed_incorrect": 207,
+      "changed_partial": 0,
+      "gold_changed_total": 210,
+      "lenient": {
+        "f1": 0.0096,
+        "precision": 1.0,
+        "recall": 0.0048
+      },
+      "macro": {
+        "lenient": {
+          "f1": 0.0081,
+          "precision": 0.125,
+          "recall": 0.0042
+        },
+        "strict": {
+          "f1": 0.0081,
+          "precision": 0.125,
+          "recall": 0.0042
+        },
+        "weighted": {
+          "f1": 0.0081,
+          "precision": 0.125,
+          "recall": 0.0042
+        }
+      },
+      "predicted_changed_total": 1,
+      "strict": {
+        "f1": 0.0096,
+        "precision": 1.0,
+        "recall": 0.0048
+      },
+      "weighted": {
+        "f1": 0.0096,
+        "precision": 1.0,
+        "recall": 0.0048
+      }
+    },
+    "error_groups": {
+      "active_group_count": 0,
+      "active_groups_by_id": {},
+      "declared_group_count": 0,
+      "grouped_field_error_count": 0,
+      "grouped_root_error_count": 278,
+      "strict_field_error_count": 278,
+      "ungrouped_field_error_count": 278
+    },
+    "field_classes": {
+      "auxiliary_unscored_note": 0,
+      "commitment_core": 307,
+      "unknown_equivalent": 0
+    },
+    "preservation": {
+      "collateral_edit_count": 0,
+      "preservation_error_rate": 0.0,
+      "preservation_success_rate": 1.0,
+      "preserved_kept": 167,
+      "preserved_total": 167
+    },
+    "primary_fields": {
+      "accuracy": 0.2626,
+      "correct": 99,
+      "gt_expected_total": 307,
+      "incorrect": 277,
+      "lenient": {
+        "f1": 0.2924,
+        "precision": 0.2653,
+        "recall": 0.3257
+      },
+      "lenient_accuracy": 0.2653,
+      "macro": {
+        "lenient": {
+          "f1": 0.2911,
+          "precision": 0.2648,
+          "recall": 0.3314
+        },
+        "strict": {
+          "f1": 0.2874,
+          "precision": 0.2611,
+          "recall": 0.3277
+        },
+        "weighted": {
+          "f1": 0.2893,
+          "precision": 0.263,
+          "recall": 0.3296
+        }
+      },
+      "partial": 1,
+      "strict": {
+        "f1": 0.2895,
+        "precision": 0.2626,
+        "recall": 0.3225
+      },
+      "total_evaluated_leaf_fields": 377,
+      "weighted": {
+        "f1": 0.2909,
+        "precision": 0.2639,
+        "recall": 0.3241
+      }
+    },
+    "repeat_groups": {
+      "alignment_failure_count": 6,
+      "gold_repeat_instance_operation_total": 26,
+      "gold_repeat_instance_total": 26,
+      "item_count": 8,
+      "item_repeat_involved_count": 8,
+      "prior_repeat_instance_total": 24,
+      "repeat_group_coordination_count": 28,
+      "repeat_instance_coordination_total": 39,
+      "resulting_repeat_instance_total": 26,
+      "spurious_instance_count": 6
+    },
+    "task_diagnostics": {
+      "collateral_edit_count": 0,
+      "correction_success": {
+        "applicable": 0,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "failed_correction_count": 0,
+      "failed_retraction_count": 0,
+      "gate_execution_success": {
+        "applicable": 8,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "history_recovery_success": {
+        "applicable": 0,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "input_incoherence_forbidden_commit_count": 0,
+      "input_incoherence_overcommit_count": 0,
+      "input_incoherence_success": {
+        "applicable": 0,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "repeat_group_execution_success": {
+        "applicable": 8,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "repeat_routing_error_count": 6,
+      "retraction_success": {
+        "applicable": 0,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "unsupported_commit_count": 0,
+      "unsupported_commit_rate": 0.0
+    },
+    "transition_accuracy": {
+      "accuracy": 0.2626,
+      "by_transition": {
+        "change": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "gold_total": 86
+        },
+        "clear": {
+          "accuracy": 0.069,
+          "correct": 2,
+          "gold_total": 29
+        },
+        "preserve": {
+          "accuracy": 0.5808,
+          "correct": 97,
+          "gold_total": 167
+        },
+        "set": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "gold_total": 95
+        }
+      },
+      "correct": 99,
+      "gt_expected_total": 307,
+      "incorrect": 278,
+      "partial": 0,
+      "total_evaluated_leaf_fields": 377
+    },
+    "whole_form": {
+      "accuracy": 0.2626,
+      "correct": 99,
+      "gt_expected_total": 307,
+      "incorrect": 277,
+      "lenient": {
+        "f1": 0.2924,
+        "precision": 0.2653,
+        "recall": 0.3257
+      },
+      "lenient_accuracy": 0.2653,
+      "macro": {
+        "lenient": {
+          "f1": 0.2911,
+          "precision": 0.2648,
+          "recall": 0.3314
+        },
+        "strict": {
+          "f1": 0.2874,
+          "precision": 0.2611,
+          "recall": 0.3277
+        },
+        "weighted": {
+          "f1": 0.2893,
+          "precision": 0.263,
+          "recall": 0.3296
+        }
+      },
+      "partial": 1,
+      "strict": {
+        "f1": 0.2895,
+        "precision": 0.2626,
+        "recall": 0.3225
+      },
+      "total_evaluated_leaf_fields": 377,
+      "weighted": {
+        "f1": 0.2909,
+        "precision": 0.2639,
+        "recall": 0.3241
+      }
+    },
+    "whole_record_exact_match": {
+      "exact_match_count": 0,
+      "exact_match_rate": 0.0,
+      "item_count": 8,
+      "lenient_exact_match_count": 0,
+      "lenient_exact_match_rate": 0.0
+    }
+  },
+  "generated_at": "2026-11-02T23:22:49.635044+00:00",
+  "metadata": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    }
+  },
+  "run_dir": "no_update_public",
+  "utterances": [
+    {
+      "diagnostics": {
+        "counts": {
+          "collateral_edit": 0,
+          "failed_correction": 0,
+          "failed_retraction": 0,
+          "forbidden_commit": 0,
+          "missed_supported_update": 24,
+          "other_without_specification": 0,
+          "repeat_group_alignment_error": 0,
+          "repeat_merge_error": 0,
+          "repeat_missing_instance": 0,
+          "repeat_split_error": 0,
+          "repeat_spurious_instance": 0,
+          "repeat_wrong_instance_update": 0,
+          "unsupported_commit": 0
+        },
+        "details": {
+          "collateral_edit": [],
+          "failed_correction": [],
+          "failed_retraction": [],
+          "forbidden_commit": [],
+          "missed_supported_update": [
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Claimant declined ambulance at the scene.",
+              "prior_value": null,
+              "slot": "additional_comments"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "any_injuries"
+            },
+            {
+              "candidate_value": [
+                "Failed-to-Yield"
+              ],
+              "expected_change": "changed",
+              "gold_value": [
+                "Failed-to-Yield",
+                "Weather/Road"
+              ],
+              "prior_value": [
+                "Failed-to-Yield"
+              ],
+              "slot": "apparent_contributing_factors"
+            },
+            {
+              "candidate_value": "Two vehicles were reported near the north entrance.",
+              "expected_change": "changed",
+              "gold_value": "Rear-end crash involving claimant Toyota Corolla and blue Ford Transit.",
+              "prior_value": "Two vehicles were reported near the north entrance.",
+              "slot": "description_of_accident"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "non_vehicle_property_damage"
+            },
+            {
+              "candidate_value": "1",
+              "expected_change": "changed",
+              "gold_value": "2",
+              "prior_value": "1",
+              "slot": "number_of_vehicles_involved"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Bus shelter glass cracked near the crash location.",
+              "prior_value": null,
+              "slot": "property_damage_description"
+            },
+            {
+              "candidate_value": "Dry",
+              "expected_change": "changed",
+              "gold_value": "Wet",
+              "prior_value": "Dry",
+              "slot": "road_surface_condition"
+            },
+            {
+              "candidate_value": "08:10",
+              "expected_change": "changed",
+              "gold_value": "08:15",
+              "prior_value": "08:10",
+              "slot": "time_of_accident"
+            },
+            {
+              "candidate_value": "Clear",
+              "expected_change": "changed",
+              "gold_value": "Rain",
+              "prior_value": "Clear",
+              "slot": "weather"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Maria Lopez, 555-0104",
+              "prior_value": null,
+              "slot": "witnesses_names_contacts"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "witnesses_present"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Minor neck strain",
+              "prior_value": null,
+              "slot": "injury_table[0].injury_description"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Driver",
+              "prior_value": null,
+              "slot": "injury_table[0].role"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Minor",
+              "prior_value": null,
+              "slot": "injury_table[0].severity"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "1",
+              "prior_value": null,
+              "slot": "injury_table[0].vehicle_number"
+            },
+            {
+              "candidate_value": 5,
+              "expected_change": "changed",
+              "gold_value": 0,
+              "prior_value": 5,
+              "slot": "vehicles[0].approx_speed_mph"
+            },
+            {
+              "candidate_value": "Minor rear bumper scrape",
+              "expected_change": "changed",
+              "gold_value": "Rear bumper damage",
+              "prior_value": "Minor rear bumper scrape",
+              "slot": "vehicles[0].damage_description"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 25,
+              "prior_value": null,
+              "slot": "vehicles[1].approx_speed_mph"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Front bumper damage",
+              "prior_value": null,
+              "slot": "vehicles[1].damage_description"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "8TRK229",
+              "prior_value": null,
+              "slot": "vehicles[1].licence_plate"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Straight",
+              "prior_value": null,
+              "slot": "vehicles[1].pre_crash_manoeuvre"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "other vehicle",
+              "prior_value": null,
+              "slot": "vehicles[1].role"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Blue Ford Transit delivery van",
+              "prior_value": null,
+              "slot": "vehicles[1].vehicle_type_make_model"
+            }
+          ],
+          "other_without_specification": [],
+          "repeat_group_alignment_error": [],
+          "repeat_merge_error": [],
+          "repeat_missing_instance": [],
+          "repeat_split_error": [],
+          "repeat_spurious_instance": [],
+          "repeat_wrong_instance_update": [],
+          "unsupported_commit": []
+        }
+      },
+      "metric_views": {
+        "all_fields": {
+          "accuracy": 0.2941,
+          "correct": 10,
+          "gt_expected_total": 34,
+          "incorrect": 23,
+          "lenient": {
+            "f1": 0.3235,
+            "precision": 0.3235,
+            "recall": 0.3235
+          },
+          "lenient_accuracy": 0.3235,
+          "partial": 1,
+          "strict": {
+            "f1": 0.2941,
+            "precision": 0.2941,
+            "recall": 0.2941
+          },
+          "total_evaluated_leaf_fields": 34,
+          "weighted": {
+            "f1": 0.3088,
+            "precision": 0.3088,
+            "recall": 0.3088
+          }
+        },
+        "auxiliary_unscored_notes": {
+          "abstention_success_count": 0,
+          "auxiliary_note_abstention_acceptance_rate": 0.0,
+          "auxiliary_note_grounded_capture_rate": 0.0,
+          "auxiliary_note_hallucination_rate": 0.0,
+          "candidate_non_empty_total": 0,
+          "gold_empty_total": 0,
+          "gold_grounded_total": 0,
+          "grounded_capture_count": 0,
+          "hallucination_count": 0,
+          "total_auxiliary_unscored_note_fields": 0
+        },
+        "changed_fields": {
+          "changed_correct": 0,
+          "changed_incorrect": 23,
+          "changed_partial": 0,
+          "gold_changed_total": 24,
+          "lenient": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "predicted_changed_total": 0,
+          "strict": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "weighted": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "error_groups": {
+          "active_group_count": 0,
+          "declared_group_count": 0,
+          "grouped_field_error_count": 0,
+          "grouped_root_error_count": 24,
+          "groups": [],
+          "strict_field_error_count": 24,
+          "ungrouped_field_error_count": 24
+        },
+        "field_classes": {
+          "auxiliary_unscored_note": 0,
+          "commitment_core": 34,
+          "unknown_equivalent": 0
+        },
+        "preservation": {
+          "collateral_edit_count": 0,
+          "preservation_error_rate": 0.0,
+          "preservation_success_rate": 1.0,
+          "preserved_kept": 10,
+          "preserved_total": 10
+        },
+        "primary_fields": {
+          "accuracy": 0.2941,
+          "correct": 10,
+          "gt_expected_total": 34,
+          "incorrect": 23,
+          "lenient": {
+            "f1": 0.3235,
+            "precision": 0.3235,
+            "recall": 0.3235
+          },
+          "lenient_accuracy": 0.3235,
+          "partial": 1,
+          "strict": {
+            "f1": 0.2941,
+            "precision": 0.2941,
+            "recall": 0.2941
+          },
+          "total_evaluated_leaf_fields": 34,
+          "weighted": {
+            "f1": 0.3088,
+            "precision": 0.3088,
+            "recall": 0.3088
+          }
+        },
+        "repeat_groups": {
+          "alignment_failure_count": 0,
+          "gold_repeat_instance_operation_total": 3,
+          "gold_repeat_instance_total": 3,
+          "item_repeat_involved": true,
+          "prior_repeat_instance_total": 1,
+          "repeat_group_coordination_count": 2,
+          "repeat_instance_coordination_total": 3,
+          "resulting_repeat_instance_total": 3,
+          "spurious_instance_count": 0
+        },
+        "task_diagnostics": {
+          "collateral_edit_count": 0,
+          "correction_success": null,
+          "failed_correction_count": 0,
+          "failed_retraction_count": 0,
+          "gate_execution_success": false,
+          "history_recovery_success": null,
+          "input_incoherence_forbidden_commit_count": 0,
+          "input_incoherence_overcommit_count": 0,
+          "input_incoherence_probe": false,
+          "input_incoherence_success": null,
+          "repeat_group_execution_success": false,
+          "repeat_routing_error_count": 0,
+          "retraction_success": null,
+          "unsupported_commit_count": 0,
+          "unsupported_commit_rate": 0.0
+        },
+        "transition_accuracy": {
+          "accuracy": 0.2941,
+          "by_transition": {
+            "change": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 11
+            },
+            "preserve": {
+              "accuracy": 1.0,
+              "correct": 10,
+              "gold_total": 10
+            },
+            "set": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 13
+            }
+          },
+          "correct": 10,
+          "gt_expected_total": 34,
+          "incorrect": 24,
+          "partial": 0,
+          "total_evaluated_leaf_fields": 34
+        },
+        "whole_form": {
+          "accuracy": 0.2941,
+          "correct": 10,
+          "gt_expected_total": 34,
+          "incorrect": 23,
+          "lenient": {
+            "f1": 0.3235,
+            "precision": 0.3235,
+            "recall": 0.3235
+          },
+          "lenient_accuracy": 0.3235,
+          "partial": 1,
+          "strict": {
+            "f1": 0.2941,
+            "precision": 0.2941,
+            "recall": 0.2941
+          },
+          "total_evaluated_leaf_fields": 34,
+          "weighted": {
+            "f1": 0.3088,
+            "precision": 0.3088,
+            "recall": 0.3088
+          }
+        },
+        "whole_record_exact_match": {
+          "exact_match": false,
+          "lenient_exact_match": false
+        }
+      },
+      "questionnaire": "crash_report",
+      "scenario_id": "crash_report_dev_01",
+      "scores": {
+        "accuracy": 0.2941,
+        "correct": 10,
+        "evaluated": 34,
+        "gt_expected": 34,
+        "incorrect": 23,
+        "lenient_accuracy": 0.3235,
+        "partially_correct": 1,
+        "total": 34
+      },
+      "state": "state_1",
+      "utterance_id": "u1"
+    },
+    {
+      "diagnostics": {
+        "counts": {
+          "collateral_edit": 0,
+          "failed_correction": 0,
+          "failed_retraction": 0,
+          "forbidden_commit": 0,
+          "missed_supported_update": 9,
+          "other_without_specification": 0,
+          "repeat_group_alignment_error": 1,
+          "repeat_merge_error": 0,
+          "repeat_missing_instance": 0,
+          "repeat_split_error": 1,
+          "repeat_spurious_instance": 1,
+          "repeat_wrong_instance_update": 0,
+          "unsupported_commit": 0
+        },
+        "details": {
+          "collateral_edit": [],
+          "failed_correction": [],
+          "failed_retraction": [],
+          "forbidden_commit": [],
+          "missed_supported_update": [
+            {
+              "candidate_value": "Initial draft included the delivery van as involved.",
+              "expected_change": "changed",
+              "gold_value": "Delivery van was parked nearby and not involved.",
+              "prior_value": "Initial draft included the delivery van as involved.",
+              "slot": "additional_comments"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "any_injuries"
+            },
+            {
+              "candidate_value": "Sedan and delivery van collision.",
+              "expected_change": "changed",
+              "gold_value": "Single-vehicle scrape involving the Honda Civic.",
+              "prior_value": "Sedan and delivery van collision.",
+              "slot": "description_of_accident"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "non_vehicle_property_damage"
+            },
+            {
+              "candidate_value": "2",
+              "expected_change": "changed",
+              "gold_value": "1",
+              "prior_value": "2",
+              "slot": "number_of_vehicles_involved"
+            },
+            {
+              "candidate_value": "Bent parking sign by the exit.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Bent parking sign by the exit.",
+              "slot": "property_damage_description"
+            },
+            {
+              "candidate_value": "Clear",
+              "expected_change": "changed",
+              "gold_value": "Fog",
+              "prior_value": "Clear",
+              "slot": "weather"
+            },
+            {
+              "candidate_value": "Delivery driver, no phone number provided",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Delivery driver, no phone number provided",
+              "slot": "witnesses_names_contacts"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "witnesses_present"
+            }
+          ],
+          "other_without_specification": [],
+          "repeat_group_alignment_error": [
+            {
+              "agent_index": 1,
+              "group": "vehicles",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            }
+          ],
+          "repeat_merge_error": [],
+          "repeat_missing_instance": [],
+          "repeat_split_error": [
+            {
+              "group": "vehicles",
+              "hallucinated": 1,
+              "matched": 1
+            }
+          ],
+          "repeat_spurious_instance": [
+            {
+              "agent_index": 1,
+              "group": "vehicles",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            }
+          ],
+          "repeat_wrong_instance_update": [],
+          "unsupported_commit": []
+        }
+      },
+      "metric_views": {
+        "all_fields": {
+          "accuracy": 0.4571,
+          "correct": 16,
+          "gt_expected_total": 25,
+          "incorrect": 19,
+          "lenient": {
+            "f1": 0.5333,
+            "precision": 0.4571,
+            "recall": 0.64
+          },
+          "lenient_accuracy": 0.4571,
+          "partial": 0,
+          "strict": {
+            "f1": 0.5333,
+            "precision": 0.4571,
+            "recall": 0.64
+          },
+          "total_evaluated_leaf_fields": 35,
+          "weighted": {
+            "f1": 0.5333,
+            "precision": 0.4571,
+            "recall": 0.64
+          }
+        },
+        "auxiliary_unscored_notes": {
+          "abstention_success_count": 0,
+          "auxiliary_note_abstention_acceptance_rate": 0.0,
+          "auxiliary_note_grounded_capture_rate": 0.0,
+          "auxiliary_note_hallucination_rate": 0.0,
+          "candidate_non_empty_total": 0,
+          "gold_empty_total": 0,
+          "gold_grounded_total": 0,
+          "grounded_capture_count": 0,
+          "hallucination_count": 0,
+          "total_auxiliary_unscored_note_fields": 0
+        },
+        "changed_fields": {
+          "changed_correct": 0,
+          "changed_incorrect": 9,
+          "changed_partial": 0,
+          "gold_changed_total": 10,
+          "lenient": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "predicted_changed_total": 0,
+          "strict": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "weighted": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "error_groups": {
+          "active_group_count": 0,
+          "declared_group_count": 0,
+          "grouped_field_error_count": 0,
+          "grouped_root_error_count": 19,
+          "groups": [],
+          "strict_field_error_count": 19,
+          "ungrouped_field_error_count": 19
+        },
+        "field_classes": {
+          "auxiliary_unscored_note": 0,
+          "commitment_core": 25,
+          "unknown_equivalent": 0
+        },
+        "preservation": {
+          "collateral_edit_count": 0,
+          "preservation_error_rate": 0.0,
+          "preservation_success_rate": 1.0,
+          "preserved_kept": 25,
+          "preserved_total": 25
+        },
+        "primary_fields": {
+          "accuracy": 0.4571,
+          "correct": 16,
+          "gt_expected_total": 25,
+          "incorrect": 19,
+          "lenient": {
+            "f1": 0.5333,
+            "precision": 0.4571,
+            "recall": 0.64
+          },
+          "lenient_accuracy": 0.4571,
+          "partial": 0,
+          "strict": {
+            "f1": 0.5333,
+            "precision": 0.4571,
+            "recall": 0.64
+          },
+          "total_evaluated_leaf_fields": 35,
+          "weighted": {
+            "f1": 0.5333,
+            "precision": 0.4571,
+            "recall": 0.64
+          }
+        },
+        "repeat_groups": {
+          "alignment_failure_count": 1,
+          "gold_repeat_instance_operation_total": 1,
+          "gold_repeat_instance_total": 1,
+          "item_repeat_involved": true,
+          "prior_repeat_instance_total": 3,
+          "repeat_group_coordination_count": 2,
+          "repeat_instance_coordination_total": 3,
+          "resulting_repeat_instance_total": 1,
+          "spurious_instance_count": 1
+        },
+        "task_diagnostics": {
+          "collateral_edit_count": 0,
+          "correction_success": null,
+          "failed_correction_count": 0,
+          "failed_retraction_count": 0,
+          "gate_execution_success": false,
+          "history_recovery_success": null,
+          "input_incoherence_forbidden_commit_count": 0,
+          "input_incoherence_overcommit_count": 0,
+          "input_incoherence_probe": false,
+          "input_incoherence_success": null,
+          "repeat_group_execution_success": false,
+          "repeat_routing_error_count": 1,
+          "retraction_success": null,
+          "unsupported_commit_count": 0,
+          "unsupported_commit_rate": 0.0
+        },
+        "transition_accuracy": {
+          "accuracy": 0.4571,
+          "by_transition": {
+            "change": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 7
+            },
+            "clear": {
+              "accuracy": 0.3333,
+              "correct": 1,
+              "gold_total": 3
+            },
+            "preserve": {
+              "accuracy": 0.6,
+              "correct": 15,
+              "gold_total": 25
+            }
+          },
+          "correct": 16,
+          "gt_expected_total": 25,
+          "incorrect": 19,
+          "partial": 0,
+          "total_evaluated_leaf_fields": 35
+        },
+        "whole_form": {
+          "accuracy": 0.4571,
+          "correct": 16,
+          "gt_expected_total": 25,
+          "incorrect": 19,
+          "lenient": {
+            "f1": 0.5333,
+            "precision": 0.4571,
+            "recall": 0.64
+          },
+          "lenient_accuracy": 0.4571,
+          "partial": 0,
+          "strict": {
+            "f1": 0.5333,
+            "precision": 0.4571,
+            "recall": 0.64
+          },
+          "total_evaluated_leaf_fields": 35,
+          "weighted": {
+            "f1": 0.5333,
+            "precision": 0.4571,
+            "recall": 0.64
+          }
+        },
+        "whole_record_exact_match": {
+          "exact_match": false,
+          "lenient_exact_match": false
+        }
+      },
+      "questionnaire": "crash_report",
+      "scenario_id": "crash_report_dev_02",
+      "scores": {
+        "accuracy": 0.4571,
+        "correct": 16,
+        "evaluated": 35,
+        "gt_expected": 25,
+        "incorrect": 19,
+        "lenient_accuracy": 0.4571,
+        "partially_correct": 0,
+        "total": 35
+      },
+      "state": "state_1",
+      "utterance_id": "u1"
+    },
+    {
+      "diagnostics": {
+        "counts": {
+          "collateral_edit": 0,
+          "failed_correction": 0,
+          "failed_retraction": 0,
+          "forbidden_commit": 0,
+          "missed_supported_update": 45,
+          "other_without_specification": 0,
+          "repeat_group_alignment_error": 0,
+          "repeat_merge_error": 0,
+          "repeat_missing_instance": 0,
+          "repeat_split_error": 0,
+          "repeat_spurious_instance": 0,
+          "repeat_wrong_instance_update": 0,
+          "unsupported_commit": 0
+        },
+        "details": {
+          "collateral_edit": [],
+          "failed_correction": [],
+          "failed_retraction": [],
+          "forbidden_commit": [],
+          "missed_supported_update": [
+            {
+              "candidate_value": "Actual costs",
+              "expected_change": "changed",
+              "gold_value": "Lump sum",
+              "prior_value": "Actual costs",
+              "slot": "budget_model"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 1200000,
+              "prior_value": null,
+              "slot": "budget_total_estimated_costs"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 900000,
+              "prior_value": null,
+              "slot": "budget_total_requested_eu_contribution"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "data_management_plan_required"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "declaration_explicit_consent_all_applicants"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "declaration_information_correct_complete"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 6,
+              "prior_value": null,
+              "slot": "dmp_delivery_month"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Resident interview data will be documented, access-controlled, and reusable in anonymized aggregate form.",
+              "prior_value": null,
+              "slot": "dmp_fair_outputs_summary"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "ethics_issues_present"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": true,
+              "prior_value": null,
+              "slot": "ethics_personal_data"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "ethics_self_assessment_completed"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Self-assessment completed for resident interview data.",
+              "prior_value": null,
+              "slot": "ethics_self_assessment_summary"
+            },
+            {
+              "candidate_value": 0,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 0,
+              "slot": "number_of_deliverables"
+            },
+            {
+              "candidate_value": 0,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 0,
+              "slot": "number_of_major_equipment_items"
+            },
+            {
+              "candidate_value": 0,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 0,
+              "slot": "number_of_work_packages"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "SEP-2025-44",
+              "prior_value": null,
+              "slot": "previous_proposal_reference_or_contract_number"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "This version adds live municipal pilots.",
+              "prior_value": null,
+              "slot": "previous_submission_difference_summary"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "2025 DIGITAL call",
+              "prior_value": null,
+              "slot": "previous_submission_programme_call"
+            },
+            {
+              "candidate_value": 24,
+              "expected_change": "changed",
+              "gold_value": 30,
+              "prior_value": 24,
+              "slot": "project_duration_months"
+            },
+            {
+              "candidate_value": "Civic AI assistant",
+              "expected_change": "changed",
+              "gold_value": "Civic AI Services Pilot",
+              "prior_value": "Civic AI assistant",
+              "slot": "proposal_title"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "similar_proposal_submitted_past_two_years"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 6,
+              "prior_value": null,
+              "slot": "deliverables[0].deliverable_delivery_month"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "PU - Public",
+              "prior_value": null,
+              "slot": "deliverables[0].deliverable_dissemination_level"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "CIV",
+              "prior_value": null,
+              "slot": "deliverables[0].deliverable_lead_participant_short_name"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Pilot protocol",
+              "prior_value": null,
+              "slot": "deliverables[0].deliverable_name"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "D1.1",
+              "prior_value": null,
+              "slot": "deliverables[0].deliverable_number"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Protocol for municipal pilot interviews and data handling.",
+              "prior_value": null,
+              "slot": "deliverables[0].deliverable_short_description"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "R - Document/report",
+              "prior_value": null,
+              "slot": "deliverables[0].deliverable_type"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "WP1",
+              "prior_value": null,
+              "slot": "deliverables[0].deliverable_work_package_number"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Personal data in resident interviews",
+              "prior_value": null,
+              "slot": "ethics_issue_table[0].description"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Personal data",
+              "prior_value": null,
+              "slot": "ethics_issue_table[0].ethics_category"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Consent, minimization, and controlled access",
+              "prior_value": null,
+              "slot": "ethics_issue_table[0].mitigation_or_self_assessment"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 18000,
+              "prior_value": null,
+              "slot": "major_equipment_items[0].equipment_cost_eur"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Secure tablets are needed for field interviews.",
+              "prior_value": null,
+              "slot": "major_equipment_items[0].equipment_justification"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "CIV",
+              "prior_value": null,
+              "slot": "major_equipment_items[0].equipment_participant_number_short_name"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "D1.1 Pilot protocol",
+              "prior_value": null,
+              "slot": "work_packages[0].wp_deliverables_summary"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Set up municipal pilots and interview protocol.",
+              "prior_value": null,
+              "slot": "work_packages[0].wp_description_of_work"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 12,
+              "prior_value": null,
+              "slot": "work_packages[0].wp_end_month"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 1,
+              "prior_value": null,
+              "slot": "work_packages[0].wp_lead_participant_number"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "CIV",
+              "prior_value": null,
+              "slot": "work_packages[0].wp_lead_participant_short_name"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "WP1",
+              "prior_value": null,
+              "slot": "work_packages[0].wp_number"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Prepare municipal pilot operations.",
+              "prior_value": null,
+              "slot": "work_packages[0].wp_objectives"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 18,
+              "prior_value": null,
+              "slot": "work_packages[0].wp_person_months"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 1,
+              "prior_value": null,
+              "slot": "work_packages[0].wp_start_month"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Pilot setup",
+              "prior_value": null,
+              "slot": "work_packages[0].wp_title"
+            }
+          ],
+          "other_without_specification": [],
+          "repeat_group_alignment_error": [],
+          "repeat_merge_error": [],
+          "repeat_missing_instance": [],
+          "repeat_split_error": [],
+          "repeat_spurious_instance": [],
+          "repeat_wrong_instance_update": [],
+          "unsupported_commit": []
+        }
+      },
+      "metric_views": {
+        "all_fields": {
+          "accuracy": 0.0816,
+          "correct": 4,
+          "gt_expected_total": 49,
+          "incorrect": 45,
+          "lenient": {
+            "f1": 0.0816,
+            "precision": 0.0816,
+            "recall": 0.0816
+          },
+          "lenient_accuracy": 0.0816,
+          "partial": 0,
+          "strict": {
+            "f1": 0.0816,
+            "precision": 0.0816,
+            "recall": 0.0816
+          },
+          "total_evaluated_leaf_fields": 49,
+          "weighted": {
+            "f1": 0.0816,
+            "precision": 0.0816,
+            "recall": 0.0816
+          }
+        },
+        "auxiliary_unscored_notes": {
+          "abstention_success_count": 0,
+          "auxiliary_note_abstention_acceptance_rate": 0.0,
+          "auxiliary_note_grounded_capture_rate": 0.0,
+          "auxiliary_note_hallucination_rate": 0.0,
+          "candidate_non_empty_total": 0,
+          "gold_empty_total": 0,
+          "gold_grounded_total": 0,
+          "grounded_capture_count": 0,
+          "hallucination_count": 0,
+          "total_auxiliary_unscored_note_fields": 0
+        },
+        "changed_fields": {
+          "changed_correct": 0,
+          "changed_incorrect": 45,
+          "changed_partial": 0,
+          "gold_changed_total": 45,
+          "lenient": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "predicted_changed_total": 0,
+          "strict": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "weighted": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "error_groups": {
+          "active_group_count": 0,
+          "declared_group_count": 0,
+          "grouped_field_error_count": 0,
+          "grouped_root_error_count": 45,
+          "groups": [],
+          "strict_field_error_count": 45,
+          "ungrouped_field_error_count": 45
+        },
+        "field_classes": {
+          "auxiliary_unscored_note": 0,
+          "commitment_core": 49,
+          "unknown_equivalent": 0
+        },
+        "preservation": {
+          "collateral_edit_count": 0,
+          "preservation_error_rate": 0.0,
+          "preservation_success_rate": 1.0,
+          "preserved_kept": 4,
+          "preserved_total": 4
+        },
+        "primary_fields": {
+          "accuracy": 0.0816,
+          "correct": 4,
+          "gt_expected_total": 49,
+          "incorrect": 45,
+          "lenient": {
+            "f1": 0.0816,
+            "precision": 0.0816,
+            "recall": 0.0816
+          },
+          "lenient_accuracy": 0.0816,
+          "partial": 0,
+          "strict": {
+            "f1": 0.0816,
+            "precision": 0.0816,
+            "recall": 0.0816
+          },
+          "total_evaluated_leaf_fields": 49,
+          "weighted": {
+            "f1": 0.0816,
+            "precision": 0.0816,
+            "recall": 0.0816
+          }
+        },
+        "repeat_groups": {
+          "alignment_failure_count": 0,
+          "gold_repeat_instance_operation_total": 4,
+          "gold_repeat_instance_total": 4,
+          "item_repeat_involved": true,
+          "prior_repeat_instance_total": 0,
+          "repeat_group_coordination_count": 4,
+          "repeat_instance_coordination_total": 4,
+          "resulting_repeat_instance_total": 4,
+          "spurious_instance_count": 0
+        },
+        "task_diagnostics": {
+          "collateral_edit_count": 0,
+          "correction_success": null,
+          "failed_correction_count": 0,
+          "failed_retraction_count": 0,
+          "gate_execution_success": false,
+          "history_recovery_success": null,
+          "input_incoherence_forbidden_commit_count": 0,
+          "input_incoherence_overcommit_count": 0,
+          "input_incoherence_probe": false,
+          "input_incoherence_success": null,
+          "repeat_group_execution_success": false,
+          "repeat_routing_error_count": 0,
+          "retraction_success": null,
+          "unsupported_commit_count": 0,
+          "unsupported_commit_rate": 0.0
+        },
+        "transition_accuracy": {
+          "accuracy": 0.0816,
+          "by_transition": {
+            "change": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 12
+            },
+            "preserve": {
+              "accuracy": 1.0,
+              "correct": 4,
+              "gold_total": 4
+            },
+            "set": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 33
+            }
+          },
+          "correct": 4,
+          "gt_expected_total": 49,
+          "incorrect": 45,
+          "partial": 0,
+          "total_evaluated_leaf_fields": 49
+        },
+        "whole_form": {
+          "accuracy": 0.0816,
+          "correct": 4,
+          "gt_expected_total": 49,
+          "incorrect": 45,
+          "lenient": {
+            "f1": 0.0816,
+            "precision": 0.0816,
+            "recall": 0.0816
+          },
+          "lenient_accuracy": 0.0816,
+          "partial": 0,
+          "strict": {
+            "f1": 0.0816,
+            "precision": 0.0816,
+            "recall": 0.0816
+          },
+          "total_evaluated_leaf_fields": 49,
+          "weighted": {
+            "f1": 0.0816,
+            "precision": 0.0816,
+            "recall": 0.0816
+          }
+        },
+        "whole_record_exact_match": {
+          "exact_match": false,
+          "lenient_exact_match": false
+        }
+      },
+      "questionnaire": "grant",
+      "scenario_id": "grant_dev_01",
+      "scores": {
+        "accuracy": 0.0816,
+        "correct": 4,
+        "evaluated": 49,
+        "gt_expected": 49,
+        "incorrect": 45,
+        "lenient_accuracy": 0.0816,
+        "partially_correct": 0,
+        "total": 49
+      },
+      "state": "state_1",
+      "utterance_id": "u1"
+    },
+    {
+      "diagnostics": {
+        "counts": {
+          "collateral_edit": 0,
+          "failed_correction": 0,
+          "failed_retraction": 0,
+          "forbidden_commit": 0,
+          "missed_supported_update": 29,
+          "other_without_specification": 0,
+          "repeat_group_alignment_error": 3,
+          "repeat_merge_error": 0,
+          "repeat_missing_instance": 0,
+          "repeat_split_error": 3,
+          "repeat_spurious_instance": 3,
+          "repeat_wrong_instance_update": 0,
+          "unsupported_commit": 0
+        },
+        "details": {
+          "collateral_edit": [],
+          "failed_correction": [],
+          "failed_retraction": [],
+          "forbidden_commit": [],
+          "missed_supported_update": [
+            {
+              "candidate_value": "Single-arm observational study.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Single-arm observational study.",
+              "slot": "clinical_trial_design"
+            },
+            {
+              "candidate_value": "Assess feasibility.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Assess feasibility.",
+              "slot": "clinical_trial_objective"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "clinical_trial_or_study_included"
+            },
+            {
+              "candidate_value": "Pilot clinical workflow study",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Pilot clinical workflow study",
+              "slot": "clinical_trial_title"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "data_management_plan_required"
+            },
+            {
+              "candidate_value": 6,
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": 6,
+              "slot": "dmp_delivery_month"
+            },
+            {
+              "candidate_value": "Patient data plan.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Patient data plan.",
+              "slot": "dmp_fair_outputs_summary"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "ethics_issues_present"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "ethics_self_assessment_completed"
+            },
+            {
+              "candidate_value": "Clinical data reviewed.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Clinical data reviewed.",
+              "slot": "ethics_self_assessment_summary"
+            },
+            {
+              "candidate_value": 2,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 2,
+              "slot": "number_of_critical_risks"
+            },
+            {
+              "candidate_value": 2,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 2,
+              "slot": "number_of_deliverables"
+            },
+            {
+              "candidate_value": 0,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 0,
+              "slot": "number_of_subcontracting_items"
+            },
+            {
+              "candidate_value": 2,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 2,
+              "slot": "number_of_work_packages"
+            },
+            {
+              "candidate_value": "HEALTH-24-77",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "HEALTH-24-77",
+              "slot": "previous_proposal_reference_or_contract_number"
+            },
+            {
+              "candidate_value": "Earlier clinical focus.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Earlier clinical focus.",
+              "slot": "previous_submission_difference_summary"
+            },
+            {
+              "candidate_value": "2024 HEALTH call",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "2024 HEALTH call",
+              "slot": "previous_submission_programme_call"
+            },
+            {
+              "candidate_value": "Prototype contains restricted site plans.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Prototype contains restricted site plans.",
+              "slot": "security_issue_specification"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "security_issues_present"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "security_potential_misuse"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "similar_proposal_submitted_past_two_years"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": 25000,
+              "prior_value": null,
+              "slot": "subcontracting_items[0].subcontracting_cost_eur"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "MED",
+              "prior_value": null,
+              "slot": "subcontracting_items[0].subcontracting_participant_number_short_name"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Independent accessibility testing.",
+              "prior_value": null,
+              "slot": "subcontracting_items[0].subcontracting_tasks_and_justification"
+            },
+            {
+              "candidate_value": "Run clinical study setup.",
+              "expected_change": "changed",
+              "gold_value": "Run demonstration setup.",
+              "prior_value": "Run clinical study setup.",
+              "slot": "work_packages[0].wp_description_of_work"
+            },
+            {
+              "candidate_value": 12,
+              "expected_change": "changed",
+              "gold_value": 10,
+              "prior_value": 12,
+              "slot": "work_packages[0].wp_end_month"
+            },
+            {
+              "candidate_value": "Clinical workflow preparation.",
+              "expected_change": "changed",
+              "gold_value": "Demonstration workflow preparation.",
+              "prior_value": "Clinical workflow preparation.",
+              "slot": "work_packages[0].wp_objectives"
+            },
+            {
+              "candidate_value": 20,
+              "expected_change": "changed",
+              "gold_value": 16,
+              "prior_value": 20,
+              "slot": "work_packages[0].wp_person_months"
+            },
+            {
+              "candidate_value": "Clinical setup",
+              "expected_change": "changed",
+              "gold_value": "Demonstration setup",
+              "prior_value": "Clinical setup",
+              "slot": "work_packages[0].wp_title"
+            }
+          ],
+          "other_without_specification": [],
+          "repeat_group_alignment_error": [
+            {
+              "agent_index": 1,
+              "group": "critical_risks",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            },
+            {
+              "agent_index": 1,
+              "group": "deliverables",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            },
+            {
+              "agent_index": 1,
+              "group": "work_packages",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            }
+          ],
+          "repeat_merge_error": [],
+          "repeat_missing_instance": [],
+          "repeat_split_error": [
+            {
+              "group": "critical_risks",
+              "hallucinated": 1,
+              "matched": 1
+            },
+            {
+              "group": "deliverables",
+              "hallucinated": 1,
+              "matched": 1
+            },
+            {
+              "group": "work_packages",
+              "hallucinated": 1,
+              "matched": 1
+            }
+          ],
+          "repeat_spurious_instance": [
+            {
+              "agent_index": 1,
+              "group": "critical_risks",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            },
+            {
+              "agent_index": 1,
+              "group": "deliverables",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            },
+            {
+              "agent_index": 1,
+              "group": "work_packages",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            }
+          ],
+          "repeat_wrong_instance_update": [],
+          "unsupported_commit": []
+        }
+      },
+      "metric_views": {
+        "all_fields": {
+          "accuracy": 0.2703,
+          "correct": 20,
+          "gt_expected_total": 49,
+          "incorrect": 54,
+          "lenient": {
+            "f1": 0.3252,
+            "precision": 0.2703,
+            "recall": 0.4082
+          },
+          "lenient_accuracy": 0.2703,
+          "partial": 0,
+          "strict": {
+            "f1": 0.3252,
+            "precision": 0.2703,
+            "recall": 0.4082
+          },
+          "total_evaluated_leaf_fields": 74,
+          "weighted": {
+            "f1": 0.3252,
+            "precision": 0.2703,
+            "recall": 0.4082
+          }
+        },
+        "auxiliary_unscored_notes": {
+          "abstention_success_count": 0,
+          "auxiliary_note_abstention_acceptance_rate": 0.0,
+          "auxiliary_note_grounded_capture_rate": 0.0,
+          "auxiliary_note_hallucination_rate": 0.0,
+          "candidate_non_empty_total": 0,
+          "gold_empty_total": 0,
+          "gold_grounded_total": 0,
+          "grounded_capture_count": 0,
+          "hallucination_count": 0,
+          "total_auxiliary_unscored_note_fields": 0
+        },
+        "changed_fields": {
+          "changed_correct": 1,
+          "changed_incorrect": 29,
+          "changed_partial": 0,
+          "gold_changed_total": 30,
+          "lenient": {
+            "f1": 0.0645,
+            "precision": 1.0,
+            "recall": 0.0333
+          },
+          "predicted_changed_total": 1,
+          "strict": {
+            "f1": 0.0645,
+            "precision": 1.0,
+            "recall": 0.0333
+          },
+          "weighted": {
+            "f1": 0.0645,
+            "precision": 1.0,
+            "recall": 0.0333
+          }
+        },
+        "error_groups": {
+          "active_group_count": 0,
+          "declared_group_count": 0,
+          "grouped_field_error_count": 0,
+          "grouped_root_error_count": 54,
+          "groups": [],
+          "strict_field_error_count": 54,
+          "ungrouped_field_error_count": 54
+        },
+        "field_classes": {
+          "auxiliary_unscored_note": 0,
+          "commitment_core": 49,
+          "unknown_equivalent": 0
+        },
+        "preservation": {
+          "collateral_edit_count": 0,
+          "preservation_error_rate": 0.0,
+          "preservation_success_rate": 1.0,
+          "preserved_kept": 44,
+          "preserved_total": 44
+        },
+        "primary_fields": {
+          "accuracy": 0.2703,
+          "correct": 20,
+          "gt_expected_total": 49,
+          "incorrect": 54,
+          "lenient": {
+            "f1": 0.3252,
+            "precision": 0.2703,
+            "recall": 0.4082
+          },
+          "lenient_accuracy": 0.2703,
+          "partial": 0,
+          "strict": {
+            "f1": 0.3252,
+            "precision": 0.2703,
+            "recall": 0.4082
+          },
+          "total_evaluated_leaf_fields": 74,
+          "weighted": {
+            "f1": 0.3252,
+            "precision": 0.2703,
+            "recall": 0.4082
+          }
+        },
+        "repeat_groups": {
+          "alignment_failure_count": 3,
+          "gold_repeat_instance_operation_total": 4,
+          "gold_repeat_instance_total": 4,
+          "item_repeat_involved": true,
+          "prior_repeat_instance_total": 7,
+          "repeat_group_coordination_count": 4,
+          "repeat_instance_coordination_total": 7,
+          "resulting_repeat_instance_total": 4,
+          "spurious_instance_count": 3
+        },
+        "task_diagnostics": {
+          "collateral_edit_count": 0,
+          "correction_success": null,
+          "failed_correction_count": 0,
+          "failed_retraction_count": 0,
+          "gate_execution_success": false,
+          "history_recovery_success": null,
+          "input_incoherence_forbidden_commit_count": 0,
+          "input_incoherence_overcommit_count": 0,
+          "input_incoherence_probe": false,
+          "input_incoherence_success": null,
+          "repeat_group_execution_success": false,
+          "repeat_routing_error_count": 3,
+          "retraction_success": null,
+          "unsupported_commit_count": 0,
+          "unsupported_commit_rate": 0.0
+        },
+        "transition_accuracy": {
+          "accuracy": 0.2703,
+          "by_transition": {
+            "change": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 16
+            },
+            "clear": {
+              "accuracy": 0.0909,
+              "correct": 1,
+              "gold_total": 11
+            },
+            "preserve": {
+              "accuracy": 0.4318,
+              "correct": 19,
+              "gold_total": 44
+            },
+            "set": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 3
+            }
+          },
+          "correct": 20,
+          "gt_expected_total": 49,
+          "incorrect": 54,
+          "partial": 0,
+          "total_evaluated_leaf_fields": 74
+        },
+        "whole_form": {
+          "accuracy": 0.2703,
+          "correct": 20,
+          "gt_expected_total": 49,
+          "incorrect": 54,
+          "lenient": {
+            "f1": 0.3252,
+            "precision": 0.2703,
+            "recall": 0.4082
+          },
+          "lenient_accuracy": 0.2703,
+          "partial": 0,
+          "strict": {
+            "f1": 0.3252,
+            "precision": 0.2703,
+            "recall": 0.4082
+          },
+          "total_evaluated_leaf_fields": 74,
+          "weighted": {
+            "f1": 0.3252,
+            "precision": 0.2703,
+            "recall": 0.4082
+          }
+        },
+        "whole_record_exact_match": {
+          "exact_match": false,
+          "lenient_exact_match": false
+        }
+      },
+      "questionnaire": "grant",
+      "scenario_id": "grant_dev_02",
+      "scores": {
+        "accuracy": 0.2703,
+        "correct": 20,
+        "evaluated": 74,
+        "gt_expected": 49,
+        "incorrect": 54,
+        "lenient_accuracy": 0.2703,
+        "partially_correct": 0,
+        "total": 74
+      },
+      "state": "state_1",
+      "utterance_id": "u1"
+    },
+    {
+      "diagnostics": {
+        "counts": {
+          "collateral_edit": 0,
+          "failed_correction": 0,
+          "failed_retraction": 0,
+          "forbidden_commit": 0,
+          "missed_supported_update": 34,
+          "other_without_specification": 0,
+          "repeat_group_alignment_error": 0,
+          "repeat_merge_error": 0,
+          "repeat_missing_instance": 0,
+          "repeat_split_error": 0,
+          "repeat_spurious_instance": 0,
+          "repeat_wrong_instance_update": 0,
+          "unsupported_commit": 0
+        },
+        "details": {
+          "collateral_edit": [],
+          "failed_correction": [],
+          "failed_retraction": [],
+          "forbidden_commit": [],
+          "missed_supported_update": [
+            {
+              "candidate_value": 0,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 0,
+              "slot": "agreement_count"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "2026-06-10",
+              "prior_value": null,
+              "slot": "earliest_public_availability_date"
+            },
+            {
+              "candidate_value": [],
+              "expected_change": "set",
+              "gold_value": [
+                "Conference"
+              ],
+              "prior_value": [],
+              "slot": "formal_public_disclosure_channel"
+            },
+            {
+              "candidate_value": [],
+              "expected_change": "set",
+              "gold_value": [
+                "Submitted"
+              ],
+              "prior_value": [],
+              "slot": "formal_public_disclosure_status"
+            },
+            {
+              "candidate_value": 0,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 0,
+              "slot": "funding_source_count"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "has_journal_conference_thesis_or_library_disclosure"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "has_rights_affecting_agreements"
+            },
+            {
+              "candidate_value": "Adaptive sensor bracket",
+              "expected_change": "changed",
+              "gold_value": "Adaptive sensor bracket with self-calibrating firmware",
+              "prior_value": "Adaptive sensor bracket",
+              "slot": "invention_title"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "West Coast Bioengineering Conference",
+              "prior_value": null,
+              "slot": "journal_conference_or_meeting_name"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Self-calibrating firmware is integral to the invention.",
+              "prior_value": null,
+              "slot": "software_component_description"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": true,
+              "prior_value": null,
+              "slot": "software_copyright_disclosure_attached"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "software_is_integral"
+            },
+            {
+              "candidate_value": 1,
+              "expected_change": "changed",
+              "gold_value": 2,
+              "prior_value": 1,
+              "slot": "uci_inventor_count"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "was_funded_or_sponsored"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Consulting Agreement",
+              "prior_value": null,
+              "slot": "agreements[0].agreement_type"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": true,
+              "prior_value": null,
+              "slot": "agreements[0].copy_attached"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": true,
+              "prior_value": null,
+              "slot": "agreements[0].copy_available"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "MedMotion",
+              "prior_value": null,
+              "slot": "agreements[0].other_party_name"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "R01-12345",
+              "prior_value": null,
+              "slot": "funding_sources[0].contract_or_grant_number"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "wearable sensor research",
+              "prior_value": null,
+              "slot": "funding_sources[0].funding_scope"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Dr. Rao",
+              "prior_value": null,
+              "slot": "funding_sources[0].principal_investigator_or_supervisor"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "NIH",
+              "prior_value": null,
+              "slot": "funding_sources[0].sponsor_name"
+            },
+            {
+              "candidate_value": "arao@uci.edu",
+              "expected_change": "changed",
+              "gold_value": "asha.rao@uci.edu",
+              "prior_value": "arao@uci.edu",
+              "slot": "uci_inventors[0].uci_email"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Grad Student",
+              "prior_value": null,
+              "slot": "uci_inventors[1].category"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Electrical Engineering",
+              "prior_value": null,
+              "slot": "uci_inventors[1].department_or_oru"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": false,
+              "prior_value": null,
+              "slot": "uci_inventors[1].is_lead_contact"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "949-555-0199",
+              "prior_value": null,
+              "slot": "uci_inventors[1].mobile_phone"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Priya Chen",
+              "prior_value": null,
+              "slot": "uci_inventors[1].name"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Graduate student",
+              "prior_value": null,
+              "slot": "uci_inventors[1].title_at_uci"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "pchen@uci.edu",
+              "prior_value": null,
+              "slot": "uci_inventors[1].uci_email"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "2026-05-02",
+              "prior_value": null,
+              "slot": "witnesses[0].date_signed"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": true,
+              "prior_value": null,
+              "slot": "witnesses[0].signature_present"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "PhD electrical engineering",
+              "prior_value": null,
+              "slot": "witnesses[0].technical_qualification"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Omar Silva",
+              "prior_value": null,
+              "slot": "witnesses[0].witness_printed_name"
+            }
+          ],
+          "other_without_specification": [],
+          "repeat_group_alignment_error": [],
+          "repeat_merge_error": [],
+          "repeat_missing_instance": [],
+          "repeat_split_error": [],
+          "repeat_spurious_instance": [],
+          "repeat_wrong_instance_update": [],
+          "unsupported_commit": []
+        }
+      },
+      "metric_views": {
+        "all_fields": {
+          "accuracy": 0.4333,
+          "correct": 26,
+          "gt_expected_total": 60,
+          "incorrect": 34,
+          "lenient": {
+            "f1": 0.4333,
+            "precision": 0.4333,
+            "recall": 0.4333
+          },
+          "lenient_accuracy": 0.4333,
+          "partial": 0,
+          "strict": {
+            "f1": 0.4333,
+            "precision": 0.4333,
+            "recall": 0.4333
+          },
+          "total_evaluated_leaf_fields": 60,
+          "weighted": {
+            "f1": 0.4333,
+            "precision": 0.4333,
+            "recall": 0.4333
+          }
+        },
+        "auxiliary_unscored_notes": {
+          "abstention_success_count": 0,
+          "auxiliary_note_abstention_acceptance_rate": 0.0,
+          "auxiliary_note_grounded_capture_rate": 0.0,
+          "auxiliary_note_hallucination_rate": 0.0,
+          "candidate_non_empty_total": 0,
+          "gold_empty_total": 0,
+          "gold_grounded_total": 0,
+          "grounded_capture_count": 0,
+          "hallucination_count": 0,
+          "total_auxiliary_unscored_note_fields": 0
+        },
+        "changed_fields": {
+          "changed_correct": 0,
+          "changed_incorrect": 34,
+          "changed_partial": 0,
+          "gold_changed_total": 34,
+          "lenient": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "predicted_changed_total": 0,
+          "strict": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "weighted": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "error_groups": {
+          "active_group_count": 0,
+          "declared_group_count": 0,
+          "grouped_field_error_count": 0,
+          "grouped_root_error_count": 34,
+          "groups": [],
+          "strict_field_error_count": 34,
+          "ungrouped_field_error_count": 34
+        },
+        "field_classes": {
+          "auxiliary_unscored_note": 0,
+          "commitment_core": 60,
+          "unknown_equivalent": 0
+        },
+        "preservation": {
+          "collateral_edit_count": 0,
+          "preservation_error_rate": 0.0,
+          "preservation_success_rate": 1.0,
+          "preserved_kept": 26,
+          "preserved_total": 26
+        },
+        "primary_fields": {
+          "accuracy": 0.4333,
+          "correct": 26,
+          "gt_expected_total": 60,
+          "incorrect": 34,
+          "lenient": {
+            "f1": 0.4333,
+            "precision": 0.4333,
+            "recall": 0.4333
+          },
+          "lenient_accuracy": 0.4333,
+          "partial": 0,
+          "strict": {
+            "f1": 0.4333,
+            "precision": 0.4333,
+            "recall": 0.4333
+          },
+          "total_evaluated_leaf_fields": 60,
+          "weighted": {
+            "f1": 0.4333,
+            "precision": 0.4333,
+            "recall": 0.4333
+          }
+        },
+        "repeat_groups": {
+          "alignment_failure_count": 0,
+          "gold_repeat_instance_operation_total": 5,
+          "gold_repeat_instance_total": 5,
+          "item_repeat_involved": true,
+          "prior_repeat_instance_total": 1,
+          "repeat_group_coordination_count": 4,
+          "repeat_instance_coordination_total": 5,
+          "resulting_repeat_instance_total": 5,
+          "spurious_instance_count": 0
+        },
+        "task_diagnostics": {
+          "collateral_edit_count": 0,
+          "correction_success": null,
+          "failed_correction_count": 0,
+          "failed_retraction_count": 0,
+          "gate_execution_success": false,
+          "history_recovery_success": null,
+          "input_incoherence_forbidden_commit_count": 0,
+          "input_incoherence_overcommit_count": 0,
+          "input_incoherence_probe": false,
+          "input_incoherence_success": null,
+          "repeat_group_execution_success": false,
+          "repeat_routing_error_count": 0,
+          "retraction_success": null,
+          "unsupported_commit_count": 0,
+          "unsupported_commit_rate": 0.0
+        },
+        "transition_accuracy": {
+          "accuracy": 0.4333,
+          "by_transition": {
+            "change": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 9
+            },
+            "preserve": {
+              "accuracy": 1.0,
+              "correct": 26,
+              "gold_total": 26
+            },
+            "set": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 25
+            }
+          },
+          "correct": 26,
+          "gt_expected_total": 60,
+          "incorrect": 34,
+          "partial": 0,
+          "total_evaluated_leaf_fields": 60
+        },
+        "whole_form": {
+          "accuracy": 0.4333,
+          "correct": 26,
+          "gt_expected_total": 60,
+          "incorrect": 34,
+          "lenient": {
+            "f1": 0.4333,
+            "precision": 0.4333,
+            "recall": 0.4333
+          },
+          "lenient_accuracy": 0.4333,
+          "partial": 0,
+          "strict": {
+            "f1": 0.4333,
+            "precision": 0.4333,
+            "recall": 0.4333
+          },
+          "total_evaluated_leaf_fields": 60,
+          "weighted": {
+            "f1": 0.4333,
+            "precision": 0.4333,
+            "recall": 0.4333
+          }
+        },
+        "whole_record_exact_match": {
+          "exact_match": false,
+          "lenient_exact_match": false
+        }
+      },
+      "questionnaire": "patent_form",
+      "scenario_id": "patent_form_dev_01",
+      "scores": {
+        "accuracy": 0.4333,
+        "correct": 26,
+        "evaluated": 60,
+        "gt_expected": 60,
+        "incorrect": 34,
+        "lenient_accuracy": 0.4333,
+        "partially_correct": 0,
+        "total": 60
+      },
+      "state": "state_1",
+      "utterance_id": "u1"
+    },
+    {
+      "diagnostics": {
+        "counts": {
+          "collateral_edit": 0,
+          "failed_correction": 0,
+          "failed_retraction": 0,
+          "forbidden_commit": 0,
+          "missed_supported_update": 23,
+          "other_without_specification": 1,
+          "repeat_group_alignment_error": 1,
+          "repeat_merge_error": 0,
+          "repeat_missing_instance": 0,
+          "repeat_split_error": 1,
+          "repeat_spurious_instance": 1,
+          "repeat_wrong_instance_update": 0,
+          "unsupported_commit": 0
+        },
+        "details": {
+          "collateral_edit": [],
+          "failed_correction": [],
+          "failed_retraction": [],
+          "forbidden_commit": [],
+          "missed_supported_update": [
+            {
+              "candidate_value": 1,
+              "expected_change": "changed",
+              "gold_value": 0,
+              "prior_value": 1,
+              "slot": "agreement_count"
+            },
+            {
+              "candidate_value": [
+                {
+                  "agreement_type": "Material Transfer Agreement",
+                  "copy_attached": true,
+                  "copy_available": true,
+                  "other_party_name": "North Labs"
+                }
+              ],
+              "expected_change": "clear",
+              "gold_value": [],
+              "prior_value": [
+                {
+                  "agreement_type": "Material Transfer Agreement",
+                  "copy_attached": true,
+                  "copy_available": true,
+                  "other_party_name": "North Labs"
+                }
+              ],
+              "slot": "agreements"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "disclosed_to_non_uci_personnel"
+            },
+            {
+              "candidate_value": "2026-01-18",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "2026-01-18",
+              "slot": "earliest_non_uci_disclosure_date"
+            },
+            {
+              "candidate_value": "2026-02-01",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "2026-02-01",
+              "slot": "earliest_public_availability_date"
+            },
+            {
+              "candidate_value": [
+                "Meeting"
+              ],
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": [
+                "Meeting"
+              ],
+              "slot": "formal_public_disclosure_channel"
+            },
+            {
+              "candidate_value": [
+                "Already published/presented"
+              ],
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": [
+                "Already published/presented"
+              ],
+              "slot": "formal_public_disclosure_status"
+            },
+            {
+              "candidate_value": 1,
+              "expected_change": "changed",
+              "gold_value": 0,
+              "prior_value": 1,
+              "slot": "funding_source_count"
+            },
+            {
+              "candidate_value": [
+                {
+                  "contract_or_grant_number": "AGR-77",
+                  "funding_scope": "Prototype work",
+                  "principal_investigator_or_supervisor": "Dr. Meera Singh",
+                  "sponsor_name": "North Labs"
+                }
+              ],
+              "expected_change": "clear",
+              "gold_value": [],
+              "prior_value": [
+                {
+                  "contract_or_grant_number": "AGR-77",
+                  "funding_scope": "Prototype work",
+                  "principal_investigator_or_supervisor": "Dr. Meera Singh",
+                  "sponsor_name": "North Labs"
+                }
+              ],
+              "slot": "funding_sources"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "has_journal_conference_thesis_or_library_disclosure"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "has_rights_affecting_agreements"
+            },
+            {
+              "candidate_value": "Internal research meeting",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Internal research meeting",
+              "slot": "journal_conference_or_meeting_name"
+            },
+            {
+              "candidate_value": "Prototype review.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Prototype review.",
+              "slot": "non_uci_disclosure_context"
+            },
+            {
+              "candidate_value": "North Labs engineering team",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "North Labs engineering team",
+              "slot": "non_uci_disclosure_recipients"
+            },
+            {
+              "candidate_value": 2,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 2,
+              "slot": "non_uci_inventor_count"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "patent_search_performed"
+            },
+            {
+              "candidate_value": "Dana Park",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Dana Park",
+              "slot": "patent_search_performed_by"
+            },
+            {
+              "candidate_value": 1,
+              "expected_change": "changed",
+              "gold_value": 0,
+              "prior_value": 1,
+              "slot": "proprietary_material_count"
+            },
+            {
+              "candidate_value": [
+                {
+                  "agreement_copy_attached": true,
+                  "description": "North Labs prototype board",
+                  "material_type": "Other",
+                  "provider_name": "North Labs"
+                }
+              ],
+              "expected_change": "clear",
+              "gold_value": [],
+              "prior_value": [
+                {
+                  "agreement_copy_attached": true,
+                  "description": "North Labs prototype board",
+                  "material_type": "Other",
+                  "provider_name": "North Labs"
+                }
+              ],
+              "slot": "proprietary_materials"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": true,
+              "slot": "publication_or_disclosure_copies_attached"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "used_external_proprietary_materials"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "was_funded_or_sponsored"
+            },
+            {
+              "candidate_value": "evan@northlabs.example",
+              "expected_change": "changed",
+              "gold_value": "evan.brooks@northlabs.example",
+              "prior_value": "evan@northlabs.example",
+              "slot": "non_uci_inventors[0].work_email"
+            }
+          ],
+          "other_without_specification": [
+            {
+              "candidate_value": "Other",
+              "field_type": "single_choice",
+              "options": [
+                "Proprietary database",
+                "Proprietary assay or microarray",
+                "Affymetrix chips",
+                "Material obtained via Material Transfer Agreement",
+                "Cell line",
+                "Antibody",
+                "Plasmid",
+                "Computer software",
+                "Chemical compound",
+                "Other"
+              ],
+              "reason": "Bare 'Other' is incomplete for an other_specify choice field; the payload must include a free-text specification.",
+              "slot": "proprietary_materials[0].material_type"
+            }
+          ],
+          "repeat_group_alignment_error": [
+            {
+              "agent_index": 1,
+              "group": "non_uci_inventors",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            }
+          ],
+          "repeat_merge_error": [],
+          "repeat_missing_instance": [],
+          "repeat_split_error": [
+            {
+              "group": "non_uci_inventors",
+              "hallucinated": 1,
+              "matched": 1
+            }
+          ],
+          "repeat_spurious_instance": [
+            {
+              "agent_index": 1,
+              "group": "non_uci_inventors",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            }
+          ],
+          "repeat_wrong_instance_update": [],
+          "unsupported_commit": []
+        }
+      },
+      "metric_views": {
+        "all_fields": {
+          "accuracy": 0.1875,
+          "correct": 9,
+          "gt_expected_total": 29,
+          "incorrect": 39,
+          "lenient": {
+            "f1": 0.2338,
+            "precision": 0.1875,
+            "recall": 0.3103
+          },
+          "lenient_accuracy": 0.1875,
+          "partial": 0,
+          "strict": {
+            "f1": 0.2338,
+            "precision": 0.1875,
+            "recall": 0.3103
+          },
+          "total_evaluated_leaf_fields": 48,
+          "weighted": {
+            "f1": 0.2338,
+            "precision": 0.1875,
+            "recall": 0.3103
+          }
+        },
+        "auxiliary_unscored_notes": {
+          "abstention_success_count": 0,
+          "auxiliary_note_abstention_acceptance_rate": 0.0,
+          "auxiliary_note_grounded_capture_rate": 0.0,
+          "auxiliary_note_hallucination_rate": 0.0,
+          "candidate_non_empty_total": 0,
+          "gold_empty_total": 0,
+          "gold_grounded_total": 0,
+          "grounded_capture_count": 0,
+          "hallucination_count": 0,
+          "total_auxiliary_unscored_note_fields": 0
+        },
+        "changed_fields": {
+          "changed_correct": 0,
+          "changed_incorrect": 20,
+          "changed_partial": 0,
+          "gold_changed_total": 20,
+          "lenient": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "predicted_changed_total": 0,
+          "strict": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "weighted": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "error_groups": {
+          "active_group_count": 0,
+          "declared_group_count": 0,
+          "grouped_field_error_count": 0,
+          "grouped_root_error_count": 39,
+          "groups": [],
+          "strict_field_error_count": 39,
+          "ungrouped_field_error_count": 39
+        },
+        "field_classes": {
+          "auxiliary_unscored_note": 0,
+          "commitment_core": 29,
+          "unknown_equivalent": 0
+        },
+        "preservation": {
+          "collateral_edit_count": 0,
+          "preservation_error_rate": 0.0,
+          "preservation_success_rate": 1.0,
+          "preserved_kept": 28,
+          "preserved_total": 28
+        },
+        "primary_fields": {
+          "accuracy": 0.1875,
+          "correct": 9,
+          "gt_expected_total": 29,
+          "incorrect": 39,
+          "lenient": {
+            "f1": 0.2338,
+            "precision": 0.1875,
+            "recall": 0.3103
+          },
+          "lenient_accuracy": 0.1875,
+          "partial": 0,
+          "strict": {
+            "f1": 0.2338,
+            "precision": 0.1875,
+            "recall": 0.3103
+          },
+          "total_evaluated_leaf_fields": 48,
+          "weighted": {
+            "f1": 0.2338,
+            "precision": 0.1875,
+            "recall": 0.3103
+          }
+        },
+        "repeat_groups": {
+          "alignment_failure_count": 1,
+          "gold_repeat_instance_operation_total": 1,
+          "gold_repeat_instance_total": 1,
+          "item_repeat_involved": true,
+          "prior_repeat_instance_total": 5,
+          "repeat_group_coordination_count": 4,
+          "repeat_instance_coordination_total": 5,
+          "resulting_repeat_instance_total": 1,
+          "spurious_instance_count": 1
+        },
+        "task_diagnostics": {
+          "collateral_edit_count": 0,
+          "correction_success": null,
+          "failed_correction_count": 0,
+          "failed_retraction_count": 0,
+          "gate_execution_success": false,
+          "history_recovery_success": null,
+          "input_incoherence_forbidden_commit_count": 0,
+          "input_incoherence_overcommit_count": 0,
+          "input_incoherence_probe": false,
+          "input_incoherence_success": null,
+          "repeat_group_execution_success": false,
+          "repeat_routing_error_count": 1,
+          "retraction_success": null,
+          "unsupported_commit_count": 0,
+          "unsupported_commit_rate": 0.0
+        },
+        "transition_accuracy": {
+          "accuracy": 0.1875,
+          "by_transition": {
+            "change": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 11
+            },
+            "clear": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 9
+            },
+            "preserve": {
+              "accuracy": 0.3214,
+              "correct": 9,
+              "gold_total": 28
+            }
+          },
+          "correct": 9,
+          "gt_expected_total": 29,
+          "incorrect": 39,
+          "partial": 0,
+          "total_evaluated_leaf_fields": 48
+        },
+        "whole_form": {
+          "accuracy": 0.1875,
+          "correct": 9,
+          "gt_expected_total": 29,
+          "incorrect": 39,
+          "lenient": {
+            "f1": 0.2338,
+            "precision": 0.1875,
+            "recall": 0.3103
+          },
+          "lenient_accuracy": 0.1875,
+          "partial": 0,
+          "strict": {
+            "f1": 0.2338,
+            "precision": 0.1875,
+            "recall": 0.3103
+          },
+          "total_evaluated_leaf_fields": 48,
+          "weighted": {
+            "f1": 0.2338,
+            "precision": 0.1875,
+            "recall": 0.3103
+          }
+        },
+        "whole_record_exact_match": {
+          "exact_match": false,
+          "lenient_exact_match": false
+        }
+      },
+      "questionnaire": "patent_form",
+      "scenario_id": "patent_form_dev_02",
+      "scores": {
+        "accuracy": 0.1875,
+        "correct": 9,
+        "evaluated": 48,
+        "gt_expected": 29,
+        "incorrect": 39,
+        "lenient_accuracy": 0.1875,
+        "partially_correct": 0,
+        "total": 48
+      },
+      "state": "state_1",
+      "utterance_id": "u1"
+    },
+    {
+      "diagnostics": {
+        "counts": {
+          "collateral_edit": 0,
+          "failed_correction": 0,
+          "failed_retraction": 0,
+          "forbidden_commit": 0,
+          "missed_supported_update": 29,
+          "other_without_specification": 0,
+          "repeat_group_alignment_error": 0,
+          "repeat_merge_error": 0,
+          "repeat_missing_instance": 0,
+          "repeat_split_error": 0,
+          "repeat_spurious_instance": 0,
+          "repeat_wrong_instance_update": 0,
+          "unsupported_commit": 0
+        },
+        "details": {
+          "collateral_edit": [],
+          "failed_correction": [],
+          "failed_retraction": [],
+          "forbidden_commit": [],
+          "missed_supported_update": [
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "3 days",
+              "prior_value": null,
+              "slot": "cough_duration"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "cough_present"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "No",
+              "prior_value": null,
+              "slot": "hemoptysis_any"
+            },
+            {
+              "candidate_value": 0,
+              "expected_change": "changed",
+              "gold_value": 2,
+              "prior_value": 0,
+              "slot": "number_of_allergies"
+            },
+            {
+              "candidate_value": 0,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 0,
+              "slot": "number_of_dietary_restrictions"
+            },
+            {
+              "candidate_value": 1,
+              "expected_change": "changed",
+              "gold_value": 2,
+              "prior_value": 1,
+              "slot": "number_of_medications"
+            },
+            {
+              "candidate_value": 0,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 0,
+              "slot": "number_of_pains"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "pain_experience"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Small",
+              "prior_value": null,
+              "slot": "sputum_amount"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": [
+                "Green"
+              ],
+              "prior_value": null,
+              "slot": "sputum_color"
+            },
+            {
+              "candidate_value": false,
+              "expected_change": "changed",
+              "gold_value": true,
+              "prior_value": false,
+              "slot": "sputum_present"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "penicillin",
+              "prior_value": null,
+              "slot": "allergies[0].allergen"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Severe",
+              "prior_value": null,
+              "slot": "allergies[0].allergy_severity"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "facial swelling",
+              "prior_value": null,
+              "slot": "allergies[0].reaction"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "peanuts",
+              "prior_value": null,
+              "slot": "allergies[1].allergen"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Moderate",
+              "prior_value": null,
+              "slot": "allergies[1].allergy_severity"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "rash",
+              "prior_value": null,
+              "slot": "allergies[1].reaction"
+            },
+            {
+              "candidate_value": "daily",
+              "expected_change": "changed",
+              "gold_value": "every other day",
+              "prior_value": "daily",
+              "slot": "current_medications[0].frequency"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "2 puffs",
+              "prior_value": null,
+              "slot": "current_medications[1].dose"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "as needed",
+              "prior_value": null,
+              "slot": "current_medications[1].frequency"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "albuterol",
+              "prior_value": null,
+              "slot": "current_medications[1].medication_name"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Inhaled",
+              "prior_value": null,
+              "slot": "current_medications[1].route"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "shellfish",
+              "prior_value": null,
+              "slot": "dietary_preferences_and_restrictions[0].food_item"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Avoids",
+              "prior_value": null,
+              "slot": "dietary_preferences_and_restrictions[0].preference_type"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Medical",
+              "prior_value": null,
+              "slot": "dietary_preferences_and_restrictions[0].reason"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "2 days",
+              "prior_value": null,
+              "slot": "pain_details[0].pain_duration"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Sharp pain after lifting boxes",
+              "prior_value": null,
+              "slot": "pain_details[0].pain_notes"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "lower back",
+              "prior_value": null,
+              "slot": "pain_details[0].pain_part"
+            },
+            {
+              "candidate_value": null,
+              "expected_change": "set",
+              "gold_value": "Moderate",
+              "prior_value": null,
+              "slot": "pain_details[0].pain_severity"
+            }
+          ],
+          "other_without_specification": [],
+          "repeat_group_alignment_error": [],
+          "repeat_merge_error": [],
+          "repeat_missing_instance": [],
+          "repeat_split_error": [],
+          "repeat_spurious_instance": [],
+          "repeat_wrong_instance_update": [],
+          "unsupported_commit": []
+        }
+      },
+      "metric_views": {
+        "all_fields": {
+          "accuracy": 0.2368,
+          "correct": 9,
+          "gt_expected_total": 38,
+          "incorrect": 29,
+          "lenient": {
+            "f1": 0.2368,
+            "precision": 0.2368,
+            "recall": 0.2368
+          },
+          "lenient_accuracy": 0.2368,
+          "partial": 0,
+          "strict": {
+            "f1": 0.2368,
+            "precision": 0.2368,
+            "recall": 0.2368
+          },
+          "total_evaluated_leaf_fields": 38,
+          "weighted": {
+            "f1": 0.2368,
+            "precision": 0.2368,
+            "recall": 0.2368
+          }
+        },
+        "auxiliary_unscored_notes": {
+          "abstention_success_count": 0,
+          "auxiliary_note_abstention_acceptance_rate": 0.0,
+          "auxiliary_note_grounded_capture_rate": 0.0,
+          "auxiliary_note_hallucination_rate": 0.0,
+          "candidate_non_empty_total": 0,
+          "gold_empty_total": 0,
+          "gold_grounded_total": 0,
+          "grounded_capture_count": 0,
+          "hallucination_count": 0,
+          "total_auxiliary_unscored_note_fields": 0
+        },
+        "changed_fields": {
+          "changed_correct": 0,
+          "changed_incorrect": 29,
+          "changed_partial": 0,
+          "gold_changed_total": 29,
+          "lenient": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "predicted_changed_total": 0,
+          "strict": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "weighted": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "error_groups": {
+          "active_group_count": 0,
+          "declared_group_count": 0,
+          "grouped_field_error_count": 0,
+          "grouped_root_error_count": 29,
+          "groups": [],
+          "strict_field_error_count": 29,
+          "ungrouped_field_error_count": 29
+        },
+        "field_classes": {
+          "auxiliary_unscored_note": 0,
+          "commitment_core": 38,
+          "unknown_equivalent": 0
+        },
+        "preservation": {
+          "collateral_edit_count": 0,
+          "preservation_error_rate": 0.0,
+          "preservation_success_rate": 1.0,
+          "preserved_kept": 9,
+          "preserved_total": 9
+        },
+        "primary_fields": {
+          "accuracy": 0.2368,
+          "correct": 9,
+          "gt_expected_total": 38,
+          "incorrect": 29,
+          "lenient": {
+            "f1": 0.2368,
+            "precision": 0.2368,
+            "recall": 0.2368
+          },
+          "lenient_accuracy": 0.2368,
+          "partial": 0,
+          "strict": {
+            "f1": 0.2368,
+            "precision": 0.2368,
+            "recall": 0.2368
+          },
+          "total_evaluated_leaf_fields": 38,
+          "weighted": {
+            "f1": 0.2368,
+            "precision": 0.2368,
+            "recall": 0.2368
+          }
+        },
+        "repeat_groups": {
+          "alignment_failure_count": 0,
+          "gold_repeat_instance_operation_total": 6,
+          "gold_repeat_instance_total": 6,
+          "item_repeat_involved": true,
+          "prior_repeat_instance_total": 1,
+          "repeat_group_coordination_count": 4,
+          "repeat_instance_coordination_total": 6,
+          "resulting_repeat_instance_total": 6,
+          "spurious_instance_count": 0
+        },
+        "task_diagnostics": {
+          "collateral_edit_count": 0,
+          "correction_success": null,
+          "failed_correction_count": 0,
+          "failed_retraction_count": 0,
+          "gate_execution_success": false,
+          "history_recovery_success": null,
+          "input_incoherence_forbidden_commit_count": 0,
+          "input_incoherence_overcommit_count": 0,
+          "input_incoherence_probe": false,
+          "input_incoherence_success": null,
+          "repeat_group_execution_success": false,
+          "repeat_routing_error_count": 0,
+          "retraction_success": null,
+          "unsupported_commit_count": 0,
+          "unsupported_commit_rate": 0.0
+        },
+        "transition_accuracy": {
+          "accuracy": 0.2368,
+          "by_transition": {
+            "change": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 8
+            },
+            "preserve": {
+              "accuracy": 1.0,
+              "correct": 9,
+              "gold_total": 9
+            },
+            "set": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 21
+            }
+          },
+          "correct": 9,
+          "gt_expected_total": 38,
+          "incorrect": 29,
+          "partial": 0,
+          "total_evaluated_leaf_fields": 38
+        },
+        "whole_form": {
+          "accuracy": 0.2368,
+          "correct": 9,
+          "gt_expected_total": 38,
+          "incorrect": 29,
+          "lenient": {
+            "f1": 0.2368,
+            "precision": 0.2368,
+            "recall": 0.2368
+          },
+          "lenient_accuracy": 0.2368,
+          "partial": 0,
+          "strict": {
+            "f1": 0.2368,
+            "precision": 0.2368,
+            "recall": 0.2368
+          },
+          "total_evaluated_leaf_fields": 38,
+          "weighted": {
+            "f1": 0.2368,
+            "precision": 0.2368,
+            "recall": 0.2368
+          }
+        },
+        "whole_record_exact_match": {
+          "exact_match": false,
+          "lenient_exact_match": false
+        }
+      },
+      "questionnaire": "patient_admin",
+      "scenario_id": "patient_admin_dev_01",
+      "scores": {
+        "accuracy": 0.2368,
+        "correct": 9,
+        "evaluated": 38,
+        "gt_expected": 38,
+        "incorrect": 29,
+        "lenient_accuracy": 0.2368,
+        "partially_correct": 0,
+        "total": 38
+      },
+      "state": "state_1",
+      "utterance_id": "u1"
+    },
+    {
+      "diagnostics": {
+        "counts": {
+          "collateral_edit": 0,
+          "failed_correction": 0,
+          "failed_retraction": 0,
+          "forbidden_commit": 0,
+          "missed_supported_update": 20,
+          "other_without_specification": 0,
+          "repeat_group_alignment_error": 1,
+          "repeat_merge_error": 0,
+          "repeat_missing_instance": 0,
+          "repeat_split_error": 1,
+          "repeat_spurious_instance": 1,
+          "repeat_wrong_instance_update": 0,
+          "unsupported_commit": 0
+        },
+        "details": {
+          "collateral_edit": [],
+          "failed_correction": [],
+          "failed_retraction": [],
+          "forbidden_commit": [],
+          "missed_supported_update": [
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "denture_present"
+            },
+            {
+              "candidate_value": [
+                {
+                  "diet_notes": "Patient requested removal.",
+                  "food_item": "shellfish",
+                  "preference_type": "Avoids",
+                  "reason": "Personal"
+                }
+              ],
+              "expected_change": "clear",
+              "gold_value": [],
+              "prior_value": [
+                {
+                  "diet_notes": "Patient requested removal.",
+                  "food_item": "shellfish",
+                  "preference_type": "Avoids",
+                  "reason": "Personal"
+                }
+              ],
+              "slot": "dietary_preferences_and_restrictions"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "fall_in_last_12_months"
+            },
+            {
+              "candidate_value": "Bruised knee.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Bruised knee.",
+              "slot": "fall_injuries_note"
+            },
+            {
+              "candidate_value": "Draft still has resolved problems.",
+              "expected_change": "changed",
+              "gold_value": "Reviewed today: no current pain, falls, dentures, or vision problems.",
+              "prior_value": "Draft still has resolved problems.",
+              "slot": "free_text_notes"
+            },
+            {
+              "candidate_value": "Yes",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Yes",
+              "slot": "lower_denture"
+            },
+            {
+              "candidate_value": "last winter",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "last winter",
+              "slot": "most_recent_fall_date_or_time"
+            },
+            {
+              "candidate_value": 2,
+              "expected_change": "changed",
+              "gold_value": 1,
+              "prior_value": 2,
+              "slot": "number_of_allergies"
+            },
+            {
+              "candidate_value": 1,
+              "expected_change": "changed",
+              "gold_value": 0,
+              "prior_value": 1,
+              "slot": "number_of_dietary_restrictions"
+            },
+            {
+              "candidate_value": 2,
+              "expected_change": "changed",
+              "gold_value": 0,
+              "prior_value": 2,
+              "slot": "number_of_pains"
+            },
+            {
+              "candidate_value": [
+                {
+                  "pain_duration": "three weeks",
+                  "pain_notes": "Worse standing.",
+                  "pain_part": "left knee",
+                  "pain_severity": "High"
+                },
+                {
+                  "pain_duration": "one week",
+                  "pain_notes": "Intermittent.",
+                  "pain_part": "neck",
+                  "pain_severity": "Mild"
+                }
+              ],
+              "expected_change": "clear",
+              "gold_value": [],
+              "prior_value": [
+                {
+                  "pain_duration": "three weeks",
+                  "pain_notes": "Worse standing.",
+                  "pain_part": "left knee",
+                  "pain_severity": "High"
+                },
+                {
+                  "pain_duration": "one week",
+                  "pain_notes": "Intermittent.",
+                  "pain_part": "neck",
+                  "pain_severity": "Mild"
+                }
+              ],
+              "slot": "pain_details"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "pain_experience"
+            },
+            {
+              "candidate_value": "Yes",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Yes",
+              "slot": "upper_denture"
+            },
+            {
+              "candidate_value": "Blurred distance vision.",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "Blurred distance vision.",
+              "slot": "vision_description"
+            },
+            {
+              "candidate_value": "six months",
+              "expected_change": "clear",
+              "gold_value": null,
+              "prior_value": "six months",
+              "slot": "vision_onset"
+            },
+            {
+              "candidate_value": true,
+              "expected_change": "changed",
+              "gold_value": false,
+              "prior_value": true,
+              "slot": "vision_problem"
+            },
+            {
+              "candidate_value": "penicillin",
+              "expected_change": "changed",
+              "gold_value": "peanuts",
+              "prior_value": "penicillin",
+              "slot": "allergies[0].allergen"
+            },
+            {
+              "candidate_value": "Childhood report.",
+              "expected_change": "changed",
+              "gold_value": "Carries epinephrine.",
+              "prior_value": "Childhood report.",
+              "slot": "allergies[0].allergy_notes"
+            },
+            {
+              "candidate_value": "Mild",
+              "expected_change": "changed",
+              "gold_value": "Severe",
+              "prior_value": "Mild",
+              "slot": "allergies[0].allergy_severity"
+            },
+            {
+              "candidate_value": "rash",
+              "expected_change": "changed",
+              "gold_value": "anaphylaxis",
+              "prior_value": "rash",
+              "slot": "allergies[0].reaction"
+            }
+          ],
+          "other_without_specification": [],
+          "repeat_group_alignment_error": [
+            {
+              "agent_index": 1,
+              "group": "allergies",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            }
+          ],
+          "repeat_merge_error": [],
+          "repeat_missing_instance": [],
+          "repeat_split_error": [
+            {
+              "group": "allergies",
+              "hallucinated": 1,
+              "matched": 1
+            }
+          ],
+          "repeat_spurious_instance": [
+            {
+              "agent_index": 1,
+              "group": "allergies",
+              "gt_index": -1,
+              "matched_on": "",
+              "status": "hallucinated"
+            }
+          ],
+          "repeat_wrong_instance_update": [],
+          "unsupported_commit": []
+        }
+      },
+      "metric_views": {
+        "all_fields": {
+          "accuracy": 0.1282,
+          "correct": 5,
+          "gt_expected_total": 23,
+          "incorrect": 34,
+          "lenient": {
+            "f1": 0.1613,
+            "precision": 0.1282,
+            "recall": 0.2174
+          },
+          "lenient_accuracy": 0.1282,
+          "partial": 0,
+          "strict": {
+            "f1": 0.1613,
+            "precision": 0.1282,
+            "recall": 0.2174
+          },
+          "total_evaluated_leaf_fields": 39,
+          "weighted": {
+            "f1": 0.1613,
+            "precision": 0.1282,
+            "recall": 0.2174
+          }
+        },
+        "auxiliary_unscored_notes": {
+          "abstention_success_count": 0,
+          "auxiliary_note_abstention_acceptance_rate": 0.0,
+          "auxiliary_note_grounded_capture_rate": 0.0,
+          "auxiliary_note_hallucination_rate": 0.0,
+          "candidate_non_empty_total": 0,
+          "gold_empty_total": 0,
+          "gold_grounded_total": 0,
+          "grounded_capture_count": 0,
+          "hallucination_count": 0,
+          "total_auxiliary_unscored_note_fields": 0
+        },
+        "changed_fields": {
+          "changed_correct": 0,
+          "changed_incorrect": 18,
+          "changed_partial": 0,
+          "gold_changed_total": 18,
+          "lenient": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "predicted_changed_total": 0,
+          "strict": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "weighted": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "error_groups": {
+          "active_group_count": 0,
+          "declared_group_count": 0,
+          "grouped_field_error_count": 0,
+          "grouped_root_error_count": 34,
+          "groups": [],
+          "strict_field_error_count": 34,
+          "ungrouped_field_error_count": 34
+        },
+        "field_classes": {
+          "auxiliary_unscored_note": 0,
+          "commitment_core": 23,
+          "unknown_equivalent": 0
+        },
+        "preservation": {
+          "collateral_edit_count": 0,
+          "preservation_error_rate": 0.0,
+          "preservation_success_rate": 1.0,
+          "preserved_kept": 21,
+          "preserved_total": 21
+        },
+        "primary_fields": {
+          "accuracy": 0.1282,
+          "correct": 5,
+          "gt_expected_total": 23,
+          "incorrect": 34,
+          "lenient": {
+            "f1": 0.1613,
+            "precision": 0.1282,
+            "recall": 0.2174
+          },
+          "lenient_accuracy": 0.1282,
+          "partial": 0,
+          "strict": {
+            "f1": 0.1613,
+            "precision": 0.1282,
+            "recall": 0.2174
+          },
+          "total_evaluated_leaf_fields": 39,
+          "weighted": {
+            "f1": 0.1613,
+            "precision": 0.1282,
+            "recall": 0.2174
+          }
+        },
+        "repeat_groups": {
+          "alignment_failure_count": 1,
+          "gold_repeat_instance_operation_total": 2,
+          "gold_repeat_instance_total": 2,
+          "item_repeat_involved": true,
+          "prior_repeat_instance_total": 6,
+          "repeat_group_coordination_count": 4,
+          "repeat_instance_coordination_total": 6,
+          "resulting_repeat_instance_total": 2,
+          "spurious_instance_count": 1
+        },
+        "task_diagnostics": {
+          "collateral_edit_count": 0,
+          "correction_success": null,
+          "failed_correction_count": 0,
+          "failed_retraction_count": 0,
+          "gate_execution_success": false,
+          "history_recovery_success": null,
+          "input_incoherence_forbidden_commit_count": 0,
+          "input_incoherence_overcommit_count": 0,
+          "input_incoherence_probe": false,
+          "input_incoherence_success": null,
+          "repeat_group_execution_success": false,
+          "repeat_routing_error_count": 1,
+          "retraction_success": null,
+          "unsupported_commit_count": 0,
+          "unsupported_commit_rate": 0.0
+        },
+        "transition_accuracy": {
+          "accuracy": 0.1282,
+          "by_transition": {
+            "change": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 12
+            },
+            "clear": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "gold_total": 6
+            },
+            "preserve": {
+              "accuracy": 0.2381,
+              "correct": 5,
+              "gold_total": 21
+            }
+          },
+          "correct": 5,
+          "gt_expected_total": 23,
+          "incorrect": 34,
+          "partial": 0,
+          "total_evaluated_leaf_fields": 39
+        },
+        "whole_form": {
+          "accuracy": 0.1282,
+          "correct": 5,
+          "gt_expected_total": 23,
+          "incorrect": 34,
+          "lenient": {
+            "f1": 0.1613,
+            "precision": 0.1282,
+            "recall": 0.2174
+          },
+          "lenient_accuracy": 0.1282,
+          "partial": 0,
+          "strict": {
+            "f1": 0.1613,
+            "precision": 0.1282,
+            "recall": 0.2174
+          },
+          "total_evaluated_leaf_fields": 39,
+          "weighted": {
+            "f1": 0.1613,
+            "precision": 0.1282,
+            "recall": 0.2174
+          }
+        },
+        "whole_record_exact_match": {
+          "exact_match": false,
+          "lenient_exact_match": false
+        }
+      },
+      "questionnaire": "patient_admin",
+      "scenario_id": "patient_admin_dev_02",
+      "scores": {
+        "accuracy": 0.1282,
+        "correct": 5,
+        "evaluated": 39,
+        "gt_expected": 23,
+        "incorrect": 34,
+        "lenient_accuracy": 0.1282,
+        "partially_correct": 0,
+        "total": 39
+      },
+      "state": "state_1",
+      "utterance_id": "u1"
+    }
+  ]
+}

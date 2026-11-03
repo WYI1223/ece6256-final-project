@@ -1,0 +1,82 @@
+{
+  "talking_other": {
+    "f0_ctx_median_hz": 120.3,
+    "f0_ctx_p10_p90": [
+      94.7,
+      154.3
+    ],
+    "f0_ctx_frac_below_165hz(male-like)": 0.93,
+    "f0_ovl_median_hz": 131.1,
+    "abs_semitone_diff_ctx_vs_ovl_median": 3.88,
+    "frac_abs_semitone_diff>4": 0.47,
+    "ecapa_within_clip_mean": 0.364,
+    "ecapa_cross_clip_mean": 0.366,
+    "ecapa_cross_clip_p90": 0.505,
+    "own_enrollment_rank_median(of_n)": "50 of 100",
+    "own_enrollment_top1_frac": 0.0,
+    "own_enrollment_top5_frac": 0.06
+  },
+  "bkg_speech": {
+    "f0_ctx_median_hz": 124.0,
+    "f0_ctx_p10_p90": [
+      98.8,
+      174.4
+    ],
+    "f0_ctx_frac_below_165hz(male-like)": 0.88,
+    "f0_ovl_median_hz": 179.8,
+    "abs_semitone_diff_ctx_vs_ovl_median": 6.6,
+    "frac_abs_semitone_diff>4": 0.71,
+    "ecapa_within_clip_mean": 0.05,
+    "ecapa_cross_clip_mean": 0.048,
+    "ecapa_cross_clip_p90": 0.133,
+    "own_enrollment_rank_median(of_n)": "47 of 100",
+    "own_enrollment_top1_frac": 0.01,
+    "own_enrollment_top5_frac": 0.07
+  },
+  "user_backchannel": {
+    "f0_ctx_median_hz": 119.9,
+    "f0_ctx_p10_p90": [
+      95.2,
+      152.8
+    ],
+    "f0_ctx_frac_below_165hz(male-like)": 0.969,
+    "f0_ovl_median_hz": 125.2,
+    "abs_semitone_diff_ctx_vs_ovl_median": 3.7,
+    "frac_abs_semitone_diff>4": 0.469,
+    "ecapa_within_clip_mean": 0.182,
+    "ecapa_cross_clip_mean": 0.183,
+    "ecapa_cross_clip_p90": 0.325,
+    "own_enrollment_rank_median(of_n)": "51 of 98",
+    "own_enrollment_top1_frac": 0.0,
+    "own_enrollment_top5_frac": 0.02
+  },
+  "user_interruption": {
+    "f0_ctx_median_hz": 162.2,
+    "f0_ctx_p10_p90": [
+      104.8,
+      189.0
+    ],
+    "f0_ctx_frac_below_165hz(male-like)": 0.53,
+    "f0_ovl_median_hz": 170.2,
+    "abs_semitone_diff_ctx_vs_ovl_median": 1.7,
+    "frac_abs_semitone_diff>4": 0.135,
+    "ecapa_within_clip_mean": 0.474,
+    "ecapa_cross_clip_mean": 0.163,
+    "ecapa_cross_clip_p90": 0.359,
+    "own_enrollment_rank_median(of_n)": "10 of 200",
+    "own_enrollment_top1_frac": 0.045,
+    "own_enrollment_top5_frac": 0.28
+  },
+  "enroll_vs_enroll_mean": {
+    "talking_other~talking_other": 0.424,
+    "talking_other~user_backchannel": 0.428,
+    "talking_other~user_interruption": 0.025,
+    "bkg_speech~talking_other": 0.413,
+    "bkg_speech~bkg_speech": 0.417,
+    "bkg_speech~user_backchannel": 0.426,
+    "bkg_speech~user_interruption": 0.025,
+    "user_backchannel~user_backchannel": 0.456,
+    "user_backchannel~user_interruption": 0.026,
+    "user_interruption~user_interruption": 0.163
+  }
+}

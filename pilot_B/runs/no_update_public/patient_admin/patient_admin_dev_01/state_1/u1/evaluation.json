@@ -1,0 +1,818 @@
+{
+  "alignment_log": [],
+  "candidate_resulting_state": {
+    "allergies": [],
+    "ambulatory_aid_notes": null,
+    "ambulatory_aid_use": null,
+    "appetite_change": null,
+    "cough_duration": null,
+    "cough_notes": null,
+    "cough_present": false,
+    "current_medications": [
+      {
+        "dose": "81 mg",
+        "frequency": "daily",
+        "medication_name": "aspirin",
+        "route": "Oral"
+      }
+    ],
+    "denture_present": null,
+    "dietary_preferences_and_restrictions": [],
+    "dysphagia_frequency": null,
+    "dysphagia_or_choking": null,
+    "fall_in_last_12_months": null,
+    "fall_injuries_note": null,
+    "free_text_notes": null,
+    "hemoptysis_any": null,
+    "lower_denture": null,
+    "most_recent_fall_date_or_time": null,
+    "number_of_allergies": 0,
+    "number_of_dietary_restrictions": 0,
+    "number_of_medications": 1,
+    "number_of_pains": 0,
+    "pain_details": [],
+    "pain_experience": false,
+    "special_diet_notes": null,
+    "special_diet_required": null,
+    "sputum_amount": null,
+    "sputum_color": null,
+    "sputum_notes": null,
+    "sputum_present": false,
+    "unintentional_weight_loss": null,
+    "upper_denture": null,
+    "vision_description": null,
+    "vision_onset": null,
+    "vision_problem": null,
+    "weight_loss_amount": null,
+    "weight_loss_timeframe": null
+  },
+  "candidate_state_diff": [
+    {
+      "change_kind": "preserved",
+      "prior_value": [],
+      "resulting_value": [],
+      "slot": "allergies"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ambulatory_aid_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ambulatory_aid_use"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "appetite_change"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "cough_duration"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "cough_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "cough_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [
+        {
+          "dose": "81 mg",
+          "frequency": "daily",
+          "medication_name": "aspirin",
+          "route": "Oral"
+        }
+      ],
+      "resulting_value": [
+        {
+          "dose": "81 mg",
+          "frequency": "daily",
+          "medication_name": "aspirin",
+          "route": "Oral"
+        }
+      ],
+      "slot": "current_medications"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "denture_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [],
+      "resulting_value": [],
+      "slot": "dietary_preferences_and_restrictions"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "dysphagia_frequency"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "dysphagia_or_choking"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "fall_in_last_12_months"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "fall_injuries_note"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "free_text_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "hemoptysis_any"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "lower_denture"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "most_recent_fall_date_or_time"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 0,
+      "resulting_value": 0,
+      "slot": "number_of_allergies"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 0,
+      "resulting_value": 0,
+      "slot": "number_of_dietary_restrictions"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 1,
+      "resulting_value": 1,
+      "slot": "number_of_medications"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 0,
+      "resulting_value": 0,
+      "slot": "number_of_pains"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [],
+      "resulting_value": [],
+      "slot": "pain_details"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "pain_experience"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "special_diet_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "special_diet_required"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_amount"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_color"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "sputum_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "unintentional_weight_loss"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "upper_denture"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "vision_description"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "vision_onset"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "vision_problem"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "weight_loss_amount"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "weight_loss_timeframe"
+    }
+  ],
+  "derived_variables": {},
+  "field_results": {
+    "allergies[0].allergen": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left allergies[0].allergen empty. Expected: 'penicillin'.",
+      "source": null,
+      "support_source": null
+    },
+    "allergies[0].allergy_notes": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both allergies[0].allergy_notes values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "allergies[0].allergy_severity": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left allergies[0].allergy_severity empty. Expected: 'Severe'.",
+      "source": null,
+      "support_source": null
+    },
+    "allergies[0].reaction": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left allergies[0].reaction empty. Expected: 'facial swelling'.",
+      "source": null,
+      "support_source": null
+    },
+    "allergies[1].allergen": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left allergies[1].allergen empty. Expected: 'peanuts'.",
+      "source": null,
+      "support_source": null
+    },
+    "allergies[1].allergy_notes": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both allergies[1].allergy_notes values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "allergies[1].allergy_severity": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left allergies[1].allergy_severity empty. Expected: 'Moderate'.",
+      "source": null,
+      "support_source": null
+    },
+    "allergies[1].reaction": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left allergies[1].reaction empty. Expected: 'rash'.",
+      "source": null,
+      "support_source": null
+    },
+    "cough_duration": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left cough_duration empty. Expected: '3 days'.",
+      "source": null,
+      "support_source": null
+    },
+    "cough_notes": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both cough_notes values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "cough_present": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "current_medications[0].dose": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for current_medications[0].dose.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "current_medications[0].frequency": {
+      "correctness": "incorrect",
+      "decision_source": "deterministic_public_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "needs_semantic",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value.",
+      "reasoning": "Public packet has no semantic field policy; deterministic scoring requires the materialized candidate value to match the gold value. Exact text/open field mismatch for current_medications[0].frequency: expected 'every other day', got 'daily'. Promoting to semantic evaluation after turn-level preserve checks.",
+      "source": "unsupported_inference",
+      "support_source": "unsupported_inference"
+    },
+    "current_medications[0].medication_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for current_medications[0].medication_name.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "current_medications[0].route": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for current_medications[0].route: expected 'Oral', got 'Oral'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "current_medications[1].dose": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left current_medications[1].dose empty. Expected: '2 puffs'.",
+      "source": null,
+      "support_source": null
+    },
+    "current_medications[1].frequency": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left current_medications[1].frequency empty. Expected: 'as needed'.",
+      "source": null,
+      "support_source": null
+    },
+    "current_medications[1].medication_name": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left current_medications[1].medication_name empty. Expected: 'albuterol'.",
+      "source": null,
+      "support_source": null
+    },
+    "current_medications[1].route": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left current_medications[1].route empty. Expected: 'Inhaled'.",
+      "source": null,
+      "support_source": null
+    },
+    "dietary_preferences_and_restrictions[0].diet_notes": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both dietary_preferences_and_restrictions[0].diet_notes values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "dietary_preferences_and_restrictions[0].food_item": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left dietary_preferences_and_restrictions[0].food_item empty. Expected: 'shellfish'.",
+      "source": null,
+      "support_source": null
+    },
+    "dietary_preferences_and_restrictions[0].preference_type": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left dietary_preferences_and_restrictions[0].preference_type empty. Expected: 'Avoids'.",
+      "source": null,
+      "support_source": null
+    },
+    "dietary_preferences_and_restrictions[0].reason": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left dietary_preferences_and_restrictions[0].reason empty. Expected: 'Medical'.",
+      "source": null,
+      "support_source": null
+    },
+    "free_text_notes": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both free_text_notes values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "hemoptysis_any": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left hemoptysis_any empty. Expected: 'No'.",
+      "source": null,
+      "support_source": null
+    },
+    "number_of_allergies": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '2', got '0'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_dietary_restrictions": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '1', got '0'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_medications": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '2', got '1'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_pains": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected '1', got '0'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "pain_details[0].pain_duration": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left pain_details[0].pain_duration empty. Expected: '2 days'.",
+      "source": null,
+      "support_source": null
+    },
+    "pain_details[0].pain_notes": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left pain_details[0].pain_notes empty. Expected: 'Sharp pain after lifting boxes'.",
+      "source": null,
+      "support_source": null
+    },
+    "pain_details[0].pain_part": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left pain_details[0].pain_part empty. Expected: 'lower back'.",
+      "source": null,
+      "support_source": null
+    },
+    "pain_details[0].pain_severity": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left pain_details[0].pain_severity empty. Expected: 'Moderate'.",
+      "source": null,
+      "support_source": null
+    },
+    "pain_experience": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "sputum_amount": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left sputum_amount empty. Expected: 'Small'.",
+      "source": null,
+      "support_source": null
+    },
+    "sputum_color": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Agent left sputum_color empty. Required: ['Green'].",
+      "source": null,
+      "support_source": null
+    },
+    "sputum_notes": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both sputum_notes values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "sputum_present": {
+      "correctness": "incorrect",
+      "decision_source": "hard_eval",
+      "final_correctness": "incorrect",
+      "original_correctness": "incorrect",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Expected True, got False",
+      "source": "extracted",
+      "support_source": "extracted"
+    }
+  },
+  "fields_filled": 37,
+  "prompt_trace": [],
+  "provenance": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    },
+    "runner": null
+  },
+  "summary": {
+    "correct": 9,
+    "evaluated": 38,
+    "incorrect": 29,
+    "partially_correct": 0,
+    "total": 38,
+    "unmatched": 0
+  },
+  "turn": 0,
+  "unmatched_fields": [],
+  "user_message": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `pain_experience` to `true`\n- set `number_of_pains` to `1`\n- set `pain_details[0].pain_part` to `\"lower back\"`\n- set `pain_details[0].pain_severity` to `\"Moderate\"`\n- set `pain_details[0].pain_duration` to `\"2 days\"`\n- set `pain_details[0].pain_notes` to `\"Sharp pain after lifting boxes\"`\n- set `cough_present` to `true`\n- set `cough_duration` to `\"3 days\"`\n- set `sputum_present` to `true`\n- set `sputum_color` to `[\"Green\"]`\n- set `sputum_amount` to `\"Small\"`\n- set `hemoptysis_any` to `\"No\"`\n- set `number_of_allergies` to `2`\n- set `allergies[0].allergen` to `\"penicillin\"`\n- set `allergies[0].reaction` to `\"facial swelling\"`\n- set `allergies[0].allergy_severity` to `\"Severe\"`\n- set `allergies[1].allergen` to `\"peanuts\"`\n- set `allergies[1].reaction` to `\"rash\"`\n- set `allergies[1].allergy_severity` to `\"Moderate\"`\n- set `current_medications[0].frequency` to `\"every other day\"`\n- set `number_of_medications` to `2`\n- set `current_medications[1].medication_name` to `\"albuterol\"`\n- set `current_medications[1].dose` to `\"2 puffs\"`\n- set `current_medications[1].route` to `\"Inhaled\"`\n- set `current_medications[1].frequency` to `\"as needed\"`\n- set `number_of_dietary_restrictions` to `1`\n- set `dietary_preferences_and_restrictions[0].food_item` to `\"shellfish\"`\n- set `dietary_preferences_and_restrictions[0].preference_type` to `\"Avoids\"`\n- set `dietary_preferences_and_restrictions[0].reason` to `\"Medical\"`"
+}

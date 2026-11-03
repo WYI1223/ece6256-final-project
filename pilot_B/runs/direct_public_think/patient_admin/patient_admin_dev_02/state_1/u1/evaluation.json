@@ -1,0 +1,679 @@
+{
+  "alignment_log": [],
+  "candidate_resulting_state": {
+    "allergies": [
+      {
+        "allergen": "peanuts",
+        "allergy_notes": "Carries epinephrine.",
+        "allergy_severity": "Severe",
+        "reaction": "anaphylaxis"
+      }
+    ],
+    "ambulatory_aid_notes": null,
+    "ambulatory_aid_use": null,
+    "appetite_change": null,
+    "cough_duration": null,
+    "cough_notes": null,
+    "cough_present": null,
+    "current_medications": [
+      {
+        "dose": "10 mg",
+        "frequency": "nightly",
+        "medication_name": "cetirizine",
+        "route": "Oral"
+      }
+    ],
+    "denture_present": false,
+    "dietary_preferences_and_restrictions": [],
+    "dysphagia_frequency": null,
+    "dysphagia_or_choking": null,
+    "fall_in_last_12_months": false,
+    "fall_injuries_note": null,
+    "free_text_notes": "Reviewed today: no current pain, falls, dentures, or vision problems.",
+    "hemoptysis_any": null,
+    "lower_denture": null,
+    "most_recent_fall_date_or_time": null,
+    "number_of_allergies": 1,
+    "number_of_dietary_restrictions": 0,
+    "number_of_medications": 1,
+    "number_of_pains": 0,
+    "pain_details": [],
+    "pain_experience": false,
+    "special_diet_notes": null,
+    "special_diet_required": null,
+    "sputum_amount": null,
+    "sputum_color": null,
+    "sputum_notes": null,
+    "sputum_present": null,
+    "unintentional_weight_loss": null,
+    "upper_denture": null,
+    "vision_description": null,
+    "vision_onset": null,
+    "vision_problem": false,
+    "weight_loss_amount": null,
+    "weight_loss_timeframe": null
+  },
+  "candidate_state_diff": [
+    {
+      "change_kind": "changed",
+      "prior_value": [
+        {
+          "allergen": "penicillin",
+          "allergy_notes": "Childhood report.",
+          "allergy_severity": "Mild",
+          "reaction": "rash"
+        },
+        {
+          "allergen": "peanuts",
+          "allergy_notes": "Carries epinephrine.",
+          "allergy_severity": "Severe",
+          "reaction": "swelling"
+        }
+      ],
+      "resulting_value": [
+        {
+          "allergen": "peanuts",
+          "allergy_notes": "Carries epinephrine.",
+          "allergy_severity": "Severe",
+          "reaction": "anaphylaxis"
+        }
+      ],
+      "slot": "allergies"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ambulatory_aid_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "ambulatory_aid_use"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "appetite_change"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "cough_duration"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "cough_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "cough_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [
+        {
+          "dose": "10 mg",
+          "frequency": "nightly",
+          "medication_name": "cetirizine",
+          "route": "Oral"
+        }
+      ],
+      "resulting_value": [
+        {
+          "dose": "10 mg",
+          "frequency": "nightly",
+          "medication_name": "cetirizine",
+          "route": "Oral"
+        }
+      ],
+      "slot": "current_medications"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "denture_present"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": [
+        {
+          "diet_notes": "Patient requested removal.",
+          "food_item": "shellfish",
+          "preference_type": "Avoids",
+          "reason": "Personal"
+        }
+      ],
+      "resulting_value": [],
+      "slot": "dietary_preferences_and_restrictions"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "dysphagia_frequency"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "dysphagia_or_choking"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "fall_in_last_12_months"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "Bruised knee.",
+      "resulting_value": null,
+      "slot": "fall_injuries_note"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "Draft still has resolved problems.",
+      "resulting_value": "Reviewed today: no current pain, falls, dentures, or vision problems.",
+      "slot": "free_text_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "hemoptysis_any"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "Yes",
+      "resulting_value": null,
+      "slot": "lower_denture"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "last winter",
+      "resulting_value": null,
+      "slot": "most_recent_fall_date_or_time"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": 2,
+      "resulting_value": 1,
+      "slot": "number_of_allergies"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": 1,
+      "resulting_value": 0,
+      "slot": "number_of_dietary_restrictions"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 1,
+      "resulting_value": 1,
+      "slot": "number_of_medications"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": 2,
+      "resulting_value": 0,
+      "slot": "number_of_pains"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": [
+        {
+          "pain_duration": "three weeks",
+          "pain_notes": "Worse standing.",
+          "pain_part": "left knee",
+          "pain_severity": "High"
+        },
+        {
+          "pain_duration": "one week",
+          "pain_notes": "Intermittent.",
+          "pain_part": "neck",
+          "pain_severity": "Mild"
+        }
+      ],
+      "resulting_value": [],
+      "slot": "pain_details"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "pain_experience"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "special_diet_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "special_diet_required"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_amount"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_color"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_notes"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "sputum_present"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "unintentional_weight_loss"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "Yes",
+      "resulting_value": null,
+      "slot": "upper_denture"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "Blurred distance vision.",
+      "resulting_value": null,
+      "slot": "vision_description"
+    },
+    {
+      "change_kind": "clear",
+      "prior_value": "six months",
+      "resulting_value": null,
+      "slot": "vision_onset"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": true,
+      "resulting_value": false,
+      "slot": "vision_problem"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "weight_loss_amount"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "weight_loss_timeframe"
+    }
+  ],
+  "derived_variables": {},
+  "field_results": {
+    "allergies[0].allergen": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for allergies[0].allergen.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "allergies[0].allergy_notes": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for allergies[0].allergy_notes.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "allergies[0].allergy_severity": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for allergies[0].allergy_severity: expected 'Severe', got 'Severe'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "allergies[0].reaction": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for allergies[0].reaction.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "current_medications[0].dose": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for current_medications[0].dose.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "current_medications[0].frequency": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for current_medications[0].frequency.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "current_medications[0].medication_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for current_medications[0].medication_name.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "current_medications[0].route": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for current_medications[0].route: expected 'Oral', got 'Oral'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "denture_present": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for denture_present.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "fall_in_last_12_months": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for fall_in_last_12_months.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "fall_injuries_note": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both fall_injuries_note values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "free_text_notes": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for free_text_notes.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "lower_denture": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both lower_denture values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "most_recent_fall_date_or_time": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both most_recent_fall_date_or_time values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "number_of_allergies": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for number_of_allergies.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_dietary_restrictions": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for number_of_dietary_restrictions.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "number_of_medications": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for number_of_medications.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "number_of_pains": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for number_of_pains.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "pain_experience": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for pain_experience.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "upper_denture": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both upper_denture values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "vision_description": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both vision_description values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "vision_onset": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both vision_onset values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "vision_problem": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for vision_problem.",
+      "source": "extracted",
+      "support_source": "extracted"
+    }
+  },
+  "fields_filled": 41,
+  "prompt_trace": [],
+  "provenance": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "Direct",
+      "model": {
+        "max_tokens": 16000,
+        "model": "deepseek-flash",
+        "provider": "openai",
+        "requested_model": "deepseek-flash",
+        "resolved_model_name": "deepseek-flash",
+        "resolved_model_version": "deepseek-flash",
+        "temperature": null,
+        "timeout": 300
+      },
+      "schema_interface": {
+        "public_projection": "shared_schema_field_guide_with_schema_completed_prior_state"
+      },
+      "tool_policy": {
+        "mode": "state_json"
+      }
+    },
+    "runner": null
+  },
+  "summary": {
+    "correct": 23,
+    "evaluated": 23,
+    "incorrect": 0,
+    "partially_correct": 0,
+    "total": 23,
+    "unmatched": 0
+  },
+  "turn": 0,
+  "unmatched_fields": [],
+  "user_message": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `pain_experience` to `false`\n- set `number_of_pains` to `0`\n- delete repeat instance `pain_details[1]`\n- delete repeat instance `pain_details[0]`\n- set `fall_in_last_12_months` to `false`\n- set `most_recent_fall_date_or_time` to `null`\n- set `fall_injuries_note` to `null`\n- set `denture_present` to `false`\n- set `upper_denture` to `null`\n- set `lower_denture` to `null`\n- set `vision_problem` to `false`\n- set `vision_description` to `null`\n- set `vision_onset` to `null`\n- set `number_of_allergies` to `1`\n- delete repeat instance `allergies[0]`\n- set `allergies[0].reaction` to `\"anaphylaxis\"`\n- set `number_of_dietary_restrictions` to `0`\n- delete repeat instance `dietary_preferences_and_restrictions[0]`\n- set `free_text_notes` to `\"Reviewed today: no current pain, falls, dentures, or vision problems.\"`"
+}

@@ -1,0 +1,95 @@
+[clean] pa_gen_01 incremental: acc by turn = [1.0, 0.9459, 0.9459, 0.9556, 0.9592]
+[clean] pa_gen_01 oracle: acc by turn = [1.0, 0.973, 0.973, 1.0, 1.0]
+[clean] pa_gen_02 incremental: acc by turn = [0.973, 0.9756, 0.9756, 0.9512, 0.9556]
+[clean] pa_gen_02 oracle: acc by turn = [0.973, 1.0, 1.0, 1.0, 0.9778]
+[clean] pa_gen_04 incremental: acc by turn = [0.973, 1.0, 1.0, 1.0, 0.9592]
+[clean] pa_gen_04 oracle: acc by turn = [0.973, 1.0, 1.0, 1.0, 0.9592]
+[clean] pa_gen_05 incremental: acc by turn = [0.9459, 0.973, 0.9333, 0.9184, 0.9184]
+[clean] pa_gen_05 oracle: acc by turn = [0.9459, 0.9459, 0.9111, 0.9796, 1.0]
+[clean] cr_gen_02 incremental: acc by turn = [0.9474, 0.8947, 0.76, 0.76, 0.76]
+[clean] cr_gen_02 oracle: acc by turn = [0.9474, 1.0, 0.8, 0.8, 1.0]
+[clean] cr_gen_03 incremental: acc by turn = [1.0, 0.88, 0.871, 0.7742, 0.7419]
+[clean] cr_gen_03 oracle: acc by turn = [1.0, 0.88, 0.9355, 0.871, 0.9677]
+[clean] pa_handmade_01 incremental: acc by turn = [1.0, 0.9512, 0.9778, 0.9778, 0.9778]
+[clean] pa_handmade_01 oracle: acc by turn = [1.0, 0.9512, 1.0, 0.9778, 1.0]
+[corrupt] pa_gen_01 incremental field=appetite_change: persisted by turn = ['', '', 0, 0, 0]
+[corrupt] pa_gen_01 oracle field=appetite_change: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_02 incremental field=ambulatory_aid_use: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_02 oracle field=ambulatory_aid_use: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_04 incremental field=appetite_change: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_04 oracle field=appetite_change: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_05 incremental field=ambulatory_aid_use: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_gen_05 oracle field=ambulatory_aid_use: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] cr_gen_02 incremental field=traffic_control: persisted by turn = ['', '', 1, 0, 0]
+[corrupt] cr_gen_02 oracle field=traffic_control: persisted by turn = ['', '', 1, 0, 0]
+[corrupt] cr_gen_03 incremental field=traffic_control: persisted by turn = ['', '', 0, 0, 0]
+[corrupt] cr_gen_03 oracle field=traffic_control: persisted by turn = ['', '', 1, 0, 0]
+[corrupt] pa_handmade_01 incremental field=ambulatory_aid_use: persisted by turn = ['', '', 1, 1, 1]
+[corrupt] pa_handmade_01 oracle field=ambulatory_aid_use: persisted by turn = ['', '', 1, 1, 1]
+{
+ "solver": "async_solvers:dtv_solve",
+ "model": "na",
+ "max_tokens": 8192,
+ "history_window": null,
+ "n_trajectories": 7,
+ "conditions": [
+  "incremental",
+  "oracle"
+ ],
+ "modes": [
+  "clean",
+  "corrupt"
+ ],
+ "corruptions": {
+  "pa_gen_01": {
+   "after_turn": 2,
+   "path": "appetite_change",
+   "wrong_value": "Yes",
+   "system_correct_before": false
+  },
+  "pa_gen_02": {
+   "after_turn": 2,
+   "path": "ambulatory_aid_use",
+   "wrong_value": "Yes (uses)",
+   "system_correct_before": false
+  },
+  "pa_gen_04": {
+   "after_turn": 2,
+   "path": "appetite_change",
+   "wrong_value": "Yes",
+   "system_correct_before": false
+  },
+  "pa_gen_05": {
+   "after_turn": 2,
+   "path": "ambulatory_aid_use",
+   "wrong_value": "Yes (uses)",
+   "system_correct_before": false
+  },
+  "cr_gen_02": {
+   "after_turn": 2,
+   "path": "traffic_control",
+   "wrong_value": "Stop Sign",
+   "system_correct_before": false
+  },
+  "cr_gen_03": {
+   "after_turn": 2,
+   "path": "traffic_control",
+   "wrong_value": "Stop Sign",
+   "system_correct_before": false
+  },
+  "pa_handmade_01": {
+   "after_turn": 2,
+   "path": "ambulatory_aid_use",
+   "wrong_value": "Yes (uses)",
+   "system_correct_before": false
+  }
+ },
+ "elapsed_s": 45.3,
+ "billed_input_tokens": 627079,
+ "billed_output_tokens": 9250,
+ "billed_model_calls": 105,
+ "billed_reasoning_tokens": 0,
+ "deepseek_thinking": "disabled",
+ "solver_errors": 0
+}
+wrote ..\runs\r2_fabricated_dtv\closed_loop_results.csv

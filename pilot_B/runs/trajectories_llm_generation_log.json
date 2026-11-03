@@ -1,0 +1,442 @@
+{
+ "summary": {
+  "requested": 9,
+  "accepted": 6,
+  "attempts_total": 19,
+  "input_tokens": 29942,
+  "output_tokens": 17300,
+  "reasoning_tokens": 0,
+  "elapsed_s": 30.0
+ },
+ "attempts": [
+  {
+   "tid": "pa_gen_02",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1923,
+   "output_tokens": 780,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.0,
+   "stats": {
+    "n_updates": 21,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "final_nonempty_leaves": 20
+   },
+   "accepted": true
+  },
+  {
+   "tid": "pa_gen_03",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1924,
+   "output_tokens": 718,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.3,
+   "rejected": [
+    "unparseable JSON: Expecting ',' delimiter: line 1 column 955 (char 954)"
+   ]
+  },
+  {
+   "tid": "pa_gen_05",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1922,
+   "output_tokens": 791,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.5,
+   "stats": {
+    "n_updates": 20,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 1,
+    "final_nonempty_leaves": 19
+   },
+   "accepted": true
+  },
+  {
+   "tid": "pa_gen_04",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1929,
+   "output_tokens": 838,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.7,
+   "stats": {
+    "n_updates": 24,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 2,
+    "final_nonempty_leaves": 23
+   },
+   "accepted": true
+  },
+  {
+   "tid": "pa_gen_01",
+   "qid": "patient_admin",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1923,
+   "output_tokens": 976,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 5.1,
+   "stats": {
+    "n_updates": 30,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 3,
+    "final_nonempty_leaves": 29
+   },
+   "accepted": true
+  },
+  {
+   "tid": "pa_gen_03",
+   "qid": "patient_admin",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 1955,
+   "output_tokens": 649,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 3.8,
+   "stats": {
+    "n_updates": 17,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 3,
+    "final_nonempty_leaves": 16
+   },
+   "accepted": true
+  },
+  {
+   "tid": "cr_gen_01",
+   "qid": "crash_report",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1369,
+   "output_tokens": 1029,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 5.4,
+   "stats": {
+    "n_updates": 28,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [
+     "t2:vehicles[0].role='struck vehicle'",
+     "t2:vehicles[0].vehicle_type_make_model='silver sedan, Toyota Camry'",
+     "t2:vehicles[0].licence_plate='ABC-1234'",
+     "t2:vehicles[0].damage_description='rear bumper crushed'",
+     "t3:vehicles[1].role='striking vehicle'",
+     "t3:vehicles[1].vehicle_type_make_model='blue pickup truck, Ford F-150'"
+    ],
+    "n_corruption_candidates": 10,
+    "final_nonempty_leaves": 27
+   },
+   "rejected": [
+    "after turn 2: number_of_vehicles_involved='2' but vehicles has 1 rows"
+   ]
+  },
+  {
+   "tid": "cr_gen_02",
+   "qid": "crash_report",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1374,
+   "output_tokens": 882,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 5.1,
+   "stats": {
+    "n_updates": 22,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [
+     "t5:witnesses_names_contacts=\"A plow driver stopped but I don't have his details\""
+    ],
+    "n_corruption_candidates": 5,
+    "final_nonempty_leaves": 21
+   },
+   "accepted": true
+  },
+  {
+   "tid": "cr_gen_03",
+   "qid": "crash_report",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1373,
+   "output_tokens": 1018,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 5.1,
+   "stats": {
+    "n_updates": 26,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 6,
+    "final_nonempty_leaves": 25
+   },
+   "rejected": [
+    "after turn 3: number_of_vehicles_involved='2' but vehicles has 1 rows"
+   ]
+  },
+  {
+   "tid": "cr_gen_04",
+   "qid": "crash_report",
+   "attempt": 1,
+   "model": "deepseek-flash",
+   "input_tokens": 1371,
+   "output_tokens": 985,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 5.2,
+   "stats": {
+    "n_updates": 26,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 7,
+    "final_nonempty_leaves": 25
+   },
+   "rejected": [
+    "after turn 3: number_of_vehicles_involved='3' but vehicles has 1 rows",
+    "after turn 4: number_of_vehicles_involved='3' but vehicles has 2 rows"
+   ]
+  },
+  {
+   "tid": "cr_gen_03",
+   "qid": "crash_report",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 1419,
+   "output_tokens": 834,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.3,
+   "stats": {
+    "n_updates": 21,
+    "n_corrections_t3plus": 0,
+    "text_values_not_verbatim": [
+     "t3:vehicles[0].role='claimant_driver'",
+     "t3:vehicles[1].role='other driver'",
+     "t4:witnesses_names_contacts='Sarah Lopez, 555-0198'"
+    ],
+    "n_corruption_candidates": 5,
+    "final_nonempty_leaves": 21
+   },
+   "rejected": [
+    "no explicit correction of an earlier value in turns 3-5 (rule 7)"
+   ]
+  },
+  {
+   "tid": "cr_gen_01",
+   "qid": "crash_report",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 1415,
+   "output_tokens": 1004,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 5.1,
+   "stats": {
+    "n_updates": 28,
+    "n_corrections_t3plus": 0,
+    "text_values_not_verbatim": [
+     "t2:vehicles[0].role='struck vehicle'",
+     "t2:vehicles[0].vehicle_type_make_model='sedan, Toyota Corolla'",
+     "t2:vehicles[0].licence_plate='ABC-1234'",
+     "t2:vehicles[0].damage_description='rear bumper crushed'",
+     "t3:vehicles[1].role='striking vehicle'",
+     "t3:vehicles[1].damage_description='front end smashed in'",
+     "t5:witnesses_names_contacts='Sarah Lee, 555-0192'"
+    ],
+    "n_corruption_candidates": 7,
+    "final_nonempty_leaves": 28
+   },
+   "rejected": [
+    "after turn 2: number_of_vehicles_involved='2' but vehicles has 1 rows",
+    "no explicit correction of an earlier value in turns 3-5 (rule 7)"
+   ]
+  },
+  {
+   "tid": "cr_gen_04",
+   "qid": "crash_report",
+   "attempt": 2,
+   "model": "deepseek-flash",
+   "input_tokens": 1440,
+   "output_tokens": 1026,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 5.0,
+   "stats": {
+    "n_updates": 27,
+    "n_corrections_t3plus": 0,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 7,
+    "final_nonempty_leaves": 27
+   },
+   "rejected": [
+    "after turn 2: number_of_vehicles_involved='3' but vehicles has 1 rows",
+    "after turn 3: number_of_vehicles_involved='3' but vehicles has 1 rows",
+    "after turn 4: number_of_vehicles_involved='3' but vehicles has 2 rows",
+    "no explicit correction of an earlier value in turns 3-5 (rule 7)"
+   ]
+  },
+  {
+   "tid": "cr_gen_03",
+   "qid": "crash_report",
+   "attempt": 3,
+   "model": "deepseek-flash",
+   "input_tokens": 1416,
+   "output_tokens": 972,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.2,
+   "stats": {
+    "n_updates": 26,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [
+     "t4:vehicles[0].role='claimant'",
+     "t5:witnesses_names_contacts='Jane Doe, 555-1234'"
+    ],
+    "n_corruption_candidates": 5,
+    "final_nonempty_leaves": 25
+   },
+   "rejected": [
+    "after turn 4: number_of_vehicles_involved='2' but vehicles has 1 rows"
+   ]
+  },
+  {
+   "tid": "cr_gen_01",
+   "qid": "crash_report",
+   "attempt": 3,
+   "model": "deepseek-flash",
+   "input_tokens": 1435,
+   "output_tokens": 961,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.9,
+   "stats": {
+    "n_updates": 24,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 6,
+    "final_nonempty_leaves": 23
+   },
+   "rejected": [
+    "after turn 3: number_of_vehicles_involved='2' but vehicles has 1 rows"
+   ]
+  },
+  {
+   "tid": "cr_gen_04",
+   "qid": "crash_report",
+   "attempt": 3,
+   "model": "deepseek-flash",
+   "input_tokens": 1483,
+   "output_tokens": 1095,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 5.2,
+   "stats": {
+    "n_updates": 32,
+    "n_corrections_t3plus": 0,
+    "text_values_not_verbatim": [
+     "t2:vehicles[0].role='front vehicle'",
+     "t2:vehicles[0].vehicle_type_make_model='sedan, Honda Civic'",
+     "t2:vehicles[0].licence_plate='ABC 1234'",
+     "t2:vehicles[0].damage_description='rear bumper dented'",
+     "t3:vehicles[1].role='middle vehicle'",
+     "t3:vehicles[1].vehicle_type_make_model='sedan, Toyota Corolla'",
+     "t3:vehicles[1].damage_description='front and rear damage'",
+     "t3:vehicles[2].role='rear vehicle'",
+     "t3:vehicles[2].vehicle_type_make_model='pickup truck, Ford F-150'",
+     "t3:vehicles[2].damage_description='front end crumpled'",
+     "t4:witnesses_names_contacts='Dana Reed, 555-0192'"
+    ],
+    "n_corruption_candidates": 7,
+    "final_nonempty_leaves": 32
+   },
+   "rejected": [
+    "after turn 2: number_of_vehicles_involved='3' but vehicles has 1 rows",
+    "no explicit correction of an earlier value in turns 3-5 (rule 7)"
+   ]
+  },
+  {
+   "tid": "cr_gen_03",
+   "qid": "crash_report",
+   "attempt": 4,
+   "model": "deepseek-flash",
+   "input_tokens": 1419,
+   "output_tokens": 954,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.6,
+   "stats": {
+    "n_updates": 25,
+    "n_corrections_t3plus": 0,
+    "text_values_not_verbatim": [
+     "t3:vehicles[0].role='my vehicle'"
+    ],
+    "n_corruption_candidates": 5,
+    "final_nonempty_leaves": 25
+   },
+   "rejected": [
+    "after turn 3: number_of_vehicles_involved='2' but vehicles has 1 rows",
+    "no explicit correction of an earlier value in turns 3-5 (rule 7)"
+   ]
+  },
+  {
+   "tid": "cr_gen_01",
+   "qid": "crash_report",
+   "attempt": 4,
+   "model": "deepseek-flash",
+   "input_tokens": 1415,
+   "output_tokens": 889,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.3,
+   "stats": {
+    "n_updates": 23,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [
+     "t4:vehicles[1].role='struck from behind'"
+    ],
+    "n_corruption_candidates": 6,
+    "final_nonempty_leaves": 22
+   },
+   "rejected": [
+    "after turn 3: number_of_vehicles_involved='2' but vehicles has 1 rows"
+   ]
+  },
+  {
+   "tid": "cr_gen_04",
+   "qid": "crash_report",
+   "attempt": 4,
+   "model": "deepseek-flash",
+   "input_tokens": 1437,
+   "output_tokens": 899,
+   "reasoning_tokens": 0,
+   "thinking": "disabled",
+   "latency_s": 4.7,
+   "stats": {
+    "n_updates": 23,
+    "n_corrections_t3plus": 1,
+    "text_values_not_verbatim": [],
+    "n_corruption_candidates": 4,
+    "final_nonempty_leaves": 22
+   },
+   "rejected": [
+    "after turn 2: number_of_vehicles_involved='3' but vehicles has 1 rows",
+    "after turn 3: number_of_vehicles_involved='3' but vehicles has 1 rows",
+    "after turn 4: number_of_vehicles_involved='3' but vehicles has 2 rows"
+   ]
+  }
+ ]
+}

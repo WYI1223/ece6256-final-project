@@ -1,0 +1,152 @@
+{
+  "agent_response": {
+    "operations": [],
+    "raw_response": "NoUpdate baseline: copied schema-completed prior state."
+  },
+  "answer_updates": {},
+  "answers_after": {
+    "agreement_count": 0,
+    "agreements": [],
+    "background_and_prior_art": null,
+    "comparative_benefits_advantages": null,
+    "complete_invention_description_date": null,
+    "complete_invention_description_recorded_where_and_disclosed_to_whom": null,
+    "detailed_description": null,
+    "disclosed_to_non_uci_personnel": false,
+    "earliest_non_uci_disclosure_date": null,
+    "earliest_public_availability_date": null,
+    "field_of_invention": null,
+    "first_successful_operation_date": null,
+    "first_successful_operation_recorded_where_and_disclosed_to_whom": null,
+    "formal_public_disclosure_channel": [],
+    "formal_public_disclosure_status": [],
+    "funding_source_count": 0,
+    "funding_sources": [],
+    "future_steps_table": null,
+    "has_journal_conference_thesis_or_library_disclosure": false,
+    "has_rights_affecting_agreements": false,
+    "initial_conception_date": null,
+    "initial_conception_recorded_where_and_disclosed_to_whom": null,
+    "invention_title": "Adaptive sensor bracket",
+    "inventor_signatures_table": null,
+    "journal_conference_or_meeting_name": null,
+    "keywords": null,
+    "literature_search_performed": null,
+    "literature_search_performed_by": null,
+    "manuscript_attached": null,
+    "non_uci_disclosure_context": null,
+    "non_uci_disclosure_recipients": null,
+    "non_uci_inventor_count": 0,
+    "non_uci_inventors": [],
+    "original_with_signatures_ready_for_campus_mail": null,
+    "patent_search_performed": null,
+    "patent_search_performed_by": null,
+    "pertinent_references_attached": null,
+    "potential_licensee_count": null,
+    "potential_licensees_or_sponsors": null,
+    "proprietary_material_count": null,
+    "proprietary_materials": null,
+    "publication_or_disclosure_copies_attached": false,
+    "signature_scan_emailed": null,
+    "software_component_description": null,
+    "software_copyright_disclosure_attached": null,
+    "software_is_integral": false,
+    "stage_of_development": null,
+    "stage_of_development_evidence": null,
+    "submission_reasons": null,
+    "summary_of_invention": null,
+    "uci_inventor_count": 1,
+    "uci_inventors": [
+      {
+        "campus_address": "Engineering Hall 221",
+        "category": "Faculty",
+        "department_or_oru": "Mechanical Engineering",
+        "home_address": null,
+        "is_lead_contact": true,
+        "mobile_phone": null,
+        "name": "Dr. Asha Rao",
+        "other_email": null,
+        "pre_2011_patent_amendment_signed": true,
+        "school_or_division": "Engineering",
+        "title_at_uci": "Professor",
+        "uci_email": "arao@uci.edu",
+        "uci_employment_dates": "2014-present",
+        "work_phone": "949-555-0111"
+      }
+    ],
+    "used_external_proprietary_materials": null,
+    "was_funded_or_sponsored": false,
+    "witnesses": [],
+    "word_copy_emailed": null
+  },
+  "answers_before": {
+    "agreement_count": 0,
+    "agreements": [],
+    "disclosed_to_non_uci_personnel": false,
+    "earliest_non_uci_disclosure_date": null,
+    "earliest_public_availability_date": null,
+    "formal_public_disclosure_channel": [],
+    "formal_public_disclosure_status": [],
+    "funding_source_count": 0,
+    "funding_sources": [],
+    "has_journal_conference_thesis_or_library_disclosure": false,
+    "has_rights_affecting_agreements": false,
+    "invention_title": "Adaptive sensor bracket",
+    "journal_conference_or_meeting_name": null,
+    "non_uci_disclosure_context": null,
+    "non_uci_disclosure_recipients": null,
+    "non_uci_inventor_count": 0,
+    "non_uci_inventors": [],
+    "publication_or_disclosure_copies_attached": false,
+    "software_component_description": null,
+    "software_copyright_disclosure_attached": null,
+    "software_is_integral": false,
+    "uci_inventor_count": 1,
+    "uci_inventors": [
+      {
+        "campus_address": "Engineering Hall 221",
+        "category": "Faculty",
+        "department_or_oru": "Mechanical Engineering",
+        "home_address": null,
+        "is_lead_contact": true,
+        "mobile_phone": null,
+        "name": "Dr. Asha Rao",
+        "other_email": null,
+        "pre_2011_patent_amendment_signed": true,
+        "school_or_division": "Engineering",
+        "title_at_uci": "Professor",
+        "uci_email": "arao@uci.edu",
+        "uci_employment_dates": "2014-present",
+        "work_phone": "949-555-0111"
+      }
+    ],
+    "was_funded_or_sponsored": false,
+    "witnesses": []
+  },
+  "current_utterance": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `invention_title` to `\"Adaptive sensor bracket with self-calibrating firmware\"`\n- set `uci_inventor_count` to `2`\n- set `uci_inventors[0].uci_email` to `\"asha.rao@uci.edu\"`\n- set `uci_inventors[1].is_lead_contact` to `false`\n- set `uci_inventors[1].name` to `\"Priya Chen\"`\n- set `uci_inventors[1].title_at_uci` to `\"Graduate student\"`\n- set `uci_inventors[1].department_or_oru` to `\"Electrical Engineering\"`\n- set `uci_inventors[1].category` to `\"Grad Student\"`\n- set `uci_inventors[1].mobile_phone` to `\"949-555-0199\"`\n- set `uci_inventors[1].uci_email` to `\"pchen@uci.edu\"`\n- set `was_funded_or_sponsored` to `true`\n- set `funding_source_count` to `1`\n- set `funding_sources[0].sponsor_name` to `\"NIH\"`\n- set `funding_sources[0].contract_or_grant_number` to `\"R01-12345\"`\n- set `funding_sources[0].principal_investigator_or_supervisor` to `\"Dr. Rao\"`\n- set `funding_sources[0].funding_scope` to `\"wearable sensor research\"`\n- set `has_rights_affecting_agreements` to `true`\n- set `agreement_count` to `1`\n- set `agreements[0].agreement_type` to `\"Consulting Agreement\"`\n- set `agreements[0].other_party_name` to `\"MedMotion\"`\n- set `agreements[0].copy_available` to `true`\n- set `agreements[0].copy_attached` to `true`\n- set `software_is_integral` to `true`\n- set `software_copyright_disclosure_attached` to `true`\n- set `software_component_description` to `\"Self-calibrating firmware is integral to the invention.\"`\n- set `has_journal_conference_thesis_or_library_disclosure` to `true`\n- set `formal_public_disclosure_status` to `[\"Submitted\"]`\n- set `formal_public_disclosure_channel` to `[\"Conference\"]`\n- set `earliest_public_availability_date` to `\"2026-06-10\"`\n- set `journal_conference_or_meeting_name` to `\"West Coast Bioengineering Conference\"`\n- set `witnesses[0].witness_printed_name` to `\"Omar Silva\"`\n- set `witnesses[0].technical_qualification` to `\"PhD electrical engineering\"`\n- set `witnesses[0].signature_present` to `true`\n- set `witnesses[0].date_signed` to `\"2026-05-02\"`",
+  "is_complete": true,
+  "provenance": {
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    }
+  },
+  "questionnaire": "patent_form",
+  "scenario": "patent_form_dev_01",
+  "scenario_id": "patent_form_dev_01",
+  "state": "state_1",
+  "turn_index": 0,
+  "utterance_id": "u1",
+  "visible_history": [
+    {
+      "content": "The disclosure currently has one UCI inventor and no outside funding.",
+      "role": "user"
+    }
+  ]
+}

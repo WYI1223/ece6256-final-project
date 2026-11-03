@@ -1,0 +1,4211 @@
+[
+ {
+  "turn": 1,
+  "utterance": "Yes, I have pain in my right knee. It started about two months ago and is moderate.",
+  "prior_state": {
+   "pain_experience": null,
+   "number_of_pains": null,
+   "pain_details": [],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 1,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": "Yes (single episode)",
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 1,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "hemoptysis_any": {
+    "cand": "Yes (single episode)",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "hemoptysis_any"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'm here to help you complete the Clinical Screening Questionnaire. First, can you tell me if you're experiencing any pain right now?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 1,
+   "n_fields": 37,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.973,
+   "fully_correct": 0,
+   "structured_n": 21,
+   "structured_correct": 20,
+   "structured_acc": 0.9524,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 31,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "Yes, my lower back has been bothering me for three weeks. It's mild.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 1,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": "Yes (single episode)",
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": "Yes (single episode)",
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "hemoptysis_any": {
+    "cand": "Yes (single episode)",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "I'm sorry to hear about your knee pain. Do you have any other pain complaints?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "hemoptysis_any",
+    "wrong": "Yes (single episode)",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 2,
+   "n_fields": 41,
+   "n_correct": 40,
+   "n_partial": 0,
+   "all_field_acc": 0.9756,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "Yes, I've had a chesty cough with phlegm for a week. The phlegm is yellow and there's a moderate amount.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": "Yes (single episode)",
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "Yes (single episode)",
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "hemoptysis_any": {
+    "cand": "Yes (single episode)",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_experience": {
+    "cand": false,
+    "gold": true,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "pain_experience"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Got it. Now, do you have a cough?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "hemoptysis_any",
+    "wrong": "Yes (single episode)",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 3,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 19,
+   "structured_acc": 0.8636,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 35,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 1,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "No, I haven't fallen in the last year.",
+  "prior_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "Yes (single episode)",
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "Yes (single episode)",
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "hemoptysis_any": {
+    "cand": "Yes (single episode)",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_experience": {
+    "cand": false,
+    "gold": true,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Thank you. Have you had any falls in the last 12 months?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "hemoptysis_any",
+    "wrong": "Yes (single episode)",
+    "gold": null
+   },
+   {
+    "leaf": "pain_experience",
+    "wrong": false,
+    "gold": true
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 4,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 19,
+   "structured_acc": 0.8636,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 3,
+   "nat_persisted": 3,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "Yes, I use a cane.",
+  "prior_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "Yes (single episode)",
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "denture_present": {
+    "cand": true,
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_experience": {
+    "cand": false,
+    "gold": true,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "denture_present"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you use any walking aids?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "pain_experience",
+    "wrong": false,
+    "gold": true
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 5,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 19,
+   "structured_acc": 0.8636,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 37,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 3,
+   "nat_persisted": 2,
+   "nat_recovered": 1,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 6,
+  "utterance": "Yes, I have an upper denture. No lower denture.",
+  "prior_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "pain_experience": {
+    "cand": false,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you have any dentures?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "pain_experience",
+    "wrong": false,
+    "gold": true
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 6,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 19,
+   "structured_acc": 0.8636,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 36,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 7,
+  "utterance": "Actually, I do have some blurred vision that started about a month ago.",
+  "prior_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "Unknown",
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": null,
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "hemoptysis_any": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_experience": {
+    "cand": false,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": null,
+    "gold": "blurred vision",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "hemoptysis_any"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you have any vision problems or changes?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "pain_experience",
+    "wrong": false,
+    "gold": true
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": null,
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 7,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 18,
+   "structured_acc": 0.8182,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 35,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 3,
+   "nat_persisted": 3,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 8,
+  "utterance": "No, my weight has been stable.",
+  "prior_state": {
+   "pain_experience": false,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "Unknown",
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": null,
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": null,
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": null,
+    "gold": "blurred vision",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Have you experienced any unintentional weight loss?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": null,
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 8,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 20,
+   "structured_acc": 0.9091,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 4,
+   "nat_persisted": 2,
+   "nat_recovered": 2,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 9,
+  "utterance": "No change in appetite.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": null,
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": null,
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "appetite_change": {
+    "cand": null,
+    "gold": "No",
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": null,
+    "gold": "blurred vision",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Any change in appetite?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": null,
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 9,
+   "n_fields": 41,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.9024,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 19,
+   "structured_acc": 0.8636,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 10,
+  "utterance": "Yes, I sometimes choke on food, maybe once a week. I need a soft diet.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": null,
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": null,
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "appetite_change": {
+    "cand": null,
+    "gold": "No",
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "special_diet_required": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": null,
+    "gold": "blurred vision",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you have any difficulty swallowing or choking episodes?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "appetite_change",
+    "wrong": null,
+    "gold": "No"
+   },
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": null,
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 10,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 18,
+   "structured_acc": 0.8182,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 34,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 3,
+   "nat_persisted": 3,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 11,
+  "utterance": "I have two allergies: penicillin and latex. The penicillin reaction is severe, and latex gives me a mild rash.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": null,
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "appetite_change": {
+    "cand": null,
+    "gold": "No",
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "How many known allergies do you have?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "appetite_change",
+    "wrong": null,
+    "gold": "No"
+   },
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": null,
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 11,
+   "n_fields": 49,
+   "n_correct": 46,
+   "n_partial": 0,
+   "all_field_acc": 0.9388,
+   "fully_correct": 0,
+   "structured_n": 24,
+   "structured_correct": 21,
+   "structured_acc": 0.875,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 4,
+   "nat_persisted": 3,
+   "nat_recovered": 1,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 12,
+  "utterance": "Actually, I take three medications, not two as I might have said earlier. They are metformin 500 mg oral twice a day, lisinopril 10 mg oral once a day, and atorvastatin 20 mg oral at night.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "appetite_change": {
+    "cand": null,
+    "gold": "No",
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "How many current medications do you take?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "appetite_change",
+    "wrong": null,
+    "gold": "No"
+   },
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": null,
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 12,
+   "n_fields": 61,
+   "n_correct": 58,
+   "n_partial": 0,
+   "all_field_acc": 0.9508,
+   "fully_correct": 0,
+   "structured_n": 27,
+   "structured_correct": 24,
+   "structured_acc": 0.8889,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 45,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 3,
+   "nat_persisted": 3,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 13,
+  "utterance": "Yes, I avoid gluten for medical reasons.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "gluten",
+     "preference_type": "Avoids",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "gluten",
+     "preference_type": "Avoids",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "appetite_change": {
+    "cand": null,
+    "gold": "No",
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "number_of_dietary_restrictions": {
+    "cand": null,
+    "gold": 1,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Do you have any dietary preferences or restrictions?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "appetite_change",
+    "wrong": null,
+    "gold": "No"
+   },
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": null,
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 13,
+   "n_fields": 65,
+   "n_correct": 61,
+   "n_partial": 0,
+   "all_field_acc": 0.9385,
+   "fully_correct": 0,
+   "structured_n": 29,
+   "structured_correct": 25,
+   "structured_acc": 0.8621,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 57,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 3,
+   "nat_persisted": 3,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 14,
+  "utterance": "Actually, I forgot to mention earlier: the phlegm was white, not yellow. And no, there's no blood.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "Yellow"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "gluten",
+     "preference_type": "Avoids",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "White"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "No",
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "gluten",
+     "preference_type": "Avoids",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "White"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "No",
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "gluten",
+     "preference_type": "Avoids",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "appetite_change": {
+    "cand": null,
+    "gold": "No",
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "number_of_dietary_restrictions": {
+    "cand": null,
+    "gold": 1,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Have you noticed any blood in your sputum?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "appetite_change",
+    "wrong": null,
+    "gold": "No"
+   },
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "number_of_dietary_restrictions",
+    "wrong": null,
+    "gold": 1
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": null,
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 14,
+   "n_fields": 65,
+   "n_correct": 61,
+   "n_partial": 0,
+   "all_field_acc": 0.9385,
+   "fully_correct": 0,
+   "structured_n": 29,
+   "structured_correct": 25,
+   "structured_acc": 0.8621,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 59,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 4,
+   "nat_persisted": 4,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 15,
+  "utterance": "No, that's all.",
+  "prior_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "White"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "No",
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "gluten",
+     "preference_type": "Avoids",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "White"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "No",
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": null,
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "gluten",
+     "preference_type": "Avoids",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about two months ago",
+     "pain_notes": null,
+     "pain_part": "right knee",
+     "pain_severity": "Moderate"
+    },
+    {
+     "pain_duration": "three weeks",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": true,
+   "cough_duration": "for a week",
+   "cough_notes": null,
+   "sputum_present": true,
+   "sputum_color": [
+    "White"
+   ],
+   "sputum_amount": "Moderate",
+   "hemoptysis_any": "No",
+   "sputum_notes": null,
+   "fall_in_last_12_months": false,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "Yes (uses)",
+   "ambulatory_aid_notes": null,
+   "denture_present": true,
+   "upper_denture": "Yes",
+   "lower_denture": "No",
+   "vision_problem": true,
+   "vision_description": "blurred vision",
+   "vision_onset": "about a month ago",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "Yes",
+   "dysphagia_frequency": "once a week",
+   "special_diet_required": "Yes",
+   "special_diet_notes": null,
+   "number_of_allergies": 2,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "severe"
+    },
+    {
+     "allergen": "latex",
+     "allergy_notes": null,
+     "allergy_severity": "Mild",
+     "reaction": "mild rash"
+    }
+   ],
+   "number_of_medications": 3,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    },
+    {
+     "dose": "10 mg",
+     "frequency": "once a day",
+     "medication_name": "lisinopril",
+     "route": "Oral"
+    },
+    {
+     "dose": "20 mg",
+     "frequency": "at night",
+     "medication_name": "atorvastatin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "gluten",
+     "preference_type": "Avoids",
+     "reason": "Medical"
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "appetite_change": {
+    "cand": null,
+    "gold": "No",
+    "verdict": "incorrect"
+   },
+   "cough_present": {
+    "cand": null,
+    "gold": true,
+    "verdict": "incorrect"
+   },
+   "number_of_dietary_restrictions": {
+    "cand": null,
+    "gold": 1,
+    "verdict": "incorrect"
+   },
+   "upper_denture": {
+    "cand": null,
+    "gold": "Yes",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Thank you. Is there anything else you'd like to add?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "appetite_change",
+    "wrong": null,
+    "gold": "No"
+   },
+   {
+    "leaf": "cough_present",
+    "wrong": null,
+    "gold": true
+   },
+   {
+    "leaf": "number_of_dietary_restrictions",
+    "wrong": null,
+    "gold": 1
+   },
+   {
+    "leaf": "upper_denture",
+    "wrong": null,
+    "gold": "Yes"
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_01",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 15,
+   "n_fields": 65,
+   "n_correct": 61,
+   "n_partial": 0,
+   "all_field_acc": 0.9385,
+   "fully_correct": 0,
+   "structured_n": 29,
+   "structured_correct": 25,
+   "structured_acc": 0.8621,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 61,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 4,
+   "nat_persisted": 4,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "w0",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ }
+]

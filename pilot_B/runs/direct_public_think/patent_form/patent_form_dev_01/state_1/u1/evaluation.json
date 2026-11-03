@@ -1,0 +1,1370 @@
+{
+  "alignment_log": [],
+  "candidate_resulting_state": {
+    "agreement_count": 1,
+    "agreements": [
+      {
+        "agreement_type": "Consulting Agreement",
+        "copy_attached": true,
+        "copy_available": true,
+        "other_party_name": "MedMotion"
+      }
+    ],
+    "background_and_prior_art": null,
+    "comparative_benefits_advantages": null,
+    "complete_invention_description_date": null,
+    "complete_invention_description_recorded_where_and_disclosed_to_whom": null,
+    "detailed_description": null,
+    "disclosed_to_non_uci_personnel": false,
+    "earliest_non_uci_disclosure_date": null,
+    "earliest_public_availability_date": "2026-06-10",
+    "field_of_invention": null,
+    "first_successful_operation_date": null,
+    "first_successful_operation_recorded_where_and_disclosed_to_whom": null,
+    "formal_public_disclosure_channel": [
+      "Conference"
+    ],
+    "formal_public_disclosure_status": [
+      "Submitted"
+    ],
+    "funding_source_count": 1,
+    "funding_sources": [
+      {
+        "contract_or_grant_number": "R01-12345",
+        "funding_scope": "wearable sensor research",
+        "principal_investigator_or_supervisor": "Dr. Rao",
+        "sponsor_name": "NIH"
+      }
+    ],
+    "future_steps_table": null,
+    "has_journal_conference_thesis_or_library_disclosure": true,
+    "has_rights_affecting_agreements": true,
+    "initial_conception_date": null,
+    "initial_conception_recorded_where_and_disclosed_to_whom": null,
+    "invention_title": "Adaptive sensor bracket with self-calibrating firmware",
+    "inventor_signatures_table": null,
+    "journal_conference_or_meeting_name": "West Coast Bioengineering Conference",
+    "keywords": null,
+    "literature_search_performed": null,
+    "literature_search_performed_by": null,
+    "manuscript_attached": null,
+    "non_uci_disclosure_context": null,
+    "non_uci_disclosure_recipients": null,
+    "non_uci_inventor_count": 0,
+    "non_uci_inventors": [],
+    "original_with_signatures_ready_for_campus_mail": null,
+    "patent_search_performed": null,
+    "patent_search_performed_by": null,
+    "pertinent_references_attached": null,
+    "potential_licensee_count": null,
+    "potential_licensees_or_sponsors": null,
+    "proprietary_material_count": null,
+    "proprietary_materials": null,
+    "publication_or_disclosure_copies_attached": false,
+    "signature_scan_emailed": null,
+    "software_component_description": "Self-calibrating firmware is integral to the invention.",
+    "software_copyright_disclosure_attached": true,
+    "software_is_integral": true,
+    "stage_of_development": null,
+    "stage_of_development_evidence": null,
+    "submission_reasons": null,
+    "summary_of_invention": null,
+    "uci_inventor_count": 2,
+    "uci_inventors": [
+      {
+        "campus_address": "Engineering Hall 221",
+        "category": "Faculty",
+        "department_or_oru": "Mechanical Engineering",
+        "home_address": null,
+        "is_lead_contact": true,
+        "mobile_phone": null,
+        "name": "Dr. Asha Rao",
+        "other_email": null,
+        "pre_2011_patent_amendment_signed": true,
+        "school_or_division": "Engineering",
+        "title_at_uci": "Professor",
+        "uci_email": "asha.rao@uci.edu",
+        "uci_employment_dates": "2014-present",
+        "work_phone": "949-555-0111"
+      },
+      {
+        "campus_address": null,
+        "category": "Grad Student",
+        "department_or_oru": "Electrical Engineering",
+        "home_address": null,
+        "is_lead_contact": false,
+        "mobile_phone": "949-555-0199",
+        "name": "Priya Chen",
+        "other_email": null,
+        "pre_2011_patent_amendment_signed": null,
+        "school_or_division": null,
+        "title_at_uci": "Graduate student",
+        "uci_email": "pchen@uci.edu",
+        "uci_employment_dates": null,
+        "work_phone": null
+      }
+    ],
+    "used_external_proprietary_materials": null,
+    "was_funded_or_sponsored": true,
+    "witnesses": [
+      {
+        "date_signed": "2026-05-02",
+        "signature_present": true,
+        "technical_qualification": "PhD electrical engineering",
+        "witness_printed_name": "Omar Silva"
+      },
+      {
+        "date_signed": null,
+        "signature_present": null,
+        "technical_qualification": null,
+        "witness_printed_name": null
+      }
+    ],
+    "word_copy_emailed": null
+  },
+  "candidate_state_diff": [
+    {
+      "change_kind": "changed",
+      "prior_value": 0,
+      "resulting_value": 1,
+      "slot": "agreement_count"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": [],
+      "resulting_value": [
+        {
+          "agreement_type": "Consulting Agreement",
+          "copy_attached": true,
+          "copy_available": true,
+          "other_party_name": "MedMotion"
+        }
+      ],
+      "slot": "agreements"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "background_and_prior_art"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "comparative_benefits_advantages"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "complete_invention_description_date"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "complete_invention_description_recorded_where_and_disclosed_to_whom"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "detailed_description"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "disclosed_to_non_uci_personnel"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "earliest_non_uci_disclosure_date"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": null,
+      "resulting_value": "2026-06-10",
+      "slot": "earliest_public_availability_date"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "field_of_invention"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "first_successful_operation_date"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "first_successful_operation_recorded_where_and_disclosed_to_whom"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": [],
+      "resulting_value": [
+        "Conference"
+      ],
+      "slot": "formal_public_disclosure_channel"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": [],
+      "resulting_value": [
+        "Submitted"
+      ],
+      "slot": "formal_public_disclosure_status"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": 0,
+      "resulting_value": 1,
+      "slot": "funding_source_count"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": [],
+      "resulting_value": [
+        {
+          "contract_or_grant_number": "R01-12345",
+          "funding_scope": "wearable sensor research",
+          "principal_investigator_or_supervisor": "Dr. Rao",
+          "sponsor_name": "NIH"
+        }
+      ],
+      "slot": "funding_sources"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "future_steps_table"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": false,
+      "resulting_value": true,
+      "slot": "has_journal_conference_thesis_or_library_disclosure"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": false,
+      "resulting_value": true,
+      "slot": "has_rights_affecting_agreements"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "initial_conception_date"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "initial_conception_recorded_where_and_disclosed_to_whom"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": "Adaptive sensor bracket",
+      "resulting_value": "Adaptive sensor bracket with self-calibrating firmware",
+      "slot": "invention_title"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "inventor_signatures_table"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": null,
+      "resulting_value": "West Coast Bioengineering Conference",
+      "slot": "journal_conference_or_meeting_name"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "keywords"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "literature_search_performed"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "literature_search_performed_by"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "manuscript_attached"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "non_uci_disclosure_context"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "non_uci_disclosure_recipients"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": 0,
+      "resulting_value": 0,
+      "slot": "non_uci_inventor_count"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": [],
+      "resulting_value": [],
+      "slot": "non_uci_inventors"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "original_with_signatures_ready_for_campus_mail"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "patent_search_performed"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "patent_search_performed_by"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "pertinent_references_attached"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "potential_licensee_count"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "potential_licensees_or_sponsors"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "proprietary_material_count"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "proprietary_materials"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": false,
+      "resulting_value": false,
+      "slot": "publication_or_disclosure_copies_attached"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "signature_scan_emailed"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": null,
+      "resulting_value": "Self-calibrating firmware is integral to the invention.",
+      "slot": "software_component_description"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": null,
+      "resulting_value": true,
+      "slot": "software_copyright_disclosure_attached"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": false,
+      "resulting_value": true,
+      "slot": "software_is_integral"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "stage_of_development"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "stage_of_development_evidence"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "submission_reasons"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "summary_of_invention"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": 1,
+      "resulting_value": 2,
+      "slot": "uci_inventor_count"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": [
+        {
+          "campus_address": "Engineering Hall 221",
+          "category": "Faculty",
+          "department_or_oru": "Mechanical Engineering",
+          "home_address": null,
+          "is_lead_contact": true,
+          "mobile_phone": null,
+          "name": "Dr. Asha Rao",
+          "other_email": null,
+          "pre_2011_patent_amendment_signed": true,
+          "school_or_division": "Engineering",
+          "title_at_uci": "Professor",
+          "uci_email": "arao@uci.edu",
+          "uci_employment_dates": "2014-present",
+          "work_phone": "949-555-0111"
+        }
+      ],
+      "resulting_value": [
+        {
+          "campus_address": "Engineering Hall 221",
+          "category": "Faculty",
+          "department_or_oru": "Mechanical Engineering",
+          "home_address": null,
+          "is_lead_contact": true,
+          "mobile_phone": null,
+          "name": "Dr. Asha Rao",
+          "other_email": null,
+          "pre_2011_patent_amendment_signed": true,
+          "school_or_division": "Engineering",
+          "title_at_uci": "Professor",
+          "uci_email": "asha.rao@uci.edu",
+          "uci_employment_dates": "2014-present",
+          "work_phone": "949-555-0111"
+        },
+        {
+          "campus_address": null,
+          "category": "Grad Student",
+          "department_or_oru": "Electrical Engineering",
+          "home_address": null,
+          "is_lead_contact": false,
+          "mobile_phone": "949-555-0199",
+          "name": "Priya Chen",
+          "other_email": null,
+          "pre_2011_patent_amendment_signed": null,
+          "school_or_division": null,
+          "title_at_uci": "Graduate student",
+          "uci_email": "pchen@uci.edu",
+          "uci_employment_dates": null,
+          "work_phone": null
+        }
+      ],
+      "slot": "uci_inventors"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "used_external_proprietary_materials"
+    },
+    {
+      "change_kind": "changed",
+      "prior_value": false,
+      "resulting_value": true,
+      "slot": "was_funded_or_sponsored"
+    },
+    {
+      "change_kind": "set",
+      "prior_value": [],
+      "resulting_value": [
+        {
+          "date_signed": "2026-05-02",
+          "signature_present": true,
+          "technical_qualification": "PhD electrical engineering",
+          "witness_printed_name": "Omar Silva"
+        },
+        {
+          "date_signed": null,
+          "signature_present": null,
+          "technical_qualification": null,
+          "witness_printed_name": null
+        }
+      ],
+      "slot": "witnesses"
+    },
+    {
+      "change_kind": "preserved",
+      "prior_value": null,
+      "resulting_value": null,
+      "slot": "word_copy_emailed"
+    }
+  ],
+  "derived_variables": {},
+  "field_results": {
+    "agreement_count": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for agreement_count.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "agreements[0].agreement_type": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for agreements[0].agreement_type: expected 'Consulting Agreement', got 'Consulting Agreement'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "agreements[0].copy_attached": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for agreements[0].copy_attached.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "agreements[0].copy_available": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for agreements[0].copy_available.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "agreements[0].other_party_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for agreements[0].other_party_name.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "disclosed_to_non_uci_personnel": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for disclosed_to_non_uci_personnel.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "earliest_non_uci_disclosure_date": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both earliest_non_uci_disclosure_date values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "earliest_public_availability_date": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for earliest_public_availability_date.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "formal_public_disclosure_channel": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "All required items present, no unacceptable additions.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "formal_public_disclosure_status": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "All required items present, no unacceptable additions.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "funding_source_count": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for funding_source_count.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "funding_sources[0].contract_or_grant_number": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for funding_sources[0].contract_or_grant_number.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "funding_sources[0].funding_scope": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for funding_sources[0].funding_scope.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "funding_sources[0].principal_investigator_or_supervisor": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for funding_sources[0].principal_investigator_or_supervisor.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "funding_sources[0].sponsor_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for funding_sources[0].sponsor_name.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "has_journal_conference_thesis_or_library_disclosure": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for has_journal_conference_thesis_or_library_disclosure.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "has_rights_affecting_agreements": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for has_rights_affecting_agreements.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "invention_title": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for invention_title.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "journal_conference_or_meeting_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for journal_conference_or_meeting_name.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "non_uci_disclosure_context": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both non_uci_disclosure_context values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_disclosure_recipients": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both non_uci_disclosure_recipients values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "non_uci_inventor_count": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for non_uci_inventor_count.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "publication_or_disclosure_copies_attached": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for publication_or_disclosure_copies_attached.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "software_component_description": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for software_component_description.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "software_copyright_disclosure_attached": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for software_copyright_disclosure_attached.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "software_is_integral": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for software_is_integral.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventor_count": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventor_count.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventors[0].campus_address": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].campus_address.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].category": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for uci_inventors[0].category: expected 'Faculty', got 'Faculty'.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].department_or_oru": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].department_or_oru.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].home_address": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[0].home_address values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].is_lead_contact": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].is_lead_contact.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].mobile_phone": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[0].mobile_phone values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].name.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].other_email": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[0].other_email values are empty after scoring normalization.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].pre_2011_patent_amendment_signed": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].pre_2011_patent_amendment_signed.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].school_or_division": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].school_or_division.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].title_at_uci": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].title_at_uci.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].uci_email": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].uci_email.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventors[0].uci_employment_dates": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].uci_employment_dates.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[0].work_phone": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "prior_state",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[0].work_phone.",
+      "source": "prior_state",
+      "support_source": "prior_state"
+    },
+    "uci_inventors[1].campus_address": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[1].campus_address values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "uci_inventors[1].category": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Choice alias match for uci_inventors[1].category: expected 'Grad Student', got 'Grad Student'.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventors[1].department_or_oru": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[1].department_or_oru.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventors[1].home_address": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[1].home_address values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "uci_inventors[1].is_lead_contact": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[1].is_lead_contact.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventors[1].mobile_phone": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[1].mobile_phone.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventors[1].name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[1].name.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventors[1].other_email": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[1].other_email values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "uci_inventors[1].pre_2011_patent_amendment_signed": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[1].pre_2011_patent_amendment_signed values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "uci_inventors[1].school_or_division": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[1].school_or_division values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "uci_inventors[1].title_at_uci": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[1].title_at_uci.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventors[1].uci_email": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for uci_inventors[1].uci_email.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "uci_inventors[1].uci_employment_dates": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[1].uci_employment_dates values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "uci_inventors[1].work_phone": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": null,
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Both uci_inventors[1].work_phone values are empty after scoring normalization.",
+      "source": null,
+      "support_source": null
+    },
+    "was_funded_or_sponsored": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for was_funded_or_sponsored.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "witnesses[0].date_signed": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for witnesses[0].date_signed.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "witnesses[0].signature_present": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for witnesses[0].signature_present.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "witnesses[0].technical_qualification": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for witnesses[0].technical_qualification.",
+      "source": "extracted",
+      "support_source": "extracted"
+    },
+    "witnesses[0].witness_printed_name": {
+      "correctness": "correct",
+      "decision_source": "hard_eval",
+      "final_correctness": "correct",
+      "original_correctness": "correct",
+      "original_partial_reason": null,
+      "original_source": "extracted",
+      "partial_reason": null,
+      "postprocess_reason": null,
+      "reasoning": "Exact match for witnesses[0].witness_printed_name.",
+      "source": "extracted",
+      "support_source": "extracted"
+    }
+  },
+  "fields_filled": 95,
+  "prompt_trace": [],
+  "provenance": {
+    "evaluation": {
+      "mode": "deterministic_public_eval",
+      "model": null,
+      "models": [],
+      "reasoning_effort": null,
+      "requested_model": null,
+      "runner": null
+    },
+    "generation": {
+      "agent": "Direct",
+      "model": {
+        "max_tokens": 16000,
+        "model": "deepseek-flash",
+        "provider": "openai",
+        "requested_model": "deepseek-flash",
+        "resolved_model_name": "deepseek-flash",
+        "resolved_model_version": "deepseek-flash",
+        "temperature": null,
+        "timeout": 300
+      },
+      "schema_interface": {
+        "public_projection": "shared_schema_field_guide_with_schema_completed_prior_state"
+      },
+      "tool_policy": {
+        "mode": "state_json"
+      }
+    },
+    "runner": null
+  },
+  "summary": {
+    "correct": 60,
+    "evaluated": 60,
+    "incorrect": 0,
+    "partially_correct": 0,
+    "total": 60,
+    "unmatched": 0
+  },
+  "turn": 0,
+  "unmatched_fields": [],
+  "user_message": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `invention_title` to `\"Adaptive sensor bracket with self-calibrating firmware\"`\n- set `uci_inventor_count` to `2`\n- set `uci_inventors[0].uci_email` to `\"asha.rao@uci.edu\"`\n- set `uci_inventors[1].is_lead_contact` to `false`\n- set `uci_inventors[1].name` to `\"Priya Chen\"`\n- set `uci_inventors[1].title_at_uci` to `\"Graduate student\"`\n- set `uci_inventors[1].department_or_oru` to `\"Electrical Engineering\"`\n- set `uci_inventors[1].category` to `\"Grad Student\"`\n- set `uci_inventors[1].mobile_phone` to `\"949-555-0199\"`\n- set `uci_inventors[1].uci_email` to `\"pchen@uci.edu\"`\n- set `was_funded_or_sponsored` to `true`\n- set `funding_source_count` to `1`\n- set `funding_sources[0].sponsor_name` to `\"NIH\"`\n- set `funding_sources[0].contract_or_grant_number` to `\"R01-12345\"`\n- set `funding_sources[0].principal_investigator_or_supervisor` to `\"Dr. Rao\"`\n- set `funding_sources[0].funding_scope` to `\"wearable sensor research\"`\n- set `has_rights_affecting_agreements` to `true`\n- set `agreement_count` to `1`\n- set `agreements[0].agreement_type` to `\"Consulting Agreement\"`\n- set `agreements[0].other_party_name` to `\"MedMotion\"`\n- set `agreements[0].copy_available` to `true`\n- set `agreements[0].copy_attached` to `true`\n- set `software_is_integral` to `true`\n- set `software_copyright_disclosure_attached` to `true`\n- set `software_component_description` to `\"Self-calibrating firmware is integral to the invention.\"`\n- set `has_journal_conference_thesis_or_library_disclosure` to `true`\n- set `formal_public_disclosure_status` to `[\"Submitted\"]`\n- set `formal_public_disclosure_channel` to `[\"Conference\"]`\n- set `earliest_public_availability_date` to `\"2026-06-10\"`\n- set `journal_conference_or_meeting_name` to `\"West Coast Bioengineering Conference\"`\n- set `witnesses[0].witness_printed_name` to `\"Omar Silva\"`\n- set `witnesses[0].technical_qualification` to `\"PhD electrical engineering\"`\n- set `witnesses[0].signature_present` to `true`\n- set `witnesses[0].date_signed` to `\"2026-05-02\"`"
+}

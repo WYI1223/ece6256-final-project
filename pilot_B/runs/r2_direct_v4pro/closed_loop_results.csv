@@ -1,0 +1,251 @@
+trajectory_id,questionnaire_id,condition,mode,turn,n_fields,n_correct,n_partial,all_field_acc,fully_correct,structured_n,structured_correct,structured_acc,corrupted_field,injected_value,gold_value_of_corrupted,candidate_value_of_corrupted,prior_had_wrong_value,persisted_error,silent_recovery,collateral_opportunities,collateral_edits,collateral_edits_nonempty,nat_opportunities,nat_persisted,nat_recovered,input_tokens,output_tokens,reasoning_tokens,model_calls,attempts,fallback_used,solver_error,cache_hit,latency_s
+cr_gen_01,crash_report,incremental,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,18,0,0,0,0,0,3906,195,0,1,1,0,,0,3.42
+cr_gen_01,crash_report,incremental,clean,2,19,17,0,0.8947,0,13,12,0.9231,,,,,,,,17,1,0,0,0,0,3965,217,0,1,1,0,,0,4.05
+cr_gen_01,crash_report,incremental,clean,3,19,17,0,0.8947,0,13,12,0.9231,,,,,,,,14,0,0,1,1,0,4026,220,0,1,1,0,,0,3.2
+cr_gen_01,crash_report,incremental,clean,4,31,30,0,0.9677,0,17,17,1.0,,,,,,,,14,0,0,0,0,0,4084,343,0,1,1,0,,0,4.09
+cr_gen_01,crash_report,incremental,clean,5,31,28,0,0.9032,0,17,17,1.0,,,,,,,,24,0,0,0,0,0,4275,364,0,1,1,0,,0,5.32
+cr_gen_01,crash_report,oracle,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,18,0,0,0,0,0,3906,195,0,1,1,0,,1,0
+cr_gen_01,crash_report,oracle,clean,2,19,17,0,0.8947,0,13,12,0.9231,,,,,,,,17,1,0,0,0,0,3965,217,0,1,1,0,,1,0
+cr_gen_01,crash_report,oracle,clean,3,19,19,0,1.0,1,13,13,1.0,,,,,,,,16,0,0,1,0,1,4019,217,0,1,1,0,,0,3.41
+cr_gen_01,crash_report,oracle,clean,4,31,30,0,0.9677,0,17,17,1.0,,,,,,,,15,1,1,0,0,0,4077,344,0,1,1,0,,0,4.54
+cr_gen_01,crash_report,oracle,clean,5,31,28,0,0.9032,0,17,17,1.0,,,,,,,,25,1,1,0,0,0,4270,365,0,1,1,0,,0,4.72
+cr_gen_01,crash_report,rebuild,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,18,0,0,0,0,0,3906,195,0,1,1,0,,1,0
+cr_gen_01,crash_report,rebuild,clean,2,19,17,0,0.8947,0,13,12,0.9231,,,,,,,,17,1,0,0,0,0,3959,218,0,1,1,0,,0,2.81
+cr_gen_01,crash_report,rebuild,clean,3,19,17,0,0.8947,0,13,12,0.9231,,,,,,,,14,0,0,1,1,0,3998,225,0,1,1,0,,0,3.34
+cr_gen_01,crash_report,rebuild,clean,4,31,30,0,0.9677,0,17,17,1.0,,,,,,,,14,0,0,0,0,0,4049,348,0,1,1,0,,0,4.54
+cr_gen_01,crash_report,rebuild,clean,5,31,28,0,0.9032,0,17,17,1.0,,,,,,,,24,0,0,0,0,0,4117,306,0,1,1,0,,0,3.84
+cr_gen_01,crash_report,incremental,corrupt,1,19,19,0,1.0,1,13,13,1.0,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",,,,18,0,0,0,0,0,3906,195,0,1,1,0,,1,0
+cr_gen_01,crash_report,incremental,corrupt,2,19,17,0,0.8947,0,13,12,0.9231,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",,,,17,1,0,0,0,0,3965,217,0,1,1,0,,1,0
+cr_gen_01,crash_report,incremental,corrupt,3,19,17,0,0.8947,0,13,12,0.9231,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",1,0,1,13,0,0,1,1,0,4026,224,0,1,1,0,,0,3.4
+cr_gen_01,crash_report,incremental,corrupt,4,31,30,0,0.9677,0,17,17,1.0,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",0,0,0,14,0,0,0,0,0,4084,343,0,1,1,0,,1,0
+cr_gen_01,crash_report,incremental,corrupt,5,31,28,0,0.9032,0,17,17,1.0,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",0,0,0,24,0,0,0,0,0,4275,364,0,1,1,0,,1,0
+cr_gen_01,crash_report,oracle,corrupt,1,19,19,0,1.0,1,13,13,1.0,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",,,,18,0,0,0,0,0,3906,195,0,1,1,0,,1,0
+cr_gen_01,crash_report,oracle,corrupt,2,19,17,0,0.8947,0,13,12,0.9231,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",,,,17,1,0,0,0,0,3965,217,0,1,1,0,,1,0
+cr_gen_01,crash_report,oracle,corrupt,3,19,17,0,0.8947,0,13,12,0.9231,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",1,0,1,15,2,1,1,1,0,4019,225,0,1,1,0,,0,2.91
+cr_gen_01,crash_report,oracle,corrupt,4,31,30,0,0.9677,0,17,17,1.0,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",0,0,0,15,1,1,0,0,0,4077,344,0,1,1,0,,1,0
+cr_gen_01,crash_report,oracle,corrupt,5,31,28,0,0.9032,0,17,17,1.0,date_of_accident,"""2024-03-17""","""2024-03-14""","""2024-03-14""",0,0,0,25,1,1,0,0,0,4270,365,0,1,1,0,,1,0
+cr_gen_02,crash_report,incremental,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,18,0,0,0,0,0,3928,191,0,1,1,0,,0,3.17
+cr_gen_02,crash_report,incremental,clean,2,19,18,0,0.9474,0,13,12,0.9231,,,,,,,,15,1,0,0,0,0,4007,221,0,1,1,0,,0,3.32
+cr_gen_02,crash_report,incremental,clean,3,25,22,0,0.88,0,15,14,0.9333,,,,,,,,16,0,0,1,1,0,4127,298,0,1,1,0,,0,4.38
+cr_gen_02,crash_report,incremental,clean,4,25,21,0,0.84,0,15,14,0.9333,,,,,,,,18,0,0,1,1,0,4285,328,0,1,1,0,,0,4.64
+cr_gen_02,crash_report,incremental,clean,5,25,21,0,0.84,0,15,14,0.9333,,,,,,,,17,0,0,1,1,0,4396,336,0,1,1,0,,0,4.57
+cr_gen_02,crash_report,oracle,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,18,0,0,0,0,0,3928,191,0,1,1,0,,1,0
+cr_gen_02,crash_report,oracle,clean,2,19,18,0,0.9474,0,13,12,0.9231,,,,,,,,15,1,0,0,0,0,4007,221,0,1,1,0,,1,0
+cr_gen_02,crash_report,oracle,clean,3,25,19,0,0.76,0,15,12,0.8,,,,,,,,17,3,0,1,0,1,4124,306,0,1,1,0,,0,4.19
+cr_gen_02,crash_report,oracle,clean,4,25,21,0,0.84,0,15,15,1.0,,,,,,,,21,2,0,1,0,1,4282,387,0,1,1,0,,0,6.8
+cr_gen_02,crash_report,oracle,clean,5,25,24,0,0.96,0,15,15,1.0,,,,,,,,21,1,0,0,0,0,4396,339,0,1,1,0,,0,4.71
+cr_gen_02,crash_report,rebuild,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,18,0,0,0,0,0,3928,191,0,1,1,0,,1,0
+cr_gen_02,crash_report,rebuild,clean,2,19,19,0,1.0,1,13,13,1.0,,,,,,,,15,0,0,0,0,0,4001,222,0,1,1,0,,0,3.61
+cr_gen_02,crash_report,rebuild,clean,3,25,21,0,0.84,0,15,14,0.9333,,,,,,,,17,2,0,0,0,0,4091,300,0,1,1,0,,0,4.62
+cr_gen_02,crash_report,rebuild,clean,4,25,20,0,0.8,0,15,14,0.9333,,,,,,,,19,1,1,0,0,0,4172,315,0,1,1,0,,0,4.45
+cr_gen_02,crash_report,rebuild,clean,5,25,18,0,0.72,0,15,14,0.9333,,,,,,,,16,3,1,1,0,1,4253,378,0,1,1,0,,0,5.6
+cr_gen_02,crash_report,incremental,corrupt,1,19,19,0,1.0,1,13,13,1.0,lighting,"""Daylight""",null,null,,,,18,0,0,0,0,0,3928,191,0,1,1,0,,1,0
+cr_gen_02,crash_report,incremental,corrupt,2,19,18,0,0.9474,0,13,12,0.9231,lighting,"""Daylight""","""Dark\u2013Unlit""","""Dark\u2013Unlit""",,,,15,1,0,0,0,0,4007,221,0,1,1,0,,1,0
+cr_gen_02,crash_report,incremental,corrupt,3,25,20,0,0.8,0,15,13,0.8667,lighting,"""Daylight""","""Dark\u2013Unlit""","""Dark\u2013Unlit""",1,0,1,15,3,0,1,1,0,4125,329,0,1,1,0,,0,4.32
+cr_gen_02,crash_report,incremental,corrupt,4,25,20,0,0.8,0,15,14,0.9333,lighting,"""Daylight""","""Dark\u2013Unlit""","""Dark\u2013Unlit""",0,0,0,18,0,0,1,1,0,4316,341,0,1,1,0,,0,4.51
+cr_gen_02,crash_report,incremental,corrupt,5,25,20,0,0.8,0,15,14,0.9333,lighting,"""Daylight""","""Dark\u2013Unlit""","""Dark\u2013Unlit""",0,0,0,16,0,0,1,1,0,4409,353,0,1,1,0,,0,4.39
+cr_gen_02,crash_report,oracle,corrupt,1,19,19,0,1.0,1,13,13,1.0,lighting,"""Daylight""",null,null,,,,18,0,0,0,0,0,3928,191,0,1,1,0,,1,0
+cr_gen_02,crash_report,oracle,corrupt,2,19,18,0,0.9474,0,13,12,0.9231,lighting,"""Daylight""","""Dark\u2013Unlit""","""Dark\u2013Unlit""",,,,15,1,0,0,0,0,4007,221,0,1,1,0,,1,0
+cr_gen_02,crash_report,oracle,corrupt,3,25,22,0,0.88,0,15,14,0.9333,lighting,"""Daylight""","""Dark\u2013Unlit""","""Dark\u2013Unlit""",1,0,1,16,2,0,1,0,1,4122,304,0,1,1,0,,0,4.36
+cr_gen_02,crash_report,oracle,corrupt,4,25,21,0,0.84,0,15,15,1.0,lighting,"""Daylight""","""Dark\u2013Unlit""","""Dark\u2013Unlit""",0,0,0,21,2,0,0,0,0,4282,387,0,1,1,0,,1,0
+cr_gen_02,crash_report,oracle,corrupt,5,25,24,0,0.96,0,15,15,1.0,lighting,"""Daylight""","""Dark\u2013Unlit""","""Dark\u2013Unlit""",0,0,0,21,1,0,0,0,0,4396,339,0,1,1,0,,1,0
+cr_gen_03,crash_report,incremental,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,17,0,0,0,0,0,3923,198,0,1,1,0,,0,3.08
+cr_gen_03,crash_report,incremental,clean,2,25,23,0,0.92,0,15,15,1.0,,,,,,,,14,0,0,0,0,0,3997,288,0,1,1,0,,0,3.92
+cr_gen_03,crash_report,incremental,clean,3,31,27,0,0.871,0,17,17,1.0,,,,,,,,19,0,0,0,0,0,4157,366,0,1,1,0,,0,4.57
+cr_gen_03,crash_report,incremental,clean,4,31,26,0,0.8387,0,17,17,1.0,,,,,,,,23,0,0,0,0,0,4305,377,0,1,1,0,,0,5.28
+cr_gen_03,crash_report,incremental,clean,5,31,25,0,0.8065,0,17,17,1.0,,,,,,,,23,0,0,0,0,0,4375,383,0,1,1,0,,0,4.85
+cr_gen_03,crash_report,oracle,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,17,0,0,0,0,0,3923,198,0,1,1,0,,1,0
+cr_gen_03,crash_report,oracle,clean,2,25,23,0,0.92,0,15,15,1.0,,,,,,,,14,0,0,0,0,0,3997,288,0,1,1,0,,1,0
+cr_gen_03,crash_report,oracle,clean,3,31,29,0,0.9355,0,17,17,1.0,,,,,,,,21,1,0,0,0,0,4154,364,0,1,1,0,,0,5.05
+cr_gen_03,crash_report,oracle,clean,4,31,30,0,0.9677,0,17,17,1.0,,,,,,,,27,0,0,0,0,0,4302,373,0,1,1,0,,0,4.9
+cr_gen_03,crash_report,oracle,clean,5,31,28,0,0.9032,0,17,17,1.0,,,,,,,,28,2,0,0,0,0,4372,385,0,1,1,0,,0,4.99
+cr_gen_03,crash_report,rebuild,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,17,0,0,0,0,0,3923,198,0,1,1,0,,1,0
+cr_gen_03,crash_report,rebuild,clean,2,25,22,0,0.88,0,15,15,1.0,,,,,,,,14,0,0,0,0,0,3988,289,0,1,1,0,,0,3.97
+cr_gen_03,crash_report,rebuild,clean,3,31,27,0,0.871,0,17,16,0.9412,,,,,,,,18,1,1,0,0,0,4058,366,0,1,1,0,,0,4.71
+cr_gen_03,crash_report,rebuild,clean,4,31,25,0,0.8065,0,17,16,0.9412,,,,,,,,23,1,0,1,1,0,4128,419,0,1,1,0,,0,5.55
+cr_gen_03,crash_report,rebuild,clean,5,31,22,0,0.7097,0,17,16,0.9412,,,,,,,,22,2,2,1,1,0,4187,449,0,1,1,0,,0,5.53
+cr_gen_03,crash_report,incremental,corrupt,1,19,19,0,1.0,1,13,13,1.0,lighting,"""Dusk / Dawn""",null,null,,,,17,0,0,0,0,0,3923,198,0,1,1,0,,1,0
+cr_gen_03,crash_report,incremental,corrupt,2,25,23,0,0.92,0,15,15,1.0,lighting,"""Dusk / Dawn""","""Daylight""","""Daylight""",,,,14,0,0,0,0,0,3997,288,0,1,1,0,,1,0
+cr_gen_03,crash_report,incremental,corrupt,3,31,26,0,0.8387,0,17,16,0.9412,lighting,"""Dusk / Dawn""","""Daylight""","""Dusk / Dawn""",1,1,0,18,0,0,0,0,0,4159,364,0,1,1,0,,0,4.59
+cr_gen_03,crash_report,incremental,corrupt,4,31,25,0,0.8065,0,17,16,0.9412,lighting,"""Dusk / Dawn""","""Daylight""",null,1,0,0,22,0,0,0,0,0,4307,370,0,1,1,0,,0,4.91
+cr_gen_03,crash_report,incremental,corrupt,5,31,26,0,0.8387,0,17,16,0.9412,lighting,"""Dusk / Dawn""","""Daylight""",null,0,0,0,22,0,0,0,0,0,4372,378,0,1,1,0,,0,4.88
+cr_gen_03,crash_report,oracle,corrupt,1,19,19,0,1.0,1,13,13,1.0,lighting,"""Dusk / Dawn""",null,null,,,,17,0,0,0,0,0,3923,198,0,1,1,0,,1,0
+cr_gen_03,crash_report,oracle,corrupt,2,25,23,0,0.92,0,15,15,1.0,lighting,"""Dusk / Dawn""","""Daylight""","""Daylight""",,,,14,0,0,0,0,0,3997,288,0,1,1,0,,1,0
+cr_gen_03,crash_report,oracle,corrupt,3,31,27,0,0.871,0,17,16,0.9412,lighting,"""Dusk / Dawn""","""Daylight""","""Dusk / Dawn""",1,1,0,20,2,0,0,0,0,4156,403,0,1,1,0,,0,6.27
+cr_gen_03,crash_report,oracle,corrupt,4,31,29,0,0.9355,0,17,16,0.9412,lighting,"""Dusk / Dawn""","""Daylight""","""Dusk / Dawn""",1,1,0,26,0,0,0,0,0,4304,371,0,1,1,0,,0,5.16
+cr_gen_03,crash_report,oracle,corrupt,5,31,28,0,0.9032,0,17,16,0.9412,lighting,"""Dusk / Dawn""","""Daylight""","""Dusk / Dawn""",1,1,0,27,2,0,0,0,0,4374,379,0,1,1,0,,0,4.63
+cr_gen_04,crash_report,incremental,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,18,0,0,0,0,0,3906,191,0,1,1,0,,0,3.03
+cr_gen_04,crash_report,incremental,clean,2,37,30,0,0.8108,0,19,17,0.8947,,,,,,,,13,3,0,0,0,0,4004,461,0,1,1,0,,0,5.75
+cr_gen_04,crash_report,incremental,clean,3,37,29,0,0.7838,0,19,16,0.8421,,,,,,,,26,0,0,2,2,0,4345,468,0,1,1,0,,0,5.24
+cr_gen_04,crash_report,incremental,clean,4,37,30,0,0.8108,0,19,17,0.8947,,,,,,,,23,0,0,1,1,0,4433,487,0,1,1,0,,0,5.83
+cr_gen_04,crash_report,incremental,clean,5,41,30,0,0.7317,0,19,17,0.8947,,,,,,,,27,0,0,2,2,0,4510,554,0,1,1,0,,0,6.77
+cr_gen_04,crash_report,oracle,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,18,0,0,0,0,0,3906,191,0,1,1,0,,1,0
+cr_gen_04,crash_report,oracle,clean,2,37,30,0,0.8108,0,19,17,0.8947,,,,,,,,13,3,0,0,0,0,4004,461,0,1,1,0,,1,0
+cr_gen_04,crash_report,oracle,clean,3,37,34,0,0.9189,0,19,17,0.8947,,,,,,,,32,1,0,2,1,1,4293,421,0,1,1,0,,0,4.86
+cr_gen_04,crash_report,oracle,clean,4,37,36,0,0.973,0,19,19,1.0,,,,,,,,28,0,0,1,0,1,4388,450,0,1,1,0,,0,5.29
+cr_gen_04,crash_report,oracle,clean,5,41,37,0,0.9024,0,19,19,1.0,,,,,,,,34,0,0,0,0,0,4476,504,0,1,1,0,,0,5.88
+cr_gen_04,crash_report,rebuild,clean,1,19,19,0,1.0,1,13,13,1.0,,,,,,,,18,0,0,0,0,0,3906,191,0,1,1,0,,1,0
+cr_gen_04,crash_report,rebuild,clean,2,37,32,0,0.8649,0,19,17,0.8947,,,,,,,,13,2,0,0,0,0,3998,296,0,1,1,0,,0,3.62
+cr_gen_04,crash_report,rebuild,clean,3,37,32,0,0.8649,0,19,17,0.8947,,,,,,,,27,0,0,2,2,0,4069,419,0,1,1,0,,0,5.36
+cr_gen_04,crash_report,rebuild,clean,4,37,31,0,0.8378,0,19,17,0.8947,,,,,,,,25,1,1,0,0,0,4150,442,0,1,1,0,,0,5.27
+cr_gen_04,crash_report,rebuild,clean,5,41,32,0,0.7805,0,19,19,1.0,,,,,,,,28,1,0,2,0,2,4212,517,0,1,1,0,,0,6.13
+cr_gen_04,crash_report,incremental,corrupt,1,19,19,0,1.0,1,13,13,1.0,lighting,"""Dark\u2013Lit""",null,null,,,,18,0,0,0,0,0,3906,191,0,1,1,0,,1,0
+cr_gen_04,crash_report,incremental,corrupt,2,37,30,0,0.8108,0,19,17,0.8947,lighting,"""Dark\u2013Lit""","""Dusk / Dawn""","""Dusk / Dawn""",,,,13,3,0,0,0,0,4004,461,0,1,1,0,,1,0
+cr_gen_04,crash_report,incremental,corrupt,3,37,29,0,0.7838,0,19,16,0.8421,lighting,"""Dark\u2013Lit""","""Dusk / Dawn""","""Dusk / Dawn""",1,0,1,25,0,0,2,2,0,4344,468,0,1,1,0,,0,5.3
+cr_gen_04,crash_report,incremental,corrupt,4,37,30,0,0.8108,0,19,17,0.8947,lighting,"""Dark\u2013Lit""","""Dusk / Dawn""","""Dusk / Dawn""",0,0,0,23,0,0,1,1,0,4433,487,0,1,1,0,,1,0
+cr_gen_04,crash_report,incremental,corrupt,5,41,30,0,0.7317,0,19,17,0.8947,lighting,"""Dark\u2013Lit""","""Dusk / Dawn""","""Dusk / Dawn""",0,0,0,27,0,0,2,2,0,4510,554,0,1,1,0,,1,0
+cr_gen_04,crash_report,oracle,corrupt,1,19,19,0,1.0,1,13,13,1.0,lighting,"""Dark\u2013Lit""",null,null,,,,18,0,0,0,0,0,3906,191,0,1,1,0,,1,0
+cr_gen_04,crash_report,oracle,corrupt,2,37,30,0,0.8108,0,19,17,0.8947,lighting,"""Dark\u2013Lit""","""Dusk / Dawn""","""Dusk / Dawn""",,,,13,3,0,0,0,0,4004,461,0,1,1,0,,1,0
+cr_gen_04,crash_report,oracle,corrupt,3,37,35,0,0.9459,0,19,18,0.9474,lighting,"""Dark\u2013Lit""","""Dusk / Dawn""","""Dusk / Dawn""",1,0,1,31,1,0,2,1,1,4292,422,0,1,1,0,,0,5.2
+cr_gen_04,crash_report,oracle,corrupt,4,37,36,0,0.973,0,19,19,1.0,lighting,"""Dark\u2013Lit""","""Dusk / Dawn""","""Dusk / Dawn""",0,0,0,28,0,0,0,0,0,4388,450,0,1,1,0,,1,0
+cr_gen_04,crash_report,oracle,corrupt,5,41,37,0,0.9024,0,19,19,1.0,lighting,"""Dark\u2013Lit""","""Dusk / Dawn""","""Dusk / Dawn""",0,0,0,34,0,0,0,0,0,4476,504,0,1,1,0,,1,0
+pa_gen_01,patient_admin,incremental,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,31,0,0,0,0,0,5447,404,0,1,1,0,,1,0
+pa_gen_01,patient_admin,incremental,clean,2,37,35,0,0.9459,0,21,20,0.9524,,,,,,,,32,2,0,0,0,0,5551,413,0,1,1,0,,1,0
+pa_gen_01,patient_admin,incremental,clean,3,37,35,0,0.9459,0,21,20,0.9524,,,,,,,,33,0,0,1,1,0,5607,416,0,1,1,0,,0,5.22
+pa_gen_01,patient_admin,incremental,clean,4,45,43,0,0.9556,0,23,22,0.9565,,,,,,,,33,0,0,1,1,0,5676,499,0,1,1,0,,0,5.82
+pa_gen_01,patient_admin,incremental,clean,5,49,47,0,0.9592,0,24,23,0.9583,,,,,,,,39,0,0,1,1,0,5811,551,0,1,1,0,,0,6.57
+pa_gen_01,patient_admin,oracle,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,31,0,0,0,0,0,5447,404,0,1,1,0,,0,8.96
+pa_gen_01,patient_admin,oracle,clean,2,37,35,0,0.9459,0,21,20,0.9524,,,,,,,,32,2,0,0,0,0,5551,413,0,1,1,0,,0,5.47
+pa_gen_01,patient_admin,oracle,clean,3,37,37,0,1.0,1,21,21,1.0,,,,,,,,35,0,0,1,0,1,5603,416,0,1,1,0,,0,6.33
+pa_gen_01,patient_admin,oracle,clean,4,45,45,0,1.0,1,23,23,1.0,,,,,,,,35,0,0,0,0,0,5672,495,0,1,1,0,,0,5.43
+pa_gen_01,patient_admin,oracle,clean,5,49,49,0,1.0,1,24,24,1.0,,,,,,,,41,0,0,0,0,0,5807,547,0,1,1,0,,0,6.88
+pa_gen_01,patient_admin,rebuild,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,31,0,0,0,0,0,5447,404,0,1,1,0,,1,0
+pa_gen_01,patient_admin,rebuild,clean,2,37,37,0,1.0,1,21,21,1.0,,,,,,,,32,0,0,0,0,0,5505,409,0,1,1,0,,0,5.1
+pa_gen_01,patient_admin,rebuild,clean,3,37,37,0,1.0,1,21,21,1.0,,,,,,,,35,0,0,0,0,0,5548,412,0,1,1,0,,0,5.44
+pa_gen_01,patient_admin,rebuild,clean,4,45,45,0,1.0,1,23,23,1.0,,,,,,,,35,0,0,0,0,0,5614,491,0,1,1,0,,0,5.36
+pa_gen_01,patient_admin,rebuild,clean,5,49,47,0,0.9592,0,24,23,0.9583,,,,,,,,41,2,0,0,0,0,5666,547,0,1,1,0,,0,6.11
+pa_gen_01,patient_admin,incremental,corrupt,1,37,37,0,1.0,1,21,21,1.0,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",,,,31,0,0,0,0,0,5447,404,0,1,1,0,,1,0
+pa_gen_01,patient_admin,incremental,corrupt,2,37,35,0,0.9459,0,21,20,0.9524,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",,,,32,2,0,0,0,0,5551,413,0,1,1,0,,1,0
+pa_gen_01,patient_admin,incremental,corrupt,3,37,32,0,0.8649,0,21,17,0.8095,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",1,0,1,32,3,0,1,1,0,5606,423,0,1,1,0,,0,5.43
+pa_gen_01,patient_admin,incremental,corrupt,4,45,41,0,0.9111,0,23,20,0.8696,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",0,0,0,31,0,0,3,3,0,5679,505,0,1,1,0,,0,5.68
+pa_gen_01,patient_admin,incremental,corrupt,5,49,46,0,0.9388,0,24,22,0.9167,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",0,0,0,38,0,0,2,2,0,5813,552,0,1,1,0,,0,5.96
+pa_gen_01,patient_admin,oracle,corrupt,1,37,37,0,1.0,1,21,21,1.0,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",,,,31,0,0,0,0,0,5447,404,0,1,1,0,,1,0
+pa_gen_01,patient_admin,oracle,corrupt,2,37,35,0,0.9459,0,21,20,0.9524,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",,,,32,2,0,0,0,0,5551,413,0,1,1,0,,1,0
+pa_gen_01,patient_admin,oracle,corrupt,3,37,37,0,1.0,1,21,21,1.0,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",1,0,1,34,0,0,1,0,1,5602,416,0,1,1,0,,0,4.93
+pa_gen_01,patient_admin,oracle,corrupt,4,45,45,0,1.0,1,23,23,1.0,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",0,0,0,35,0,0,0,0,0,5672,495,0,1,1,0,,1,0
+pa_gen_01,patient_admin,oracle,corrupt,5,49,49,0,1.0,1,24,24,1.0,pain_details[0].pain_severity,"""High""","""Moderate""","""Moderate""",0,0,0,41,0,0,0,0,0,5807,547,0,1,1,0,,1,0
+pa_gen_02,patient_admin,incremental,clean,1,37,35,0,0.9459,0,21,21,1.0,,,,,,,,31,0,0,0,0,0,5460,408,0,1,1,0,,0,8.96
+pa_gen_02,patient_admin,incremental,clean,2,41,39,0,0.9512,0,22,22,1.0,,,,,,,,33,0,0,0,0,0,5569,455,0,1,1,0,,0,6.22
+pa_gen_02,patient_admin,incremental,clean,3,41,39,0,0.9512,0,22,22,1.0,,,,,,,,37,0,0,0,0,0,5645,455,0,1,1,0,,0,5.08
+pa_gen_02,patient_admin,incremental,clean,4,41,39,0,0.9512,0,22,22,1.0,,,,,,,,37,0,0,0,0,0,5693,454,0,1,1,0,,0,4.97
+pa_gen_02,patient_admin,incremental,clean,5,45,43,0,0.9556,0,24,24,1.0,,,,,,,,36,0,0,0,0,0,5737,498,0,1,1,0,,0,5.48
+pa_gen_02,patient_admin,oracle,clean,1,37,35,0,0.9459,0,21,21,1.0,,,,,,,,31,0,0,0,0,0,5460,408,0,1,1,0,,1,0
+pa_gen_02,patient_admin,oracle,clean,2,41,41,0,1.0,1,22,22,1.0,,,,,,,,35,0,0,0,0,0,5560,450,0,1,1,0,,0,6.12
+pa_gen_02,patient_admin,oracle,clean,3,41,41,0,1.0,1,22,22,1.0,,,,,,,,39,0,0,0,0,0,5636,450,0,1,1,0,,0,4.58
+pa_gen_02,patient_admin,oracle,clean,4,41,40,0,0.9756,0,22,22,1.0,,,,,,,,38,0,0,0,0,0,5684,450,0,1,1,0,,0,5.46
+pa_gen_02,patient_admin,oracle,clean,5,45,45,0,1.0,1,24,24,1.0,,,,,,,,38,0,0,0,0,0,5728,489,0,1,1,0,,0,5.66
+pa_gen_02,patient_admin,rebuild,clean,1,37,35,0,0.9459,0,21,21,1.0,,,,,,,,31,0,0,0,0,0,5460,408,0,1,1,0,,1,0
+pa_gen_02,patient_admin,rebuild,clean,2,41,39,0,0.9512,0,22,22,1.0,,,,,,,,33,0,0,0,0,0,5515,460,0,1,1,0,,0,5.88
+pa_gen_02,patient_admin,rebuild,clean,3,41,39,0,0.9512,0,22,22,1.0,,,,,,,,37,0,0,0,0,0,5544,459,0,1,1,0,,0,5.4
+pa_gen_02,patient_admin,rebuild,clean,4,41,40,0,0.9756,0,22,22,1.0,,,,,,,,37,0,0,0,0,0,5592,452,0,1,1,0,,0,5.31
+pa_gen_02,patient_admin,rebuild,clean,5,45,43,0,0.9556,0,24,24,1.0,,,,,,,,37,1,1,0,0,0,5637,502,0,1,1,0,,0,5.68
+pa_gen_02,patient_admin,incremental,corrupt,1,37,35,0,0.9459,0,21,21,1.0,allergies[0].allergy_severity,"""Severe""",null,null,,,,31,0,0,0,0,0,5460,408,0,1,1,0,,1,0
+pa_gen_02,patient_admin,incremental,corrupt,2,41,39,0,0.9512,0,22,22,1.0,allergies[0].allergy_severity,"""Severe""","""Moderate""","""Moderate""",,,,33,0,0,0,0,0,5569,455,0,1,1,0,,1,0
+pa_gen_02,patient_admin,incremental,corrupt,3,41,39,0,0.9512,0,22,22,1.0,allergies[0].allergy_severity,"""Severe""","""Moderate""","""Moderate""",1,0,1,36,0,0,0,0,0,5645,455,0,1,1,0,,0,6.04
+pa_gen_02,patient_admin,incremental,corrupt,4,41,39,0,0.9512,0,22,22,1.0,allergies[0].allergy_severity,"""Severe""","""Moderate""","""Moderate""",0,0,0,37,0,0,0,0,0,5693,454,0,1,1,0,,1,0
+pa_gen_02,patient_admin,incremental,corrupt,5,45,43,0,0.9556,0,24,24,1.0,allergies[0].allergy_severity,"""Severe""","""Moderate""","""Moderate""",0,0,0,36,0,0,0,0,0,5737,498,0,1,1,0,,1,0
+pa_gen_02,patient_admin,oracle,corrupt,1,37,35,0,0.9459,0,21,21,1.0,allergies[0].allergy_severity,"""Severe""",null,null,,,,31,0,0,0,0,0,5460,408,0,1,1,0,,1,0
+pa_gen_02,patient_admin,oracle,corrupt,2,41,41,0,1.0,1,22,22,1.0,allergies[0].allergy_severity,"""Severe""","""Moderate""","""Moderate""",,,,35,0,0,0,0,0,5560,450,0,1,1,0,,1,0
+pa_gen_02,patient_admin,oracle,corrupt,3,41,41,0,1.0,1,22,22,1.0,allergies[0].allergy_severity,"""Severe""","""Moderate""","""Moderate""",1,0,1,38,0,0,0,0,0,5636,446,0,1,1,0,,0,5.79
+pa_gen_02,patient_admin,oracle,corrupt,4,41,40,0,0.9756,0,22,22,1.0,allergies[0].allergy_severity,"""Severe""","""Moderate""","""Moderate""",0,0,0,38,0,0,0,0,0,5684,450,0,1,1,0,,1,0
+pa_gen_02,patient_admin,oracle,corrupt,5,45,45,0,1.0,1,24,24,1.0,allergies[0].allergy_severity,"""Severe""","""Moderate""","""Moderate""",0,0,0,38,0,0,0,0,0,5728,489,0,1,1,0,,1,0
+pa_gen_03,patient_admin,incremental,clean,1,41,40,0,0.9756,0,22,22,1.0,,,,,,,,31,0,0,0,0,0,5442,434,0,1,1,0,,0,5.82
+pa_gen_03,patient_admin,incremental,clean,2,41,40,0,0.9756,0,22,22,1.0,,,,,,,,36,0,0,0,0,0,5578,441,0,1,1,0,,0,5.22
+pa_gen_03,patient_admin,incremental,clean,3,45,44,0,0.9778,0,23,23,1.0,,,,,,,,39,0,0,0,0,0,5620,484,0,1,1,0,,0,5.3
+pa_gen_03,patient_admin,incremental,clean,4,45,44,0,0.9778,0,23,23,1.0,,,,,,,,42,0,0,0,0,0,5721,486,0,1,1,0,,0,6.02
+pa_gen_03,patient_admin,incremental,clean,5,45,44,0,0.9778,0,23,23,1.0,,,,,,,,42,0,0,0,0,0,5753,488,0,1,1,0,,0,5.7
+pa_gen_03,patient_admin,oracle,clean,1,41,40,0,0.9756,0,22,22,1.0,,,,,,,,31,0,0,0,0,0,5442,434,0,1,1,0,,1,0
+pa_gen_03,patient_admin,oracle,clean,2,41,41,0,1.0,1,22,22,1.0,,,,,,,,37,0,0,0,0,0,5579,438,0,1,1,0,,0,5.08
+pa_gen_03,patient_admin,oracle,clean,3,45,45,0,1.0,1,23,23,1.0,,,,,,,,40,0,0,0,0,0,5621,485,0,1,1,0,,0,5.25
+pa_gen_03,patient_admin,oracle,clean,4,45,45,0,1.0,1,23,23,1.0,,,,,,,,43,0,0,0,0,0,5722,487,0,1,1,0,,0,5.98
+pa_gen_03,patient_admin,oracle,clean,5,45,45,0,1.0,1,23,23,1.0,,,,,,,,43,0,0,0,0,0,5754,489,0,1,1,0,,0,6.22
+pa_gen_03,patient_admin,rebuild,clean,1,41,40,0,0.9756,0,22,22,1.0,,,,,,,,31,0,0,0,0,0,5442,434,0,1,1,0,,1,0
+pa_gen_03,patient_admin,rebuild,clean,2,41,40,0,0.9756,0,22,22,1.0,,,,,,,,36,0,0,0,0,0,5498,437,0,1,1,0,,0,5.28
+pa_gen_03,patient_admin,rebuild,clean,3,45,44,0,0.9778,0,23,23,1.0,,,,,,,,39,0,0,0,0,0,5537,484,0,1,1,0,,0,5.67
+pa_gen_03,patient_admin,rebuild,clean,4,45,43,0,0.9556,0,23,22,0.9565,,,,,,,,42,1,0,0,0,0,5591,488,0,1,1,0,,0,5.61
+pa_gen_03,patient_admin,rebuild,clean,5,45,44,0,0.9778,0,23,23,1.0,,,,,,,,41,0,0,1,0,1,5621,492,0,1,1,0,,0,5.78
+pa_gen_03,patient_admin,incremental,corrupt,1,41,40,0,0.9756,0,22,22,1.0,ambulatory_aid_use,"""Yes (uses)""",null,null,,,,31,0,0,0,0,0,5442,434,0,1,1,0,,1,0
+pa_gen_03,patient_admin,incremental,corrupt,2,41,40,0,0.9756,0,22,22,1.0,ambulatory_aid_use,"""Yes (uses)""","""No""","""No""",,,,36,0,0,0,0,0,5578,441,0,1,1,0,,1,0
+pa_gen_03,patient_admin,incremental,corrupt,3,45,44,0,0.9778,0,23,23,1.0,ambulatory_aid_use,"""Yes (uses)""","""No""","""No""",1,0,1,38,0,0,0,0,0,5622,484,0,1,1,0,,0,5.84
+pa_gen_03,patient_admin,incremental,corrupt,4,45,44,0,0.9778,0,23,23,1.0,ambulatory_aid_use,"""Yes (uses)""","""No""","""No""",0,0,0,42,0,0,0,0,0,5721,486,0,1,1,0,,1,0
+pa_gen_03,patient_admin,incremental,corrupt,5,45,44,0,0.9778,0,23,23,1.0,ambulatory_aid_use,"""Yes (uses)""","""No""","""No""",0,0,0,42,0,0,0,0,0,5753,488,0,1,1,0,,1,0
+pa_gen_03,patient_admin,oracle,corrupt,1,41,40,0,0.9756,0,22,22,1.0,ambulatory_aid_use,"""Yes (uses)""",null,null,,,,31,0,0,0,0,0,5442,434,0,1,1,0,,1,0
+pa_gen_03,patient_admin,oracle,corrupt,2,41,41,0,1.0,1,22,22,1.0,ambulatory_aid_use,"""Yes (uses)""","""No""","""No""",,,,37,0,0,0,0,0,5579,438,0,1,1,0,,1,0
+pa_gen_03,patient_admin,oracle,corrupt,3,45,45,0,1.0,1,23,23,1.0,ambulatory_aid_use,"""Yes (uses)""","""No""","""No""",1,0,1,39,0,0,0,0,0,5623,489,0,1,1,0,,0,5.56
+pa_gen_03,patient_admin,oracle,corrupt,4,45,45,0,1.0,1,23,23,1.0,ambulatory_aid_use,"""Yes (uses)""","""No""","""No""",0,0,0,43,0,0,0,0,0,5722,487,0,1,1,0,,1,0
+pa_gen_03,patient_admin,oracle,corrupt,5,45,45,0,1.0,1,23,23,1.0,ambulatory_aid_use,"""Yes (uses)""","""No""","""No""",0,0,0,43,0,0,0,0,0,5754,489,0,1,1,0,,1,0
+pa_gen_04,patient_admin,incremental,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,31,0,0,0,0,0,5446,403,0,1,1,0,,0,4.43
+pa_gen_04,patient_admin,incremental,clean,2,41,41,0,1.0,1,22,22,1.0,,,,,,,,33,0,0,0,0,0,5545,446,0,1,1,0,,0,5.95
+pa_gen_04,patient_admin,incremental,clean,3,45,45,0,1.0,1,24,24,1.0,,,,,,,,39,0,0,0,0,0,5633,486,0,1,1,0,,0,5.43
+pa_gen_04,patient_admin,incremental,clean,4,49,49,0,1.0,1,25,25,1.0,,,,,,,,44,0,0,0,0,0,5710,532,0,1,1,0,,0,6.11
+pa_gen_04,patient_admin,incremental,clean,5,49,48,0,0.9796,0,25,25,1.0,,,,,,,,46,1,0,0,0,0,5793,540,0,1,1,0,,0,5.84
+pa_gen_04,patient_admin,oracle,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,31,0,0,0,0,0,5446,403,0,1,1,0,,1,0
+pa_gen_04,patient_admin,oracle,clean,2,41,41,0,1.0,1,22,22,1.0,,,,,,,,33,0,0,0,0,0,5545,446,0,1,1,0,,1,0
+pa_gen_04,patient_admin,oracle,clean,3,45,45,0,1.0,1,24,24,1.0,,,,,,,,39,0,0,0,0,0,5633,486,0,1,1,0,,1,0
+pa_gen_04,patient_admin,oracle,clean,4,49,49,0,1.0,1,25,25,1.0,,,,,,,,44,0,0,0,0,0,5710,532,0,1,1,0,,1,0
+pa_gen_04,patient_admin,oracle,clean,5,49,48,0,0.9796,0,25,25,1.0,,,,,,,,46,1,0,0,0,0,5793,540,0,1,1,0,,1,0
+pa_gen_04,patient_admin,rebuild,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,31,0,0,0,0,0,5446,403,0,1,1,0,,1,0
+pa_gen_04,patient_admin,rebuild,clean,2,41,40,0,0.9756,0,22,21,0.9545,,,,,,,,33,1,1,0,0,0,5500,443,0,1,1,0,,0,5.74
+pa_gen_04,patient_admin,rebuild,clean,3,45,45,0,1.0,1,24,24,1.0,,,,,,,,39,0,0,0,0,0,5545,490,0,1,1,0,,0,5.28
+pa_gen_04,patient_admin,rebuild,clean,4,49,49,0,1.0,1,25,25,1.0,,,,,,,,44,0,0,0,0,0,5578,532,0,1,1,0,,0,5.86
+pa_gen_04,patient_admin,rebuild,clean,5,49,48,0,0.9796,0,25,25,1.0,,,,,,,,46,1,0,0,0,0,5615,540,0,1,1,0,,0,6.23
+pa_gen_04,patient_admin,incremental,corrupt,1,37,37,0,1.0,1,21,21,1.0,ambulatory_aid_use,"""Has but does not use""",null,null,,,,31,0,0,0,0,0,5446,403,0,1,1,0,,1,0
+pa_gen_04,patient_admin,incremental,corrupt,2,41,41,0,1.0,1,22,22,1.0,ambulatory_aid_use,"""Has but does not use""","""Yes (uses)""","""Yes (uses)""",,,,33,0,0,0,0,0,5545,446,0,1,1,0,,1,0
+pa_gen_04,patient_admin,incremental,corrupt,3,45,44,0,0.9778,0,24,23,0.9583,ambulatory_aid_use,"""Has but does not use""","""Yes (uses)""","""Has but does not use""",1,1,0,38,0,0,0,0,0,5635,492,0,1,1,0,,0,5.46
+pa_gen_04,patient_admin,incremental,corrupt,4,49,49,0,1.0,1,25,25,1.0,ambulatory_aid_use,"""Has but does not use""","""Yes (uses)""","""Yes (uses)""",1,0,1,43,0,0,0,0,0,5712,536,0,1,1,0,,0,6.09
+pa_gen_04,patient_admin,incremental,corrupt,5,49,48,0,0.9796,0,25,25,1.0,ambulatory_aid_use,"""Has but does not use""","""Yes (uses)""","""Yes (uses)""",0,0,0,46,1,0,0,0,0,5793,540,0,1,1,0,,1,0
+pa_gen_04,patient_admin,oracle,corrupt,1,37,37,0,1.0,1,21,21,1.0,ambulatory_aid_use,"""Has but does not use""",null,null,,,,31,0,0,0,0,0,5446,403,0,1,1,0,,1,0
+pa_gen_04,patient_admin,oracle,corrupt,2,41,41,0,1.0,1,22,22,1.0,ambulatory_aid_use,"""Has but does not use""","""Yes (uses)""","""Yes (uses)""",,,,33,0,0,0,0,0,5545,446,0,1,1,0,,1,0
+pa_gen_04,patient_admin,oracle,corrupt,3,45,44,0,0.9778,0,24,23,0.9583,ambulatory_aid_use,"""Has but does not use""","""Yes (uses)""","""Has but does not use""",1,1,0,38,0,0,0,0,0,5635,492,0,1,1,0,,1,0
+pa_gen_04,patient_admin,oracle,corrupt,4,49,49,0,1.0,1,25,25,1.0,ambulatory_aid_use,"""Has but does not use""","""Yes (uses)""","""Yes (uses)""",1,0,1,43,0,0,0,0,0,5712,536,0,1,1,0,,1,0
+pa_gen_04,patient_admin,oracle,corrupt,5,49,48,0,0.9796,0,25,25,1.0,ambulatory_aid_use,"""Has but does not use""","""Yes (uses)""","""Yes (uses)""",0,0,0,46,1,0,0,0,0,5793,540,0,1,1,0,,1,0
+pa_gen_05,patient_admin,incremental,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,31,0,0,0,0,0,5447,400,0,1,1,0,,0,4.86
+pa_gen_05,patient_admin,incremental,clean,2,37,36,0,0.973,0,21,21,1.0,,,,,,,,33,1,0,0,0,0,5549,408,0,1,1,0,,0,4.81
+pa_gen_05,patient_admin,incremental,clean,3,45,42,0,0.9333,0,23,21,0.913,,,,,,,,34,0,0,0,0,0,5614,493,0,1,1,0,,0,5.37
+pa_gen_05,patient_admin,incremental,clean,4,49,46,0,0.9388,0,25,23,0.92,,,,,,,,41,0,0,2,2,0,5744,535,0,1,1,0,,0,6.45
+pa_gen_05,patient_admin,incremental,clean,5,49,46,0,0.9388,0,25,23,0.92,,,,,,,,44,0,0,2,2,0,5828,535,0,1,1,0,,0,6.1
+pa_gen_05,patient_admin,oracle,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,31,0,0,0,0,0,5447,400,0,1,1,0,,1,0
+pa_gen_05,patient_admin,oracle,clean,2,37,36,0,0.973,0,21,21,1.0,,,,,,,,33,1,0,0,0,0,5549,408,0,1,1,0,,1,0
+pa_gen_05,patient_admin,oracle,clean,3,45,43,0,0.9556,0,23,21,0.913,,,,,,,,35,0,0,0,0,0,5612,491,0,1,1,0,,0,5.15
+pa_gen_05,patient_admin,oracle,clean,4,49,48,0,0.9796,0,25,25,1.0,,,,,,,,44,0,0,2,0,2,5740,539,0,1,1,0,,0,6.48
+pa_gen_05,patient_admin,oracle,clean,5,49,49,0,1.0,1,25,25,1.0,,,,,,,,47,0,0,0,0,0,5824,531,0,1,1,0,,0,5.86
+pa_gen_05,patient_admin,rebuild,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,31,0,0,0,0,0,5447,400,0,1,1,0,,1,0
+pa_gen_05,patient_admin,rebuild,clean,2,37,34,0,0.9189,0,21,21,1.0,,,,,,,,33,1,0,0,0,0,5507,406,0,1,1,0,,0,4.76
+pa_gen_05,patient_admin,rebuild,clean,3,45,43,0,0.9556,0,23,23,1.0,,,,,,,,33,0,0,0,0,0,5564,491,0,1,1,0,,0,5.21
+pa_gen_05,patient_admin,rebuild,clean,4,49,43,0,0.8776,0,25,23,0.92,,,,,,,,42,3,0,0,0,0,5605,543,0,1,1,0,,0,6.19
+pa_gen_05,patient_admin,rebuild,clean,5,49,44,0,0.898,0,25,23,0.92,,,,,,,,41,0,0,2,0,0,5647,549,0,1,1,0,,0,6.1
+pa_gen_05,patient_admin,incremental,corrupt,1,37,37,0,1.0,1,21,21,1.0,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",,,,31,0,0,0,0,0,5447,400,0,1,1,0,,1,0
+pa_gen_05,patient_admin,incremental,corrupt,2,37,36,0,0.973,0,21,21,1.0,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",,,,33,1,0,0,0,0,5549,408,0,1,1,0,,1,0
+pa_gen_05,patient_admin,incremental,corrupt,3,45,42,0,0.9333,0,23,21,0.913,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",1,0,1,33,0,0,0,0,0,5614,497,0,1,1,0,,0,5.79
+pa_gen_05,patient_admin,incremental,corrupt,4,49,46,0,0.9388,0,25,23,0.92,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",0,0,0,41,0,0,2,2,0,5744,535,0,1,1,0,,1,0
+pa_gen_05,patient_admin,incremental,corrupt,5,49,46,0,0.9388,0,25,23,0.92,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",0,0,0,44,0,0,2,2,0,5828,535,0,1,1,0,,1,0
+pa_gen_05,patient_admin,oracle,corrupt,1,37,37,0,1.0,1,21,21,1.0,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",,,,31,0,0,0,0,0,5447,400,0,1,1,0,,1,0
+pa_gen_05,patient_admin,oracle,corrupt,2,37,36,0,0.973,0,21,21,1.0,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",,,,33,1,0,0,0,0,5549,408,0,1,1,0,,1,0
+pa_gen_05,patient_admin,oracle,corrupt,3,45,43,0,0.9556,0,23,21,0.913,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",1,0,1,34,0,0,0,0,0,5612,497,0,1,1,0,,0,5.76
+pa_gen_05,patient_admin,oracle,corrupt,4,49,48,0,0.9796,0,25,25,1.0,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",0,0,0,44,0,0,2,0,2,5740,539,0,1,1,0,,1,0
+pa_gen_05,patient_admin,oracle,corrupt,5,49,49,0,1.0,1,25,25,1.0,pain_details[0].pain_severity,"""Moderate""","""Mild""","""Mild""",0,0,0,47,0,0,0,0,0,5824,531,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,incremental,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,30,0,0,0,0,0,5449,403,0,1,1,0,,0,4.81
+pa_handmade_01,patient_admin,incremental,clean,2,41,41,0,1.0,1,22,22,1.0,,,,,,,,31,0,0,0,0,0,5549,448,0,1,1,0,,0,5.18
+pa_handmade_01,patient_admin,incremental,clean,3,45,45,0,1.0,1,23,23,1.0,,,,,,,,40,0,0,0,0,0,5627,495,0,1,1,0,,0,5.26
+pa_handmade_01,patient_admin,incremental,clean,4,45,45,0,1.0,1,23,23,1.0,,,,,,,,43,0,0,0,0,0,5708,499,0,1,1,0,,0,5.19
+pa_handmade_01,patient_admin,incremental,clean,5,45,45,0,1.0,1,23,23,1.0,,,,,,,,42,0,0,0,0,0,5734,497,0,1,1,0,,0,5.4
+pa_handmade_01,patient_admin,oracle,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,30,0,0,0,0,0,5449,403,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,oracle,clean,2,41,41,0,1.0,1,22,22,1.0,,,,,,,,31,0,0,0,0,0,5549,448,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,oracle,clean,3,45,45,0,1.0,1,23,23,1.0,,,,,,,,40,0,0,0,0,0,5627,495,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,oracle,clean,4,45,45,0,1.0,1,23,23,1.0,,,,,,,,43,0,0,0,0,0,5708,499,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,oracle,clean,5,45,45,0,1.0,1,23,23,1.0,,,,,,,,42,0,0,0,0,0,5734,497,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,rebuild,clean,1,37,37,0,1.0,1,21,21,1.0,,,,,,,,30,0,0,0,0,0,5449,403,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,rebuild,clean,2,41,41,0,1.0,1,22,22,1.0,,,,,,,,31,0,0,0,0,0,5504,444,0,1,1,0,,0,5.13
+pa_handmade_01,patient_admin,rebuild,clean,3,45,44,0,0.9778,0,23,23,1.0,,,,,,,,40,1,1,0,0,0,5533,492,0,1,1,0,,0,5.66
+pa_handmade_01,patient_admin,rebuild,clean,4,45,45,0,1.0,1,23,23,1.0,,,,,,,,42,0,0,0,0,0,5567,495,0,1,1,0,,0,5.54
+pa_handmade_01,patient_admin,rebuild,clean,5,45,45,0,1.0,1,23,23,1.0,,,,,,,,42,0,0,0,0,0,5593,493,0,1,1,0,,0,5.13
+pa_handmade_01,patient_admin,incremental,corrupt,1,37,37,0,1.0,1,21,21,1.0,current_medications[0].route,"""Inhaled""",null,null,,,,30,0,0,0,0,0,5449,403,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,incremental,corrupt,2,41,41,0,1.0,1,22,22,1.0,current_medications[0].route,"""Inhaled""","""Oral""","""Oral""",,,,31,0,0,0,0,0,5549,448,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,incremental,corrupt,3,45,45,0,1.0,1,23,23,1.0,current_medications[0].route,"""Inhaled""","""Oral""","""Oral""",1,0,1,39,0,0,0,0,0,5629,495,0,1,1,0,,0,10.89
+pa_handmade_01,patient_admin,incremental,corrupt,4,45,45,0,1.0,1,23,23,1.0,current_medications[0].route,"""Inhaled""","""Oral""","""Oral""",0,0,0,43,0,0,0,0,0,5708,499,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,incremental,corrupt,5,45,45,0,1.0,1,23,23,1.0,current_medications[0].route,"""Inhaled""","""Oral""","""Oral""",0,0,0,42,0,0,0,0,0,5734,497,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,oracle,corrupt,1,37,37,0,1.0,1,21,21,1.0,current_medications[0].route,"""Inhaled""",null,null,,,,30,0,0,0,0,0,5449,403,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,oracle,corrupt,2,41,41,0,1.0,1,22,22,1.0,current_medications[0].route,"""Inhaled""","""Oral""","""Oral""",,,,31,0,0,0,0,0,5549,448,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,oracle,corrupt,3,45,45,0,1.0,1,23,23,1.0,current_medications[0].route,"""Inhaled""","""Oral""","""Oral""",1,0,1,39,0,0,0,0,0,5629,495,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,oracle,corrupt,4,45,45,0,1.0,1,23,23,1.0,current_medications[0].route,"""Inhaled""","""Oral""","""Oral""",0,0,0,43,0,0,0,0,0,5708,499,0,1,1,0,,1,0
+pa_handmade_01,patient_admin,oracle,corrupt,5,45,45,0,1.0,1,23,23,1.0,current_medications[0].route,"""Inhaled""","""Oral""","""Oral""",0,0,0,42,0,0,0,0,0,5734,497,0,1,1,0,,1,0

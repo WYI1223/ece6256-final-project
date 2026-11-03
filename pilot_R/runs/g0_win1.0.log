@@ -1,0 +1,193 @@
+C:\Users\W_YI\miniconda3\envs\fdb\Lib\site-packages\speechbrain\utils\autocast.py:188: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  wrapped_fwd = torch.cuda.amp.custom_fwd(fwd, cast_inputs=cast_inputs)
+talking_other windows scored
+bkg_speech windows scored
+user_backchannel windows scored
+user_interruption windows scored
+{
+  "tag": "win1.0_ctx0.0",
+  "threshold": 0.136,
+  "threshold_rule": "window-level EER (bkg_speech overlap vs user_interruption overlap), tuned on even ids",
+  "all": {
+    "talking_other": {
+      "n": 100,
+      "muted_overlap_frac_mean": 0.198,
+      "muted_overlap_frac_median": 0.137,
+      "clips_overlap_mostly_muted(>=50%)": 0.12,
+      "muted_preoverlap_user_speech_frac_mean": 0.0051
+    },
+    "bkg_speech": {
+      "n": 100,
+      "muted_overlap_frac_mean": 0.884,
+      "muted_overlap_frac_median": 0.987,
+      "clips_overlap_mostly_muted(>=50%)": 0.93,
+      "muted_preoverlap_user_speech_frac_mean": 0.0022
+    },
+    "user_backchannel": {
+      "n": 98,
+      "muted_overlap_frac_mean": 0.416,
+      "muted_overlap_frac_median": 0.0,
+      "clips_overlap_mostly_muted(>=50%)": 0.449,
+      "muted_preoverlap_user_speech_frac_mean": 0.0056
+    },
+    "user_interruption": {
+      "n": 200,
+      "muted_overlap_frac_mean": 0.078,
+      "muted_overlap_frac_median": 0.0,
+      "clips_overlap_mostly_muted(>=50%)": 0.02,
+      "muted_preoverlap_user_speech_frac_mean": 0.0164
+    }
+  },
+  "heldout_odd_ids": {
+    "talking_other": {
+      "n": 50,
+      "muted_overlap_frac_mean": 0.174,
+      "muted_overlap_frac_median": 0.121,
+      "clips_overlap_mostly_muted(>=50%)": 0.08,
+      "muted_preoverlap_user_speech_frac_mean": 0.0029
+    },
+    "bkg_speech": {
+      "n": 50,
+      "muted_overlap_frac_mean": 0.886,
+      "muted_overlap_frac_median": 1.0,
+      "clips_overlap_mostly_muted(>=50%)": 0.92,
+      "muted_preoverlap_user_speech_frac_mean": 0.0
+    },
+    "user_backchannel": {
+      "n": 49,
+      "muted_overlap_frac_mean": 0.433,
+      "muted_overlap_frac_median": 0.0,
+      "clips_overlap_mostly_muted(>=50%)": 0.469,
+      "muted_preoverlap_user_speech_frac_mean": 0.006
+    },
+    "user_interruption": {
+      "n": 100,
+      "muted_overlap_frac_mean": 0.084,
+      "muted_overlap_frac_median": 0.0,
+      "clips_overlap_mostly_muted(>=50%)": 0.02,
+      "muted_preoverlap_user_speech_frac_mean": 0.0175
+    }
+  },
+  "window_sim_by_scenario_region": {
+    "bkg_speech/overlap": {
+      "n": 163,
+      "median": 0.051,
+      "p10": -0.06,
+      "p90": 0.134
+    },
+    "bkg_speech/pre": {
+      "n": 202,
+      "median": 0.774,
+      "p10": 0.33,
+      "p90": 0.885
+    },
+    "talking_other/overlap": {
+      "n": 209,
+      "median": 0.244,
+      "p10": 0.089,
+      "p90": 0.386
+    },
+    "talking_other/pre": {
+      "n": 212,
+      "median": 0.769,
+      "p10": 0.38,
+      "p90": 0.86
+    },
+    "user_backchannel/overlap": {
+      "n": 81,
+      "median": 0.168,
+      "p10": 0.009,
+      "p90": 0.312
+    },
+    "user_backchannel/pre": {
+      "n": 229,
+      "median": 0.76,
+      "p10": 0.425,
+      "p90": 0.853
+    },
+    "user_interruption/overlap": {
+      "n": 644,
+      "median": 0.305,
+      "p10": 0.138,
+      "p90": 0.443
+    },
+    "user_interruption/pre": {
+      "n": 551,
+      "median": 0.635,
+      "p10": 0.269,
+      "p90": 0.806
+    }
+  },
+  "sweep": [
+    {
+      "thr": 0.1,
+      "talking_other_muted_ovl": 0.123,
+      "bkg_speech_muted_ovl": 0.754,
+      "user_backchannel_muted_ovl": 0.331,
+      "user_interruption_muted_ovl": 0.045,
+      "talking_other_muted_pre": 0.0051,
+      "bkg_speech_muted_pre": 0.0009,
+      "user_backchannel_muted_pre": 0.0027,
+      "user_interruption_muted_pre": 0.0081
+    },
+    {
+      "thr": 0.2,
+      "talking_other_muted_ovl": 0.352,
+      "bkg_speech_muted_ovl": 0.955,
+      "user_backchannel_muted_ovl": 0.603,
+      "user_interruption_muted_ovl": 0.175,
+      "talking_other_muted_pre": 0.0151,
+      "bkg_speech_muted_pre": 0.01,
+      "user_backchannel_muted_pre": 0.0072,
+      "user_interruption_muted_pre": 0.0285
+    },
+    {
+      "thr": 0.3,
+      "talking_other_muted_ovl": 0.632,
+      "bkg_speech_muted_ovl": 0.964,
+      "user_backchannel_muted_ovl": 0.853,
+      "user_interruption_muted_ovl": 0.444,
+      "talking_other_muted_pre": 0.035,
+      "bkg_speech_muted_pre": 0.0251,
+      "user_backchannel_muted_pre": 0.0187,
+      "user_interruption_muted_pre": 0.0599
+    },
+    {
+      "thr": 0.4,
+      "talking_other_muted_ovl": 0.899,
+      "bkg_speech_muted_ovl": 0.964,
+      "user_backchannel_muted_ovl": 0.926,
+      "user_interruption_muted_ovl": 0.77,
+      "talking_other_muted_pre": 0.0472,
+      "bkg_speech_muted_pre": 0.0793,
+      "user_backchannel_muted_pre": 0.0377,
+      "user_interruption_muted_pre": 0.1221
+    },
+    {
+      "thr": 0.5,
+      "talking_other_muted_ovl": 0.97,
+      "bkg_speech_muted_ovl": 0.964,
+      "user_backchannel_muted_ovl": 0.946,
+      "user_interruption_muted_ovl": 0.953,
+      "talking_other_muted_pre": 0.1024,
+      "bkg_speech_muted_pre": 0.1253,
+      "user_backchannel_muted_pre": 0.0857,
+      "user_interruption_muted_pre": 0.1991
+    },
+    {
+      "thr": 0.6,
+      "talking_other_muted_ovl": 0.976,
+      "bkg_speech_muted_ovl": 0.964,
+      "user_backchannel_muted_ovl": 0.946,
+      "user_interruption_muted_ovl": 0.978,
+      "talking_other_muted_pre": 0.1529,
+      "bkg_speech_muted_pre": 0.1743,
+      "user_backchannel_muted_pre": 0.1301,
+      "user_interruption_muted_pre": 0.329
+    }
+  ]
+}
+
+real	4m53.645s
+user	0m0.000s
+sys	0m0.094s

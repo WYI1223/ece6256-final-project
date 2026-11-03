@@ -1,0 +1,556 @@
+{
+  "agent_response": {
+    "attempts": 1,
+    "model_calls": [
+      {
+        "additional_kwargs": {
+          "refusal": null
+        },
+        "call_index": 1,
+        "extra": {},
+        "loop_iteration": null,
+        "model_config": {
+          "max_tokens": 8192,
+          "model": "deepseek-flash",
+          "provider": "openai",
+          "requested_model": "deepseek-flash",
+          "resolved_model_name": "deepseek-flash",
+          "resolved_model_version": "deepseek-flash",
+          "temperature": null,
+          "timeout": 300
+        },
+        "phase": "direct_generation",
+        "response_metadata": {
+          "finish_reason": "stop",
+          "id": "d1bf4663-55f3-4cdc-a42f-cffa748c300e",
+          "logprobs": null,
+          "model_name": "deepseek-flash",
+          "model_provider": "openai",
+          "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+          "token_usage": {
+            "completion_tokens": 917,
+            "completion_tokens_details": null,
+            "prompt_cache_hit_tokens": 512,
+            "prompt_cache_miss_tokens": 9459,
+            "prompt_tokens": 9971,
+            "prompt_tokens_details": {
+              "audio_tokens": null,
+              "cache_write_tokens": null,
+              "cached_tokens": 512,
+              "image_tokens": null,
+              "text_tokens": null
+            },
+            "total_tokens": 10888
+          }
+        },
+        "usage": {
+          "completion_tokens": 917,
+          "prompt_tokens": 9971,
+          "raw": {
+            "input_token_details": {
+              "cache_read": 512
+            },
+            "input_tokens": 9971,
+            "output_token_details": {},
+            "output_tokens": 917,
+            "total_tokens": 10888
+          },
+          "total_tokens": 10888
+        },
+        "usage_metadata": {
+          "input_token_details": {
+            "cache_read": 512
+          },
+          "input_tokens": 9971,
+          "output_token_details": {},
+          "output_tokens": 917,
+          "total_tokens": 10888
+        }
+      }
+    ],
+    "operations": [
+      {
+        "op": "set",
+        "path": "agreement_count",
+        "value": 1
+      },
+      {
+        "op": "set",
+        "path": "earliest_public_availability_date",
+        "value": "2026-06-10"
+      },
+      {
+        "op": "set",
+        "path": "formal_public_disclosure_channel",
+        "value": [
+          "Conference"
+        ]
+      },
+      {
+        "op": "set",
+        "path": "formal_public_disclosure_status",
+        "value": [
+          "Submitted"
+        ]
+      },
+      {
+        "op": "set",
+        "path": "funding_source_count",
+        "value": 1
+      },
+      {
+        "op": "set",
+        "path": "has_journal_conference_thesis_or_library_disclosure",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "has_rights_affecting_agreements",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "invention_title",
+        "value": "Adaptive sensor bracket with self-calibrating firmware"
+      },
+      {
+        "op": "set",
+        "path": "journal_conference_or_meeting_name",
+        "value": "West Coast Bioengineering Conference"
+      },
+      {
+        "op": "set",
+        "path": "software_component_description",
+        "value": "Self-calibrating firmware is integral to the invention."
+      },
+      {
+        "op": "set",
+        "path": "software_copyright_disclosure_attached",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "software_is_integral",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "uci_inventor_count",
+        "value": 2
+      },
+      {
+        "op": "set",
+        "path": "was_funded_or_sponsored",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "agreements[0].agreement_type",
+        "value": "Consulting Agreement"
+      },
+      {
+        "op": "set",
+        "path": "agreements[0].copy_attached",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "agreements[0].copy_available",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "agreements[0].other_party_name",
+        "value": "MedMotion"
+      },
+      {
+        "op": "set",
+        "path": "funding_sources[0].contract_or_grant_number",
+        "value": "R01-12345"
+      },
+      {
+        "op": "set",
+        "path": "funding_sources[0].funding_scope",
+        "value": "wearable sensor research"
+      },
+      {
+        "op": "set",
+        "path": "funding_sources[0].principal_investigator_or_supervisor",
+        "value": "Dr. Rao"
+      },
+      {
+        "op": "set",
+        "path": "funding_sources[0].sponsor_name",
+        "value": "NIH"
+      },
+      {
+        "op": "set",
+        "path": "uci_inventors[0].uci_email",
+        "value": "asha.rao@uci.edu"
+      },
+      {
+        "op": "set",
+        "path": "uci_inventors[1].category",
+        "value": "Grad Student"
+      },
+      {
+        "op": "set",
+        "path": "uci_inventors[1].department_or_oru",
+        "value": "Electrical Engineering"
+      },
+      {
+        "op": "set",
+        "path": "uci_inventors[1].is_lead_contact",
+        "value": false
+      },
+      {
+        "op": "set",
+        "path": "uci_inventors[1].mobile_phone",
+        "value": "949-555-0199"
+      },
+      {
+        "op": "set",
+        "path": "uci_inventors[1].name",
+        "value": "Priya Chen"
+      },
+      {
+        "op": "set",
+        "path": "uci_inventors[1].title_at_uci",
+        "value": "Graduate student"
+      },
+      {
+        "op": "set",
+        "path": "uci_inventors[1].uci_email",
+        "value": "pchen@uci.edu"
+      },
+      {
+        "op": "set",
+        "path": "witnesses[0].date_signed",
+        "value": "2026-05-02"
+      },
+      {
+        "op": "set",
+        "path": "witnesses[0].signature_present",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "witnesses[0].technical_qualification",
+        "value": "PhD electrical engineering"
+      },
+      {
+        "op": "set",
+        "path": "witnesses[0].witness_printed_name",
+        "value": "Omar Silva"
+      }
+    ],
+    "raw_response": "{\"agreement_count\":1,\"agreements\":[{\"agreement_type\":\"Consulting Agreement\",\"copy_attached\":true,\"copy_available\":true,\"other_party_name\":\"MedMotion\"}],\"background_and_prior_art\":null,\"comparative_benefits_advantages\":null,\"complete_invention_description_date\":null,\"complete_invention_description_recorded_where_and_disclosed_to_whom\":null,\"detailed_description\":null,\"disclosed_to_non_uci_personnel\":false,\"earliest_non_uci_disclosure_date\":null,\"earliest_public_availability_date\":\"2026-06-10\",\"field_of_invention\":null,\"first_successful_operation_date\":null,\"first_successful_operation_recorded_where_and_disclosed_to_whom\":null,\"formal_public_disclosure_channel\":[\"Conference\"],\"formal_public_disclosure_status\":[\"Submitted\"],\"funding_source_count\":1,\"funding_sources\":[{\"contract_or_grant_number\":\"R01-12345\",\"funding_scope\":\"wearable sensor research\",\"principal_investigator_or_supervisor\":\"Dr. Rao\",\"sponsor_name\":\"NIH\"}],\"future_steps_table\":null,\"has_journal_conference_thesis_or_library_disclosure\":true,\"has_rights_affecting_agreements\":true,\"initial_conception_date\":null,\"initial_conception_recorded_where_and_disclosed_to_whom\":null,\"invention_title\":\"Adaptive sensor bracket with self-calibrating firmware\",\"inventor_signatures_table\":null,\"journal_conference_or_meeting_name\":\"West Coast Bioengineering Conference\",\"keywords\":null,\"literature_search_performed\":null,\"literature_search_performed_by\":null,\"manuscript_attached\":null,\"non_uci_disclosure_context\":null,\"non_uci_disclosure_recipients\":null,\"non_uci_inventor_count\":0,\"non_uci_inventors\":[],\"original_with_signatures_ready_for_campus_mail\":null,\"patent_search_performed\":null,\"patent_search_performed_by\":null,\"pertinent_references_attached\":null,\"potential_licensee_count\":null,\"potential_licensees_or_sponsors\":null,\"proprietary_material_count\":null,\"proprietary_materials\":null,\"publication_or_disclosure_copies_attached\":false,\"signature_scan_emailed\":null,\"software_component_description\":\"Self-calibrating firmware is integral to the invention.\",\"software_copyright_disclosure_attached\":true,\"software_is_integral\":true,\"stage_of_development\":null,\"stage_of_development_evidence\":null,\"submission_reasons\":null,\"summary_of_invention\":null,\"uci_inventor_count\":2,\"uci_inventors\":[{\"campus_address\":\"Engineering Hall 221\",\"category\":\"Faculty\",\"department_or_oru\":\"Mechanical Engineering\",\"home_address\":null,\"is_lead_contact\":true,\"mobile_phone\":null,\"name\":\"Dr. Asha Rao\",\"other_email\":null,\"pre_2011_patent_amendment_signed\":true,\"school_or_division\":\"Engineering\",\"title_at_uci\":\"Professor\",\"uci_email\":\"asha.rao@uci.edu\",\"uci_employment_dates\":\"2014-present\",\"work_phone\":\"949-555-0111\"},{\"campus_address\":null,\"category\":\"Grad Student\",\"department_or_oru\":\"Electrical Engineering\",\"home_address\":null,\"is_lead_contact\":false,\"mobile_phone\":\"949-555-0199\",\"name\":\"Priya Chen\",\"other_email\":null,\"pre_2011_patent_amendment_signed\":null,\"school_or_division\":null,\"title_at_uci\":\"Graduate student\",\"uci_email\":\"pchen@uci.edu\",\"uci_employment_dates\":null,\"work_phone\":null}],\"used_external_proprietary_materials\":null,\"was_funded_or_sponsored\":true,\"witnesses\":[{\"date_signed\":\"2026-05-02\",\"signature_present\":true,\"technical_qualification\":\"PhD electrical engineering\",\"witness_printed_name\":\"Omar Silva\"},{\"date_signed\":null,\"signature_present\":null,\"technical_qualification\":null,\"witness_printed_name\":null}],\"word_copy_emailed\":null}",
+    "trace": [
+      {
+        "call_index": 1,
+        "input_messages": [
+          {
+            "class": "SystemMessage",
+            "content": "You are Direct, a single-call no-tool baseline for structured form updating.\n\nThe public task context contains evidence and incumbent state. The schema field\nguide, visible conversation history, and current user utterance are the evidence\nused to license commitments. The prior record is the incumbent state to audit\nagainst that evidence.\n\nYour task is to audit the supplied prior record and return the post-turn record\ncontaining all and only commitments licensed by the schema, visible history, and\ncurrent utterance.\n\nShared decision policy:\n- Audit the prior state. Preserve a prior value only when it remains licensed\n  by the visible history, current utterance, and schema. If a prior value is\n  unsupported, withdrawn, contradicted, or schema-inconsistent, clear or repair\n  it as licensed by the public packet.\n- Treat visible history as evidence, not just background. If the prior record\n  is missing, unsupported by, or contradicts a value determined by the schema,\n  visible history, and current utterance, repair or clear it as licensed.\n- Commit only values supported by public evidence. Do not infer plausible but\n  unstated values, do not complete partial addresses or names from world\n  knowledge, and do not fabricate identifiers.\n- Use null when the evidence clears, retracts, denies, withdraws, or fails to\n  license a prior scalar value.\n- Put each fact in the most specific schema field whose question and field\n  instruction ask for that fact. Do not copy broad narrative details into child\n  fields unless the child field itself asks for them.\n- Never write \"<open>\" as a public value. Do not replace a licensed prior value\n  with an uncertain guess. If no value is licensed for a scalar field, use null.\n- Repeat groups are arrays of entity rows. Keep row identity stable: update an\n  existing row when evidence identifies the same entity; create or delete rows\n  only when evidence or a schema repeat count licenses it.\n- For repeat groups whose schema says mode=from_slot, update the count field\n  when evidence licenses a count. If a count is known but row attributes are not,\n  leave child fields null rather than inventing labels.\n- Table fields are arrays of row objects. Retain existing rows only when they\n  remain licensed by the evidence; clear, repair, add, or remove rows when the\n  evidence and schema license that row-level change.\n\nOutput interface for Direct:\n- Return exactly one complete JSON object representing the resulting record.\n- Include every top-level regular field id and every repeat-group id shown in\n  the prior record state. Do not include section/group/gate/branch ids.\n- Repeat groups are null when absent/unknown, or arrays of row objects when\n  rows are present. Every repeat row must include every child field id.\n- Table fields are null when absent/unknown, or arrays of row objects when rows\n  are present. Every table row must include every column id.\n- Use null for unknown or empty scalar fields. Do not use placeholder strings.\n- Output only the JSON object, with no commentary or explanation.\n",
+            "role": "system"
+          },
+          {
+            "class": "HumanMessage",
+            "content": "=== SCHEMA FIELD GUIDE ===\nUse bare field ids for top-level regular fields.\nUse repeat_group_id[index].field_id for repeat children.\nSection/group/gate/branch ids are navigation labels only, not output keys.\nField instructions describe semantic scope; keep values within that scope.\n\n- invention_title; type=text; question=What is the short title of the invention?; instruction=A concise title of about 10 words or fewer that describes the invention without revealing enabling technical details.\n- uci_inventor_count; type=integer; question=How many inventors are affiliated with UCI?; instruction=UCI means University of California, Irvine. Exact number of UCI-affiliated inventors to instantiate. Include faculty, staff, students, post-docs, volunteers, and other University of California, Irvine-affiliated contributors who are being listed as inventor...\n- REPEAT uci_inventors: UCI inventor details; mode=from_slot, from_slot=uci_inventor_count; child paths are uci_inventors[index].field; semantic_units=UCI_INVENTOR_INSTANCE_MAPPING:UCI inventor instance mapping=All name, affiliation, address, and contact details are attached to the correct UCI inventor instance, including references such as 'the lead inventor', 'my co-inventor', or a p...\n  - uci_inventors[i].is_lead_contact; type=bool; question=Is this inventor the lead contact for RTG?; instruction=True only for the first/lead inventor or the person explicitly identified as RTG's point of contact.\n  - uci_inventors[i].name; type=text; question=What is the inventor's full name?; instruction=Full name of the UCI inventor as stated; do not add unstated titles or initials. If the user explicitly states a title (e.g., 'I am Dr. Raj Patel'), include it \u2014 'as stated' means verbatim from the user.; semantic_units=PERSON_NAME:Person name=The inventor's name or stable identifier is present.\n  - uci_inventors[i].title_at_uci; type=text; question=What is the inventor's title at UCI?; instruction=Official or user-stated title at UCI, such as Professor, Research Scientist, PhD student, or Lab Manager.\n  - uci_inventors[i].department_or_oru; type=text; question=What is the inventor's department or ORU?; instruction=Department, Organized Research Unit, lab, or closest organizational unit as stated.\n  - uci_inventors[i].uci_employment_dates; type=text; question=What are the inventor's date(s) hired or employed at UCI?; instruction=Employment or affiliation date range as stated. Preserve approximate or partial dates without inventing missing precision.; semantic_units=AFFILIATION_DATE_RANGE:Affiliation date range=The start date, end date, or date range of UCI affiliation is captured at the precision stated by the user.\n  - uci_inventors[i].school_or_division; type=text; question=What is the inventor's school or division?; instruction=UCI school or division, if provided.\n  - uci_inventors[i].category; type=single_choice; options=[\"Faculty\", \"Staff\", \"Grad Student\", \"Undergrad\", \"Post-doc\", \"Volunteer\", \"Other\"]; question=Which category best describes this UCI inventor?; instruction=Choose the category stated in the public packet. If a stated category is not one of the listed options, use Other and preserve the stated role text.\n  - uci_inventors[i].campus_address; type=text; question=What is the inventor's campus address, including zip and zot code if known?; instruction=Campus mailing address with zip and zot code when provided. Partial addresses remain partial; do not complete from world knowledge.\n  - uci_inventors[i].home_address; type=text; question=What is the inventor's home address?; instruction=Home address as stated; leave unknown if not provided.\n  - uci_inventors[i].work_phone; type=text; question=What is the inventor's work phone?; instruction=Work phone number as stated, including extension or country/area code if given.\n  - uci_inventors[i].mobile_phone; type=text; question=What is the inventor's mobile phone, if provided?; instruction=Mobile phone number as stated; optional and should remain unknown if not provided.\n  - uci_inventors[i].uci_email; type=text; question=What is the inventor's UCI email address?; instruction=UCI email address exactly enough to contact the inventor.\n  - uci_inventors[i].other_email; type=text; question=What is the inventor's other email address, if any?; instruction=Non-UCI email address if provided; leave unknown if not provided.\n  - uci_inventors[i].pre_2011_patent_amendment_signed; type=bool; question=If hired before 2011-11-01, has the inventor signed the new patent amendment?; instruction=RTG-use field. True or false only when explicitly provided; otherwise leave unknown. Do not infer from employment dates alone.\n- non_uci_inventor_count; type=integer; question=How many inventors are not affiliated with UCI?; instruction=UCI means University of California, Irvine. Exact number of inventors being listed who are not affiliated with University of California, Irvine. Use 0 when the user clearly states there are none.\n- REPEAT non_uci_inventors: Inventors not affiliated with UCI; mode=from_slot, from_slot=non_uci_inventor_count; child paths are non_uci_inventors[index].field; semantic_units=NON_UCI_INVENTOR_INSTANCE_MAPPING:Non-UCI inventor instance mapping=All employer, contact, and category fields are attached to the correct non-UCI inventor instance.\n  - non_uci_inventors[i].non_uci_name; type=text; question=What is the non-UCI inventor's full name?; instruction=Full name of the non-UCI inventor as stated.\n  - non_uci_inventors[i].title; type=text; question=What is the non-UCI inventor's title?; instruction=Title or role at their employer/institution, if provided.\n  - non_uci_inventors[i].non_uci_category; type=single_choice; options=[\"Faculty\", \"Staff\", \"Grad Student\", \"Undergrad\", \"Post-doc\", \"Volunteer\", \"Other\"]; question=Which category best describes this non-UCI inventor?; instruction=Choose the stated category. If Other, preserve the specified role.\n  - non_uci_inventors[i].employer; type=text; question=What is the non-UCI inventor's employer or institution?; instruction=Employer, company, university, or institution as stated.\n  - non_uci_inventors[i].non_uci_work_phone; type=text; question=What is the non-UCI inventor's work phone?; instruction=Work phone number as stated.\n  - non_uci_inventors[i].non_uci_mobile_phone; type=text; question=What is the non-UCI inventor's mobile phone, if provided?; instruction=Mobile phone number as stated; optional.\n  - non_uci_inventors[i].work_email; type=text; question=What is the non-UCI inventor's work email?; instruction=Work email address as stated.\n  - non_uci_inventors[i].non_uci_other_email; type=text; question=What is the non-UCI inventor's other email address, if any?; instruction=Other email address if provided.\n  - non_uci_inventors[i].work_address; type=text; question=What is the non-UCI inventor's work address?; instruction=Work mailing address as stated.\n- SECTION (not an output key) funding_and_rights: Funding sources, agreements, and rights-affecting materials\n  - was_funded_or_sponsored; type=bool; question=Was this invention funded or sponsored?; instruction=True if any funding, sponsor, contract, grant, or supervised support is stated as supporting the invention. False only if the user clearly says no funding or sponsorship was involved.\n  - GATE/CONDITION (not an output key) funding_sources_gate: Funding source details; active when was_funded_or_sponsored in [True]\n    - funding_source_count; type=integer; question=How many funding sources or sponsors should be listed?; instruction=Number of distinct funding sources, sponsors, contracts, or grants stated by the user.\n    - REPEAT funding_sources: Funding sources; mode=from_slot, from_slot=funding_source_count; child paths are funding_sources[index].field; semantic_units=FUNDING_INSTANCE_MAPPING:Funding instance mapping=Each sponsor, contract/grant number, and PI/supervisor is bound to the correct funding source instance.\n      - funding_sources[i].sponsor_name; type=text; question=What is the funding source or sponsor name?; instruction=Name of the funder, sponsor, programme, grant, contract, or funding organization.\n      - funding_sources[i].contract_or_grant_number; type=text; question=What is the contract or grant number for this funding source?; instruction=Contract or grant number exactly as stated; leave unknown if not provided.\n      - funding_sources[i].principal_investigator_or_supervisor; type=text; question=Who is the Principal Investigator or supervisor for this funding source?; instruction=PI, supervisor, or responsible lead associated with this funding source.\n      - funding_sources[i].funding_scope; type=text; question=What part of the invention work did this funding source support, if stated?; instruction=Scope of support such as conception, experiments, prototype, testing, personnel, or equipment. Do not infer scope from the funder name alone.\n  - has_rights_affecting_agreements; type=bool; question=Are there any agreements that might affect rights or interest in the invention?; instruction=True if any consulting, assignment, material transfer, or other agreement is stated as potentially affecting rights or interests in the invention.\n  - GATE/CONDITION (not an output key) agreements_gate: Agreement details; active when has_rights_affecting_agreements in [True]\n    - agreement_count; type=integer; question=How many rights-affecting agreements should be listed?; instruction=Number of distinct agreements to list.\n    - REPEAT agreements: Rights-affecting agreements; mode=from_slot, from_slot=agreement_count; child paths are agreements[index].field; semantic_units=AGREEMENT_INSTANCE_MAPPING:Agreement instance mapping=Agreement type, other party, and attachment status refer to the same agreement instance.\n      - agreements[i].agreement_type; type=single_choice; options=[\"Consulting Agreement\", \"Assignment Agreement\", \"Material Transfer Agreement\", \"Other Agreement\"]; question=What type of agreement is this?; instruction=Agreement category as stated. If Other Agreement, specify the type or description.\n      - agreements[i].other_party_name; type=text; question=What is the name of the other party to this agreement?; instruction=Name of company, university, sponsor, collaborator, or person on the other side of the agreement.\n      - agreements[i].copy_available; type=bool; question=Is a copy of this agreement available?; instruction=True if a copy exists or is available; false only if explicitly unavailable.\n      - agreements[i].copy_attached; type=bool; question=Is a copy of this agreement attached to the disclosure?; instruction=True only if the copy is attached or will be submitted with the form.\n  - software_is_integral; type=bool; question=Is software an integral component of this invention?; instruction=True if software is an integral component of the invention; false if the invention does not materially rely on software.\n  - GATE/CONDITION (not an output key) software_component_gate: Software component follow-up; active when software_is_integral in [True]\n    - software_copyright_disclosure_attached; type=bool; question=Is the UCI Software/Copyright Disclosure Form attached?; instruction=True if the completed software/copyright disclosure form is attached; false if not attached.\n    - software_component_description; type=multiline_text; question=Briefly describe the software component and its role in the invention.; instruction=Description of what the software does and how it is integral to the invention. Do not treat incidental data analysis or generic tooling as integral unless the user says it is.; semantic_units=SOFTWARE_FUNCTION:Software function=Captures what the software component does.; SOFTWARE_ROLE_IN_INVENTION:Role in invention=Explains why the software is integral rather than incidental.\n  - used_external_proprietary_materials; type=bool; question=Were any proprietary materials obtained from outside the laboratory used to develop the invention?; instruction=True if any external proprietary database, assay, microarray, chip, material under MTA, computer software, chemical compound, cell line, antibody, plasmid, or similar external proprietary material was used.\n  - GATE/CONDITION (not an output key) proprietary_materials_gate: Proprietary material details; active when used_external_proprietary_materials in [True]\n    - proprietary_material_count; type=integer; question=How many proprietary material entries should be listed?; instruction=Number of distinct external proprietary materials or material categories to list.\n    - REPEAT proprietary_materials: Proprietary materials; mode=from_slot, from_slot=proprietary_material_count; child paths are proprietary_materials[index].field; semantic_units=PROPRIETARY_MATERIAL_INSTANCE_MAPPING:Proprietary material instance mapping=Material type, description, provider, and agreement attachment status all refer to the same material instance.\n      - proprietary_materials[i].material_type; type=single_choice; options=[\"Proprietary database\", \"Proprietary assay or microarray\", \"Affymetrix chips\", \"Material obtained via Material Transfer Agreement\", \"Cell line\", \"Antibody\", \"Plasmid\", \"Computer software\", \"Chemical compound\", \"Other\"]; question=What type of proprietary material was used?; instruction=Type of proprietary material as stated. Use Other only when no listed category fits.\n      - proprietary_materials[i].description; type=text; question=Describe this proprietary material.; instruction=Specific description of the material, database, assay, software, compound, or biological material.\n      - proprietary_materials[i].provider_name; type=text; question=Who provided this proprietary material?; instruction=Provider name, organization, company, lab, or collaborator as stated.\n      - proprietary_materials[i].agreement_copy_attached; type=bool; question=Is the related agreement copy attached?; instruction=True if the related agreement or MTA copy is attached; false if explicitly not attached.\n- SECTION (not an output key) relevant_dates: Relevant dates\n  - SECTION (not an output key) initial_conception: Initial conception\n    - initial_conception_date; type=date; question=What was the date of initial conception?; instruction=Date of initial conception in YYYY-MM-DD when exact. If only month/year or approximate timing is stated, preserve as partial/approximate in narrative elsewhere rather than inventing a precise date.\n    - initial_conception_recorded_where_and_disclosed_to_whom; type=text; question=Where was the initial conception recorded, and to whom was it disclosed?; instruction=Lab notebook, file, email, meeting, or other record location plus recipient/disclosure audience, if stated.; semantic_units=DATE_RECORD_LOCATION:Record location=Where the date/event was recorded.; DISCLOSURE_RECIPIENT:Disclosure recipient=Person or group to whom the event was disclosed.\n  - SECTION (not an output key) complete_invention_description: First description of complete invention\n    - complete_invention_description_date; type=date; question=What was the date of the first description of the complete invention, oral or written?; instruction=Date when the complete invention was first described orally or in writing, if exact.\n    - complete_invention_description_recorded_where_and_disclosed_to_whom; type=text; question=Where was the first complete description recorded, and to whom was it disclosed?; instruction=Record location and disclosure recipient for the first complete description.\n  - SECTION (not an output key) first_successful_operation: First successful operation / reduction to practice\n    - first_successful_operation_date; type=date; question=What was the date of first successful operation or first actual reduction to practice?; instruction=Date when the invention first successfully operated or was reduced to practice, if exact. Use ISO date format YYYY-MM-DD: for example, April 8, 2025 is 2025-04-08, while August 4, 2025 is 2025-08-04.\n    - first_successful_operation_recorded_where_and_disclosed_to_whom; type=text; question=Where was the first successful operation recorded, and to whom was it disclosed?; instruction=Record location and disclosure recipient for the first successful operation or reduction to practice.\n- SECTION (not an output key) public_disclosures: Public disclosures\n  - has_journal_conference_thesis_or_library_disclosure; type=bool; question=Has the invention been submitted, accepted, already published, or presented to a journal, conference, meeting, thesis committee, or library?; instruction=True if any submission, acceptance, publication, presentation, thesis/library deposit, or similar public-availability path is stated.\n  - GATE/CONDITION (not an output key) formal_public_disclosure_gate: Journal, conference, thesis, meeting, or library disclosure details; active when has_journal_conference_thesis_or_library_disclosure in [True]\n    - formal_public_disclosure_status; type=multiple_choice; options=[\"Submitted\", \"Accepted\", \"Already published/presented\"]; question=What is the status of this disclosure?; instruction=Select all disclosure statuses explicitly stated.\n    - formal_public_disclosure_channel; type=multiple_choice; options=[\"Journal\", \"Conference\", \"Meeting\", \"Thesis committee\", \"Library\", \"Other\"]; question=What kind of venue or channel is involved?; instruction=Select all public disclosure channels stated. If Other, specify the actual channel.\n    - earliest_public_availability_date; type=date; question=What is the earliest date the information will be or was publicly available?; instruction=Earliest public availability date, not merely submission date unless submission itself made the information public.\n    - journal_conference_or_meeting_name; type=text; question=What is the name of the journal, conference, meeting, thesis committee, library, or other venue?; instruction=Venue or publication name as stated.\n    - publication_or_disclosure_copies_attached; type=bool; question=Are copies of the publication or disclosure appended to the form?; instruction=True if copies are appended or will be attached; false if not.\n  - disclosed_to_non_uci_personnel; type=bool; question=Other than the above, was the invention made public or disclosed to non-UCI personnel, including a research sponsor?; instruction=True if any non-UCI personnel or research sponsor received a disclosure outside the formal journal/conference/thesis/library path.\n  - GATE/CONDITION (not an output key) non_uci_disclosure_gate: Non-UCI disclosure details; active when disclosed_to_non_uci_personnel in [True]\n    - non_uci_disclosure_recipients; type=text; question=To whom was the invention disclosed?; instruction=Names, organizations, sponsors, companies, or roles of non-UCI recipients.\n    - earliest_non_uci_disclosure_date; type=date; question=What was the earliest date of disclosure to non-UCI personnel?; instruction=Earliest stated non-UCI disclosure date.\n    - non_uci_disclosure_context; type=text; question=What was the context or medium of this non-UCI disclosure?; instruction=Context such as sponsor meeting, email, pitch, demo, report, poster, or collaboration discussion, if provided.\n- SECTION (not an output key) invention_description: Description of the invention\n  - manuscript_attached; type=bool; question=Is a manuscript describing the invention attached?; instruction=True if a manuscript is attached or will be attached; false if not.\n  - pertinent_references_attached; type=bool; question=Are copies of the most pertinent references attached?; instruction=True if pertinent references are attached or will be attached.\n  - field_of_invention; type=multiline_text; question=What is the field of the invention and concise field or goal?; instruction=Fill or change this field only when the user explicitly states the invention's field/domain or explicitly labels a field/goal. Use the stated broad field/domain plus concise goal or target application. Do not infer a new field from the title, implementation...; semantic_units=BROAD_TECHNOLOGY_FIELD:Broad technology field=A broad stated domain such as medical/healthcare, food/agriculture/packaging, materials/coatings, electronics/sensors, software/AI/data, mechanical/robotics, energy/environment,...; CONCISE_GOAL:Concise goal=A short statement of the goal, use, or target application of the invention.\n  - patent_search_performed; type=bool; question=Has a patent search been performed?; instruction=True if a patent search was performed, including searches on Google Patents, USPTO, or similar patent databases.\n  - GATE/CONDITION (not an output key) patent_search_performed_by_gate: Patent search performer; active when patent_search_performed in [True]\n    - patent_search_performed_by; type=text; question=Who performed the patent search?; instruction=Person, office, attorney, inventor, student, or organization that performed the patent search.\n  - literature_search_performed; type=bool; question=Has a literature search been performed?; instruction=True if a scholarly or technical literature search was performed.\n  - GATE/CONDITION (not an output key) literature_search_performed_by_gate: Literature search performer; active when literature_search_performed in [True]\n    - literature_search_performed_by; type=text; question=Who performed the literature search?; instruction=Person, group, or organization that performed the literature search.\n  - background_and_prior_art; type=multiline_text; question=Describe the background of the invention and discussion of prior art.; instruction=Context of the invention: the problem; current solutions or prior art if any; and disadvantages, limitations, or shortcomings of the prior art. Do not include the invention itself here unless the user explicitly frames it as prior art context.; semantic_units=PROBLEM_CONTEXT:Problem context=The problem or need motivating the invention.; CURRENT_SOLUTIONS:Current solutions / prior art=Existing technologies, methods, products, literature, or practices relevant to the problem.; PRIOR_ART_LIMITATIONS:Limitations of prior art=Disadvantages, shortcomings, or unresolved limitations of existing solutions.\n  - summary_of_invention; type=multiline_text; question=Provide a lay summary of the invention.; instruction=Brief overview of the invention itself in lay terms, including how it is used and/or why it is useful.; semantic_units=INVENTION_OVERVIEW:Invention overview=A concise description of what the invention is.; USE_CASE:Use or application=How the invention is used or what it is for.; UTILITY:Why useful=Why the invention is useful or valuable.\n  - detailed_description; type=multiline_text; question=Describe the invention in as much technical detail as possible.; instruction=Detailed description of the invention itself: unique and novel feature, how to make/assemble/synthesize/build it, how it is used once made, supporting data/drawings/figures/literature, reasoning, and for chemistry/biology proof that the process or compound...; semantic_units=NOVEL_FEATURE:Unique / novel feature=The part of the invention presented as unique or novel.; CONSTRUCTION_OR_IMPLEMENTATION:Construction / implementation=How to make, assemble, synthesize, build, or implement the invention.; OPERATION_OR_USE:Operation / use=How the invention is used once made.; SUPPORTING_EVIDENCE:Supporting evidence=Data, drawings, figures, literature, experiments, or proof supporting the technical claim.\n  - comparative_benefits_advantages; type=multiline_text; question=What comparative benefits or advantages does the invention have over prior art?; instruction=Explain how the invention overcomes prior-art disadvantages, using comparative terms when supported, such as less expensive, more efficient, faster, less energy consuming, safer, or fewer side effects.; semantic_units=ADVANTAGE_TARGET:Advantage target=The prior-art limitation or current solution being improved upon.; COMPARATIVE_ADVANTAGE:Comparative advantage=The claimed advantage in comparative terms.; ADVANTAGE_SUPPORT:Advantage support=Evidence or rationale supporting the comparative advantage, if provided.\n  - stage_of_development; type=single_choice; options=[\"Concept stage\", \"Experimental stage\", \"Computer model / simulation stage\", \"Working prototype stage\", \"Validated prototype / tested stage\", \"Commercial-ready stage\", \"Other\"]; question=What is the current stage of development of the invention?; instruction=Choose the stated stage of development. If the user provides a nuanced or unsupported stage, preserve the stated stage without upgrading it beyond the evidence.\n  - stage_of_development_evidence; type=multiline_text; question=What data, photographs, prototype evidence, or other support indicates this stage of development?; instruction=Evidence supporting the stated development stage, such as prototype, data, photographs, simulation, experimental result, or proof of function. Leave unknown if not provided.; semantic_units=STAGE_EVIDENCE:Development-stage evidence=Specific evidence supporting the stated development stage.\n  - future_steps_table; type=table; question=List immediate and future developmental or commercial steps/plans for the invention.; instruction=Each row should contain a distinct step/plan and its approximate timeframe. Do not invent timeframes for steps that lack one.; columns=[{\"id\": \"step_description\", \"type\": \"text\", \"question\": \"Step or plan\", \"instruction\": \"Specific developmental or commercial step, such as testing, prototype build, animal study, patent filing, market contact, startup formation, or licensing out...\"}, {\"id\": \"step_type\", \"type\": \"single_choice\", \"question\": \"Step type\", \"instruction\": \"Best category for the stated step.\"}, {\"id\": \"approximate_timeframe\", \"type\": \"text\", \"question\": \"Approximate timeframe\", \"instruction\": \"Timeframe as stated, preserving approximate values such as 'next quarter', 'six months', or 'after prototype testing'.\"}]\n  - potential_licensee_count; type=integer; question=How many potential licensees, companies, industries, or R&D sponsors should be listed?; instruction=Number of distinct potential licensees, industries, companies, or R&D sponsors the user wants to list. Use 0 if none are known.\n  - REPEAT potential_licensees_or_sponsors: Potential licensees or R&D sponsors; mode=from_slot, from_slot=potential_licensee_count; child paths are potential_licensees_or_sponsors[index].field; semantic_units=LICENSEE_INSTANCE_MAPPING:Licensee/sponsor instance mapping=Organization or industry name, contact information, and interest rationale are attached to the correct potential licensee or sponsor instance.\n    - potential_licensees_or_sponsors[i].organization_or_industry_name; type=text; question=What company, industry, or sponsor might be interested?; instruction=Name of company, industry sector, potential licensee, or R&D sponsor as stated.\n    - potential_licensees_or_sponsors[i].contact_information; type=text; question=What contact information is available for this potential licensee or sponsor?; instruction=Contact person, email, phone, website, department, or address if provided.\n    - potential_licensees_or_sponsors[i].interest_rationale; type=text; question=Why might this organization or industry be interested in the invention?; instruction=Reason for potential interest, such as making, using, selling, sponsoring, developing, or licensing the technology. Do not infer interest beyond stated rationale.\n  - keywords; type=text; question=What keywords should identify this invention for search engines or databases?; instruction=Fill or change this field only when the user explicitly supplies keywords, search terms, or tags, or explicitly says to add, include, remove, or replace specific keywords. Preserve domain-specific terms and acronyms as stated. Do not infer keywords from the...\n  - submission_reasons; type=multiple_choice; options=[\"Significant commercial potential\", \"Platform and/or pioneering technology\", \"Specific company interested in licensing\", \"Interested in start-up company based on the technology\", \"Requirement of existing research agreement or University policy\", \"Other\"]; question=What are the reasons for submitting this invention disclosure?; instruction=Select all stated reasons. If Other, preserve the specified reason.\n- SECTION (not an output key) signatures_and_witnesses: Signatures and witnesses\n  - inventor_signatures_table; type=table; question=List inventor signatures or signature status.; instruction=Each inventor signature row should include printed name, signature status, and date signed if available.; columns=[{\"id\": \"inventor_printed_name\", \"type\": \"text\", \"question\": \"Inventor printed name\", \"instruction\": \"Printed name of inventor whose signature is or will be provided.\"}, {\"id\": \"signature_present\", \"type\": \"bool\", \"question\": \"Signature present?\", \"instruction\": \"True if the inventor has signed or the signature is present.\"}, {\"id\": \"date_signed\", \"type\": \"date\", \"question\": \"Date signed\", \"instruction\": \"Date of signature in YYYY-MM-DD when exact.\"}]\n  - REPEAT witnesses: Technically qualified witnesses; mode=fixed, count=2; child paths are witnesses[index].field; semantic_units=WITNESS_INSTANCE_MAPPING:Witness instance mapping=Witness printed name, qualification, signature status, and date refer to the same witness instance.\n    - witnesses[i].witness_printed_name; type=text; question=What is the witness's printed name?; instruction=Printed name of a technically qualified witness.\n    - witnesses[i].technical_qualification; type=text; question=What technical qualification or background makes this witness able to understand the invention?; instruction=Technical background, role, lab affiliation, expertise, or qualification stated for the witness.\n    - witnesses[i].signature_present; type=bool; question=Is the witness signature present?; instruction=True if the witness has signed or the signature is present.\n    - witnesses[i].date_signed; type=date; question=What date did the witness sign?; instruction=Date of witness signature in YYYY-MM-DD when exact.\n  - original_with_signatures_ready_for_campus_mail; type=bool; question=Is the original form with signatures ready for campus-mail submission?; instruction=True if the original signed form is ready to send by campus mail; false if signatures or original packet are missing.\n  - word_copy_emailed; type=bool; question=Has the MS Word copy been emailed to the required recipients?; instruction=True if the MS Word copy has been emailed as required; false if not.\n  - signature_scan_emailed; type=bool; question=Has a scan of the document with signatures been emailed to the required recipients?; instruction=True if the signed scan has been emailed as required; false if not.\n\n=== STATE SHAPE CONTRACT ===\nThe resulting record state is a flat JSON object.\nTop-level keys, exactly:\n[\"agreement_count\", \"agreements\", \"background_and_prior_art\", \"comparative_benefits_advantages\", \"complete_invention_description_date\", \"complete_invention_description_recorded_where_and_disclosed_to_whom\", \"detailed_description\", \"disclosed_to_non_uci_personnel\", \"earliest_non_uci_disclosure_date\", \"earliest_public_availability_date\", \"field_of_invention\", \"first_successful_operation_date\", \"first_successful_operation_recorded_where_and_disclosed_to_whom\", \"formal_public_disclosure_channel\", \"formal_public_disclosure_status\", \"funding_source_count\", \"funding_sources\", \"future_steps_table\", \"has_journal_conference_thesis_or_library_disclosure\", \"has_rights_affecting_agreements\", \"initial_conception_date\", \"initial_conception_recorded_where_and_disclosed_to_whom\", \"invention_title\", \"inventor_signatures_table\", \"journal_conference_or_meeting_name\", \"keywords\", \"literature_search_performed\", \"literature_search_performed_by\", \"manuscript_attached\", \"non_uci_disclosure_context\", \"non_uci_disclosure_recipients\", \"non_uci_inventor_count\", \"non_uci_inventors\", \"original_with_signatures_ready_for_campus_mail\", \"patent_search_performed\", \"patent_search_performed_by\", \"pertinent_references_attached\", \"potential_licensee_count\", \"potential_licensees_or_sponsors\", \"proprietary_material_count\", \"proprietary_materials\", \"publication_or_disclosure_copies_attached\", \"signature_scan_emailed\", \"software_component_description\", \"software_copyright_disclosure_attached\", \"software_is_integral\", \"stage_of_development\", \"stage_of_development_evidence\", \"submission_reasons\", \"summary_of_invention\", \"uci_inventor_count\", \"uci_inventors\", \"used_external_proprietary_materials\", \"was_funded_or_sponsored\", \"witnesses\", \"word_copy_emailed\"]\nRepeat-group row object keys, exactly:\n- agreements: [\"agreement_type\", \"copy_attached\", \"copy_available\", \"other_party_name\"]\n- funding_sources: [\"contract_or_grant_number\", \"funding_scope\", \"principal_investigator_or_supervisor\", \"sponsor_name\"]\n- non_uci_inventors: [\"employer\", \"non_uci_category\", \"non_uci_mobile_phone\", \"non_uci_name\", \"non_uci_other_email\", \"non_uci_work_phone\", \"title\", \"work_address\", \"work_email\"]\n- potential_licensees_or_sponsors: [\"contact_information\", \"interest_rationale\", \"organization_or_industry_name\"]\n- proprietary_materials: [\"agreement_copy_attached\", \"description\", \"material_type\", \"provider_name\"]\n- uci_inventors: [\"campus_address\", \"category\", \"department_or_oru\", \"home_address\", \"is_lead_contact\", \"mobile_phone\", \"name\", \"other_email\", \"pre_2011_patent_amendment_signed\", \"school_or_division\", \"title_at_uci\", \"uci_email\", \"uci_employment_dates\", \"work_phone\"]\n- witnesses: [\"date_signed\", \"signature_present\", \"technical_qualification\", \"witness_printed_name\"]\nTable row column keys, exactly:\n- future_steps_table: [\"approximate_timeframe\", \"step_description\", \"step_type\"]\n- inventor_signatures_table: [\"date_signed\", \"inventor_printed_name\", \"signature_present\"]\n\n=== PRIOR RECORD STATE ===\n{\n  \"agreement_count\": 0,\n  \"background_and_prior_art\": null,\n  \"comparative_benefits_advantages\": null,\n  \"complete_invention_description_date\": null,\n  \"complete_invention_description_recorded_where_and_disclosed_to_whom\": null,\n  \"detailed_description\": null,\n  \"disclosed_to_non_uci_personnel\": false,\n  \"earliest_non_uci_disclosure_date\": null,\n  \"earliest_public_availability_date\": null,\n  \"field_of_invention\": null,\n  \"first_successful_operation_date\": null,\n  \"first_successful_operation_recorded_where_and_disclosed_to_whom\": null,\n  \"formal_public_disclosure_channel\": [],\n  \"formal_public_disclosure_status\": [],\n  \"funding_source_count\": 0,\n  \"future_steps_table\": null,\n  \"has_journal_conference_thesis_or_library_disclosure\": false,\n  \"has_rights_affecting_agreements\": false,\n  \"initial_conception_date\": null,\n  \"initial_conception_recorded_where_and_disclosed_to_whom\": null,\n  \"invention_title\": \"Adaptive sensor bracket\",\n  \"inventor_signatures_table\": null,\n  \"journal_conference_or_meeting_name\": null,\n  \"keywords\": null,\n  \"literature_search_performed\": null,\n  \"literature_search_performed_by\": null,\n  \"manuscript_attached\": null,\n  \"non_uci_disclosure_context\": null,\n  \"non_uci_disclosure_recipients\": null,\n  \"non_uci_inventor_count\": 0,\n  \"original_with_signatures_ready_for_campus_mail\": null,\n  \"patent_search_performed\": null,\n  \"patent_search_performed_by\": null,\n  \"pertinent_references_attached\": null,\n  \"potential_licensee_count\": null,\n  \"proprietary_material_count\": null,\n  \"publication_or_disclosure_copies_attached\": false,\n  \"signature_scan_emailed\": null,\n  \"software_component_description\": null,\n  \"software_copyright_disclosure_attached\": null,\n  \"software_is_integral\": false,\n  \"stage_of_development\": null,\n  \"stage_of_development_evidence\": null,\n  \"submission_reasons\": null,\n  \"summary_of_invention\": null,\n  \"uci_inventor_count\": 1,\n  \"used_external_proprietary_materials\": null,\n  \"was_funded_or_sponsored\": false,\n  \"word_copy_emailed\": null,\n  \"agreements\": [],\n  \"funding_sources\": [],\n  \"non_uci_inventors\": [],\n  \"potential_licensees_or_sponsors\": null,\n  \"proprietary_materials\": null,\n  \"uci_inventors\": [\n    {\n      \"campus_address\": \"Engineering Hall 221\",\n      \"category\": \"Faculty\",\n      \"department_or_oru\": \"Mechanical Engineering\",\n      \"home_address\": null,\n      \"is_lead_contact\": true,\n      \"mobile_phone\": null,\n      \"name\": \"Dr. Asha Rao\",\n      \"other_email\": null,\n      \"pre_2011_patent_amendment_signed\": true,\n      \"school_or_division\": \"Engineering\",\n      \"title_at_uci\": \"Professor\",\n      \"uci_email\": \"arao@uci.edu\",\n      \"uci_employment_dates\": \"2014-present\",\n      \"work_phone\": \"949-555-0111\"\n    }\n  ],\n  \"witnesses\": []\n}\n\n=== CONVERSATION HISTORY ===\n[user]: The disclosure currently has one UCI inventor and no outside funding.\n\n=== CURRENT USER UTTERANCE ===\nApply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `invention_title` to `\"Adaptive sensor bracket with self-calibrating firmware\"`\n- set `uci_inventor_count` to `2`\n- set `uci_inventors[0].uci_email` to `\"asha.rao@uci.edu\"`\n- set `uci_inventors[1].is_lead_contact` to `false`\n- set `uci_inventors[1].name` to `\"Priya Chen\"`\n- set `uci_inventors[1].title_at_uci` to `\"Graduate student\"`\n- set `uci_inventors[1].department_or_oru` to `\"Electrical Engineering\"`\n- set `uci_inventors[1].category` to `\"Grad Student\"`\n- set `uci_inventors[1].mobile_phone` to `\"949-555-0199\"`\n- set `uci_inventors[1].uci_email` to `\"pchen@uci.edu\"`\n- set `was_funded_or_sponsored` to `true`\n- set `funding_source_count` to `1`\n- set `funding_sources[0].sponsor_name` to `\"NIH\"`\n- set `funding_sources[0].contract_or_grant_number` to `\"R01-12345\"`\n- set `funding_sources[0].principal_investigator_or_supervisor` to `\"Dr. Rao\"`\n- set `funding_sources[0].funding_scope` to `\"wearable sensor research\"`\n- set `has_rights_affecting_agreements` to `true`\n- set `agreement_count` to `1`\n- set `agreements[0].agreement_type` to `\"Consulting Agreement\"`\n- set `agreements[0].other_party_name` to `\"MedMotion\"`\n- set `agreements[0].copy_available` to `true`\n- set `agreements[0].copy_attached` to `true`\n- set `software_is_integral` to `true`\n- set `software_copyright_disclosure_attached` to `true`\n- set `software_component_description` to `\"Self-calibrating firmware is integral to the invention.\"`\n- set `has_journal_conference_thesis_or_library_disclosure` to `true`\n- set `formal_public_disclosure_status` to `[\"Submitted\"]`\n- set `formal_public_disclosure_channel` to `[\"Conference\"]`\n- set `earliest_public_availability_date` to `\"2026-06-10\"`\n- set `journal_conference_or_meeting_name` to `\"West Coast Bioengineering Conference\"`\n- set `witnesses[0].witness_printed_name` to `\"Omar Silva\"`\n- set `witnesses[0].technical_qualification` to `\"PhD electrical engineering\"`\n- set `witnesses[0].signature_present` to `true`\n- set `witnesses[0].date_signed` to `\"2026-05-02\"`\n\n=== TASK ===\nAudit the prior state against the schema, visible history, and current utterance. Return the full resulting record JSON using all and only evidence-licensed post-turn values.",
+            "role": "human"
+          }
+        ],
+        "response": {
+          "class": "AIMessage",
+          "content": "{\"agreement_count\":1,\"agreements\":[{\"agreement_type\":\"Consulting Agreement\",\"copy_attached\":true,\"copy_available\":true,\"other_party_name\":\"MedMotion\"}],\"background_and_prior_art\":null,\"comparative_benefits_advantages\":null,\"complete_invention_description_date\":null,\"complete_invention_description_recorded_where_and_disclosed_to_whom\":null,\"detailed_description\":null,\"disclosed_to_non_uci_personnel\":false,\"earliest_non_uci_disclosure_date\":null,\"earliest_public_availability_date\":\"2026-06-10\",\"field_of_invention\":null,\"first_successful_operation_date\":null,\"first_successful_operation_recorded_where_and_disclosed_to_whom\":null,\"formal_public_disclosure_channel\":[\"Conference\"],\"formal_public_disclosure_status\":[\"Submitted\"],\"funding_source_count\":1,\"funding_sources\":[{\"contract_or_grant_number\":\"R01-12345\",\"funding_scope\":\"wearable sensor research\",\"principal_investigator_or_supervisor\":\"Dr. Rao\",\"sponsor_name\":\"NIH\"}],\"future_steps_table\":null,\"has_journal_conference_thesis_or_library_disclosure\":true,\"has_rights_affecting_agreements\":true,\"initial_conception_date\":null,\"initial_conception_recorded_where_and_disclosed_to_whom\":null,\"invention_title\":\"Adaptive sensor bracket with self-calibrating firmware\",\"inventor_signatures_table\":null,\"journal_conference_or_meeting_name\":\"West Coast Bioengineering Conference\",\"keywords\":null,\"literature_search_performed\":null,\"literature_search_performed_by\":null,\"manuscript_attached\":null,\"non_uci_disclosure_context\":null,\"non_uci_disclosure_recipients\":null,\"non_uci_inventor_count\":0,\"non_uci_inventors\":[],\"original_with_signatures_ready_for_campus_mail\":null,\"patent_search_performed\":null,\"patent_search_performed_by\":null,\"pertinent_references_attached\":null,\"potential_licensee_count\":null,\"potential_licensees_or_sponsors\":null,\"proprietary_material_count\":null,\"proprietary_materials\":null,\"publication_or_disclosure_copies_attached\":false,\"signature_scan_emailed\":null,\"software_component_description\":\"Self-calibrating firmware is integral to the invention.\",\"software_copyright_disclosure_attached\":true,\"software_is_integral\":true,\"stage_of_development\":null,\"stage_of_development_evidence\":null,\"submission_reasons\":null,\"summary_of_invention\":null,\"uci_inventor_count\":2,\"uci_inventors\":[{\"campus_address\":\"Engineering Hall 221\",\"category\":\"Faculty\",\"department_or_oru\":\"Mechanical Engineering\",\"home_address\":null,\"is_lead_contact\":true,\"mobile_phone\":null,\"name\":\"Dr. Asha Rao\",\"other_email\":null,\"pre_2011_patent_amendment_signed\":true,\"school_or_division\":\"Engineering\",\"title_at_uci\":\"Professor\",\"uci_email\":\"asha.rao@uci.edu\",\"uci_employment_dates\":\"2014-present\",\"work_phone\":\"949-555-0111\"},{\"campus_address\":null,\"category\":\"Grad Student\",\"department_or_oru\":\"Electrical Engineering\",\"home_address\":null,\"is_lead_contact\":false,\"mobile_phone\":\"949-555-0199\",\"name\":\"Priya Chen\",\"other_email\":null,\"pre_2011_patent_amendment_signed\":null,\"school_or_division\":null,\"title_at_uci\":\"Graduate student\",\"uci_email\":\"pchen@uci.edu\",\"uci_employment_dates\":null,\"work_phone\":null}],\"used_external_proprietary_materials\":null,\"was_funded_or_sponsored\":true,\"witnesses\":[{\"date_signed\":\"2026-05-02\",\"signature_present\":true,\"technical_qualification\":\"PhD electrical engineering\",\"witness_printed_name\":\"Omar Silva\"},{\"date_signed\":null,\"signature_present\":null,\"technical_qualification\":null,\"witness_printed_name\":null}],\"word_copy_emailed\":null}",
+          "role": "ai"
+        }
+      }
+    ]
+  },
+  "answer_updates": {
+    "agreement_count": 1,
+    "agreements": [
+      {
+        "agreement_type": "Consulting Agreement",
+        "copy_attached": true,
+        "copy_available": true,
+        "other_party_name": "MedMotion"
+      }
+    ],
+    "earliest_public_availability_date": "2026-06-10",
+    "formal_public_disclosure_channel": [
+      "Conference"
+    ],
+    "formal_public_disclosure_status": [
+      "Submitted"
+    ],
+    "funding_source_count": 1,
+    "funding_sources": [
+      {
+        "contract_or_grant_number": "R01-12345",
+        "funding_scope": "wearable sensor research",
+        "principal_investigator_or_supervisor": "Dr. Rao",
+        "sponsor_name": "NIH"
+      }
+    ],
+    "has_journal_conference_thesis_or_library_disclosure": true,
+    "has_rights_affecting_agreements": true,
+    "invention_title": "Adaptive sensor bracket with self-calibrating firmware",
+    "journal_conference_or_meeting_name": "West Coast Bioengineering Conference",
+    "software_component_description": "Self-calibrating firmware is integral to the invention.",
+    "software_copyright_disclosure_attached": true,
+    "software_is_integral": true,
+    "uci_inventor_count": 2,
+    "uci_inventors": [
+      {
+        "campus_address": "Engineering Hall 221",
+        "category": "Faculty",
+        "department_or_oru": "Mechanical Engineering",
+        "home_address": null,
+        "is_lead_contact": true,
+        "mobile_phone": null,
+        "name": "Dr. Asha Rao",
+        "other_email": null,
+        "pre_2011_patent_amendment_signed": true,
+        "school_or_division": "Engineering",
+        "title_at_uci": "Professor",
+        "uci_email": "asha.rao@uci.edu",
+        "uci_employment_dates": "2014-present",
+        "work_phone": "949-555-0111"
+      },
+      {
+        "campus_address": null,
+        "category": "Grad Student",
+        "department_or_oru": "Electrical Engineering",
+        "home_address": null,
+        "is_lead_contact": false,
+        "mobile_phone": "949-555-0199",
+        "name": "Priya Chen",
+        "other_email": null,
+        "pre_2011_patent_amendment_signed": null,
+        "school_or_division": null,
+        "title_at_uci": "Graduate student",
+        "uci_email": "pchen@uci.edu",
+        "uci_employment_dates": null,
+        "work_phone": null
+      }
+    ],
+    "was_funded_or_sponsored": true,
+    "witnesses": [
+      {
+        "date_signed": "2026-05-02",
+        "signature_present": true,
+        "technical_qualification": "PhD electrical engineering",
+        "witness_printed_name": "Omar Silva"
+      },
+      {
+        "date_signed": null,
+        "signature_present": null,
+        "technical_qualification": null,
+        "witness_printed_name": null
+      }
+    ]
+  },
+  "answers_after": {
+    "agreement_count": 1,
+    "agreements": [
+      {
+        "agreement_type": "Consulting Agreement",
+        "copy_attached": true,
+        "copy_available": true,
+        "other_party_name": "MedMotion"
+      }
+    ],
+    "background_and_prior_art": null,
+    "comparative_benefits_advantages": null,
+    "complete_invention_description_date": null,
+    "complete_invention_description_recorded_where_and_disclosed_to_whom": null,
+    "detailed_description": null,
+    "disclosed_to_non_uci_personnel": false,
+    "earliest_non_uci_disclosure_date": null,
+    "earliest_public_availability_date": "2026-06-10",
+    "field_of_invention": null,
+    "first_successful_operation_date": null,
+    "first_successful_operation_recorded_where_and_disclosed_to_whom": null,
+    "formal_public_disclosure_channel": [
+      "Conference"
+    ],
+    "formal_public_disclosure_status": [
+      "Submitted"
+    ],
+    "funding_source_count": 1,
+    "funding_sources": [
+      {
+        "contract_or_grant_number": "R01-12345",
+        "funding_scope": "wearable sensor research",
+        "principal_investigator_or_supervisor": "Dr. Rao",
+        "sponsor_name": "NIH"
+      }
+    ],
+    "future_steps_table": null,
+    "has_journal_conference_thesis_or_library_disclosure": true,
+    "has_rights_affecting_agreements": true,
+    "initial_conception_date": null,
+    "initial_conception_recorded_where_and_disclosed_to_whom": null,
+    "invention_title": "Adaptive sensor bracket with self-calibrating firmware",
+    "inventor_signatures_table": null,
+    "journal_conference_or_meeting_name": "West Coast Bioengineering Conference",
+    "keywords": null,
+    "literature_search_performed": null,
+    "literature_search_performed_by": null,
+    "manuscript_attached": null,
+    "non_uci_disclosure_context": null,
+    "non_uci_disclosure_recipients": null,
+    "non_uci_inventor_count": 0,
+    "non_uci_inventors": [],
+    "original_with_signatures_ready_for_campus_mail": null,
+    "patent_search_performed": null,
+    "patent_search_performed_by": null,
+    "pertinent_references_attached": null,
+    "potential_licensee_count": null,
+    "potential_licensees_or_sponsors": null,
+    "proprietary_material_count": null,
+    "proprietary_materials": null,
+    "publication_or_disclosure_copies_attached": false,
+    "signature_scan_emailed": null,
+    "software_component_description": "Self-calibrating firmware is integral to the invention.",
+    "software_copyright_disclosure_attached": true,
+    "software_is_integral": true,
+    "stage_of_development": null,
+    "stage_of_development_evidence": null,
+    "submission_reasons": null,
+    "summary_of_invention": null,
+    "uci_inventor_count": 2,
+    "uci_inventors": [
+      {
+        "campus_address": "Engineering Hall 221",
+        "category": "Faculty",
+        "department_or_oru": "Mechanical Engineering",
+        "home_address": null,
+        "is_lead_contact": true,
+        "mobile_phone": null,
+        "name": "Dr. Asha Rao",
+        "other_email": null,
+        "pre_2011_patent_amendment_signed": true,
+        "school_or_division": "Engineering",
+        "title_at_uci": "Professor",
+        "uci_email": "asha.rao@uci.edu",
+        "uci_employment_dates": "2014-present",
+        "work_phone": "949-555-0111"
+      },
+      {
+        "campus_address": null,
+        "category": "Grad Student",
+        "department_or_oru": "Electrical Engineering",
+        "home_address": null,
+        "is_lead_contact": false,
+        "mobile_phone": "949-555-0199",
+        "name": "Priya Chen",
+        "other_email": null,
+        "pre_2011_patent_amendment_signed": null,
+        "school_or_division": null,
+        "title_at_uci": "Graduate student",
+        "uci_email": "pchen@uci.edu",
+        "uci_employment_dates": null,
+        "work_phone": null
+      }
+    ],
+    "used_external_proprietary_materials": null,
+    "was_funded_or_sponsored": true,
+    "witnesses": [
+      {
+        "date_signed": "2026-05-02",
+        "signature_present": true,
+        "technical_qualification": "PhD electrical engineering",
+        "witness_printed_name": "Omar Silva"
+      },
+      {
+        "date_signed": null,
+        "signature_present": null,
+        "technical_qualification": null,
+        "witness_printed_name": null
+      }
+    ],
+    "word_copy_emailed": null
+  },
+  "answers_before": {
+    "agreement_count": 0,
+    "agreements": [],
+    "disclosed_to_non_uci_personnel": false,
+    "earliest_non_uci_disclosure_date": null,
+    "earliest_public_availability_date": null,
+    "formal_public_disclosure_channel": [],
+    "formal_public_disclosure_status": [],
+    "funding_source_count": 0,
+    "funding_sources": [],
+    "has_journal_conference_thesis_or_library_disclosure": false,
+    "has_rights_affecting_agreements": false,
+    "invention_title": "Adaptive sensor bracket",
+    "journal_conference_or_meeting_name": null,
+    "non_uci_disclosure_context": null,
+    "non_uci_disclosure_recipients": null,
+    "non_uci_inventor_count": 0,
+    "non_uci_inventors": [],
+    "publication_or_disclosure_copies_attached": false,
+    "software_component_description": null,
+    "software_copyright_disclosure_attached": null,
+    "software_is_integral": false,
+    "uci_inventor_count": 1,
+    "uci_inventors": [
+      {
+        "campus_address": "Engineering Hall 221",
+        "category": "Faculty",
+        "department_or_oru": "Mechanical Engineering",
+        "home_address": null,
+        "is_lead_contact": true,
+        "mobile_phone": null,
+        "name": "Dr. Asha Rao",
+        "other_email": null,
+        "pre_2011_patent_amendment_signed": true,
+        "school_or_division": "Engineering",
+        "title_at_uci": "Professor",
+        "uci_email": "arao@uci.edu",
+        "uci_employment_dates": "2014-present",
+        "work_phone": "949-555-0111"
+      }
+    ],
+    "was_funded_or_sponsored": false,
+    "witnesses": []
+  },
+  "current_utterance": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `invention_title` to `\"Adaptive sensor bracket with self-calibrating firmware\"`\n- set `uci_inventor_count` to `2`\n- set `uci_inventors[0].uci_email` to `\"asha.rao@uci.edu\"`\n- set `uci_inventors[1].is_lead_contact` to `false`\n- set `uci_inventors[1].name` to `\"Priya Chen\"`\n- set `uci_inventors[1].title_at_uci` to `\"Graduate student\"`\n- set `uci_inventors[1].department_or_oru` to `\"Electrical Engineering\"`\n- set `uci_inventors[1].category` to `\"Grad Student\"`\n- set `uci_inventors[1].mobile_phone` to `\"949-555-0199\"`\n- set `uci_inventors[1].uci_email` to `\"pchen@uci.edu\"`\n- set `was_funded_or_sponsored` to `true`\n- set `funding_source_count` to `1`\n- set `funding_sources[0].sponsor_name` to `\"NIH\"`\n- set `funding_sources[0].contract_or_grant_number` to `\"R01-12345\"`\n- set `funding_sources[0].principal_investigator_or_supervisor` to `\"Dr. Rao\"`\n- set `funding_sources[0].funding_scope` to `\"wearable sensor research\"`\n- set `has_rights_affecting_agreements` to `true`\n- set `agreement_count` to `1`\n- set `agreements[0].agreement_type` to `\"Consulting Agreement\"`\n- set `agreements[0].other_party_name` to `\"MedMotion\"`\n- set `agreements[0].copy_available` to `true`\n- set `agreements[0].copy_attached` to `true`\n- set `software_is_integral` to `true`\n- set `software_copyright_disclosure_attached` to `true`\n- set `software_component_description` to `\"Self-calibrating firmware is integral to the invention.\"`\n- set `has_journal_conference_thesis_or_library_disclosure` to `true`\n- set `formal_public_disclosure_status` to `[\"Submitted\"]`\n- set `formal_public_disclosure_channel` to `[\"Conference\"]`\n- set `earliest_public_availability_date` to `\"2026-06-10\"`\n- set `journal_conference_or_meeting_name` to `\"West Coast Bioengineering Conference\"`\n- set `witnesses[0].witness_printed_name` to `\"Omar Silva\"`\n- set `witnesses[0].technical_qualification` to `\"PhD electrical engineering\"`\n- set `witnesses[0].signature_present` to `true`\n- set `witnesses[0].date_signed` to `\"2026-05-02\"`",
+  "is_complete": true,
+  "provenance": {
+    "generation": {
+      "agent": "Direct",
+      "model": {
+        "max_tokens": 8192,
+        "model": "deepseek-flash",
+        "provider": "openai",
+        "requested_model": "deepseek-flash",
+        "resolved_model_name": "deepseek-flash",
+        "resolved_model_version": "deepseek-flash",
+        "temperature": null,
+        "timeout": 300
+      },
+      "schema_interface": {
+        "public_projection": "shared_schema_field_guide_with_schema_completed_prior_state"
+      },
+      "tool_policy": {
+        "mode": "state_json"
+      }
+    }
+  },
+  "questionnaire": "patent_form",
+  "scenario": "patent_form_dev_01",
+  "scenario_id": "patent_form_dev_01",
+  "state": "state_1",
+  "turn_index": 0,
+  "utterance_id": "u1",
+  "visible_history": [
+    {
+      "content": "The disclosure currently has one UCI inventor and no outside funding.",
+      "role": "user"
+    }
+  ]
+}

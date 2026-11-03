@@ -1,0 +1,4047 @@
+[
+ {
+  "turn": 1,
+  "utterance": "Yes, my lower back has been hurting pretty badly since I lifted something heavy at work, and my left wrist is sore too.",
+  "prior_state": {
+   "pain_experience": null,
+   "number_of_pains": null,
+   "pain_details": [],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "since I lifted something heavy at work",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": null
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "since I lifted something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_severity": {
+    "cand": "Mild",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll be asking a few questions to fill in your screening questionnaire. To start, are you having any pain right now?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 1,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 31,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5458,
+   "output_tokens": 455,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "The back pain started about 3 days ago, but the wrist has been sore for maybe a week.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "since I lifted something heavy at work",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": null,
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": null
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 3 days",
+    "gold": "about 3 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_severity": {
+    "cand": "Mild",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll be asking a few questions to fill in your screening questionnaire. To start, are you having any pain right now?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, my lower back has been hurting pretty badly since I lifted something heavy at work, and my left wrist is sore too."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. How long has the back pain been going on?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "pain_details[1].pain_severity",
+    "wrong": "Mild",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 2,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 5599,
+   "output_tokens": 455,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 3,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "The wrist is mild, more of an ache than anything.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 3 days",
+    "gold": "about 3 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "pain_details[1].pain_notes"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll be asking a few questions to fill in your screening questionnaire. To start, are you having any pain right now?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, my lower back has been hurting pretty badly since I lifted something heavy at work, and my left wrist is sore too."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. How long has the back pain been going on?"
+   },
+   {
+    "role": "user",
+    "content": "The back pain started about 3 days ago, but the wrist has been sore for maybe a week."
+   },
+   {
+    "role": "assistant",
+    "content": "Got it. And how would you rate the wrist soreness?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 3,
+   "n_fields": 41,
+   "n_correct": 38,
+   "n_partial": 0,
+   "all_field_acc": 0.9268,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 22,
+   "structured_acc": 1.0,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"High\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 38,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5631,
+   "output_tokens": 461,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 5,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "No, no cough at all.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": null,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Mild"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": null,
+   "most_recent_fall_date_or_time": null,
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 3 days",
+    "gold": "about 3 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello! I'll be asking a few questions to fill in your screening questionnaire. To start, are you having any pain right now?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, my lower back has been hurting pretty badly since I lifted something heavy at work, and my left wrist is sore too."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. How long has the back pain been going on?"
+   },
+   {
+    "role": "user",
+    "content": "The back pain started about 3 days ago, but the wrist has been sore for maybe a week."
+   },
+   {
+    "role": "assistant",
+    "content": "Got it. And how would you rate the wrist soreness?"
+   },
+   {
+    "role": "user",
+    "content": "The wrist is mild, more of an ache than anything."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you had any cough recently?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 4,
+   "n_fields": 41,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.9024,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 36,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5659,
+   "output_tokens": 461,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "Yes, I fell at work about two months ago when I tripped over a pallet.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": null,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": null,
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": null,
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 3 days",
+    "gold": "about 3 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Yes, lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too"
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. How long has the back pain been going on?"
+   },
+   {
+    "role": "user",
+    "content": "The back pain started about 3 days ago, but the wrist has been sore for maybe a week."
+   },
+   {
+    "role": "assistant",
+    "content": "Got it. And how would you rate the wrist soreness?"
+   },
+   {
+    "role": "user",
+    "content": "The wrist is mild, more of an ache than anything."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you had any cough recently?"
+   },
+   {
+    "role": "user",
+    "content": "No, no cough at all."
+   },
+   {
+    "role": "assistant",
+    "content": "Any falls in the last 12 months?"
+   }
+  ],
+  "summary_text": "- Yes, lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 5,
+   "n_fields": 41,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.9024,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5668,
+   "output_tokens": 360,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.04,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 1,
+   "summary_chars": 111,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 6,
+  "utterance": "No, I don't use any kind of walking aid.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": null,
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 3 days",
+    "gold": "about 3 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Yes, lower back has been hurting pretty badly since lifting something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago\n- Wrist has been sore for maybe a week"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it. And how would you rate the wrist soreness?"
+   },
+   {
+    "role": "user",
+    "content": "The wrist is mild, more of an ache than anything."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you had any cough recently?"
+   },
+   {
+    "role": "user",
+    "content": "No, no cough at all."
+   },
+   {
+    "role": "assistant",
+    "content": "Any falls in the last 12 months?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I fell at work about two months ago when I tripped over a pallet."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you use a cane, walker, or wheelchair?"
+   }
+  ],
+  "summary_text": "- Yes, lower back has been hurting pretty badly since lifting something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago\n- Wrist has been sore for maybe a week",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 6,
+   "n_fields": 41,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.9024,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 36,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5683,
+   "output_tokens": 466,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.27,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 2,
+   "summary_chars": 186,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 7,
+  "utterance": "Sorry, I meant it started about 5 days ago, not 3.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 3 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": null,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 5 days",
+    "gold": "about 5 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Yes, lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago\n- Wrist has been sore for maybe a week\n- Wrist is mild, more of an ache than anything"
+   },
+   {
+    "role": "assistant",
+    "content": "Have you had any cough recently?"
+   },
+   {
+    "role": "user",
+    "content": "No, no cough at all."
+   },
+   {
+    "role": "assistant",
+    "content": "Any falls in the last 12 months?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I fell at work about two months ago when I tripped over a pallet."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you use a cane, walker, or wheelchair?"
+   },
+   {
+    "role": "user",
+    "content": "No, I don't use any kind of walking aid."
+   },
+   {
+    "role": "assistant",
+    "content": "Actually, let me go back — you said the back pain started about 3 days ago. Is that right?"
+   }
+  ],
+  "summary_text": "- Yes, lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago\n- Wrist has been sore for maybe a week\n- Wrist is mild, more of an ache than anything",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 7,
+   "n_fields": 41,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.9024,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5712,
+   "output_tokens": 466,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.38,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 3,
+   "summary_chars": 234,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 8,
+  "utterance": "No dentures.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": null,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 5 days",
+    "gold": "about 5 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Yes, lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago\n- Wrist has been sore for maybe a week\n- The wrist is mild, more of an ache than anything\n- No cough at all"
+   },
+   {
+    "role": "assistant",
+    "content": "Any falls in the last 12 months?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, I fell at work about two months ago when I tripped over a pallet."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you use a cane, walker, or wheelchair?"
+   },
+   {
+    "role": "user",
+    "content": "No, I don't use any kind of walking aid."
+   },
+   {
+    "role": "assistant",
+    "content": "Actually, let me go back — you said the back pain started about 3 days ago. Is that right?"
+   },
+   {
+    "role": "user",
+    "content": "Sorry, I meant it started about 5 days ago, not 3."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks for clarifying. Do you wear dentures?"
+   }
+  ],
+  "summary_text": "- Yes, lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago\n- Wrist has been sore for maybe a week\n- The wrist is mild, more of an ache than anything\n- No cough at all",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 8,
+   "n_fields": 41,
+   "n_correct": 37,
+   "n_partial": 0,
+   "all_field_acc": 0.9024,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 36,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5718,
+   "output_tokens": 466,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.43,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 4,
+   "summary_chars": 256,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 9,
+  "utterance": "Yes, when I try to read things my vision gets blurry, especially up close.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": null,
+   "vision_onset": null,
+   "vision_problem": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": null,
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": true,
+   "vision_description": "when I try to read things my vision gets blurry",
+   "vision_onset": null,
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 5 days",
+    "gold": "about 5 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": "blurry when trying to read things, especially up close",
+    "gold": "when I try to read things my vision gets blurry",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Your lower back has been hurting pretty badly since you lifted something heavy at work\n- Your left wrist is sore too\n- The back pain started about 3 days ago\n- The wrist has been sore for maybe a week\n- The wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, you fell at work about two months ago when you tripped over a pallet"
+   },
+   {
+    "role": "assistant",
+    "content": "Do you use a cane, walker, or wheelchair?"
+   },
+   {
+    "role": "user",
+    "content": "No, I don't use any kind of walking aid."
+   },
+   {
+    "role": "assistant",
+    "content": "Actually, let me go back — you said the back pain started about 3 days ago. Is that right?"
+   },
+   {
+    "role": "user",
+    "content": "Sorry, I meant it started about 5 days ago, not 3."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks for clarifying. Do you wear dentures?"
+   },
+   {
+    "role": "user",
+    "content": "No dentures."
+   },
+   {
+    "role": "assistant",
+    "content": "Any problems with your vision or changes to it?"
+   }
+  ],
+  "summary_text": "- Your lower back has been hurting pretty badly since you lifted something heavy at work\n- Your left wrist is sore too\n- The back pain started about 3 days ago\n- The wrist has been sore for maybe a week\n- The wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, you fell at work about two months ago when you tripped over a pallet",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 9,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5739,
+   "output_tokens": 477,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.43,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 5,
+   "summary_chars": 347,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 10,
+  "utterance": "It's been like that for a few months now, maybe since around March.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": null,
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": true,
+   "vision_description": "when I try to read things my vision gets blurry",
+   "vision_onset": "a few months now, maybe since around March",
+   "unintentional_weight_loss": null,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 5 days",
+    "gold": "about 5 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": "blurry when trying to read things, especially up close",
+    "gold": "when I try to read things my vision gets blurry",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago\n- Wrist has been sore for maybe a week\n- Wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, fell at work about two months ago when I tripped over a pallet\n- No, I don't use any kind of walking aid"
+   },
+   {
+    "role": "assistant",
+    "content": "Actually, let me go back — you said the back pain started about 3 days ago. Is that right?"
+   },
+   {
+    "role": "user",
+    "content": "Sorry, I meant it started about 5 days ago, not 3."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks for clarifying. Do you wear dentures?"
+   },
+   {
+    "role": "user",
+    "content": "No dentures."
+   },
+   {
+    "role": "assistant",
+    "content": "Any problems with your vision or changes to it?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, when I try to read things my vision gets blurry, especially up close."
+   },
+   {
+    "role": "assistant",
+    "content": "When did that blurry vision start?"
+   }
+  ],
+  "summary_text": "- Lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago\n- Wrist has been sore for maybe a week\n- Wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, fell at work about two months ago when I tripped over a pallet\n- No, I don't use any kind of walking aid",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 10,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5759,
+   "output_tokens": 486,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.34,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 6,
+   "summary_chars": 359,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 11,
+  "utterance": "No, my weight's been steady.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": null,
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "No",
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": true,
+   "vision_description": "when I try to read things my vision gets blurry",
+   "vision_onset": "a few months now, maybe since around March",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": null,
+   "dysphagia_or_choking": null,
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 5 days",
+    "gold": "about 5 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": "blurry when trying to read things, especially up close",
+    "gold": "when I try to read things my vision gets blurry",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Yes, lower back has been hurting pretty badly since I lifted something heavy at work, and left wrist is sore too.\n- The back pain started about 3 days ago (corrected: about 5 days ago, not 3).\n- The wrist has been sore for maybe a week.\n- The wrist is mild, more of an ache than anything.\n- No, no cough at all.\n- Yes, I fell at work about two months ago when I tripped over a pallet.\n- No, I don't use any kind of walking aid."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks for clarifying. Do you wear dentures?"
+   },
+   {
+    "role": "user",
+    "content": "No dentures."
+   },
+   {
+    "role": "assistant",
+    "content": "Any problems with your vision or changes to it?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, when I try to read things my vision gets blurry, especially up close."
+   },
+   {
+    "role": "assistant",
+    "content": "When did that blurry vision start?"
+   },
+   {
+    "role": "user",
+    "content": "It's been like that for a few months now, maybe since around March."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you noticed any unintentional weight loss?"
+   }
+  ],
+  "summary_text": "- Yes, lower back has been hurting pretty badly since I lifted something heavy at work, and left wrist is sore too.\n- The back pain started about 3 days ago (corrected: about 5 days ago, not 3).\n- The wrist has been sore for maybe a week.\n- The wrist is mild, more of an ache than anything.\n- No, no cough at all.\n- Yes, I fell at work about two months ago when I tripped over a pallet.\n- No, I don't use any kind of walking aid.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 11,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5765,
+   "output_tokens": 487,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.11,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 7,
+   "summary_chars": 429,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 12,
+  "utterance": "No appetite change, and no trouble swallowing.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": null,
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": null,
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "No",
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "No",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": "No",
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "No",
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": true,
+   "vision_description": "when I try to read things my vision gets blurry",
+   "vision_onset": "a few months now, maybe since around March",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "No",
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": null,
+   "allergies": [],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "pain_details[0].pain_duration": {
+    "cand": "about 5 days",
+    "gold": "about 5 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": "blurry when trying to read things, especially up close",
+    "gold": "when I try to read things my vision gets blurry",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 5 days ago (corrected from about 3 days ago)\n- Wrist has been sore for maybe a week\n- Wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, fell at work about two months ago when tripped over a pallet\n- No, don't use any kind of walking aid (cane, walker, or wheelchair)\n- No dentures"
+   },
+   {
+    "role": "assistant",
+    "content": "Any problems with your vision or changes to it?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, when I try to read things my vision gets blurry, especially up close."
+   },
+   {
+    "role": "assistant",
+    "content": "When did that blurry vision start?"
+   },
+   {
+    "role": "user",
+    "content": "It's been like that for a few months now, maybe since around March."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you noticed any unintentional weight loss?"
+   },
+   {
+    "role": "user",
+    "content": "No, my weight's been steady."
+   },
+   {
+    "role": "assistant",
+    "content": "Any change in your appetite, or difficulty swallowing?"
+   }
+  ],
+  "summary_text": "- Lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 5 days ago (corrected from about 3 days ago)\n- Wrist has been sore for maybe a week\n- Wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, fell at work about two months ago when tripped over a pallet\n- No, don't use any kind of walking aid (cane, walker, or wheelchair)\n- No dentures",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 12,
+   "n_fields": 41,
+   "n_correct": 36,
+   "n_partial": 0,
+   "all_field_acc": 0.878,
+   "fully_correct": 0,
+   "structured_n": 22,
+   "structured_correct": 21,
+   "structured_acc": 0.9545,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 34,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5773,
+   "output_tokens": 489,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.43,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 8,
+   "summary_chars": 433,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 13,
+  "utterance": "Yes, just one — I'm allergic to penicillin.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "No",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": "No",
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": null,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "No",
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "No",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": "No",
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "No",
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": null
+    }
+   ],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": true,
+   "vision_description": "when I try to read things my vision gets blurry",
+   "vision_onset": "a few months now, maybe since around March",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "No",
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": 1,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": null,
+     "reaction": null
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "allergies[0].allergy_severity": {
+    "cand": "Unknown",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "about 5 days",
+    "gold": "about 5 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": "blurry when trying to read things, especially up close",
+    "gold": "when I try to read things my vision gets blurry",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Yes, lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago — corrected to about 5 days ago, not 3\n- Wrist has been sore for maybe a week\n- Wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, fell at work about two months ago when tripped over a pallet\n- No, doesn't use any kind of walking aid (cane, walker, or wheelchair)\n- No dentures\n- Yes, when trying to read things vision gets blurry, especially up close"
+   },
+   {
+    "role": "assistant",
+    "content": "When did that blurry vision start?"
+   },
+   {
+    "role": "user",
+    "content": "It's been like that for a few months now, maybe since around March."
+   },
+   {
+    "role": "assistant",
+    "content": "Have you noticed any unintentional weight loss?"
+   },
+   {
+    "role": "user",
+    "content": "No, my weight's been steady."
+   },
+   {
+    "role": "assistant",
+    "content": "Any change in your appetite, or difficulty swallowing?"
+   },
+   {
+    "role": "user",
+    "content": "No appetite change, and no trouble swallowing."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have any known allergies?"
+   }
+  ],
+  "summary_text": "- Yes, lower back has been hurting pretty badly since I lifted something heavy at work\n- Left wrist is sore too\n- Back pain started about 3 days ago — corrected to about 5 days ago, not 3\n- Wrist has been sore for maybe a week\n- Wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, fell at work about two months ago when tripped over a pallet\n- No, doesn't use any kind of walking aid (cane, walker, or wheelchair)\n- No dentures\n- Yes, when trying to read things vision gets blurry, especially up close",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 13,
+   "n_fields": 45,
+   "n_correct": 39,
+   "n_partial": 0,
+   "all_field_acc": 0.8667,
+   "fully_correct": 0,
+   "structured_n": 23,
+   "structured_correct": 21,
+   "structured_acc": 0.913,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 35,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5787,
+   "output_tokens": 533,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.95,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 9,
+   "summary_chars": 519,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 14,
+  "utterance": "I get a rash and swelling, and my doctor called it severe.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "No",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": "No",
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "No",
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Unknown",
+     "reaction": null
+    }
+   ],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "No",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": "No",
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "No",
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rash and swelling"
+    }
+   ],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": true,
+   "vision_description": "when I try to read things my vision gets blurry",
+   "vision_onset": "a few months now, maybe since around March",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "No",
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": 1,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rush and swelling"
+    }
+   ],
+   "number_of_medications": null,
+   "current_medications": [],
+   "number_of_dietary_restrictions": null,
+   "dietary_preferences_and_restrictions": [],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "allergies[0].reaction": {
+    "cand": "rash and swelling",
+    "gold": "rush and swelling",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "about 5 days",
+    "gold": "about 5 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": "blurry when trying to read things, especially up close",
+    "gold": "when I try to read things my vision gets blurry",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - My lower back has been hurting pretty badly since I lifted something heavy at work\n- My left wrist is sore too\n- The back pain started about 5 days ago (corrected from about 3 days ago)\n- The wrist has been sore for maybe a week\n- The wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, I fell at work about two months ago when I tripped over a pallet\n- No, I don't use any kind of walking aid\n- No dentures\n- Yes, when I try to read things my vision gets blurry, especially up close\n- It's been like that for a few months now, maybe since around March"
+   },
+   {
+    "role": "assistant",
+    "content": "Have you noticed any unintentional weight loss?"
+   },
+   {
+    "role": "user",
+    "content": "No, my weight's been steady."
+   },
+   {
+    "role": "assistant",
+    "content": "Any change in your appetite, or difficulty swallowing?"
+   },
+   {
+    "role": "user",
+    "content": "No appetite change, and no trouble swallowing."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have any known allergies?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, just one — I'm allergic to penicillin."
+   },
+   {
+    "role": "assistant",
+    "content": "What reaction do you get from penicillin, and how severe is it?"
+   }
+  ],
+  "summary_text": "- My lower back has been hurting pretty badly since I lifted something heavy at work\n- My left wrist is sore too\n- The back pain started about 5 days ago (corrected from about 3 days ago)\n- The wrist has been sore for maybe a week\n- The wrist is mild, more of an ache than anything\n- No cough at all\n- Yes, I fell at work about two months ago when I tripped over a pallet\n- No, I don't use any kind of walking aid\n- No dentures\n- Yes, when I try to read things my vision gets blurry, especially up close\n- It's been like that for a few months now, maybe since around March",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 14,
+   "n_fields": 45,
+   "n_correct": 39,
+   "n_partial": 0,
+   "all_field_acc": 0.8667,
+   "fully_correct": 0,
+   "structured_n": 23,
+   "structured_correct": 22,
+   "structured_acc": 0.9565,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 38,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5846,
+   "output_tokens": 537,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.62,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 10,
+   "summary_chars": 572,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 15,
+  "utterance": "I take one medication, metformin 500 mg by mouth twice a day, and I'm vegetarian so I avoid meat.",
+  "prior_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "No",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": "No",
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": null,
+   "number_of_medications": null,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "No",
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rash and swelling"
+    }
+   ],
+   "current_medications": [],
+   "dietary_preferences_and_restrictions": [],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "candidate_state": {
+   "ambulatory_aid_notes": null,
+   "ambulatory_aid_use": "No",
+   "appetite_change": "No",
+   "cough_duration": null,
+   "cough_notes": null,
+   "cough_present": false,
+   "denture_present": false,
+   "dysphagia_frequency": null,
+   "dysphagia_or_choking": "No",
+   "fall_in_last_12_months": true,
+   "fall_injuries_note": null,
+   "free_text_notes": null,
+   "hemoptysis_any": null,
+   "lower_denture": null,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "number_of_allergies": 1,
+   "number_of_dietary_restrictions": 1,
+   "number_of_medications": 1,
+   "number_of_pains": 2,
+   "pain_experience": true,
+   "special_diet_notes": null,
+   "special_diet_required": null,
+   "sputum_amount": null,
+   "sputum_color": null,
+   "sputum_notes": null,
+   "sputum_present": null,
+   "unintentional_weight_loss": "No",
+   "upper_denture": null,
+   "vision_description": "blurry when trying to read things, especially up close",
+   "vision_onset": "a few months now, maybe since around March",
+   "vision_problem": true,
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rash and swelling"
+    }
+   ],
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    }
+   ],
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "meat",
+     "preference_type": "Avoids",
+     "reason": "Personal"
+    }
+   ],
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days",
+     "pain_notes": "hurting pretty badly; began after lifting something heavy at work",
+     "pain_part": "lower back",
+     "pain_severity": "Unknown"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": "more of an ache than anything",
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ]
+  },
+  "gold_state": {
+   "pain_experience": true,
+   "number_of_pains": 2,
+   "pain_details": [
+    {
+     "pain_duration": "about 5 days ago",
+     "pain_notes": null,
+     "pain_part": "lower back",
+     "pain_severity": "High"
+    },
+    {
+     "pain_duration": "maybe a week",
+     "pain_notes": null,
+     "pain_part": "left wrist",
+     "pain_severity": "Mild"
+    }
+   ],
+   "cough_present": false,
+   "cough_duration": null,
+   "cough_notes": null,
+   "sputum_present": null,
+   "sputum_color": null,
+   "sputum_amount": null,
+   "hemoptysis_any": null,
+   "sputum_notes": null,
+   "fall_in_last_12_months": true,
+   "most_recent_fall_date_or_time": "about two months ago",
+   "fall_injuries_note": null,
+   "ambulatory_aid_use": "No",
+   "ambulatory_aid_notes": null,
+   "denture_present": false,
+   "upper_denture": null,
+   "lower_denture": null,
+   "vision_problem": true,
+   "vision_description": "when I try to read things my vision gets blurry",
+   "vision_onset": "a few months now, maybe since around March",
+   "unintentional_weight_loss": "No",
+   "weight_loss_amount": null,
+   "weight_loss_timeframe": null,
+   "appetite_change": "No",
+   "dysphagia_or_choking": "No",
+   "dysphagia_frequency": null,
+   "special_diet_required": null,
+   "special_diet_notes": null,
+   "number_of_allergies": 1,
+   "allergies": [
+    {
+     "allergen": "penicillin",
+     "allergy_notes": null,
+     "allergy_severity": "Severe",
+     "reaction": "rush and swelling"
+    }
+   ],
+   "number_of_medications": 1,
+   "current_medications": [
+    {
+     "dose": "500 mg",
+     "frequency": "twice a day",
+     "medication_name": "metformin",
+     "route": "Oral"
+    }
+   ],
+   "number_of_dietary_restrictions": 1,
+   "dietary_preferences_and_restrictions": [
+    {
+     "diet_notes": null,
+     "food_item": "meat",
+     "preference_type": "Avoids",
+     "reason": null
+    }
+   ],
+   "free_text_notes": null
+  },
+  "wrong_leaves": {
+   "allergies[0].reaction": {
+    "cand": "rash and swelling",
+    "gold": "rush and swelling",
+    "verdict": "incorrect"
+   },
+   "dietary_preferences_and_restrictions[0].reason": {
+    "cand": "Personal",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_duration": {
+    "cand": "about 5 days",
+    "gold": "about 5 days ago",
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_notes": {
+    "cand": "hurting pretty badly; began after lifting something heavy at work",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "pain_details[0].pain_severity": {
+    "cand": "Unknown",
+    "gold": "High",
+    "verdict": "incorrect"
+   },
+   "pain_details[1].pain_notes": {
+    "cand": "more of an ache than anything",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vision_description": {
+    "cand": "blurry when trying to read things, especially up close",
+    "gold": "when I try to read things my vision gets blurry",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Yes, my lower back has been hurting pretty badly since I lifted something heavy at work, and my left wrist is sore too\n- The back pain started about 5 days ago (corrected from about 3 days ago)\n- The wrist has been sore for maybe a week\n- The wrist is mild, more of an ache than anything\n- No, no cough at all\n- Yes, I fell at work about two months ago when I tripped over a pallet\n- No, I don't use any kind of walking aid\n- No dentures\n- Yes, when I try to read things my vision gets blurry, especially up close\n- It's been like that for a few months now, maybe since around March\n- No, my weight's been steady"
+   },
+   {
+    "role": "assistant",
+    "content": "Any change in your appetite, or difficulty swallowing?"
+   },
+   {
+    "role": "user",
+    "content": "No appetite change, and no trouble swallowing."
+   },
+   {
+    "role": "assistant",
+    "content": "Do you have any known allergies?"
+   },
+   {
+    "role": "user",
+    "content": "Yes, just one — I'm allergic to penicillin."
+   },
+   {
+    "role": "assistant",
+    "content": "What reaction do you get from penicillin, and how severe is it?"
+   },
+   {
+    "role": "user",
+    "content": "I get a rash and swelling, and my doctor called it severe."
+   },
+   {
+    "role": "assistant",
+    "content": "What medications do you take, and any dietary restrictions?"
+   }
+  ],
+  "summary_text": "- Yes, my lower back has been hurting pretty badly since I lifted something heavy at work, and my left wrist is sore too\n- The back pain started about 5 days ago (corrected from about 3 days ago)\n- The wrist has been sore for maybe a week\n- The wrist is mild, more of an ache than anything\n- No, no cough at all\n- Yes, I fell at work about two months ago when I tripped over a pallet\n- No, I don't use any kind of walking aid\n- No dentures\n- Yes, when I try to read things my vision gets blurry, especially up close\n- It's been like that for a few months now, maybe since around March\n- No, my weight's been steady",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "pa_long_02",
+   "questionnaire_id": "patient_admin",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 15,
+   "n_fields": 53,
+   "n_correct": 46,
+   "n_partial": 0,
+   "all_field_acc": 0.8679,
+   "fully_correct": 0,
+   "structured_n": 26,
+   "structured_correct": 24,
+   "structured_acc": 0.9231,
+   "corrupted_field": "pain_details[0].pain_severity",
+   "injected_value": "\"Mild\"",
+   "gold_value_of_corrupted": "\"High\"",
+   "candidate_value_of_corrupted": "\"Unknown\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 3,
+   "pre_injection_value": "\"High\"",
+   "restored_pre_injection": 0,
+   "collateral_opportunities": 37,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 5882,
+   "output_tokens": 622,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 3.13,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 11,
+   "summary_chars": 614,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ }
+]

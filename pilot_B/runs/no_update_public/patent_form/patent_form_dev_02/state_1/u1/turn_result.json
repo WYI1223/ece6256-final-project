@@ -1,0 +1,213 @@
+{
+  "agent_response": {
+    "operations": [],
+    "raw_response": "NoUpdate baseline: copied schema-completed prior state."
+  },
+  "answer_updates": {},
+  "answers_after": {
+    "agreement_count": 1,
+    "agreements": [
+      {
+        "agreement_type": "Material Transfer Agreement",
+        "copy_attached": true,
+        "copy_available": true,
+        "other_party_name": "North Labs"
+      }
+    ],
+    "background_and_prior_art": null,
+    "comparative_benefits_advantages": null,
+    "complete_invention_description_date": null,
+    "complete_invention_description_recorded_where_and_disclosed_to_whom": null,
+    "detailed_description": null,
+    "disclosed_to_non_uci_personnel": true,
+    "earliest_non_uci_disclosure_date": "2026-01-18",
+    "earliest_public_availability_date": "2026-02-01",
+    "field_of_invention": null,
+    "first_successful_operation_date": null,
+    "first_successful_operation_recorded_where_and_disclosed_to_whom": null,
+    "formal_public_disclosure_channel": [
+      "Meeting"
+    ],
+    "formal_public_disclosure_status": [
+      "Already published/presented"
+    ],
+    "funding_source_count": 1,
+    "funding_sources": [
+      {
+        "contract_or_grant_number": "AGR-77",
+        "funding_scope": "Prototype work",
+        "principal_investigator_or_supervisor": "Dr. Meera Singh",
+        "sponsor_name": "North Labs"
+      }
+    ],
+    "future_steps_table": null,
+    "has_journal_conference_thesis_or_library_disclosure": true,
+    "has_rights_affecting_agreements": true,
+    "initial_conception_date": null,
+    "initial_conception_recorded_where_and_disclosed_to_whom": null,
+    "invention_title": "Low-power analyzer",
+    "inventor_signatures_table": null,
+    "journal_conference_or_meeting_name": "Internal research meeting",
+    "keywords": null,
+    "literature_search_performed": null,
+    "literature_search_performed_by": null,
+    "manuscript_attached": null,
+    "non_uci_disclosure_context": "Prototype review.",
+    "non_uci_disclosure_recipients": "North Labs engineering team",
+    "non_uci_inventor_count": 2,
+    "non_uci_inventors": [
+      {
+        "employer": "North Labs",
+        "non_uci_category": "Staff",
+        "non_uci_mobile_phone": null,
+        "non_uci_name": "Evan Brooks",
+        "non_uci_other_email": null,
+        "non_uci_work_phone": "415-555-0130",
+        "title": "Research engineer",
+        "work_address": "100 Market Street",
+        "work_email": "evan@northlabs.example"
+      },
+      {
+        "employer": "North Labs",
+        "non_uci_category": "Staff",
+        "non_uci_mobile_phone": null,
+        "non_uci_name": "Dana Park",
+        "non_uci_other_email": null,
+        "non_uci_work_phone": "415-555-0198",
+        "title": "Consultant",
+        "work_address": "100 Market Street",
+        "work_email": "dana@northlabs.example"
+      }
+    ],
+    "original_with_signatures_ready_for_campus_mail": null,
+    "patent_search_performed": true,
+    "patent_search_performed_by": "Dana Park",
+    "pertinent_references_attached": null,
+    "potential_licensee_count": null,
+    "potential_licensees_or_sponsors": null,
+    "proprietary_material_count": 1,
+    "proprietary_materials": [
+      {
+        "agreement_copy_attached": true,
+        "description": "North Labs prototype board",
+        "material_type": "Other",
+        "provider_name": "North Labs"
+      }
+    ],
+    "publication_or_disclosure_copies_attached": true,
+    "signature_scan_emailed": null,
+    "software_component_description": null,
+    "software_copyright_disclosure_attached": null,
+    "software_is_integral": null,
+    "stage_of_development": null,
+    "stage_of_development_evidence": null,
+    "submission_reasons": null,
+    "summary_of_invention": null,
+    "uci_inventor_count": null,
+    "uci_inventors": null,
+    "used_external_proprietary_materials": true,
+    "was_funded_or_sponsored": true,
+    "witnesses": null,
+    "word_copy_emailed": null
+  },
+  "answers_before": {
+    "agreement_count": 1,
+    "agreements": [
+      {
+        "agreement_type": "Material Transfer Agreement",
+        "copy_attached": true,
+        "copy_available": true,
+        "other_party_name": "North Labs"
+      }
+    ],
+    "disclosed_to_non_uci_personnel": true,
+    "earliest_non_uci_disclosure_date": "2026-01-18",
+    "earliest_public_availability_date": "2026-02-01",
+    "formal_public_disclosure_channel": [
+      "Meeting"
+    ],
+    "formal_public_disclosure_status": [
+      "Already published/presented"
+    ],
+    "funding_source_count": 1,
+    "funding_sources": [
+      {
+        "contract_or_grant_number": "AGR-77",
+        "funding_scope": "Prototype work",
+        "principal_investigator_or_supervisor": "Dr. Meera Singh",
+        "sponsor_name": "North Labs"
+      }
+    ],
+    "has_journal_conference_thesis_or_library_disclosure": true,
+    "has_rights_affecting_agreements": true,
+    "invention_title": "Low-power analyzer",
+    "journal_conference_or_meeting_name": "Internal research meeting",
+    "non_uci_disclosure_context": "Prototype review.",
+    "non_uci_disclosure_recipients": "North Labs engineering team",
+    "non_uci_inventor_count": 2,
+    "non_uci_inventors": [
+      {
+        "employer": "North Labs",
+        "non_uci_category": "Staff",
+        "non_uci_mobile_phone": null,
+        "non_uci_name": "Evan Brooks",
+        "non_uci_other_email": null,
+        "non_uci_work_phone": "415-555-0130",
+        "title": "Research engineer",
+        "work_address": "100 Market Street",
+        "work_email": "evan@northlabs.example"
+      },
+      {
+        "employer": "North Labs",
+        "non_uci_category": "Staff",
+        "non_uci_mobile_phone": null,
+        "non_uci_name": "Dana Park",
+        "non_uci_other_email": null,
+        "non_uci_work_phone": "415-555-0198",
+        "title": "Consultant",
+        "work_address": "100 Market Street",
+        "work_email": "dana@northlabs.example"
+      }
+    ],
+    "patent_search_performed": true,
+    "patent_search_performed_by": "Dana Park",
+    "proprietary_material_count": 1,
+    "proprietary_materials": [
+      {
+        "agreement_copy_attached": true,
+        "description": "North Labs prototype board",
+        "material_type": "Other",
+        "provider_name": "North Labs"
+      }
+    ],
+    "publication_or_disclosure_copies_attached": true,
+    "used_external_proprietary_materials": true,
+    "was_funded_or_sponsored": true
+  },
+  "current_utterance": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `non_uci_inventor_count` to `1`\n- delete repeat instance `non_uci_inventors[1]`\n- set `non_uci_inventors[0].work_email` to `\"evan.brooks@northlabs.example\"`\n- set `was_funded_or_sponsored` to `false`\n- set `funding_source_count` to `0`\n- delete repeat instance `funding_sources[0]`\n- set `has_rights_affecting_agreements` to `false`\n- set `agreement_count` to `0`\n- delete repeat instance `agreements[0]`\n- set `used_external_proprietary_materials` to `false`\n- set `proprietary_material_count` to `0`\n- delete repeat instance `proprietary_materials[0]`\n- set `has_journal_conference_thesis_or_library_disclosure` to `false`\n- set `formal_public_disclosure_status` to `null`\n- set `formal_public_disclosure_channel` to `null`\n- set `earliest_public_availability_date` to `null`\n- set `journal_conference_or_meeting_name` to `null`\n- set `publication_or_disclosure_copies_attached` to `null`\n- set `disclosed_to_non_uci_personnel` to `false`\n- set `non_uci_disclosure_recipients` to `null`\n- set `earliest_non_uci_disclosure_date` to `null`\n- set `non_uci_disclosure_context` to `null`\n- set `patent_search_performed` to `false`\n- set `patent_search_performed_by` to `null`",
+  "is_complete": true,
+  "provenance": {
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    }
+  },
+  "questionnaire": "patent_form",
+  "scenario": "patent_form_dev_02",
+  "scenario_id": "patent_form_dev_02",
+  "state": "state_1",
+  "turn_index": 0,
+  "utterance_id": "u1",
+  "visible_history": [
+    {
+      "content": "I have outside funding, agreements, proprietary materials, public disclosure, and two non-UCI inventors recorded.",
+      "role": "assistant"
+    }
+  ]
+}

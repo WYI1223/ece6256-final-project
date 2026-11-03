@@ -1,0 +1,158 @@
+{
+  "talking_other": {
+    "n_clips": 100,
+    "sr": [
+      16000
+    ],
+    "channels": [
+      1
+    ],
+    "dur_input_mean": 13.12,
+    "dur_input_range": [
+      11.51,
+      14.62
+    ],
+    "t0_mean": 6.05,
+    "t0_range": [
+      4.84,
+      7.34
+    ],
+    "win_mean": 2.07,
+    "win_range": [
+      1.44,
+      2.69
+    ],
+    "dur_context_mean": 2.05,
+    "gap_ctx_end_to_t0_mean": 4.0,
+    "overlap_wav_vs_window_absdiff_mean": 0.0,
+    "resid_outside_window_maxabs_max": 0.08914,
+    "overlap_rel_db_median": -1.73,
+    "overlap_rel_db_p10_p90": [
+      -4.91,
+      1.46
+    ],
+    "hf_tilt_vs_ctx_db_median": -2.88,
+    "metadata_keys": {
+      "context_text": 100,
+      "current_turn_text": 100,
+      "timestamps": 100
+    }
+  },
+  "bkg_speech": {
+    "n_clips": 100,
+    "sr": [
+      16000
+    ],
+    "channels": [
+      1
+    ],
+    "dur_input_mean": 12.63,
+    "dur_input_range": [
+      11.09,
+      14.11
+    ],
+    "t0_mean": 5.91,
+    "t0_range": [
+      4.93,
+      7.11
+    ],
+    "win_mean": 1.72,
+    "win_range": [
+      1.02,
+      2.83
+    ],
+    "dur_context_mean": 1.91,
+    "gap_ctx_end_to_t0_mean": 4.0,
+    "overlap_wav_vs_window_absdiff_mean": 0.0,
+    "resid_outside_window_maxabs_max": 0.00186,
+    "overlap_rel_db_median": -16.24,
+    "overlap_rel_db_p10_p90": [
+      -19.79,
+      -13.76
+    ],
+    "hf_tilt_vs_ctx_db_median": -7.5,
+    "metadata_keys": {
+      "context_text": 100,
+      "background_text": 100,
+      "timestamps": 100
+    }
+  },
+  "user_backchannel": {
+    "n_clips": 98,
+    "sr": [
+      16000
+    ],
+    "channels": [
+      1
+    ],
+    "dur_input_mean": 12.12,
+    "dur_input_range": [
+      11.32,
+      13.46
+    ],
+    "t0_mean": 6.32,
+    "t0_range": [
+      5.58,
+      7.48
+    ],
+    "win_mean": 0.8,
+    "win_range": [
+      0.56,
+      1.16
+    ],
+    "dur_context_mean": 2.32,
+    "gap_ctx_end_to_t0_mean": 4.0,
+    "overlap_wav_vs_window_absdiff_mean": 0.0,
+    "resid_outside_window_maxabs_max": 0.06622,
+    "overlap_rel_db_median": 0.8,
+    "overlap_rel_db_p10_p90": [
+      -6.18,
+      5.53
+    ],
+    "hf_tilt_vs_ctx_db_median": -4.27,
+    "metadata_keys": {
+      "context_text": 98,
+      "backchannel_text": 98,
+      "timestamps": 98
+    }
+  },
+  "user_interruption": {
+    "n_clips": 200,
+    "sr": [
+      16000
+    ],
+    "channels": [
+      1
+    ],
+    "dur_input_mean": 14.99,
+    "dur_input_range": [
+      12.11,
+      17.92
+    ],
+    "t0_mean": 6.65,
+    "t0_range": [
+      5.2,
+      8.81
+    ],
+    "win_mean": 3.34,
+    "win_range": [
+      1.7,
+      5.56
+    ],
+    "dur_context_mean": 2.65,
+    "gap_ctx_end_to_t0_mean": 4.0,
+    "overlap_wav_vs_window_absdiff_mean": 0.0,
+    "resid_outside_window_maxabs_max": 0.08496,
+    "overlap_rel_db_median": 0.27,
+    "overlap_rel_db_p10_p90": [
+      -2.82,
+      4.2
+    ],
+    "hf_tilt_vs_ctx_db_median": -1.65,
+    "metadata_keys": {
+      "context_text": 200,
+      "current_turn_text": 200,
+      "timestamps": 200
+    }
+  }
+}

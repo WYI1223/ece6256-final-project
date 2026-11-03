@@ -1,0 +1,2882 @@
+[
+ {
+  "turn": 1,
+  "utterance": "It happened on June 3, 2024.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": null,
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the crash report. First, when did the accident happen?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 1,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3904,
+   "output_tokens": 170,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "It was around 4:20 pm.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": null,
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "16:20",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the crash report. First, when did the accident happen?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on June 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did it occur?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 2,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3934,
+   "output_tokens": 194,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 3,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "On Route 9 in Millbrook, just past the Oak Street junction.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "16:20",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "16:20",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the crash report. First, when did the accident happen?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on June 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did it occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 4:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident take place?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 3,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 3966,
+   "output_tokens": 207,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 5,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "The weather was clear and it was daylight.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "16:20",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "16:20",
+   "traffic_control": null,
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": null,
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the crash report. First, when did the accident happen?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on June 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did it occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 4:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident take place?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 in Millbrook, just past the Oak Street junction."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the weather and lighting like?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 4,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4003,
+   "output_tokens": 210,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "The road was dry and it's a straight stretch there.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "16:20",
+   "traffic_control": null,
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": null,
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - The accident happened on June 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did it occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 4:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident take place?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 in Millbrook, just past the Oak Street junction."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the weather and lighting like?"
+   },
+   {
+    "role": "user",
+    "content": "The weather was clear and it was daylight."
+   },
+   {
+    "role": "assistant",
+    "content": "How about the road surface and the type of location?"
+   }
+  ],
+  "summary_text": "- The accident happened on June 3, 2024.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 5,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4022,
+   "output_tokens": 213,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 1,
+   "summary_chars": 40,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 6,
+  "utterance": "The limit is 50 mph and there are no traffic controls on that stretch.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": null,
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - The accident happened on June 3, 2024.\n- It was around 4:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident take place?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 in Millbrook, just past the Oak Street junction."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the weather and lighting like?"
+   },
+   {
+    "role": "user",
+    "content": "The weather was clear and it was daylight."
+   },
+   {
+    "role": "assistant",
+    "content": "How about the road surface and the type of location?"
+   },
+   {
+    "role": "user",
+    "content": "The road was dry and it's a straight stretch there."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit and was there any traffic control?"
+   }
+  ],
+  "summary_text": "- The accident happened on June 3, 2024.\n- It was around 4:20 pm.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 6,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4047,
+   "output_tokens": 215,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 2,
+   "summary_chars": 65,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 7,
+  "utterance": "Two cars were involved.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-06",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - It happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the weather and lighting like?"
+   },
+   {
+    "role": "user",
+    "content": "The weather was clear and it was daylight."
+   },
+   {
+    "role": "assistant",
+    "content": "How about the road surface and the type of location?"
+   },
+   {
+    "role": "user",
+    "content": "The road was dry and it's a straight stretch there."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit and was there any traffic control?"
+   },
+   {
+    "role": "user",
+    "content": "The limit is 50 mph and there are no traffic controls on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved?"
+   }
+  ],
+  "summary_text": "- It happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 7,
+   "n_fields": 31,
+   "n_correct": 30,
+   "n_partial": 0,
+   "all_field_acc": 0.9677,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": 1,
+   "persisted_error": 0,
+   "silent_recovery": 1,
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 16,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4053,
+   "output_tokens": 336,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 2.16,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 3,
+   "summary_chars": 117,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 8,
+  "utterance": "Mine's a blue Honda Civic, plate KTR-4421.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "vehicles[0].role"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - The accident happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear.\n- It was daylight."
+   },
+   {
+    "role": "assistant",
+    "content": "How about the road surface and the type of location?"
+   },
+   {
+    "role": "user",
+    "content": "The road was dry and it's a straight stretch there."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit and was there any traffic control?"
+   },
+   {
+    "role": "user",
+    "content": "The limit is 50 mph and there are no traffic controls on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved?"
+   },
+   {
+    "role": "user",
+    "content": "Two cars were involved."
+   },
+   {
+    "role": "assistant",
+    "content": "Let's start with your vehicle. What is it and what's the plate?"
+   }
+  ],
+  "summary_text": "- The accident happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear.\n- It was daylight.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 8,
+   "n_fields": 31,
+   "n_correct": 29,
+   "n_partial": 0,
+   "all_field_acc": 0.9355,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 28,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4200,
+   "output_tokens": 347,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 4,
+   "summary_chars": 171,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 9,
+  "utterance": "I was going straight at about 45 mph.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "vehicles": [
+    {
+     "approx_speed_mph": 45,
+     "damage_description": null,
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 45,
+     "damage_description": null,
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - It happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit and was there any traffic control?"
+   },
+   {
+    "role": "user",
+    "content": "The limit is 50 mph and there are no traffic controls on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved?"
+   },
+   {
+    "role": "user",
+    "content": "Two cars were involved."
+   },
+   {
+    "role": "assistant",
+    "content": "Let's start with your vehicle. What is it and what's the plate?"
+   },
+   {
+    "role": "user",
+    "content": "Mine's a blue Honda Civic, plate KTR-4421."
+   },
+   {
+    "role": "assistant",
+    "content": "What were you doing just before the crash, and at what speed?"
+   }
+  ],
+  "summary_text": "- It happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 9,
+   "n_fields": 31,
+   "n_correct": 29,
+   "n_partial": 0,
+   "all_field_acc": 0.9355,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 27,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4222,
+   "output_tokens": 307,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 5,
+   "summary_chars": 216,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 10,
+  "utterance": "Sorry, I meant my speed was about 40 mph, not 45. The damage is scrapes and a dent along the driver's side.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "vehicles": [
+    {
+     "approx_speed_mph": 45,
+     "damage_description": null,
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - It happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved?"
+   },
+   {
+    "role": "user",
+    "content": "Two cars were involved."
+   },
+   {
+    "role": "assistant",
+    "content": "Let's start with your vehicle. What is it and what's the plate?"
+   },
+   {
+    "role": "user",
+    "content": "Mine's a blue Honda Civic, plate KTR-4421."
+   },
+   {
+    "role": "assistant",
+    "content": "What were you doing just before the crash, and at what speed?"
+   },
+   {
+    "role": "user",
+    "content": "I was going straight at about 45 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "Can you describe the damage to your car?"
+   }
+  ],
+  "summary_text": "- It happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 10,
+   "n_fields": 31,
+   "n_correct": 29,
+   "n_partial": 0,
+   "all_field_acc": 0.9355,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 27,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4252,
+   "output_tokens": 361,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 6,
+   "summary_chars": 289,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 11,
+  "utterance": "The other one was a white Ford Focus, plate MVL-9073.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": null,
+     "role": "other vehicle",
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "vehicles[1].role"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - Accident happened on June 3, 2024\n- It was around 4:20 pm\n- On Route 9 in Millbrook, just past the Oak Street junction\n- The weather was clear and it was daylight\n- The road was dry and it's a straight stretch there\n- The limit is 50 mph\n- There are no traffic controls on that stretch\n- Two cars were involved"
+   },
+   {
+    "role": "assistant",
+    "content": "Let's start with your vehicle. What is it and what's the plate?"
+   },
+   {
+    "role": "user",
+    "content": "Mine's a blue Honda Civic, plate KTR-4421."
+   },
+   {
+    "role": "assistant",
+    "content": "What were you doing just before the crash, and at what speed?"
+   },
+   {
+    "role": "user",
+    "content": "I was going straight at about 45 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "Can you describe the damage to your car?"
+   },
+   {
+    "role": "user",
+    "content": "Sorry, I meant my speed was about 40 mph, not 45. The damage is scrapes and a dent along the driver's side."
+   },
+   {
+    "role": "assistant",
+    "content": "Now for the other vehicle. What was it and its plate?"
+   }
+  ],
+  "summary_text": "- Accident happened on June 3, 2024\n- It was around 4:20 pm\n- On Route 9 in Millbrook, just past the Oak Street junction\n- The weather was clear and it was daylight\n- The road was dry and it's a straight stretch there\n- The limit is 50 mph\n- There are no traffic controls on that stretch\n- Two cars were involved",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 11,
+   "n_fields": 31,
+   "n_correct": 28,
+   "n_partial": 0,
+   "all_field_acc": 0.9032,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 27,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4288,
+   "output_tokens": 371,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 7,
+   "summary_chars": 312,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 12,
+  "utterance": "It was overtaking me and going roughly 55 mph.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": null,
+     "role": "other vehicle",
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": null,
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": "other vehicle",
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": null,
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": null,
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - It happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch.\n- Two cars were involved.\n- Mine's a blue Honda Civic, plate KTR-4421."
+   },
+   {
+    "role": "assistant",
+    "content": "What were you doing just before the crash, and at what speed?"
+   },
+   {
+    "role": "user",
+    "content": "I was going straight at about 45 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "Can you describe the damage to your car?"
+   },
+   {
+    "role": "user",
+    "content": "Sorry, I meant my speed was about 40 mph, not 45. The damage is scrapes and a dent along the driver's side."
+   },
+   {
+    "role": "assistant",
+    "content": "Now for the other vehicle. What was it and its plate?"
+   },
+   {
+    "role": "user",
+    "content": "The other one was a white Ford Focus, plate MVL-9073."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the other car doing before the crash, and how fast?"
+   }
+  ],
+  "summary_text": "- It happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch.\n- Two cars were involved.\n- Mine's a blue Honda Civic, plate KTR-4421.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 12,
+   "n_fields": 31,
+   "n_correct": 28,
+   "n_partial": 0,
+   "all_field_acc": 0.9032,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 26,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4308,
+   "output_tokens": 375,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 8,
+   "summary_chars": 360,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 13,
+  "utterance": "It had a damaged front wing and a broken headlight.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": null,
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": "other vehicle",
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": "damaged front wing and a broken headlight",
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": "other vehicle",
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": "a damaged front wing and a broken headlight",
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": null,
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[1].damage_description": {
+    "cand": "damaged front wing and a broken headlight",
+    "gold": "a damaged front wing and a broken headlight",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - The accident happened on June 3, 2024.\n- It was around 4:20 pm.\n- The accident took place on Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch.\n- Two cars were involved.\n- Mine's a blue Honda Civic, plate KTR-4421.\n- I was going straight at about 45 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "Can you describe the damage to your car?"
+   },
+   {
+    "role": "user",
+    "content": "Sorry, I meant my speed was about 40 mph, not 45. The damage is scrapes and a dent along the driver's side."
+   },
+   {
+    "role": "assistant",
+    "content": "Now for the other vehicle. What was it and its plate?"
+   },
+   {
+    "role": "user",
+    "content": "The other one was a white Ford Focus, plate MVL-9073."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the other car doing before the crash, and how fast?"
+   },
+   {
+    "role": "user",
+    "content": "It was overtaking me and going roughly 55 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What damage did the other car sustain?"
+   }
+  ],
+  "summary_text": "- The accident happened on June 3, 2024.\n- It was around 4:20 pm.\n- The accident took place on Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch.\n- Two cars were involved.\n- Mine's a blue Honda Civic, plate KTR-4421.\n- I was going straight at about 45 mph.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 13,
+   "n_fields": 31,
+   "n_correct": 27,
+   "n_partial": 0,
+   "all_field_acc": 0.871,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 27,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4324,
+   "output_tokens": 384,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 9,
+   "summary_chars": 434,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 14,
+  "utterance": "I'd say speeding and distraction were factors, and luckily there were no injuries.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": "damaged front wing and a broken headlight",
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": "other vehicle",
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": false,
+   "apparent_contributing_factors": [
+    "Speeding",
+    "Distraction"
+   ],
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": "damaged front wing and a broken headlight",
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": "other vehicle",
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": "a damaged front wing and a broken headlight",
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": null,
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": [
+    "Speeding",
+    "Distraction"
+   ],
+   "any_injuries": false,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[1].damage_description": {
+    "cand": "damaged front wing and a broken headlight",
+    "gold": "a damaged front wing and a broken headlight",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - The accident happened on June 3, 2024.\n- It was around 4:20 pm.\n- The accident took place on Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch.\n- Two cars were involved.\n- Their vehicle is a blue Honda Civic, plate KTR-4421.\n- They were going straight at about 45 mph.\n- Corrected: their speed was about 40 mph, not 45.\n- The damage is scrapes and a dent along the driver's side."
+   },
+   {
+    "role": "assistant",
+    "content": "Now for the other vehicle. What was it and its plate?"
+   },
+   {
+    "role": "user",
+    "content": "The other one was a white Ford Focus, plate MVL-9073."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the other car doing before the crash, and how fast?"
+   },
+   {
+    "role": "user",
+    "content": "It was overtaking me and going roughly 55 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What damage did the other car sustain?"
+   },
+   {
+    "role": "user",
+    "content": "It had a damaged front wing and a broken headlight."
+   },
+   {
+    "role": "assistant",
+    "content": "What do you think contributed to the crash, and was anyone hurt?"
+   }
+  ],
+  "summary_text": "- The accident happened on June 3, 2024.\n- It was around 4:20 pm.\n- The accident took place on Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch.\n- Two cars were involved.\n- Their vehicle is a blue Honda Civic, plate KTR-4421.\n- They were going straight at about 45 mph.\n- Corrected: their speed was about 40 mph, not 45.\n- The damage is scrapes and a dent along the driver's side.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 14,
+   "n_fields": 31,
+   "n_correct": 27,
+   "n_partial": 0,
+   "all_field_acc": 0.871,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 25,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4357,
+   "output_tokens": 390,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 10,
+   "summary_chars": 559,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 15,
+  "utterance": "No property damage, but yes, two witnesses were there.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": false,
+   "apparent_contributing_factors": [
+    "Speeding",
+    "Distraction"
+   ],
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": "damaged front wing and a broken headlight",
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": "other vehicle",
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": false,
+   "apparent_contributing_factors": [
+    "Speeding",
+    "Distraction"
+   ],
+   "date_of_accident": "2024-06-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Daylight",
+   "location_of_accident": "Route 9, Millbrook, just past the Oak Street junction",
+   "location_type": "Straight",
+   "non_vehicle_property_damage": false,
+   "number_of_vehicles_involved": "2",
+   "posted_speed_limit": 50,
+   "property_damage_description": null,
+   "road_surface_condition": "Dry",
+   "time_of_accident": "16:20",
+   "traffic_control": "None",
+   "weather": "Clear",
+   "witnesses_names_contacts": null,
+   "witnesses_present": true,
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": "damaged front wing and a broken headlight",
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": "other vehicle",
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-06-03",
+   "time_of_accident": "16:20",
+   "location_of_accident": "Route 9 in Millbrook, just past the Oak Street junction",
+   "road_surface_condition": "Dry",
+   "weather": "Clear",
+   "lighting": "Daylight",
+   "location_type": "Straight",
+   "posted_speed_limit": 50,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "2",
+   "vehicles": [
+    {
+     "approx_speed_mph": 40,
+     "damage_description": "scrapes and a dent along the driver's side",
+     "licence_plate": "KTR-4421",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "blue Honda Civic"
+    },
+    {
+     "approx_speed_mph": 55,
+     "damage_description": "a damaged front wing and a broken headlight",
+     "licence_plate": "MVL-9073",
+     "pre_crash_manoeuvre": "Overtaking",
+     "role": null,
+     "vehicle_type_make_model": "white Ford Focus"
+    }
+   ],
+   "apparent_contributing_factors": [
+    "Speeding",
+    "Distraction"
+   ],
+   "any_injuries": false,
+   "injury_table": null,
+   "non_vehicle_property_damage": false,
+   "property_damage_description": null,
+   "witnesses_present": true,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "location_of_accident": {
+    "cand": "Route 9, Millbrook, just past the Oak Street junction",
+    "gold": "Route 9 in Millbrook, just past the Oak Street junction",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[1].damage_description": {
+    "cand": "damaged front wing and a broken headlight",
+    "gold": "a damaged front wing and a broken headlight",
+    "verdict": "incorrect"
+   },
+   "vehicles[1].role": {
+    "cand": "other vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Summary of the earlier conversation: - The accident happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch.\n- Two cars were involved.\n- Mine's a blue Honda Civic, plate KTR-4421.\n- I was going straight at about 45 mph (corrected to about 40 mph, not 45).\n- My speed was about 40 mph, not 45 (corrected).\n- The damage is scrapes and a dent along the driver's side.\n- The other one was a white Ford Focus, plate MVL-9073."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the other car doing before the crash, and how fast?"
+   },
+   {
+    "role": "user",
+    "content": "It was overtaking me and going roughly 55 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What damage did the other car sustain?"
+   },
+   {
+    "role": "user",
+    "content": "It had a damaged front wing and a broken headlight."
+   },
+   {
+    "role": "assistant",
+    "content": "What do you think contributed to the crash, and was anyone hurt?"
+   },
+   {
+    "role": "user",
+    "content": "I'd say speeding and distraction were factors, and luckily there were no injuries."
+   },
+   {
+    "role": "assistant",
+    "content": "Was any non-vehicle property damaged, and were there witnesses?"
+   }
+  ],
+  "summary_text": "- The accident happened on June 3, 2024.\n- It was around 4:20 pm.\n- On Route 9 in Millbrook, just past the Oak Street junction.\n- The weather was clear and it was daylight.\n- The road was dry and it's a straight stretch there.\n- The limit is 50 mph and there are no traffic controls on that stretch.\n- Two cars were involved.\n- Mine's a blue Honda Civic, plate KTR-4421.\n- I was going straight at about 45 mph (corrected to about 40 mph, not 45).\n- My speed was about 40 mph, not 45 (corrected).\n- The damage is scrapes and a dent along the driver's side.\n- The other one was a white Ford Focus, plate MVL-9073.",
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_03",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "corrupt",
+   "turn": 15,
+   "n_fields": 31,
+   "n_correct": 27,
+   "n_partial": 0,
+   "all_field_acc": 0.871,
+   "fully_correct": 0,
+   "structured_n": 17,
+   "structured_correct": 17,
+   "structured_acc": 1.0,
+   "corrupted_field": "date_of_accident",
+   "injected_value": "\"2024-06-06\"",
+   "gold_value_of_corrupted": "\"2024-06-03\"",
+   "candidate_value_of_corrupted": "\"2024-06-03\"",
+   "prior_had_wrong_value": 0,
+   "persisted_error": 0,
+   "silent_recovery": 0,
+   "inject_after": 6,
+   "pre_injection_value": "\"2024-06-03\"",
+   "restored_pre_injection": 1,
+   "collateral_opportunities": 25,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 4388,
+   "output_tokens": 390,
+   "reasoning_tokens": 0,
+   "model_calls": 1,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0,
+   "regime": "w3+summary",
+   "history_messages": 8,
+   "summary_upto": 11,
+   "summary_chars": 611,
+   "summary_cache_hit": 1,
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ }
+]

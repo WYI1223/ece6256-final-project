@@ -1,0 +1,66 @@
+{
+ "solver": "async_solvers:dtv_solve",
+ "model": "na",
+ "max_tokens": 8192,
+ "history_window": null,
+ "n_trajectories": 7,
+ "conditions": [
+  "incremental",
+  "oracle"
+ ],
+ "modes": [
+  "clean",
+  "corrupt"
+ ],
+ "corruptions": {
+  "pa_gen_01": {
+   "after_turn": 2,
+   "path": "appetite_change",
+   "wrong_value": "Yes",
+   "system_correct_before": false
+  },
+  "pa_gen_02": {
+   "after_turn": 2,
+   "path": "ambulatory_aid_use",
+   "wrong_value": "Yes (uses)",
+   "system_correct_before": false
+  },
+  "pa_gen_04": {
+   "after_turn": 2,
+   "path": "appetite_change",
+   "wrong_value": "Yes",
+   "system_correct_before": false
+  },
+  "pa_gen_05": {
+   "after_turn": 2,
+   "path": "ambulatory_aid_use",
+   "wrong_value": "Yes (uses)",
+   "system_correct_before": false
+  },
+  "cr_gen_02": {
+   "after_turn": 2,
+   "path": "traffic_control",
+   "wrong_value": "Stop Sign",
+   "system_correct_before": false
+  },
+  "cr_gen_03": {
+   "after_turn": 2,
+   "path": "traffic_control",
+   "wrong_value": "Stop Sign",
+   "system_correct_before": false
+  },
+  "pa_handmade_01": {
+   "after_turn": 2,
+   "path": "ambulatory_aid_use",
+   "wrong_value": "Yes (uses)",
+   "system_correct_before": false
+  }
+ },
+ "elapsed_s": 45.3,
+ "billed_input_tokens": 627079,
+ "billed_output_tokens": 9250,
+ "billed_model_calls": 105,
+ "billed_reasoning_tokens": 0,
+ "deepseek_thinking": "disabled",
+ "solver_errors": 0
+}

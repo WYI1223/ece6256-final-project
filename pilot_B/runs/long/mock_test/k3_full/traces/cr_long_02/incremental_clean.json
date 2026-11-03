@@ -1,0 +1,2981 @@
+[
+ {
+  "turn": 1,
+  "utterance": "It happened on February 3, 2024.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "weather": {
+    "cand": "Clear",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "weather"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 1,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 1,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "It was around 11:20 pm.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "weather": {
+    "cand": "Clear",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "weather",
+    "wrong": "Clear",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 2,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 3,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "On Route 9 just outside Millbrook, right by the old water tower.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": null,
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "weather": {
+    "cand": "Clear",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "weather",
+    "wrong": "Clear",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 3,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 5,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "It was snowing steadily.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": null,
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": null,
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": null,
+   "weather": "Snow",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "weather": {
+    "cand": "Clear",
+    "gold": "Snow",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 4,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 7,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "The road was covered in snow and ice.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": null,
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "weather": {
+    "cand": "Clear",
+    "gold": "Snow",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "weather",
+    "wrong": "Clear",
+    "gold": "Snow"
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 5,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 9,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 6,
+  "utterance": "It was dark and there were no street lights out there.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Clear",
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 6,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 0,
+   "nat_recovered": 1,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 11,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 7,
+  "utterance": "It was on a curve, actually. Sorry, I said Route 9 earlier — I meant Route 19 just outside Millbrook.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 9 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Debris",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "road_surface_condition": {
+    "cand": "Debris",
+    "gold": "Snow / Ice",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "road_surface_condition"
+  ],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   },
+   {
+    "role": "user",
+    "content": "It was dark and there were no street lights out there."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 7,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 17,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 1,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 13,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 8,
+  "utterance": "The posted limit is 40 mph.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Debris",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   },
+   {
+    "role": "user",
+    "content": "It was dark and there were no street lights out there."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was on a curve, actually. Sorry, I said Route 9 earlier — I meant Route 19 just outside Millbrook."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit there, in miles per hour?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 8,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 0,
+   "nat_recovered": 1,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 15,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 9,
+  "utterance": "There was no traffic control at all on that stretch.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   },
+   {
+    "role": "user",
+    "content": "It was dark and there were no street lights out there."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was on a curve, actually. Sorry, I said Route 9 earlier — I meant Route 19 just outside Millbrook."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit there, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted limit is 40 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present — a stop sign, a signal, or none?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 9,
+   "n_fields": 19,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 13,
+   "structured_correct": 13,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 17,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 10,
+  "utterance": "Just my one vehicle.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   },
+   {
+    "role": "user",
+    "content": "It was dark and there were no street lights out there."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was on a curve, actually. Sorry, I said Route 9 earlier — I meant Route 19 just outside Millbrook."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit there, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted limit is 40 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present — a stop sign, a signal, or none?"
+   },
+   {
+    "role": "user",
+    "content": "There was no traffic control at all on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 10,
+   "n_fields": 25,
+   "n_correct": 25,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 15,
+   "structured_correct": 15,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 19,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 11,
+  "utterance": "It's a grey sedan, a Honda Accord.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": null,
+     "vehicle_type_make_model": null
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   },
+   {
+    "role": "user",
+    "content": "It was dark and there were no street lights out there."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was on a curve, actually. Sorry, I said Route 9 earlier — I meant Route 19 just outside Millbrook."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit there, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted limit is 40 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present — a stop sign, a signal, or none?"
+   },
+   {
+    "role": "user",
+    "content": "There was no traffic control at all on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Just my one vehicle."
+   },
+   {
+    "role": "assistant",
+    "content": "Please describe your vehicle — the type, make and model."
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 11,
+   "n_fields": 25,
+   "n_correct": 25,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 15,
+   "structured_correct": 15,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 23,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 21,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 12,
+  "utterance": "The plate reads KTR 4471.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": null,
+     "pre_crash_manoeuvre": null,
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": null,
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": null,
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   },
+   {
+    "role": "user",
+    "content": "It was dark and there were no street lights out there."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was on a curve, actually. Sorry, I said Route 9 earlier — I meant Route 19 just outside Millbrook."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit there, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted limit is 40 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present — a stop sign, a signal, or none?"
+   },
+   {
+    "role": "user",
+    "content": "There was no traffic control at all on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Just my one vehicle."
+   },
+   {
+    "role": "assistant",
+    "content": "Please describe your vehicle — the type, make and model."
+   },
+   {
+    "role": "user",
+    "content": "It's a grey sedan, a Honda Accord."
+   },
+   {
+    "role": "assistant",
+    "content": "What is the licence plate of the vehicle?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 12,
+   "n_fields": 25,
+   "n_correct": 25,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 15,
+   "structured_correct": 15,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 24,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 23,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 13,
+  "utterance": "I was going straight along the curve when it slid.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": null,
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {},
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   },
+   {
+    "role": "user",
+    "content": "It was dark and there were no street lights out there."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was on a curve, actually. Sorry, I said Route 9 earlier — I meant Route 19 just outside Millbrook."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit there, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted limit is 40 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present — a stop sign, a signal, or none?"
+   },
+   {
+    "role": "user",
+    "content": "There was no traffic control at all on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Just my one vehicle."
+   },
+   {
+    "role": "assistant",
+    "content": "Please describe your vehicle — the type, make and model."
+   },
+   {
+    "role": "user",
+    "content": "It's a grey sedan, a Honda Accord."
+   },
+   {
+    "role": "assistant",
+    "content": "What is the licence plate of the vehicle?"
+   },
+   {
+    "role": "user",
+    "content": "The plate reads KTR 4471."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the vehicle's pre-crash manoeuvre — straight, stopped, turning, overtaking, or other?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 13,
+   "n_fields": 25,
+   "n_correct": 25,
+   "n_partial": 0,
+   "all_field_acc": 1.0,
+   "fully_correct": 1,
+   "structured_n": 15,
+   "structured_correct": 15,
+   "structured_acc": 1.0,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 24,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 25,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 14,
+  "utterance": "I was doing about 35 mph. Sorry, I earlier said the limit was 40 — actually the posted limit there is 45 mph.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": null,
+     "damage_description": null,
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": 35,
+     "damage_description": null,
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 45,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": 35,
+     "damage_description": null,
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "posted_speed_limit": {
+    "cand": 40,
+    "gold": 45,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   },
+   {
+    "role": "user",
+    "content": "It was dark and there were no street lights out there."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was on a curve, actually. Sorry, I said Route 9 earlier — I meant Route 19 just outside Millbrook."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit there, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted limit is 40 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present — a stop sign, a signal, or none?"
+   },
+   {
+    "role": "user",
+    "content": "There was no traffic control at all on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Just my one vehicle."
+   },
+   {
+    "role": "assistant",
+    "content": "Please describe your vehicle — the type, make and model."
+   },
+   {
+    "role": "user",
+    "content": "It's a grey sedan, a Honda Accord."
+   },
+   {
+    "role": "assistant",
+    "content": "What is the licence plate of the vehicle?"
+   },
+   {
+    "role": "user",
+    "content": "The plate reads KTR 4471."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the vehicle's pre-crash manoeuvre — straight, stopped, turning, overtaking, or other?"
+   },
+   {
+    "role": "user",
+    "content": "I was going straight along the curve when it slid."
+   },
+   {
+    "role": "assistant",
+    "content": "About how fast were you going at the time, in miles per hour?"
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 14,
+   "n_fields": 25,
+   "n_correct": 24,
+   "n_partial": 0,
+   "all_field_acc": 0.96,
+   "fully_correct": 0,
+   "structured_n": 15,
+   "structured_correct": 14,
+   "structured_acc": 0.9333,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 23,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 27,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ },
+ {
+  "turn": 15,
+  "utterance": "The front bumper and headlight are smashed and the hood is dented. I got a minor cut on my hand, and I took out a garden fence when I slid off.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": 35,
+     "damage_description": null,
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": 35,
+     "damage_description": "front bumper and headlight are smashed and the hood is dented",
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": true,
+   "injury_table": null,
+   "non_vehicle_property_damage": true,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": "23:20",
+   "location_of_accident": "Route 19 just outside Millbrook, right by the old water tower",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 45,
+   "traffic_control": "None",
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": 35,
+     "damage_description": "front bumper and headlight are smashed and the hood is dented",
+     "licence_plate": "KTR 4471",
+     "pre_crash_manoeuvre": "Straight",
+     "role": "my one vehicle",
+     "vehicle_type_make_model": "grey sedan, a Honda Accord"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": true,
+   "injury_table": null,
+   "non_vehicle_property_damage": true,
+   "property_damage_description": "garden fence",
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "posted_speed_limit": {
+    "cand": 40,
+    "gold": 45,
+    "verdict": "incorrect"
+   },
+   "property_damage_description": {
+    "cand": null,
+    "gold": "garden fence",
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "history": [
+   {
+    "role": "assistant",
+    "content": "Hello, I'll help you complete the Simplified International Crash Report Form. To start, what is the date of the accident?"
+   },
+   {
+    "role": "user",
+    "content": "It happened on February 3, 2024."
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks. What time did the accident occur?"
+   },
+   {
+    "role": "user",
+    "content": "It was around 11:20 pm."
+   },
+   {
+    "role": "assistant",
+    "content": "Where did the accident occur — street or route, town, and any landmark?"
+   },
+   {
+    "role": "user",
+    "content": "On Route 9 just outside Millbrook, right by the old water tower."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the weather like at the time?"
+   },
+   {
+    "role": "user",
+    "content": "It was snowing steadily."
+   },
+   {
+    "role": "assistant",
+    "content": "And what was the road surface condition?"
+   },
+   {
+    "role": "user",
+    "content": "The road was covered in snow and ice."
+   },
+   {
+    "role": "assistant",
+    "content": "What were the lighting conditions — daylight, dusk or dawn, dark with street lights, or dark unlit?"
+   },
+   {
+    "role": "user",
+    "content": "It was dark and there were no street lights out there."
+   },
+   {
+    "role": "assistant",
+    "content": "Was the accident location on a straight road, a curve, or an intersection?"
+   },
+   {
+    "role": "user",
+    "content": "It was on a curve, actually. Sorry, I said Route 9 earlier — I meant Route 19 just outside Millbrook."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the posted speed limit there, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "The posted limit is 40 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "What type of traffic control was present — a stop sign, a signal, or none?"
+   },
+   {
+    "role": "user",
+    "content": "There was no traffic control at all on that stretch."
+   },
+   {
+    "role": "assistant",
+    "content": "How many vehicles were involved in the accident?"
+   },
+   {
+    "role": "user",
+    "content": "Just my one vehicle."
+   },
+   {
+    "role": "assistant",
+    "content": "Please describe your vehicle — the type, make and model."
+   },
+   {
+    "role": "user",
+    "content": "It's a grey sedan, a Honda Accord."
+   },
+   {
+    "role": "assistant",
+    "content": "What is the licence plate of the vehicle?"
+   },
+   {
+    "role": "user",
+    "content": "The plate reads KTR 4471."
+   },
+   {
+    "role": "assistant",
+    "content": "What was the vehicle's pre-crash manoeuvre — straight, stopped, turning, overtaking, or other?"
+   },
+   {
+    "role": "user",
+    "content": "I was going straight along the curve when it slid."
+   },
+   {
+    "role": "assistant",
+    "content": "About how fast were you going at the time, in miles per hour?"
+   },
+   {
+    "role": "user",
+    "content": "I was doing about 35 mph. Sorry, I earlier said the limit was 40 — actually the posted limit there is 45 mph."
+   },
+   {
+    "role": "assistant",
+    "content": "Please describe the damage to your vehicle, and let me know if anyone was injured or if any property other than the car was damaged."
+   }
+  ],
+  "summary_text": null,
+  "natural_persisted_examples": [
+   {
+    "leaf": "posted_speed_limit",
+    "wrong": 40,
+    "gold": 45
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_long_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 15,
+   "n_fields": 25,
+   "n_correct": 23,
+   "n_partial": 0,
+   "all_field_acc": 0.92,
+   "fully_correct": 0,
+   "structured_n": 15,
+   "structured_correct": 14,
+   "structured_acc": 0.9333,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "inject_after": "",
+   "pre_injection_value": "",
+   "restored_pre_injection": "",
+   "collateral_opportunities": 20,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0,
+   "model_calls": 0,
+   "attempts": 1,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 0.0,
+   "regime": "full",
+   "history_messages": 29,
+   "summary_upto": "",
+   "summary_chars": "",
+   "summary_cache_hit": "",
+   "summary_input_tokens": 0,
+   "summary_output_tokens": 0
+  }
+ }
+]

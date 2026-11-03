@@ -1,0 +1,773 @@
+[
+ {
+  "turn": 1,
+  "utterance": "It was the night of February 3rd, 2024 — well, just after midnight, so the early hours of the 3rd.",
+  "prior_state": {
+   "description_of_accident": null,
+   "date_of_accident": null,
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-02-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "00:00",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": null,
+   "location_of_accident": null,
+   "road_surface_condition": null,
+   "weather": null,
+   "lighting": null,
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "time_of_accident": {
+    "cand": "00:00",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "time_of_accident"
+  ],
+  "natural_persisted_examples": [],
+  "row": {
+   "trajectory_id": "cr_gen_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 1,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 18,
+   "collateral_edits": 1,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 0,
+   "nat_persisted": 0,
+   "nat_recovered": 0,
+   "input_tokens": 13476,
+   "output_tokens": 138,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 1,
+   "latency_s": 0
+  }
+ },
+ {
+  "turn": 2,
+  "utterance": "On Route 9 heading out of Millbrook, about half a mile past the old grain silo. It was snowing pretty hard, the road was covered in snow and ice, and it was dark out; there's one streetlight down by the silo but it doesn't really reach that stretch.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-02-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": null,
+   "location_of_accident": null,
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": null,
+   "time_of_accident": "00:00",
+   "traffic_control": null,
+   "weather": null,
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-02-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Unlit",
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Snow / Ice",
+   "time_of_accident": "00:00",
+   "traffic_control": null,
+   "weather": "Snow",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": null,
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": null,
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": null,
+   "vehicles": [],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "time_of_accident": {
+    "cand": "00:00",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "natural_persisted_examples": [
+   {
+    "leaf": "time_of_accident",
+    "wrong": "00:00",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_gen_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 2,
+   "n_fields": 19,
+   "n_correct": 18,
+   "n_partial": 0,
+   "all_field_acc": 0.9474,
+   "fully_correct": 0,
+   "structured_n": 13,
+   "structured_correct": 12,
+   "structured_acc": 0.9231,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 14,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 13857,
+   "output_tokens": 336,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 4.91
+  }
+ },
+ {
+  "turn": 3,
+  "utterance": "It's a sharp curve right there where I lost it. Only one car involved — my own — a grey 2016 Honda Civic, plate KLR-482. I was going maybe 30 miles an hour and it slid straight off into the fence.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-02-03",
+   "description_of_accident": null,
+   "injury_table": null,
+   "lighting": "Dark–Unlit",
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "location_type": null,
+   "non_vehicle_property_damage": null,
+   "number_of_vehicles_involved": null,
+   "posted_speed_limit": null,
+   "property_damage_description": null,
+   "road_surface_condition": "Snow / Ice",
+   "time_of_accident": "00:00",
+   "traffic_control": null,
+   "weather": "Snow",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": []
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-02-03",
+   "description_of_accident": "At just after midnight on February 3rd, 2024, on a sharp curve on Route 9 heading out of Millbrook about half a mile past the old grain silo, the claimant's car (grey 2016 Honda Civic, plate KLR-482) was travelling at about 30 mph and slid off the road into a fence. It was snowing hard, the road was covered in snow and ice, and it was dark. Only one vehicle was involved.",
+   "injury_table": null,
+   "lighting": "Dark–Unlit",
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "location_type": "Curve",
+   "non_vehicle_property_damage": true,
+   "number_of_vehicles_involved": "1",
+   "posted_speed_limit": null,
+   "property_damage_description": "Fence — vehicle slid off the road into it.",
+   "road_surface_condition": "Snow / Ice",
+   "time_of_accident": "00:00",
+   "traffic_control": null,
+   "weather": "Snow",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 30,
+     "damage_description": null,
+     "licence_plate": "KLR-482",
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "grey 2016 Honda Civic"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": null,
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": 30,
+     "damage_description": null,
+     "licence_plate": "KLR-482",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "grey 2016 Honda Civic"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": null,
+   "injury_table": null,
+   "non_vehicle_property_damage": null,
+   "property_damage_description": null,
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "description_of_accident": {
+    "cand": "At just after midnight on February 3rd, 2024, on a sharp curve on Route 9 heading out of Millbrook about half a mile past the old grain silo, the claimant's car (grey 2016 Honda Civic, plate KLR-482) was travelling at about 30 mph and slid off the road into a fence. It was snowing hard, the road was covered in snow and ice, and it was dark. Only one vehicle was involved.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "non_vehicle_property_damage": {
+    "cand": true,
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "property_damage_description": {
+    "cand": "Fence — vehicle slid off the road into it.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "time_of_accident": {
+    "cand": "00:00",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].pre_crash_manoeuvre": {
+    "cand": null,
+    "gold": "Straight",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [
+   "description_of_accident",
+   "non_vehicle_property_damage",
+   "property_damage_description"
+  ],
+  "natural_persisted_examples": [
+   {
+    "leaf": "time_of_accident",
+    "wrong": "00:00",
+    "gold": null
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_gen_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 3,
+   "n_fields": 25,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 0.76,
+   "fully_correct": 0,
+   "structured_n": 15,
+   "structured_correct": 12,
+   "structured_acc": 0.8,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 16,
+   "collateral_edits": 3,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 1,
+   "nat_persisted": 1,
+   "nat_recovered": 0,
+   "input_tokens": 14563,
+   "output_tokens": 405,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 4.65
+  }
+ },
+ {
+  "turn": 4,
+  "utterance": "The front bumper and right headlight are smashed in and there's a dent along the passenger side. Fortunately nobody was hurt — just me in the car and I'm fine. But I did take out a section of the farmer's wooden fence, about twenty feet of it.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": null,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-02-03",
+   "description_of_accident": "At just after midnight on February 3rd, 2024, on a sharp curve on Route 9 heading out of Millbrook about half a mile past the old grain silo, the claimant's car (grey 2016 Honda Civic, plate KLR-482) was travelling at about 30 mph and slid off the road into a fence. It was snowing hard, the road was covered in snow and ice, and it was dark. Only one vehicle was involved.",
+   "injury_table": null,
+   "lighting": "Dark–Unlit",
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "location_type": "Curve",
+   "non_vehicle_property_damage": true,
+   "number_of_vehicles_involved": "1",
+   "posted_speed_limit": null,
+   "property_damage_description": "Fence — vehicle slid off the road into it.",
+   "road_surface_condition": "Snow / Ice",
+   "time_of_accident": "00:00",
+   "traffic_control": null,
+   "weather": "Snow",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 30,
+     "damage_description": null,
+     "licence_plate": "KLR-482",
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "grey 2016 Honda Civic"
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": false,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-02-03",
+   "description_of_accident": "At just after midnight on February 3rd, 2024, on a sharp curve on Route 9 heading out of Millbrook about half a mile past the old grain silo, the claimant's car (grey 2016 Honda Civic, plate KLR-482) was travelling at about 30 mph and slid off the road into a fence. It was snowing hard, the road was covered in snow and ice, and it was dark. Only one vehicle was involved.",
+   "injury_table": null,
+   "lighting": "Dark–Unlit",
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "location_type": "Curve",
+   "non_vehicle_property_damage": true,
+   "number_of_vehicles_involved": "1",
+   "posted_speed_limit": null,
+   "property_damage_description": "About twenty feet of the farmer's wooden fence taken out; vehicle slid off the road into it.",
+   "road_surface_condition": "Snow / Ice",
+   "time_of_accident": "00:00",
+   "traffic_control": null,
+   "weather": "Snow",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 30,
+     "damage_description": "Front bumper and right headlight smashed in; dent along the passenger side.",
+     "licence_plate": "KLR-482",
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "grey 2016 Honda Civic"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": null,
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": null,
+   "traffic_control": null,
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": 30,
+     "damage_description": "front bumper and right headlight are smashed in and there's a dent along the passenger side",
+     "licence_plate": "KLR-482",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "grey 2016 Honda Civic"
+    }
+   ],
+   "apparent_contributing_factors": null,
+   "any_injuries": false,
+   "injury_table": null,
+   "non_vehicle_property_damage": true,
+   "property_damage_description": "took out a section of the farmer's wooden fence, about twenty feet",
+   "witnesses_present": null,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "description_of_accident": {
+    "cand": "At just after midnight on February 3rd, 2024, on a sharp curve on Route 9 heading out of Millbrook about half a mile past the old grain silo, the claimant's car (grey 2016 Honda Civic, plate KLR-482) was travelling at about 30 mph and slid off the road into a fence. It was snowing hard, the road was covered in snow and ice, and it was dark. Only one vehicle was involved.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "property_damage_description": {
+    "cand": "About twenty feet of the farmer's wooden fence taken out; vehicle slid off the road into it.",
+    "gold": "took out a section of the farmer's wooden fence, about twenty feet",
+    "verdict": "incorrect"
+   },
+   "time_of_accident": {
+    "cand": "00:00",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "Front bumper and right headlight smashed in; dent along the passenger side.",
+    "gold": "front bumper and right headlight are smashed in and there's a dent along the passenger side",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].pre_crash_manoeuvre": {
+    "cand": null,
+    "gold": "Straight",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "natural_persisted_examples": [
+   {
+    "leaf": "time_of_accident",
+    "wrong": "00:00",
+    "gold": null
+   },
+   {
+    "leaf": "vehicles[0].pre_crash_manoeuvre",
+    "wrong": null,
+    "gold": "Straight"
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_gen_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 4,
+   "n_fields": 25,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 0.76,
+   "fully_correct": 0,
+   "structured_n": 15,
+   "structured_correct": 13,
+   "structured_acc": 0.8667,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 17,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 15254,
+   "output_tokens": 264,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 4.5
+  }
+ },
+ {
+  "turn": 5,
+  "utterance": "Actually, I should correct something — I said 30 earlier but I was probably closer to 35 miles an hour when I hit the curve. The limit there is 40. No witnesses around at that hour. The snow and the slippery road were really the main issue.",
+  "prior_state": {
+   "additional_comments": null,
+   "any_injuries": false,
+   "apparent_contributing_factors": null,
+   "date_of_accident": "2024-02-03",
+   "description_of_accident": "At just after midnight on February 3rd, 2024, on a sharp curve on Route 9 heading out of Millbrook about half a mile past the old grain silo, the claimant's car (grey 2016 Honda Civic, plate KLR-482) was travelling at about 30 mph and slid off the road into a fence. It was snowing hard, the road was covered in snow and ice, and it was dark. Only one vehicle was involved.",
+   "injury_table": null,
+   "lighting": "Dark–Unlit",
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "location_type": "Curve",
+   "non_vehicle_property_damage": true,
+   "number_of_vehicles_involved": "1",
+   "posted_speed_limit": null,
+   "property_damage_description": "About twenty feet of the farmer's wooden fence taken out; vehicle slid off the road into it.",
+   "road_surface_condition": "Snow / Ice",
+   "time_of_accident": "00:00",
+   "traffic_control": null,
+   "weather": "Snow",
+   "witnesses_names_contacts": null,
+   "witnesses_present": null,
+   "vehicles": [
+    {
+     "approx_speed_mph": 30,
+     "damage_description": "Front bumper and right headlight smashed in; dent along the passenger side.",
+     "licence_plate": "KLR-482",
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "grey 2016 Honda Civic"
+    }
+   ]
+  },
+  "candidate_state": {
+   "additional_comments": null,
+   "any_injuries": false,
+   "apparent_contributing_factors": [
+    "Weather/Road"
+   ],
+   "date_of_accident": "2024-02-03",
+   "description_of_accident": "At just after midnight on February 3rd, 2024, on a sharp curve on Route 9 heading out of Millbrook about half a mile past the old grain silo, the claimant's car (grey 2016 Honda Civic, plate KLR-482) was travelling at about 30 mph and slid off the road into a fence. It was snowing hard, the road was covered in snow and ice, and it was dark. Only one vehicle was involved.",
+   "injury_table": null,
+   "lighting": "Dark–Unlit",
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "location_type": "Curve",
+   "non_vehicle_property_damage": true,
+   "number_of_vehicles_involved": "1",
+   "posted_speed_limit": 40,
+   "property_damage_description": "About twenty feet of the farmer's wooden fence taken out; vehicle slid off the road into it.",
+   "road_surface_condition": "Snow / Ice",
+   "time_of_accident": "00:00",
+   "traffic_control": null,
+   "weather": "Snow",
+   "witnesses_names_contacts": null,
+   "witnesses_present": false,
+   "vehicles": [
+    {
+     "approx_speed_mph": 35,
+     "damage_description": "Front bumper and right headlight smashed in; dent along the passenger side.",
+     "licence_plate": "KLR-482",
+     "pre_crash_manoeuvre": null,
+     "role": "claimant vehicle",
+     "vehicle_type_make_model": "grey 2016 Honda Civic"
+    }
+   ]
+  },
+  "gold_state": {
+   "description_of_accident": null,
+   "date_of_accident": "2024-02-03",
+   "time_of_accident": null,
+   "location_of_accident": "Route 9 heading out of Millbrook, about half a mile past the old grain silo",
+   "road_surface_condition": "Snow / Ice",
+   "weather": "Snow",
+   "lighting": "Dark–Unlit",
+   "location_type": "Curve",
+   "posted_speed_limit": 40,
+   "traffic_control": null,
+   "number_of_vehicles_involved": "1",
+   "vehicles": [
+    {
+     "approx_speed_mph": 35,
+     "damage_description": "front bumper and right headlight are smashed in and there's a dent along the passenger side",
+     "licence_plate": "KLR-482",
+     "pre_crash_manoeuvre": "Straight",
+     "role": null,
+     "vehicle_type_make_model": "grey 2016 Honda Civic"
+    }
+   ],
+   "apparent_contributing_factors": [
+    "Weather/Road"
+   ],
+   "any_injuries": false,
+   "injury_table": null,
+   "non_vehicle_property_damage": true,
+   "property_damage_description": "took out a section of the farmer's wooden fence, about twenty feet",
+   "witnesses_present": false,
+   "witnesses_names_contacts": null,
+   "additional_comments": null
+  },
+  "wrong_leaves": {
+   "description_of_accident": {
+    "cand": "At just after midnight on February 3rd, 2024, on a sharp curve on Route 9 heading out of Millbrook about half a mile past the old grain silo, the claimant's car (grey 2016 Honda Civic, plate KLR-482) was travelling at about 30 mph and slid off the road into a fence. It was snowing hard, the road was covered in snow and ice, and it was dark. Only one vehicle was involved.",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "property_damage_description": {
+    "cand": "About twenty feet of the farmer's wooden fence taken out; vehicle slid off the road into it.",
+    "gold": "took out a section of the farmer's wooden fence, about twenty feet",
+    "verdict": "incorrect"
+   },
+   "time_of_accident": {
+    "cand": "00:00",
+    "gold": null,
+    "verdict": "incorrect"
+   },
+   "vehicles[0].damage_description": {
+    "cand": "Front bumper and right headlight smashed in; dent along the passenger side.",
+    "gold": "front bumper and right headlight are smashed in and there's a dent along the passenger side",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].pre_crash_manoeuvre": {
+    "cand": null,
+    "gold": "Straight",
+    "verdict": "incorrect"
+   },
+   "vehicles[0].role": {
+    "cand": "claimant vehicle",
+    "gold": null,
+    "verdict": "incorrect"
+   }
+  },
+  "collateral_leaves": [],
+  "natural_persisted_examples": [
+   {
+    "leaf": "time_of_accident",
+    "wrong": "00:00",
+    "gold": null
+   },
+   {
+    "leaf": "vehicles[0].pre_crash_manoeuvre",
+    "wrong": null,
+    "gold": "Straight"
+   }
+  ],
+  "row": {
+   "trajectory_id": "cr_gen_02",
+   "questionnaire_id": "crash_report",
+   "condition": "incremental",
+   "mode": "clean",
+   "turn": 5,
+   "n_fields": 25,
+   "n_correct": 19,
+   "n_partial": 0,
+   "all_field_acc": 0.76,
+   "fully_correct": 0,
+   "structured_n": 15,
+   "structured_correct": 13,
+   "structured_acc": 0.8667,
+   "corrupted_field": "",
+   "injected_value": "",
+   "gold_value_of_corrupted": "",
+   "candidate_value_of_corrupted": "",
+   "prior_had_wrong_value": "",
+   "persisted_error": "",
+   "silent_recovery": "",
+   "collateral_opportunities": 15,
+   "collateral_edits": 0,
+   "collateral_edits_nonempty": 0,
+   "nat_opportunities": 2,
+   "nat_persisted": 2,
+   "nat_recovered": 0,
+   "input_tokens": 15504,
+   "output_tokens": 174,
+   "reasoning_tokens": 0,
+   "model_calls": 3,
+   "attempts": 3,
+   "fallback_used": 0,
+   "solver_error": "",
+   "cache_hit": 0,
+   "latency_s": 4.04
+  }
+ }
+]

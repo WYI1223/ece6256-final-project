@@ -1,0 +1,129 @@
+{
+  "agent_response": {
+    "operations": [],
+    "raw_response": "NoUpdate baseline: copied schema-completed prior state."
+  },
+  "answer_updates": {},
+  "answers_after": {
+    "additional_comments": "Initial draft included the delivery van as involved.",
+    "any_injuries": true,
+    "apparent_contributing_factors": [
+      "Distraction"
+    ],
+    "date_of_accident": "2026-03-09",
+    "description_of_accident": "Sedan and delivery van collision.",
+    "injury_table": [
+      {
+        "injury_description": "Bruised wrist",
+        "role": "Driver",
+        "severity": "Minor",
+        "vehicle_number": "1"
+      }
+    ],
+    "lighting": "Daylight",
+    "location_of_accident": "Oak Street car park",
+    "location_type": "Straight",
+    "non_vehicle_property_damage": true,
+    "number_of_vehicles_involved": "2",
+    "posted_speed_limit": 15,
+    "property_damage_description": "Bent parking sign by the exit.",
+    "road_surface_condition": "Dry",
+    "time_of_accident": "18:40",
+    "traffic_control": "None",
+    "vehicles": [
+      {
+        "approx_speed_mph": 10,
+        "damage_description": "Scraped passenger door",
+        "licence_plate": "5SED111",
+        "pre_crash_manoeuvre": "Straight",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2020 Honda Civic"
+      },
+      {
+        "approx_speed_mph": 0,
+        "damage_description": "No crash damage",
+        "licence_plate": "4VAN888",
+        "pre_crash_manoeuvre": "Stopped",
+        "role": "other vehicle",
+        "vehicle_type_make_model": "White delivery van"
+      }
+    ],
+    "weather": "Clear",
+    "witnesses_names_contacts": "Delivery driver, no phone number provided",
+    "witnesses_present": true
+  },
+  "answers_before": {
+    "additional_comments": "Initial draft included the delivery van as involved.",
+    "any_injuries": true,
+    "apparent_contributing_factors": [
+      "Distraction"
+    ],
+    "date_of_accident": "2026-03-09",
+    "description_of_accident": "Sedan and delivery van collision.",
+    "injury_table": [
+      {
+        "injury_description": "Bruised wrist",
+        "role": "Driver",
+        "severity": "Minor",
+        "vehicle_number": "1"
+      }
+    ],
+    "lighting": "Daylight",
+    "location_of_accident": "Oak Street car park",
+    "location_type": "Straight",
+    "non_vehicle_property_damage": true,
+    "number_of_vehicles_involved": "2",
+    "posted_speed_limit": 15,
+    "property_damage_description": "Bent parking sign by the exit.",
+    "road_surface_condition": "Dry",
+    "time_of_accident": "18:40",
+    "traffic_control": "None",
+    "vehicles": [
+      {
+        "approx_speed_mph": 10,
+        "damage_description": "Scraped passenger door",
+        "licence_plate": "5SED111",
+        "pre_crash_manoeuvre": "Straight",
+        "role": "claimant vehicle",
+        "vehicle_type_make_model": "2020 Honda Civic"
+      },
+      {
+        "approx_speed_mph": 0,
+        "damage_description": "No crash damage",
+        "licence_plate": "4VAN888",
+        "pre_crash_manoeuvre": "Stopped",
+        "role": "other vehicle",
+        "vehicle_type_make_model": "White delivery van"
+      }
+    ],
+    "weather": "Clear",
+    "witnesses_names_contacts": "Delivery driver, no phone number provided",
+    "witnesses_present": true
+  },
+  "current_utterance": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `number_of_vehicles_involved` to `\"1\"`\n- delete repeat instance `vehicles[1]`\n- set `any_injuries` to `false`\n- set `injury_table` to `null`\n- set `non_vehicle_property_damage` to `false`\n- set `property_damage_description` to `null`\n- set `witnesses_present` to `false`\n- set `witnesses_names_contacts` to `null`\n- set `weather` to `\"Fog\"`\n- set `vehicles[0].damage_description` to `\"Scraped passenger door\"`\n- set `description_of_accident` to `\"Single-vehicle scrape involving the Honda Civic.\"`\n- set `additional_comments` to `\"Delivery van was parked nearby and not involved.\"`",
+  "is_complete": true,
+  "provenance": {
+    "generation": {
+      "agent": "NoUpdate",
+      "model": "deterministic",
+      "schema_interface": {
+        "public_projection": "schema_completed_prior_state_without_repeat_materialization"
+      },
+      "tool_policy": {
+        "mode": "copy_prior"
+      }
+    }
+  },
+  "questionnaire": "crash_report",
+  "scenario": "crash_report_dev_02",
+  "scenario_id": "crash_report_dev_02",
+  "state": "state_1",
+  "turn_index": 0,
+  "utterance_id": "u1",
+  "visible_history": [
+    {
+      "content": "I recorded two vehicles, one minor injury, property damage, and a witness.",
+      "role": "assistant"
+    }
+  ]
+}

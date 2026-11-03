@@ -1,0 +1,446 @@
+{
+  "agent_response": {
+    "attempts": 1,
+    "model_calls": [
+      {
+        "additional_kwargs": {
+          "refusal": null
+        },
+        "call_index": 1,
+        "extra": {},
+        "loop_iteration": null,
+        "model_config": {
+          "max_tokens": 8192,
+          "model": "deepseek-flash",
+          "provider": "openai",
+          "requested_model": "deepseek-flash",
+          "resolved_model_name": "deepseek-flash",
+          "resolved_model_version": "deepseek-flash",
+          "temperature": null,
+          "timeout": 300
+        },
+        "phase": "direct_generation",
+        "response_metadata": {
+          "finish_reason": "stop",
+          "id": "9be9c6fd-1f22-469b-961a-686e1d56a92f",
+          "logprobs": null,
+          "model_name": "deepseek-flash",
+          "model_provider": "openai",
+          "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+          "token_usage": {
+            "completion_tokens": 631,
+            "completion_tokens_details": null,
+            "prompt_cache_hit_tokens": 512,
+            "prompt_cache_miss_tokens": 5478,
+            "prompt_tokens": 5990,
+            "prompt_tokens_details": {
+              "audio_tokens": null,
+              "cache_write_tokens": null,
+              "cached_tokens": 512,
+              "image_tokens": null,
+              "text_tokens": null
+            },
+            "total_tokens": 6621
+          }
+        },
+        "usage": {
+          "completion_tokens": 631,
+          "prompt_tokens": 5990,
+          "raw": {
+            "input_token_details": {
+              "cache_read": 512
+            },
+            "input_tokens": 5990,
+            "output_token_details": {},
+            "output_tokens": 631,
+            "total_tokens": 6621
+          },
+          "total_tokens": 6621
+        },
+        "usage_metadata": {
+          "input_token_details": {
+            "cache_read": 512
+          },
+          "input_tokens": 5990,
+          "output_token_details": {},
+          "output_tokens": 631,
+          "total_tokens": 6621
+        }
+      }
+    ],
+    "operations": [
+      {
+        "op": "set",
+        "path": "cough_duration",
+        "value": "3 days"
+      },
+      {
+        "op": "set",
+        "path": "cough_present",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "hemoptysis_any",
+        "value": "No"
+      },
+      {
+        "op": "set",
+        "path": "number_of_allergies",
+        "value": 2
+      },
+      {
+        "op": "set",
+        "path": "number_of_dietary_restrictions",
+        "value": 1
+      },
+      {
+        "op": "set",
+        "path": "number_of_medications",
+        "value": 2
+      },
+      {
+        "op": "set",
+        "path": "number_of_pains",
+        "value": 1
+      },
+      {
+        "op": "set",
+        "path": "pain_experience",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "sputum_amount",
+        "value": "Small"
+      },
+      {
+        "op": "set",
+        "path": "sputum_color",
+        "value": [
+          "Green"
+        ]
+      },
+      {
+        "op": "set",
+        "path": "sputum_present",
+        "value": true
+      },
+      {
+        "op": "set",
+        "path": "allergies[0].allergen",
+        "value": "penicillin"
+      },
+      {
+        "op": "set",
+        "path": "allergies[0].allergy_severity",
+        "value": "Severe"
+      },
+      {
+        "op": "set",
+        "path": "allergies[0].reaction",
+        "value": "facial swelling"
+      },
+      {
+        "op": "set",
+        "path": "allergies[1].allergen",
+        "value": "peanuts"
+      },
+      {
+        "op": "set",
+        "path": "allergies[1].allergy_severity",
+        "value": "Moderate"
+      },
+      {
+        "op": "set",
+        "path": "allergies[1].reaction",
+        "value": "rash"
+      },
+      {
+        "op": "set",
+        "path": "current_medications[0].frequency",
+        "value": "every other day"
+      },
+      {
+        "op": "set",
+        "path": "current_medications[1].dose",
+        "value": "2 puffs"
+      },
+      {
+        "op": "set",
+        "path": "current_medications[1].frequency",
+        "value": "as needed"
+      },
+      {
+        "op": "set",
+        "path": "current_medications[1].medication_name",
+        "value": "albuterol"
+      },
+      {
+        "op": "set",
+        "path": "current_medications[1].route",
+        "value": "Inhaled"
+      },
+      {
+        "op": "set",
+        "path": "dietary_preferences_and_restrictions[0].food_item",
+        "value": "shellfish"
+      },
+      {
+        "op": "set",
+        "path": "dietary_preferences_and_restrictions[0].preference_type",
+        "value": "Avoids"
+      },
+      {
+        "op": "set",
+        "path": "dietary_preferences_and_restrictions[0].reason",
+        "value": "Medical"
+      },
+      {
+        "op": "set",
+        "path": "pain_details[0].pain_duration",
+        "value": "2 days"
+      },
+      {
+        "op": "set",
+        "path": "pain_details[0].pain_notes",
+        "value": "Sharp pain after lifting boxes"
+      },
+      {
+        "op": "set",
+        "path": "pain_details[0].pain_part",
+        "value": "lower back"
+      },
+      {
+        "op": "set",
+        "path": "pain_details[0].pain_severity",
+        "value": "Moderate"
+      }
+    ],
+    "raw_response": "{\n  \"ambulatory_aid_notes\": null,\n  \"ambulatory_aid_use\": null,\n  \"appetite_change\": null,\n  \"cough_duration\": \"3 days\",\n  \"cough_notes\": null,\n  \"cough_present\": true,\n  \"denture_present\": null,\n  \"dysphagia_frequency\": null,\n  \"dysphagia_or_choking\": null,\n  \"fall_in_last_12_months\": null,\n  \"fall_injuries_note\": null,\n  \"free_text_notes\": null,\n  \"hemoptysis_any\": \"No\",\n  \"lower_denture\": null,\n  \"most_recent_fall_date_or_time\": null,\n  \"number_of_allergies\": 2,\n  \"number_of_dietary_restrictions\": 1,\n  \"number_of_medications\": 2,\n  \"number_of_pains\": 1,\n  \"pain_experience\": true,\n  \"special_diet_notes\": null,\n  \"special_diet_required\": null,\n  \"sputum_amount\": \"Small\",\n  \"sputum_color\": [\n    \"Green\"\n  ],\n  \"sputum_notes\": null,\n  \"sputum_present\": true,\n  \"unintentional_weight_loss\": null,\n  \"upper_denture\": null,\n  \"vision_description\": null,\n  \"vision_onset\": null,\n  \"vision_problem\": null,\n  \"weight_loss_amount\": null,\n  \"weight_loss_timeframe\": null,\n  \"allergies\": [\n    {\n      \"allergen\": \"penicillin\",\n      \"allergy_notes\": null,\n      \"allergy_severity\": \"Severe\",\n      \"reaction\": \"facial swelling\"\n    },\n    {\n      \"allergen\": \"peanuts\",\n      \"allergy_notes\": null,\n      \"allergy_severity\": \"Moderate\",\n      \"reaction\": \"rash\"\n    }\n  ],\n  \"current_medications\": [\n    {\n      \"dose\": \"81 mg\",\n      \"frequency\": \"every other day\",\n      \"medication_name\": \"aspirin\",\n      \"route\": \"Oral\"\n    },\n    {\n      \"dose\": \"2 puffs\",\n      \"frequency\": \"as needed\",\n      \"medication_name\": \"albuterol\",\n      \"route\": \"Inhaled\"\n    }\n  ],\n  \"dietary_preferences_and_restrictions\": [\n    {\n      \"diet_notes\": null,\n      \"food_item\": \"shellfish\",\n      \"preference_type\": \"Avoids\",\n      \"reason\": \"Medical\"\n    }\n  ],\n  \"pain_details\": [\n    {\n      \"pain_duration\": \"2 days\",\n      \"pain_notes\": \"Sharp pain after lifting boxes\",\n      \"pain_part\": \"lower back\",\n      \"pain_severity\": \"Moderate\"\n    }\n  ]\n}",
+    "trace": [
+      {
+        "call_index": 1,
+        "input_messages": [
+          {
+            "class": "SystemMessage",
+            "content": "You are Direct, a single-call no-tool baseline for structured form updating.\n\nThe public task context contains evidence and incumbent state. The schema field\nguide, visible conversation history, and current user utterance are the evidence\nused to license commitments. The prior record is the incumbent state to audit\nagainst that evidence.\n\nYour task is to audit the supplied prior record and return the post-turn record\ncontaining all and only commitments licensed by the schema, visible history, and\ncurrent utterance.\n\nShared decision policy:\n- Audit the prior state. Preserve a prior value only when it remains licensed\n  by the visible history, current utterance, and schema. If a prior value is\n  unsupported, withdrawn, contradicted, or schema-inconsistent, clear or repair\n  it as licensed by the public packet.\n- Treat visible history as evidence, not just background. If the prior record\n  is missing, unsupported by, or contradicts a value determined by the schema,\n  visible history, and current utterance, repair or clear it as licensed.\n- Commit only values supported by public evidence. Do not infer plausible but\n  unstated values, do not complete partial addresses or names from world\n  knowledge, and do not fabricate identifiers.\n- Use null when the evidence clears, retracts, denies, withdraws, or fails to\n  license a prior scalar value.\n- Put each fact in the most specific schema field whose question and field\n  instruction ask for that fact. Do not copy broad narrative details into child\n  fields unless the child field itself asks for them.\n- Never write \"<open>\" as a public value. Do not replace a licensed prior value\n  with an uncertain guess. If no value is licensed for a scalar field, use null.\n- Repeat groups are arrays of entity rows. Keep row identity stable: update an\n  existing row when evidence identifies the same entity; create or delete rows\n  only when evidence or a schema repeat count licenses it.\n- For repeat groups whose schema says mode=from_slot, update the count field\n  when evidence licenses a count. If a count is known but row attributes are not,\n  leave child fields null rather than inventing labels.\n- Table fields are arrays of row objects. Retain existing rows only when they\n  remain licensed by the evidence; clear, repair, add, or remove rows when the\n  evidence and schema license that row-level change.\n\nOutput interface for Direct:\n- Return exactly one complete JSON object representing the resulting record.\n- Include every top-level regular field id and every repeat-group id shown in\n  the prior record state. Do not include section/group/gate/branch ids.\n- Repeat groups are null when absent/unknown, or arrays of row objects when\n  rows are present. Every repeat row must include every child field id.\n- Table fields are null when absent/unknown, or arrays of row objects when rows\n  are present. Every table row must include every column id.\n- Use null for unknown or empty scalar fields. Do not use placeholder strings.\n- Output only the JSON object, with no commentary or explanation.\n",
+            "role": "system"
+          },
+          {
+            "class": "HumanMessage",
+            "content": "=== SCHEMA FIELD GUIDE ===\nUse bare field ids for top-level regular fields.\nUse repeat_group_id[index].field_id for repeat children.\nSection/group/gate/branch ids are navigation labels only, not output keys.\nField instructions describe semantic scope; keep values within that scope.\n\n- SECTION (not an output key) symptoms_respiratory_and_pain: Symptoms: Pain and Respiratory\n  - pain_experience; type=bool; question=Pain present?; instruction=True if the patient reports pain; false if explicitly denies pain.; semantic_units=PAIN_PRESENT:Pain present=Whether pain is reported.\n  - GATE/CONDITION (not an output key) pain_details_gate: Pain details (shown only if pain present); active when pain_experience in [True]\n    - number_of_pains; type=number; question=How many distinct pain complaints are present?; instruction=Count of distinct pain complaints or body sites described within this turn; do not collapse multiple sites into one entry.; semantic_units=PAIN_COUNT:Pain count=Number of distinct pain complaints reported.\n    - REPEAT pain_details: Pain details (repeat for each pain complaint); mode=from_slot, from_slot=number_of_pains; child paths are pain_details[index].field; semantic_units=PAIN_INSTANCE_MAPPING:Pain instance binding=Correctly associates location, severity, duration, and optional notes within the same pain complaint.\n      - pain_details[i].pain_part; type=text; question=Pain location/body part; instruction=Body part or anatomical region where pain is located.; semantic_units=PAIN_LOCATION:Pain location=Anatomical location (e.g., throat, chest, abdomen).\n      - pain_details[i].pain_severity; type=single_choice; options=[\"Mild\", \"Moderate\", \"High\", \"Unknown\"]; question=Pain severity; instruction=Severity as stated; if only qualitative descriptors exist, map to the closest option.; semantic_units=PAIN_SEVERITY_LEVEL:Pain severity level=One of Mild/Moderate/High/Unknown.\n      - pain_details[i].pain_duration; type=text; question=Pain duration (how long has the pain been present?); instruction=Duration as stated (e.g., '3 days', 'since Monday'); do not invent.; semantic_units=PAIN_DURATION_TEXT:Pain duration=A duration or onset descriptor.\n      - pain_details[i].pain_notes; type=multiline_text; question=Pain notes (optional); instruction=Any supporting detail explicitly stated (e.g., swelling, triggers).; semantic_units=PAIN_CONTEXT:Pain context=Grounded details relevant to the pain complaint.\n  - cough_present; type=bool; question=Cough present?; instruction=True if cough is reported; false if denied.; semantic_units=COUGH_PRESENT:Cough present=Whether cough is reported.\n  - GATE/CONDITION (not an output key) cough_details_gate: Cough details (shown only if cough present); active when cough_present in [True]\n    - cough_duration; type=text; question=Cough duration; instruction=Duration as stated; do not infer.; semantic_units=COUGH_DURATION_TEXT:Cough duration=Reported duration/onset of cough.\n    - cough_notes; type=multiline_text; question=Cough notes (optional); instruction=Optional detail grounded in narrative (e.g., contagious concern, triggers).; semantic_units=COUGH_CONTEXT:Cough context=Grounded details relevant to cough.\n  - sputum_present; type=bool; question=Sputum/phlegm present with cough?; instruction=True if sputum is reported; false if explicitly absent.; semantic_units=SPUTUM_PRESENT:Sputum present=Whether sputum/phlegm is reported.\n  - GATE/CONDITION (not an output key) sputum_details_gate: Sputum details (shown only if sputum present); active when sputum_present in [True]\n    - sputum_color; type=multiple_choice; options=[\"Clear\", \"White\", \"Yellow\", \"Green\", \"Blood-stained\", \"Brown\", \"Unknown\", \"Other\"]; question=Sputum color (select all that apply); instruction=Select all colors explicitly mentioned; choose Unknown if patient did not observe/does not know.; semantic_units=SPUTUM_COLOR_SET:Sputum color set=Set of reported sputum colors.\n    - sputum_amount; type=single_choice; options=[\"Small\", \"Moderate\", \"A lot\", \"Unknown\"]; question=Sputum amount; instruction=As stated; Unknown if not observed.; semantic_units=SPUTUM_AMOUNT_LEVEL:Sputum amount level=Small/Moderate/A lot/Unknown.\n    - hemoptysis_any; type=single_choice; options=[\"No\", \"Yes (single episode)\", \"Yes (recurrent)\", \"Unknown\"]; question=Any blood in sputum?; instruction=Map 'blood-stained once' to Yes (single episode); do not infer recurrence.; semantic_units=BLOOD_IN_SPUTUM_LEVEL:Blood in sputum level=No / Yes single / Yes recurrent / Unknown.\n    - sputum_notes; type=multiline_text; question=Sputum notes (optional); instruction=Grounded notes only (e.g., patient beliefs about cause).; semantic_units=SPUTUM_CONTEXT:Sputum context=Additional sputum-related details grounded in narrative.\n- SECTION (not an output key) falls_and_mobility: Falls and Mobility\n  - fall_in_last_12_months; type=bool; question=Fall in the last 12 months?; instruction=True only if a fall occurred within the last 12 months per narrative; otherwise false.; semantic_units=FALL_12MO_PRESENT:Fall in last 12 months=Time-bounded fall history (within 12 months).\n  - GATE/CONDITION (not an output key) fall_details_gate: Fall details (shown only if fall in last 12 months); active when fall_in_last_12_months in [True]\n    - most_recent_fall_date_or_time; type=text; question=Most recent fall date/time (if known); instruction=ISO 8601 if date is explicit; otherwise preserve relative time text.; semantic_units=FALL_TIME_TEXT:Most recent fall time=Date/time/relative descriptor of most recent fall.\n    - fall_injuries_note; type=multiline_text; question=Injury from fall? (optional note); instruction=Only if explicitly stated.; semantic_units=FALL_INJURY_CONTEXT:Fall injury context=Any injuries resulting from the fall if stated.\n  - ambulatory_aid_use; type=single_choice; options=[\"Yes (uses)\", \"Has but does not use\", \"No\", \"Unknown\"]; question=Uses an ambulatory aid (cane/walker/wheelchair)?; instruction=Distinguish possession vs actual use if narrative supports it.; semantic_units=AMB_AID_STATUS:Ambulatory aid status=Yes uses / has but does not use / no / unknown.\n  - ambulatory_aid_notes; type=multiline_text; question=Ambulatory aid notes (optional); instruction=Grounded details only (e.g., reluctance to use due to embarrassment).; semantic_units=AMB_AID_CONTEXT:Ambulatory aid context=Reasoning or context explicitly stated by patient.\n- SECTION (not an output key) oral_health_and_vision: Oral Health and Vision\n  - denture_present; type=bool; question=Does the patient have dentures?; instruction=True if dentures present; false if explicitly absent.; semantic_units=DENTURE_PRESENT:Denture present=Presence of dentures.\n  - GATE/CONDITION (not an output key) denture_details_gate: Denture details (shown only if dentures present); active when denture_present in [True]\n    - upper_denture; type=single_choice; options=[\"Yes\", \"No\", \"Unknown\"]; question=Upper denture; instruction=As stated.; semantic_units=UPPER_DENTURE_STATUS:Upper denture status=Yes/No/Unknown for upper denture.\n    - lower_denture; type=single_choice; options=[\"Yes\", \"No\", \"Unknown\"]; question=Lower denture; instruction=As stated.; semantic_units=LOWER_DENTURE_STATUS:Lower denture status=Yes/No/Unknown for lower denture.\n  - vision_problem; type=bool; question=Any vision problems or changes?; instruction=True if vision problem/change is reported; false if denied.; semantic_units=VISION_ISSUE_PRESENT:Vision issue present=Presence of vision issue/change.\n  - GATE/CONDITION (not an output key) vision_details_gate: Vision details (shown only if vision problems present); active when vision_problem in [True]\n    - vision_description; type=text; question=Describe the vision issue; instruction=Free-text description grounded in narrative (e.g., blurred vision).; semantic_units=VISION_SYMPTOM_TEXT:Vision symptom text=Short description of vision issue.\n    - vision_onset; type=text; question=When did the vision issue start? (optional); instruction=Onset/duration as stated; do not infer.; semantic_units=VISION_ONSET_TEXT:Vision onset=Onset/duration descriptor.\n- SECTION (not an output key) nutrition_and_swallowing: Nutrition and Swallowing\n  - unintentional_weight_loss; type=single_choice; options=[\"Yes\", \"No\", \"Unknown\"]; question=Unintentional weight loss?; instruction=Yes/No if clearly stated; Unknown if patient is unsure or did not understand.; semantic_units=WEIGHT_LOSS_STATUS:Weight loss status=Yes/No/Unknown for unintentional weight loss.\n  - GATE/CONDITION (not an output key) weight_loss_details_gate: Weight loss details (shown only if unintentional weight loss = Yes); active when unintentional_weight_loss in ['Yes']\n    - weight_loss_amount; type=text; question=Amount of weight loss; instruction=Numeric + unit if stated (e.g., '5 kg', '10 lb'); otherwise preserve text.; semantic_units=WEIGHT_LOSS_AMOUNT_TEXT:Weight loss amount=Amount and unit if provided.\n    - weight_loss_timeframe; type=text; question=Over what timeframe did the weight loss occur?; instruction=Time window as stated (e.g., 'over 2 months').; semantic_units=WEIGHT_LOSS_TIMEFRAME_TEXT:Weight loss timeframe=Timeframe descriptor.\n  - appetite_change; type=single_choice; options=[\"Yes\", \"No\", \"Unknown\"]; question=Change in appetite?; instruction=As stated; Unknown if unclear.; semantic_units=APPETITE_CHANGE_STATUS:Appetite change status=Yes/No/Unknown.\n  - dysphagia_or_choking; type=single_choice; options=[\"Yes\", \"No\", \"Unknown\"]; question=Difficulty swallowing or choking episodes?; instruction=As stated; Unknown if unclear.; semantic_units=DYSPHAGIA_STATUS:Dysphagia/choking status=Yes/No/Unknown.\n  - GATE/CONDITION (not an output key) dysphagia_details_gate: Swallowing difficulty details (shown only if difficulty swallowing/choking = Yes); active when dysphagia_or_choking in ['Yes']\n    - dysphagia_frequency; type=text; question=How often does it happen? (optional); instruction=Frequency as stated (e.g., 'sometimes', 'daily'); do not infer.; semantic_units=DYSPHAGIA_FREQ_TEXT:Dysphagia frequency=Frequency descriptor for swallowing difficulty.\n    - special_diet_required; type=single_choice; options=[\"Yes\", \"No\", \"Unknown\"]; question=Requires special diet/texture modification?; instruction=Yes only if special diet/texture modification is explicitly stated; otherwise Unknown.; semantic_units=SPECIAL_DIET_STATUS:Special diet status=Yes/No/Unknown for special diet requirement.\n    - special_diet_notes; type=multiline_text; question=Special diet notes (optional); instruction=Grounded details only (e.g., soft foods, thickened liquids).; semantic_units=SPECIAL_DIET_CONTEXT:Special diet context=Details about special diet grounded in narrative.\n- number_of_allergies; type=number; question=How many known allergies does the patient have?; instruction=Count of distinct allergies mentioned. 0 if patient explicitly denies allergies.; semantic_units=ALLERGY_COUNT:Allergy count=Number of distinct allergies reported.\n- REPEAT allergies: Allergies (repeat for each allergy); mode=from_slot, from_slot=number_of_allergies; child paths are allergies[index].field; semantic_units=ALLERGY_INSTANCE_MAPPING:Allergy instance binding=Correctly associates substance \u2192 reaction \u2192 severity/timing within the same allergy instance.\n  - allergies[i].allergen; type=text; question=Allergen/substance; instruction=Specific allergen (e.g., penicillin, peanuts) or 'Unknown'.; semantic_units=ALLERGEN_NAME:Allergen name=Substance causing allergy.\n  - allergies[i].reaction; type=text; question=Reaction (if known); instruction=Reaction description (e.g., rash, swelling, anaphylaxis) or 'Unknown'.; semantic_units=ALLERGY_REACTION_TEXT:Reaction text=What happens when exposed.\n  - allergies[i].allergy_severity; type=single_choice; options=[\"Mild\", \"Moderate\", \"Severe\", \"Unknown\"]; question=Severity (if known); instruction=As stated; do not infer.; semantic_units=ALLERGY_SEVERITY_LEVEL:Allergy severity level=Mild/Moderate/Severe/Unknown.\n  - allergies[i].allergy_notes; type=multiline_text; question=Allergy notes (optional); instruction=Any grounded context (e.g., 'childhood allergy', 'uncertain').; semantic_units=ALLERGY_NOTE_CONTEXT:Allergy note context=Additional grounded context about the allergy.\n- number_of_medications; type=number; question=How many current medications does the patient take?; instruction=Count of distinct current medications mentioned. 0 if patient explicitly takes none.; semantic_units=MEDICATION_COUNT:Medication count=Number of distinct current medications reported.\n- REPEAT current_medications: Current Medications (repeat for each medication); mode=from_slot, from_slot=number_of_medications; child paths are current_medications[index].field; semantic_units=MED_INSTANCE_MAPPING:Medication instance binding=Correctly associates medication name \u2192 dose \u2192 route \u2192 frequency within the same instance.\n  - current_medications[i].medication_name; type=text; question=Medication name; instruction=Exact name as stated.; semantic_units=MED_NAME_TEXT:Medication name=Name of the medication as stated by patient.\n  - current_medications[i].dose; type=text; question=Dose (if known); instruction=Numeric + unit if stated; otherwise 'Unknown'/null.; semantic_units=MED_DOSE_TEXT:Medication dose=Dosage amount and unit if provided.\n  - current_medications[i].route; type=single_choice; options=[\"Oral\", \"Inhaled\", \"IV\", \"IM\", \"Topical\", \"Other\", \"Unknown\"]; question=Route (if known); instruction=As stated.; semantic_units=MED_ROUTE_CHOICE:Medication route=Route of administration.\n  - current_medications[i].frequency; type=text; question=Frequency (if known); instruction=As stated (e.g., 'once daily', 'as needed'); do not infer.; semantic_units=MED_FREQ_TEXT:Medication frequency=How often the medication is taken.\n- number_of_dietary_restrictions; type=number; question=How many dietary preferences or restrictions does the patient have?; instruction=Count of distinct dietary restrictions/preferences mentioned. 0 if none.; semantic_units=DIET_RESTRICTION_COUNT:Dietary restriction count=Number of distinct dietary restrictions or preferences reported.\n- REPEAT dietary_preferences_and_restrictions: Dietary Preferences/Restrictions (repeat for each restriction/preference); mode=from_slot, from_slot=number_of_dietary_restrictions; child paths are dietary_preferences_and_restrictions[index].field; semantic_units=DIET_INSTANCE_MAPPING:Diet instance binding=Binds the restricted/preferred food item to the stated reason (medical/religious/personal).\n  - dietary_preferences_and_restrictions[i].food_item; type=text; question=Food item; instruction=Food item or category (e.g., beef).; semantic_units=DIET_FOOD_ITEM_TEXT:Food item=The restricted or preferred food item/category.\n  - dietary_preferences_and_restrictions[i].preference_type; type=single_choice; options=[\"Avoids\", \"Prefers\", \"Cannot eat\", \"Unknown\"]; question=Preference type; instruction=As stated; Unknown if unclear.; semantic_units=DIET_PREF_TYPE_CHOICE:Preference type=Avoids/Prefers/Cannot eat/Unknown.\n  - dietary_preferences_and_restrictions[i].reason; type=single_choice; options=[\"Religious\", \"Medical\", \"Personal\", \"Cultural\", \"Unknown\", \"Other\"]; question=Reason (if stated); instruction=Choose the stated reason; do not infer.; semantic_units=DIET_REASON_CHOICE:Diet reason=Religious/Medical/Personal/Cultural/Unknown/Other.\n  - dietary_preferences_and_restrictions[i].diet_notes; type=multiline_text; question=Notes (optional); instruction=Any grounded context.; semantic_units=DIET_NOTE_CONTEXT:Diet note context=Additional grounded context about the dietary item.\n- free_text_notes; type=multiline_text; question=Additional notes (optional); instruction=Any additional clinically relevant information not captured above, grounded in the narrative.; semantic_units=ADDITIONAL_CONTEXT:Additional context=Other grounded details not already captured.\n\n=== STATE SHAPE CONTRACT ===\nThe resulting record state is a flat JSON object.\nTop-level keys, exactly:\n[\"allergies\", \"ambulatory_aid_notes\", \"ambulatory_aid_use\", \"appetite_change\", \"cough_duration\", \"cough_notes\", \"cough_present\", \"current_medications\", \"denture_present\", \"dietary_preferences_and_restrictions\", \"dysphagia_frequency\", \"dysphagia_or_choking\", \"fall_in_last_12_months\", \"fall_injuries_note\", \"free_text_notes\", \"hemoptysis_any\", \"lower_denture\", \"most_recent_fall_date_or_time\", \"number_of_allergies\", \"number_of_dietary_restrictions\", \"number_of_medications\", \"number_of_pains\", \"pain_details\", \"pain_experience\", \"special_diet_notes\", \"special_diet_required\", \"sputum_amount\", \"sputum_color\", \"sputum_notes\", \"sputum_present\", \"unintentional_weight_loss\", \"upper_denture\", \"vision_description\", \"vision_onset\", \"vision_problem\", \"weight_loss_amount\", \"weight_loss_timeframe\"]\nRepeat-group row object keys, exactly:\n- allergies: [\"allergen\", \"allergy_notes\", \"allergy_severity\", \"reaction\"]\n- current_medications: [\"dose\", \"frequency\", \"medication_name\", \"route\"]\n- dietary_preferences_and_restrictions: [\"diet_notes\", \"food_item\", \"preference_type\", \"reason\"]\n- pain_details: [\"pain_duration\", \"pain_notes\", \"pain_part\", \"pain_severity\"]\n\n=== PRIOR RECORD STATE ===\n{\n  \"ambulatory_aid_notes\": null,\n  \"ambulatory_aid_use\": null,\n  \"appetite_change\": null,\n  \"cough_duration\": null,\n  \"cough_notes\": null,\n  \"cough_present\": false,\n  \"denture_present\": null,\n  \"dysphagia_frequency\": null,\n  \"dysphagia_or_choking\": null,\n  \"fall_in_last_12_months\": null,\n  \"fall_injuries_note\": null,\n  \"free_text_notes\": null,\n  \"hemoptysis_any\": null,\n  \"lower_denture\": null,\n  \"most_recent_fall_date_or_time\": null,\n  \"number_of_allergies\": 0,\n  \"number_of_dietary_restrictions\": 0,\n  \"number_of_medications\": 1,\n  \"number_of_pains\": 0,\n  \"pain_experience\": false,\n  \"special_diet_notes\": null,\n  \"special_diet_required\": null,\n  \"sputum_amount\": null,\n  \"sputum_color\": null,\n  \"sputum_notes\": null,\n  \"sputum_present\": false,\n  \"unintentional_weight_loss\": null,\n  \"upper_denture\": null,\n  \"vision_description\": null,\n  \"vision_onset\": null,\n  \"vision_problem\": null,\n  \"weight_loss_amount\": null,\n  \"weight_loss_timeframe\": null,\n  \"allergies\": [],\n  \"current_medications\": [\n    {\n      \"dose\": \"81 mg\",\n      \"frequency\": \"daily\",\n      \"medication_name\": \"aspirin\",\n      \"route\": \"Oral\"\n    }\n  ],\n  \"dietary_preferences_and_restrictions\": [],\n  \"pain_details\": []\n}\n\n=== CONVERSATION HISTORY ===\n[user]: Medication list currently only has daily aspirin.\n\n=== CURRENT USER UTTERANCE ===\nApply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `pain_experience` to `true`\n- set `number_of_pains` to `1`\n- set `pain_details[0].pain_part` to `\"lower back\"`\n- set `pain_details[0].pain_severity` to `\"Moderate\"`\n- set `pain_details[0].pain_duration` to `\"2 days\"`\n- set `pain_details[0].pain_notes` to `\"Sharp pain after lifting boxes\"`\n- set `cough_present` to `true`\n- set `cough_duration` to `\"3 days\"`\n- set `sputum_present` to `true`\n- set `sputum_color` to `[\"Green\"]`\n- set `sputum_amount` to `\"Small\"`\n- set `hemoptysis_any` to `\"No\"`\n- set `number_of_allergies` to `2`\n- set `allergies[0].allergen` to `\"penicillin\"`\n- set `allergies[0].reaction` to `\"facial swelling\"`\n- set `allergies[0].allergy_severity` to `\"Severe\"`\n- set `allergies[1].allergen` to `\"peanuts\"`\n- set `allergies[1].reaction` to `\"rash\"`\n- set `allergies[1].allergy_severity` to `\"Moderate\"`\n- set `current_medications[0].frequency` to `\"every other day\"`\n- set `number_of_medications` to `2`\n- set `current_medications[1].medication_name` to `\"albuterol\"`\n- set `current_medications[1].dose` to `\"2 puffs\"`\n- set `current_medications[1].route` to `\"Inhaled\"`\n- set `current_medications[1].frequency` to `\"as needed\"`\n- set `number_of_dietary_restrictions` to `1`\n- set `dietary_preferences_and_restrictions[0].food_item` to `\"shellfish\"`\n- set `dietary_preferences_and_restrictions[0].preference_type` to `\"Avoids\"`\n- set `dietary_preferences_and_restrictions[0].reason` to `\"Medical\"`\n\n=== TASK ===\nAudit the prior state against the schema, visible history, and current utterance. Return the full resulting record JSON using all and only evidence-licensed post-turn values.",
+            "role": "human"
+          }
+        ],
+        "response": {
+          "class": "AIMessage",
+          "content": "{\n  \"ambulatory_aid_notes\": null,\n  \"ambulatory_aid_use\": null,\n  \"appetite_change\": null,\n  \"cough_duration\": \"3 days\",\n  \"cough_notes\": null,\n  \"cough_present\": true,\n  \"denture_present\": null,\n  \"dysphagia_frequency\": null,\n  \"dysphagia_or_choking\": null,\n  \"fall_in_last_12_months\": null,\n  \"fall_injuries_note\": null,\n  \"free_text_notes\": null,\n  \"hemoptysis_any\": \"No\",\n  \"lower_denture\": null,\n  \"most_recent_fall_date_or_time\": null,\n  \"number_of_allergies\": 2,\n  \"number_of_dietary_restrictions\": 1,\n  \"number_of_medications\": 2,\n  \"number_of_pains\": 1,\n  \"pain_experience\": true,\n  \"special_diet_notes\": null,\n  \"special_diet_required\": null,\n  \"sputum_amount\": \"Small\",\n  \"sputum_color\": [\n    \"Green\"\n  ],\n  \"sputum_notes\": null,\n  \"sputum_present\": true,\n  \"unintentional_weight_loss\": null,\n  \"upper_denture\": null,\n  \"vision_description\": null,\n  \"vision_onset\": null,\n  \"vision_problem\": null,\n  \"weight_loss_amount\": null,\n  \"weight_loss_timeframe\": null,\n  \"allergies\": [\n    {\n      \"allergen\": \"penicillin\",\n      \"allergy_notes\": null,\n      \"allergy_severity\": \"Severe\",\n      \"reaction\": \"facial swelling\"\n    },\n    {\n      \"allergen\": \"peanuts\",\n      \"allergy_notes\": null,\n      \"allergy_severity\": \"Moderate\",\n      \"reaction\": \"rash\"\n    }\n  ],\n  \"current_medications\": [\n    {\n      \"dose\": \"81 mg\",\n      \"frequency\": \"every other day\",\n      \"medication_name\": \"aspirin\",\n      \"route\": \"Oral\"\n    },\n    {\n      \"dose\": \"2 puffs\",\n      \"frequency\": \"as needed\",\n      \"medication_name\": \"albuterol\",\n      \"route\": \"Inhaled\"\n    }\n  ],\n  \"dietary_preferences_and_restrictions\": [\n    {\n      \"diet_notes\": null,\n      \"food_item\": \"shellfish\",\n      \"preference_type\": \"Avoids\",\n      \"reason\": \"Medical\"\n    }\n  ],\n  \"pain_details\": [\n    {\n      \"pain_duration\": \"2 days\",\n      \"pain_notes\": \"Sharp pain after lifting boxes\",\n      \"pain_part\": \"lower back\",\n      \"pain_severity\": \"Moderate\"\n    }\n  ]\n}",
+          "role": "ai"
+        }
+      }
+    ]
+  },
+  "answer_updates": {
+    "allergies": [
+      {
+        "allergen": "penicillin",
+        "allergy_notes": null,
+        "allergy_severity": "Severe",
+        "reaction": "facial swelling"
+      },
+      {
+        "allergen": "peanuts",
+        "allergy_notes": null,
+        "allergy_severity": "Moderate",
+        "reaction": "rash"
+      }
+    ],
+    "cough_duration": "3 days",
+    "cough_present": true,
+    "current_medications": [
+      {
+        "dose": "81 mg",
+        "frequency": "every other day",
+        "medication_name": "aspirin",
+        "route": "Oral"
+      },
+      {
+        "dose": "2 puffs",
+        "frequency": "as needed",
+        "medication_name": "albuterol",
+        "route": "Inhaled"
+      }
+    ],
+    "dietary_preferences_and_restrictions": [
+      {
+        "diet_notes": null,
+        "food_item": "shellfish",
+        "preference_type": "Avoids",
+        "reason": "Medical"
+      }
+    ],
+    "hemoptysis_any": "No",
+    "number_of_allergies": 2,
+    "number_of_dietary_restrictions": 1,
+    "number_of_medications": 2,
+    "number_of_pains": 1,
+    "pain_details": [
+      {
+        "pain_duration": "2 days",
+        "pain_notes": "Sharp pain after lifting boxes",
+        "pain_part": "lower back",
+        "pain_severity": "Moderate"
+      }
+    ],
+    "pain_experience": true,
+    "sputum_amount": "Small",
+    "sputum_color": [
+      "Green"
+    ],
+    "sputum_present": true
+  },
+  "answers_after": {
+    "allergies": [
+      {
+        "allergen": "penicillin",
+        "allergy_notes": null,
+        "allergy_severity": "Severe",
+        "reaction": "facial swelling"
+      },
+      {
+        "allergen": "peanuts",
+        "allergy_notes": null,
+        "allergy_severity": "Moderate",
+        "reaction": "rash"
+      }
+    ],
+    "ambulatory_aid_notes": null,
+    "ambulatory_aid_use": null,
+    "appetite_change": null,
+    "cough_duration": "3 days",
+    "cough_notes": null,
+    "cough_present": true,
+    "current_medications": [
+      {
+        "dose": "81 mg",
+        "frequency": "every other day",
+        "medication_name": "aspirin",
+        "route": "Oral"
+      },
+      {
+        "dose": "2 puffs",
+        "frequency": "as needed",
+        "medication_name": "albuterol",
+        "route": "Inhaled"
+      }
+    ],
+    "denture_present": null,
+    "dietary_preferences_and_restrictions": [
+      {
+        "diet_notes": null,
+        "food_item": "shellfish",
+        "preference_type": "Avoids",
+        "reason": "Medical"
+      }
+    ],
+    "dysphagia_frequency": null,
+    "dysphagia_or_choking": null,
+    "fall_in_last_12_months": null,
+    "fall_injuries_note": null,
+    "free_text_notes": null,
+    "hemoptysis_any": "No",
+    "lower_denture": null,
+    "most_recent_fall_date_or_time": null,
+    "number_of_allergies": 2,
+    "number_of_dietary_restrictions": 1,
+    "number_of_medications": 2,
+    "number_of_pains": 1,
+    "pain_details": [
+      {
+        "pain_duration": "2 days",
+        "pain_notes": "Sharp pain after lifting boxes",
+        "pain_part": "lower back",
+        "pain_severity": "Moderate"
+      }
+    ],
+    "pain_experience": true,
+    "special_diet_notes": null,
+    "special_diet_required": null,
+    "sputum_amount": "Small",
+    "sputum_color": [
+      "Green"
+    ],
+    "sputum_notes": null,
+    "sputum_present": true,
+    "unintentional_weight_loss": null,
+    "upper_denture": null,
+    "vision_description": null,
+    "vision_onset": null,
+    "vision_problem": null,
+    "weight_loss_amount": null,
+    "weight_loss_timeframe": null
+  },
+  "answers_before": {
+    "allergies": [],
+    "cough_duration": null,
+    "cough_notes": null,
+    "cough_present": false,
+    "current_medications": [
+      {
+        "dose": "81 mg",
+        "frequency": "daily",
+        "medication_name": "aspirin",
+        "route": "Oral"
+      }
+    ],
+    "dietary_preferences_and_restrictions": [],
+    "free_text_notes": null,
+    "hemoptysis_any": null,
+    "number_of_allergies": 0,
+    "number_of_dietary_restrictions": 0,
+    "number_of_medications": 1,
+    "number_of_pains": 0,
+    "pain_details": [],
+    "pain_experience": false,
+    "sputum_amount": null,
+    "sputum_color": null,
+    "sputum_notes": null,
+    "sputum_present": false
+  },
+  "current_utterance": "Apply exactly the following public form updates in order and make no other changes. Use null exactly where shown; do not use an empty string or an empty list as a substitute.\n- set `pain_experience` to `true`\n- set `number_of_pains` to `1`\n- set `pain_details[0].pain_part` to `\"lower back\"`\n- set `pain_details[0].pain_severity` to `\"Moderate\"`\n- set `pain_details[0].pain_duration` to `\"2 days\"`\n- set `pain_details[0].pain_notes` to `\"Sharp pain after lifting boxes\"`\n- set `cough_present` to `true`\n- set `cough_duration` to `\"3 days\"`\n- set `sputum_present` to `true`\n- set `sputum_color` to `[\"Green\"]`\n- set `sputum_amount` to `\"Small\"`\n- set `hemoptysis_any` to `\"No\"`\n- set `number_of_allergies` to `2`\n- set `allergies[0].allergen` to `\"penicillin\"`\n- set `allergies[0].reaction` to `\"facial swelling\"`\n- set `allergies[0].allergy_severity` to `\"Severe\"`\n- set `allergies[1].allergen` to `\"peanuts\"`\n- set `allergies[1].reaction` to `\"rash\"`\n- set `allergies[1].allergy_severity` to `\"Moderate\"`\n- set `current_medications[0].frequency` to `\"every other day\"`\n- set `number_of_medications` to `2`\n- set `current_medications[1].medication_name` to `\"albuterol\"`\n- set `current_medications[1].dose` to `\"2 puffs\"`\n- set `current_medications[1].route` to `\"Inhaled\"`\n- set `current_medications[1].frequency` to `\"as needed\"`\n- set `number_of_dietary_restrictions` to `1`\n- set `dietary_preferences_and_restrictions[0].food_item` to `\"shellfish\"`\n- set `dietary_preferences_and_restrictions[0].preference_type` to `\"Avoids\"`\n- set `dietary_preferences_and_restrictions[0].reason` to `\"Medical\"`",
+  "is_complete": true,
+  "provenance": {
+    "generation": {
+      "agent": "Direct",
+      "model": {
+        "max_tokens": 8192,
+        "model": "deepseek-flash",
+        "provider": "openai",
+        "requested_model": "deepseek-flash",
+        "resolved_model_name": "deepseek-flash",
+        "resolved_model_version": "deepseek-flash",
+        "temperature": null,
+        "timeout": 300
+      },
+      "schema_interface": {
+        "public_projection": "shared_schema_field_guide_with_schema_completed_prior_state"
+      },
+      "tool_policy": {
+        "mode": "state_json"
+      }
+    }
+  },
+  "questionnaire": "patient_admin",
+  "scenario": "patient_admin_dev_01",
+  "scenario_id": "patient_admin_dev_01",
+  "state": "state_1",
+  "turn_index": 0,
+  "utterance_id": "u1",
+  "visible_history": [
+    {
+      "content": "Medication list currently only has daily aspirin.",
+      "role": "user"
+    }
+  ]
+}

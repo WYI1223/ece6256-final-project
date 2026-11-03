@@ -1,0 +1,84 @@
+{
+ "solver": "async_solvers:flatagent_solve",
+ "model": "na",
+ "max_tokens": 8192,
+ "history_window": null,
+ "n_trajectories": 10,
+ "conditions": [
+  "incremental",
+  "oracle"
+ ],
+ "modes": [
+  "clean",
+  "corrupt"
+ ],
+ "corruptions": {
+  "pa_gen_01": {
+   "after_turn": 2,
+   "path": "pain_details[0].pain_severity",
+   "wrong_value": "Mild",
+   "system_correct_before": true
+  },
+  "pa_gen_02": {
+   "after_turn": 2,
+   "path": "allergies[0].allergy_severity",
+   "wrong_value": "Severe",
+   "system_correct_before": false
+  },
+  "pa_gen_03": {
+   "after_turn": 2,
+   "path": "upper_denture",
+   "wrong_value": "No",
+   "system_correct_before": true
+  },
+  "pa_gen_04": {
+   "after_turn": 2,
+   "path": "ambulatory_aid_use",
+   "wrong_value": "Has but does not use",
+   "system_correct_before": true
+  },
+  "pa_gen_05": {
+   "after_turn": 2,
+   "path": "pain_details[0].pain_severity",
+   "wrong_value": "Moderate",
+   "system_correct_before": true
+  },
+  "cr_gen_01": {
+   "after_turn": 2,
+   "path": "time_of_accident",
+   "wrong_value": "18:30",
+   "system_correct_before": false
+  },
+  "cr_gen_02": {
+   "after_turn": 2,
+   "path": "lighting",
+   "wrong_value": "Dark\u2013Lit",
+   "system_correct_before": true
+  },
+  "cr_gen_03": {
+   "after_turn": 2,
+   "path": "road_surface_condition",
+   "wrong_value": "Wet",
+   "system_correct_before": true
+  },
+  "cr_gen_04": {
+   "after_turn": 2,
+   "path": "lighting",
+   "wrong_value": "Dark\u2013Lit",
+   "system_correct_before": true
+  },
+  "pa_handmade_01": {
+   "after_turn": 2,
+   "path": "sputum_amount",
+   "wrong_value": "Moderate",
+   "system_correct_before": false
+  }
+ },
+ "elapsed_s": 105.0,
+ "billed_input_tokens": 1456723,
+ "billed_output_tokens": 22745,
+ "billed_model_calls": 257,
+ "billed_reasoning_tokens": 0,
+ "deepseek_thinking": "disabled",
+ "solver_errors": 0
+}
