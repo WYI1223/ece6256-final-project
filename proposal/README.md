@@ -12,7 +12,7 @@
 
 ## 提交前必须改的地方
 
-1. **作者行**：姓名已填（Zimo Fan, Ruihuan Gao, Ruize Sun, Weiyi Sun，按姓氏字母序）；`proposal.tex` 第 16 行还缺 Ruize Sun 和 Weiyi Sun 的 gatech 邮箱账号，两个 `TODO` 换掉即可。
+1. **作者行**：已填全（Zimo Fan, Ruihuan Gao, Ruize Sun, Weiyi Sun，按姓氏字母序；zfan321 / rgao302 / rsun98 / wsun377@gatech.edu）。顺序或署名要调整直接改 `proposal.tex` 第 14 行。
 2. **页数口径**：队友讨论稿写的是"two-page ACL-format document with at least five team-verified citations"。现在正文正好 2 页，参考文献溢到第 3 页。ACL 惯例参考文献不计页数；如果老师要求连参考文献一起 2 页，把 bib 砍到 6–7 条（保留 lu2026survey、lin2025fdb15、wang2026humdial、defossez2024moshi、lee2025behaviorsd、zhong2026iraf、veigel2026conformbench），再从第 1 节删掉对应的句子即可。
 3. **Plan B 一段**：如果团队最终不想在提案里露出备选题，直接删第 7 节最后一段，正文会空出约 12 行，可以把第 4 节的 Conditions 和第 5 节的 Slurm 状态补回去。
 

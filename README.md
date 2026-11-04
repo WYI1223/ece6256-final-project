@@ -37,7 +37,7 @@ Already cloned without `--recursive`? Run `git submodule update --init`.
 cd proposal && bash build.sh
 ```
 
-Needs `pdflatex` and `bibtex` (any TeX Live). For Overleaf, upload `proposal.tex`, `proposal.bib`, `acl.sty` and `acl_natbib.bst`. Two author emails in `proposal.tex` (line 16) are still `TODO`; fill them before submitting. ACL convention does not count references toward the page limit (body is exactly 2 pages, references on page 3); `proposal/README.md` says which entries to cut if the instructor counts them.
+Needs `pdflatex` and `bibtex` (any TeX Live). For Overleaf, upload `proposal.tex`, `proposal.bib`, `acl.sty` and `acl_natbib.bst`. ACL convention does not count references toward the page limit (body is exactly 2 pages, references on page 3); `proposal/README.md` says which entries to cut if the instructor counts them.
 
 ## Reproduce the pilots
 
